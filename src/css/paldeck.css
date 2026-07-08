@@ -182,6 +182,18 @@ h4 {
   color: #fff;
 }
 
+.top-nav .github-link {
+  border-color: #24292f;
+  background: #24292f;
+  color: #fff;
+}
+
+.top-nav .github-link:hover {
+  border-color: #0f1419;
+  background: #0f1419;
+  color: #fff;
+}
+
 input[type="search"],
 select {
   width: 100%;
