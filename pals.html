@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>帕鲁图鉴总览</title>
+  <link rel="stylesheet" href="./src/css/paldeck.css">
+</head>
+<body class="list-page">
+  <header class="deck-header">
+    <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <p class="eyebrow">Paldeck</p>
+        <h1>帕鲁总览</h1>
+      </div>
+    </a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
+    </nav>
+  </header>
+
+  <main class="list-shell">
+    <section class="filter-panel multi-filter-panel" id="filters" aria-label="帕鲁筛选">
+      <div class="filter-field">
+        <label for="listSearch">搜索</label>
+        <input id="listSearch" type="search" placeholder="名称、编号、英文名">
+      </div>
+      <div class="filter-field">
+        <span class="filter-label">属性</span>
+        <div class="multi-choice" id="elementFilter" role="group" aria-label="属性多选"></div>
+      </div>
+      <div class="filter-field">
+        <span class="filter-label">工作适应性</span>
+        <div class="multi-choice" id="workFilter" role="group" aria-label="工作适应性多选"></div>
+      </div>
+      <button type="button" class="reset-filter-btn" id="resetFilters">重置</button>
+    </section>
+
+    <section class="list-panel" aria-label="帕鲁列表">
+      <div class="list-head">
+        <div>
+          <p class="eyebrow">Pals</p>
+          <h2>全部帕鲁</h2>
+        </div>
+        <span id="listCount" class="section-count"></span>
+      </div>
+      <div class="pal-row-head" aria-hidden="true">
+        <span>帕鲁</span>
+        <span>属性</span>
+        <span>工作适应性</span>
+      </div>
+      <div class="pal-row-list" id="palRows"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./src/js/paldeck-list.js"></script>
+</body>
+</html>

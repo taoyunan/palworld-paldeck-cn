@@ -1,0 +1,17 @@
+{
+  "name": "palworld-paldeck-cn",
+  "version": "1.0.0",
+  "private": false,
+  "description": "简体中文幻兽帕鲁图鉴。",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check src/js/pal-icons.js && node --check src/js/paldeck.js && node --check src/js/paldeck-list.js && node --check src/js/data/pals.js && node --check src/js/data/pal-work.js && node --check src/js/data/pal-drops.js && node --check src/js/data/pal-skills.js"
+  },
+  "keywords": [
+    "palworld",
+    "paldeck",
+    "chinese"
+  ],
+  "license": "MIT"
+}
