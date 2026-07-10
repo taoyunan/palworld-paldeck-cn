@@ -32,54 +32,64 @@
         </div>
         <span class="section-count" id="breedDataCount"></span>
       </div>
-      <div class="breed-picker-grid">
-        <label class="breed-field" for="parentA">
-          <span>亲代 A</span>
-          <select id="parentA"></select>
-        </label>
-        <label class="breed-field" for="parentB">
-          <span>亲代 B</span>
-          <select id="parentB"></select>
-        </label>
+      <div class="breed-equation">
+        <div class="breed-input-card">
+          <label class="breed-field" for="parentA">
+            <span>亲代 A</span>
+            <select id="parentA"></select>
+          </label>
+          <div class="breed-preview" id="parentAPreview"></div>
+        </div>
+        <span class="breed-main-operator">+</span>
+        <div class="breed-input-card">
+          <label class="breed-field" for="parentB">
+            <span>亲代 B</span>
+            <select id="parentB"></select>
+          </label>
+          <div class="breed-preview" id="parentBPreview"></div>
+        </div>
+        <span class="breed-main-operator">=</span>
+        <div class="breed-result" id="childResult"></div>
       </div>
-      <div class="breed-result" id="childResult"></div>
     </section>
 
-    <section class="breed-panel" aria-label="指定子代查父母组合">
-      <div class="breed-section-head">
-        <div>
-          <p class="eyebrow">Parent Calculator</p>
-          <h2>指定子代查父母组合</h2>
+    <div class="breed-tool-grid">
+      <section class="breed-panel" aria-label="指定子代查父母组合">
+        <div class="breed-section-head">
+          <div>
+            <p class="eyebrow">Parent Calculator</p>
+            <h2>指定子代查父母组合</h2>
+          </div>
+          <span class="section-count" id="parentComboCount"></span>
         </div>
-        <span class="section-count" id="parentComboCount"></span>
-      </div>
-      <div class="breed-picker-grid compact">
-        <label class="breed-field" for="targetChild">
-          <span>目标子代</span>
-          <select id="targetChild"></select>
-        </label>
-        <label class="breed-field" for="parentComboSearch">
-          <span>筛选父母</span>
-          <input id="parentComboSearch" type="search" placeholder="输入名称、编号、英文名">
-        </label>
-      </div>
-      <div class="breed-combo-list" id="parentCombos"></div>
-    </section>
+        <div class="breed-picker-grid compact">
+          <label class="breed-field" for="targetChild">
+            <span>目标子代</span>
+            <select id="targetChild"></select>
+          </label>
+          <label class="breed-field" for="parentComboSearch">
+            <span>筛选父母</span>
+            <input id="parentComboSearch" type="search" placeholder="输入名称、编号、英文名">
+          </label>
+        </div>
+        <div class="breed-combo-list" id="parentCombos"></div>
+      </section>
 
-    <section class="breed-panel" aria-label="单个亲代可配结果">
-      <div class="breed-section-head">
-        <div>
-          <p class="eyebrow">One Parent</p>
-          <h2>单个亲代可配结果</h2>
+      <section class="breed-panel" aria-label="单个亲代可配结果">
+        <div class="breed-section-head">
+          <div>
+            <p class="eyebrow">One Parent</p>
+            <h2>单个亲代可配结果</h2>
+          </div>
+          <span class="section-count" id="singleParentCount"></span>
         </div>
-        <span class="section-count" id="singleParentCount"></span>
-      </div>
-      <label class="breed-field" for="singleParent">
-        <span>已有亲代</span>
-        <select id="singleParent"></select>
-      </label>
-      <div class="breed-combo-list" id="singleParentResults"></div>
-    </section>
+        <label class="breed-field" for="singleParent">
+          <span>已有亲代</span>
+          <select id="singleParent"></select>
+        </label>
+        <div class="breed-combo-list" id="singleParentResults"></div>
+      </section>
+    </div>
   </main>
 
   <script type="module" src="./src/js/breed.js"></script>
