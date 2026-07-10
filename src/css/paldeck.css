@@ -1357,27 +1357,6 @@ select:focus {
   font-size: 13px;
 }
 
-.breed-pal-mini > span > small {
-  display: flex;
-  gap: 5px;
-  flex-wrap: nowrap;
-  min-width: 0;
-  overflow: hidden;
-}
-
-.breed-pal-mini .icon-badge {
-  min-height: 22px;
-  padding: 0 5px;
-  font-size: 10px;
-  flex: 0 0 auto;
-  max-width: none;
-}
-
-.breed-pal-mini .icon-badge img {
-  width: 15px;
-  height: 15px;
-}
-
 .breed-pal-mini.child strong {
   color: var(--green);
 }

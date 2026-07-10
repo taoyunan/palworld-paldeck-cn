@@ -74,7 +74,6 @@ function palMini(palId, extraClass = "") {
       ${imageTag(pal.image, pal.name)}
       <span>
         <strong>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}</strong>
-        <small>${elementBadges(getPalElements(pal))}</small>
       </span>
     </a>
   `;
