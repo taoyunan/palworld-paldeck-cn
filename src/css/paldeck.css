@@ -1206,6 +1206,8 @@ select:focus {
   align-items: center;
   min-height: 132px;
   padding: 12px;
+  border-color: rgba(183, 198, 189, 0.9);
+  background: linear-gradient(135deg, #ffffff, #f7faf8);
 }
 
 .breed-preview-card > img {
@@ -1222,32 +1224,29 @@ select:focus {
   min-width: 0;
 }
 
+.breed-preview-card > span > em {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 24px;
+  margin-bottom: 8px;
+  padding: 0 8px;
+  border-radius: 7px;
+  background: #e8f1ee;
+  color: var(--green);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+}
+
 .breed-preview-card > span > strong {
   display: block;
-  margin-bottom: 8px;
   overflow: hidden;
   color: var(--ink);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 900;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.breed-preview-card > span > small {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-}
-
-.breed-preview-card .icon-badge {
-  min-height: 24px;
-  padding: 0 7px;
-  font-size: 11px;
-}
-
-.breed-preview-card .icon-badge img {
-  width: 15px;
-  height: 15px;
 }
 
 .breed-output-card {
@@ -1273,6 +1272,12 @@ select:focus {
   margin: 4px 0 10px;
   font-size: 30px;
   line-height: 1.05;
+}
+
+.breed-result-note {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .breed-output-card a {
@@ -1311,11 +1316,11 @@ select:focus {
   grid-template-columns: minmax(170px, 1fr) 20px minmax(170px, 1fr) 20px minmax(170px, 1fr);
   gap: 6px;
   align-items: center;
-  min-height: 66px;
+  min-height: 62px;
   padding: 7px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #f8faf8;
+  background: linear-gradient(135deg, #fbfcfb, #f5f8f6);
 }
 
 .breed-combo-row:hover {
@@ -1328,8 +1333,9 @@ select:focus {
   gap: 8px;
   align-items: center;
   min-width: 0;
-  min-height: 52px;
+  min-height: 50px;
   padding: 5px;
+  border: 1px solid rgba(216, 224, 216, 0.82);
   border-radius: 7px;
   background: #fff;
   color: var(--ink);
@@ -1361,9 +1367,18 @@ select:focus {
   color: var(--green);
 }
 
+.breed-pal-mini.child {
+  border-color: rgba(36, 107, 86, 0.28);
+  background: #f0f7f3;
+}
+
 .breed-operator {
   display: inline-grid;
   place-items: center;
+  width: 20px;
+  min-height: 28px;
+  border-radius: 7px;
+  background: rgba(232, 241, 238, 0.82);
   color: var(--muted);
   font-size: 16px;
   font-weight: 900;

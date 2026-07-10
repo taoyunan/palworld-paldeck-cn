@@ -1,6 +1,6 @@
 import { PALS } from "./data/pals.js";
 import { PAL_BREEDING } from "./data/pal-breeding.js";
-import { elementBadges, escapeHtml, getPalElements, imageTag } from "./pal-icons.js";
+import { escapeHtml, imageTag } from "./pal-icons.js";
 
 const parentASelect = document.querySelector("#parentA");
 const parentBSelect = document.querySelector("#parentB");
@@ -87,8 +87,8 @@ function selectedPalPreview(palId) {
     <a class="breed-preview-card" href="./paldeck.html?pal=${encodeURIComponent(pal.id)}">
       ${imageTag(pal.image, pal.name)}
       <span>
-        <strong>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}</strong>
-        <small>${elementBadges(getPalElements(pal))}</small>
+        <em>${escapeHtml(displayNo(pal))}</em>
+        <strong>${escapeHtml(pal.name)}</strong>
       </span>
     </a>
   `;
@@ -104,7 +104,7 @@ function palResultCard(palId) {
       <div>
         <p class="eyebrow">子代</p>
         <h2>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}</h2>
-        <div class="hero-tags">${elementBadges(getPalElements(pal))}</div>
+        <p class="breed-result-note">当前亲代组合的配种结果</p>
         <a href="./paldeck.html?pal=${encodeURIComponent(pal.id)}">查看图鉴资料</a>
       </div>
     </article>
