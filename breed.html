@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>帕鲁配种计算器</title>
+  <link rel="stylesheet" href="./src/css/paldeck.css">
+</head>
+<body class="breed-page">
+  <header class="deck-header">
+    <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="eyebrow">Paldeck</span>
+        <span class="brand-title">配种计算</span>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a href="./pals.html">总览</a>
+      <a href="./breed.html">配种计算</a>
+      <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
+      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="breed-shell">
+    <section class="breed-panel breed-calc-panel" aria-label="两个亲代计算子代">
+      <div class="breed-section-head">
+        <div>
+          <p class="eyebrow">Breed 2 Pals</p>
+          <h1>两个亲代计算子代</h1>
+        </div>
+        <span class="section-count" id="breedDataCount"></span>
+      </div>
+      <div class="breed-picker-grid">
+        <label class="breed-field" for="parentA">
+          <span>亲代 A</span>
+          <select id="parentA"></select>
+        </label>
+        <label class="breed-field" for="parentB">
+          <span>亲代 B</span>
+          <select id="parentB"></select>
+        </label>
+      </div>
+      <div class="breed-result" id="childResult"></div>
+    </section>
+
+    <section class="breed-panel" aria-label="指定子代查父母组合">
+      <div class="breed-section-head">
+        <div>
+          <p class="eyebrow">Parent Calculator</p>
+          <h2>指定子代查父母组合</h2>
+        </div>
+        <span class="section-count" id="parentComboCount"></span>
+      </div>
+      <div class="breed-picker-grid compact">
+        <label class="breed-field" for="targetChild">
+          <span>目标子代</span>
+          <select id="targetChild"></select>
+        </label>
+        <label class="breed-field" for="parentComboSearch">
+          <span>筛选父母</span>
+          <input id="parentComboSearch" type="search" placeholder="输入名称、编号、英文名">
+        </label>
+      </div>
+      <div class="breed-combo-list" id="parentCombos"></div>
+    </section>
+
+    <section class="breed-panel" aria-label="单个亲代可配结果">
+      <div class="breed-section-head">
+        <div>
+          <p class="eyebrow">One Parent</p>
+          <h2>单个亲代可配结果</h2>
+        </div>
+        <span class="section-count" id="singleParentCount"></span>
+      </div>
+      <label class="breed-field" for="singleParent">
+        <span>已有亲代</span>
+        <select id="singleParent"></select>
+      </label>
+      <div class="breed-combo-list" id="singleParentResults"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./src/js/breed.js"></script>
+</body>
+</html>

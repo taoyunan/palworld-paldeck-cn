@@ -1,6 +1,6 @@
 # 幻兽帕鲁中文图鉴
 
-一个面向中文玩家的《幻兽帕鲁》静态图鉴项目，包含帕鲁总览、筛选、详情资料、属性与工作适应性图标、掉落物、技能信息，以及白天 / 夜晚栖息区域互动地图。
+一个面向中文玩家的《幻兽帕鲁》静态图鉴项目，包含帕鲁总览、筛选、详情资料、配种计算、属性与工作适应性图标、掉落物、技能信息，以及白天 / 夜晚栖息区域互动地图。
 
 在线访问：
 
@@ -13,6 +13,8 @@
 - 总览页支持名称、编号、英文名搜索。
 - 属性筛选支持多选，并且是“同时拥有这些属性”才会展示。
 - 工作适应性支持多选筛选。
+- 配种计算器支持两个亲代算子代、指定子代查父母组合、指定一个亲代查看可配结果。
+- 配种数据保存在本地，页面运行时不依赖 PalDB 接口。
 - 属性、工作适应性在所有相关位置都带有对应图标。
 - 详情页包含图鉴介绍、伙伴技能、基础资料、工作适应性、掉落物、主动技能。
 - 栖息区域使用互动地图，并区分白天与夜晚。
@@ -24,6 +26,7 @@
 | --- | --- |
 | `index.html` | 默认入口，内容与总览页一致 |
 | `pals.html` | 帕鲁总览页 |
+| `breed.html` | 帕鲁配种计算器 |
 | `paldeck.html?pal=lamball` | 帕鲁详情页示例 |
 
 ## 本地运行
@@ -64,6 +67,7 @@ npm.cmd run check
 palworld-paldeck-cn/
 ├─ index.html
 ├─ pals.html
+├─ breed.html
 ├─ paldeck.html
 ├─ package.json
 ├─ README.md
@@ -77,10 +81,12 @@ palworld-paldeck-cn/
    └─ js/
       ├─ data/
       │  ├─ pal-drops.js
+      │  ├─ pal-breeding.js
       │  ├─ pal-skills.js
       │  ├─ pal-work.js
       │  └─ pals.js
       ├─ pal-icons.js
+      ├─ breed.js
       ├─ paldeck-list.js
       └─ paldeck.js
 ```
@@ -95,7 +101,22 @@ palworld-paldeck-cn/
 | `src/js/data/pal-work.js` | 工作适应性数据 |
 | `src/js/data/pal-drops.js` | 掉落物数据 |
 | `src/js/data/pal-skills.js` | 主动技能与伙伴技能数据 |
+| `src/js/data/pal-breeding.js` | 本地配种组合数据 |
 | `src/js/pal-icons.js` | 属性与工作适应性图标渲染工具 |
+
+## 更新配种数据
+
+配种数据来自 PalDB 的配种页面和接口，并会整理成本地静态模块：
+
+```powershell
+npm.cmd run fetch:breed
+```
+
+生成文件：
+
+```text
+src/js/data/pal-breeding.js
+```
 
 ## 部署
 
