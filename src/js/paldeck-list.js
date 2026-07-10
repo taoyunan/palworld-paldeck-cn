@@ -17,6 +17,82 @@ const resetButton = document.querySelector("#resetFilters");
 const rowList = document.querySelector("#palRows");
 const listCount = document.querySelector("#listCount");
 
+const VERSION_1_NEW_IDS = new Set([
+  "pupperai",
+  "clovee",
+  "tanzee_ignis",
+  "woolipop_terra",
+  "amione",
+  "gloopie_primo",
+  "wispaw",
+  "univolt_cryst",
+  "muffly",
+  "puffolt",
+  "polapup_terra",
+  "elgrove",
+  "elgrove_cryst",
+  "petallia_ignis",
+  "leafan",
+  "beakon_cryst",
+  "rayhound_cryst",
+  "needoll",
+  "needoll_noct",
+  "moldron",
+  "moldron_cryst",
+  "majex",
+  "sibelyx_primo",
+  "gildra",
+  "skutlass",
+  "skutlass_ignis",
+  "starryon_primo",
+  "pierdon",
+  "pierdon_cryst",
+  "snugloo",
+  "carnibora",
+  "dualith",
+  "dualith_noct",
+  "sekhmet",
+  "prixter_lux",
+  "tetroise",
+  "tetroise_primo",
+  "nitemary_botan",
+  "smokie_cryst",
+  "bulldosu",
+  "celesdir_noct",
+  "knocklem_ignis",
+  "valentail",
+  "snock",
+  "snock_lux",
+  "souffline",
+  "lapiron",
+  "hoodle",
+  "slowatt",
+  "bakemi",
+  "solmora",
+  "solmora_lux",
+  "lapure",
+  "eidrolon",
+  "eidrolon_ignis",
+  "dynamoff",
+  "tropicaw",
+  "flaracle",
+  "ophydia",
+  "dupin",
+  "roujay",
+  "venusa",
+  "mycora",
+  "loomen",
+  "wistella",
+  "solenne",
+  "renjishi",
+  "aegidron",
+  "shaolong",
+  "silvance",
+  "dandilord",
+  "panthalus",
+  "astralym"
+]);
+
 function uniqueSorted(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
 }
@@ -88,6 +164,7 @@ function renderRows() {
         ${imageTag(pal.image, pal.name)}
         <span>
           <strong>${pal.no ? `${escapeHtml(pal.no)} ` : ""}${escapeHtml(pal.name)}</strong>
+          ${VERSION_1_NEW_IDS.has(pal.id) ? `<em class="version-badge">1.0\u65b0\u589e</em>` : ""}
         </span>
       </a>
       <div class="row-tags">

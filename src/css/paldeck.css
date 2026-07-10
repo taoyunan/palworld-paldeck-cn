@@ -1016,6 +1016,22 @@ select:focus {
   white-space: nowrap;
 }
 
+.version-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 22px;
+  padding: 0 7px;
+  border: 1px solid #d7aa72;
+  border-radius: 7px;
+  background: #fff7e9;
+  color: #7c3f10;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
 .pal-row-main small,
 .row-work small {
   color: var(--muted);
