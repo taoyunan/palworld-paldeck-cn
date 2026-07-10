@@ -1217,12 +1217,12 @@ select:focus {
   filter: drop-shadow(0 14px 16px rgba(42, 52, 45, 0.12));
 }
 
-.breed-preview-card span,
+.breed-preview-card > span,
 .breed-output-card div {
   min-width: 0;
 }
 
-.breed-preview-card strong {
+.breed-preview-card > span > strong {
   display: block;
   margin-bottom: 8px;
   overflow: hidden;
@@ -1233,7 +1233,7 @@ select:focus {
   white-space: nowrap;
 }
 
-.breed-preview-card small {
+.breed-preview-card > span > small {
   display: flex;
   gap: 5px;
   flex-wrap: wrap;
@@ -1308,7 +1308,7 @@ select:focus {
 
 .breed-combo-row {
   display: grid;
-  grid-template-columns: minmax(154px, 1fr) 20px minmax(154px, 1fr) 20px minmax(154px, 1fr);
+  grid-template-columns: minmax(170px, 1fr) 20px minmax(170px, 1fr) 20px minmax(170px, 1fr);
   gap: 6px;
   align-items: center;
   min-height: 66px;
@@ -1344,29 +1344,33 @@ select:focus {
   background: #eff3ef;
 }
 
-.breed-pal-mini span {
+.breed-pal-mini > span {
   display: grid;
   gap: 4px;
   min-width: 0;
 }
 
-.breed-pal-mini strong {
+.breed-pal-mini > span > strong {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 13px;
 }
 
-.breed-pal-mini small {
+.breed-pal-mini > span > small {
   display: flex;
   gap: 5px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .breed-pal-mini .icon-badge {
   min-height: 22px;
   padding: 0 5px;
   font-size: 10px;
+  flex: 0 0 auto;
+  max-width: none;
 }
 
 .breed-pal-mini .icon-badge img {
