@@ -8,11 +8,28 @@ import {
   workBadge
 } from "./pal-icons.js";
 
-const MAP_CONFIG = {
-  minMapTextureBlockSize: { X: 8192 * 16, Y: 8192 * 16 },
-  landScapeRealPositionMin: { X: -999940, Y: -737262 },
-  landScapeRealPositionMax: { X: 447900, Y: 710578 }
+const MAP_SIZE = { X: 8192 * 16, Y: 8192 * 16 };
+const MAP_VARIANTS = {
+  main: {
+    label: "帕洛斯群岛",
+    tileUrl: "https://cdn.paldb.cc/image/map8/z{z}x{x}y{y}.webp",
+    config: {
+      minMapTextureBlockSize: MAP_SIZE,
+      landScapeRealPositionMin: { X: -1099400, Y: -724400 },
+      landScapeRealPositionMax: { X: 349400, Y: 724400 }
+    }
+  },
+  tree: {
+    label: "世界树",
+    tileUrl: "https://cdn.paldb.cc/image/treemap8/z{z}x{x}y{y}.webp",
+    config: {
+      minMapTextureBlockSize: MAP_SIZE,
+      landScapeRealPositionMin: { X: 347351.5, Y: -818197 },
+      landScapeRealPositionMax: { X: 689148.5, Y: -476400 }
+    }
+  }
 };
+const MAP_SEGMENT_TYPES = ["main", "tree"];
 
 const detail = document.querySelector("#palDetail");
 const initialPalId = new URLSearchParams(window.location.search).get("pal");
@@ -56,6 +73,29 @@ function heroDescription(pal) {
   return pal.description || pal.tagline || `${pal.name} 的图鉴资料。`;
 }
 
+function isTreePoint(point) {
+  const tree = MAP_VARIANTS.tree.config;
+  return point.X >= tree.landScapeRealPositionMin.X
+    && point.X <= tree.landScapeRealPositionMax.X
+    && point.Y >= tree.landScapeRealPositionMin.Y
+    && point.Y <= tree.landScapeRealPositionMax.Y;
+}
+
+function getSegmentLocations(locations, mapType) {
+  return locations.filter((point) => (mapType === "tree" ? isTreePoint(point) : !isTreePoint(point)));
+}
+
+function getHabitatSegments(map) {
+  const locations = Array.isArray(map.locations) ? map.locations : [];
+  const segments = MAP_SEGMENT_TYPES
+    .map((mapType) => ({
+      mapType,
+      locations: getSegmentLocations(locations, mapType)
+    }))
+    .filter((segment) => segment.locations.length);
+  return segments.length ? segments : [{ mapType: "main", locations: [] }];
+}
+
 function renderHabitatMapShell(pal) {
   const maps = pal.habitatMaps?.length ? pal.habitatMaps : [
     { label: "白天", time: "dayTimeLocations", locations: [] },
@@ -71,7 +111,17 @@ function renderHabitatMapShell(pal) {
           <span class="habitat-caption-title"><i class="habitat-dot ${timeClass}" aria-hidden="true"></i>${escapeHtml(map.label)}</span>
           <small>${count} 个点位</small>
         </figcaption>
-        <div class="habitat-leaflet" data-habitat-index="${index}"></div>
+        <div class="habitat-segments">
+          ${getHabitatSegments(map).map((segment) => `
+            <div class="habitat-segment">
+              <div class="habitat-segment-title">
+                <span>${escapeHtml(MAP_VARIANTS[segment.mapType].label)}</span>
+                <small>${segment.locations.length} 个点位</small>
+              </div>
+              <div class="habitat-leaflet" data-habitat-index="${index}" data-map-type="${segment.mapType}"></div>
+            </div>
+          `).join("")}
+        </div>
       </figure>
     `;
   }).join("");
@@ -179,24 +229,26 @@ function renderDetail() {
   initializeHabitatMaps(pal);
 }
 
-function createBounds(map) {
+function createBounds(map, variant) {
+  const config = variant.config;
   const maxZoom = map.getMaxZoom();
   return L.latLngBounds(
-    map.unproject([0, MAP_CONFIG.minMapTextureBlockSize.Y], maxZoom),
-    map.unproject([MAP_CONFIG.minMapTextureBlockSize.X, 0], maxZoom)
+    map.unproject([0, config.minMapTextureBlockSize.Y], maxZoom),
+    map.unproject([config.minMapTextureBlockSize.X, 0], maxZoom)
   );
 }
 
-function pointToLatLng(map, point) {
+function pointToLatLng(map, point, variant) {
+  const config = variant.config;
   const maxZoom = map.getMaxZoom();
-  const scaleX = (point.X - MAP_CONFIG.landScapeRealPositionMin.X)
-    / (MAP_CONFIG.landScapeRealPositionMax.X - MAP_CONFIG.landScapeRealPositionMin.X);
-  const scaleY = (point.Y - MAP_CONFIG.landScapeRealPositionMin.Y)
-    / (MAP_CONFIG.landScapeRealPositionMax.Y - MAP_CONFIG.landScapeRealPositionMin.Y);
+  const scaleX = (point.X - config.landScapeRealPositionMin.X)
+    / (config.landScapeRealPositionMax.X - config.landScapeRealPositionMin.X);
+  const scaleY = (point.Y - config.landScapeRealPositionMin.Y)
+    / (config.landScapeRealPositionMax.Y - config.landScapeRealPositionMin.Y);
 
   return map.unproject([
-    scaleY * MAP_CONFIG.minMapTextureBlockSize.Y,
-    (1 - scaleX) * MAP_CONFIG.minMapTextureBlockSize.X
+    scaleY * config.minMapTextureBlockSize.Y,
+    (1 - scaleX) * config.minMapTextureBlockSize.X
   ], maxZoom);
 }
 
@@ -211,7 +263,9 @@ function initializeHabitatMaps(pal) {
   const mapData = pal.habitatMaps || [];
   document.querySelectorAll(".habitat-leaflet").forEach((container) => {
     const habitat = mapData[Number(container.dataset.habitatIndex)] || {};
-    const locations = Array.isArray(habitat.locations) ? habitat.locations : [];
+    const mapType = container.dataset.mapType || "main";
+    const variant = MAP_VARIANTS[mapType] || MAP_VARIANTS.main;
+    const locations = getSegmentLocations(Array.isArray(habitat.locations) ? habitat.locations : [], mapType);
     const leafletMap = L.map(container, {
       minZoom: 0,
       maxZoom: 8,
@@ -233,9 +287,9 @@ function initializeHabitatMaps(pal) {
     });
     activeMaps.push(leafletMap);
 
-    const bounds = createBounds(leafletMap);
+    const bounds = createBounds(leafletMap, variant);
     leafletMap.setMaxBounds(bounds.pad(0.02));
-    L.tileLayer("https://cdn.paldb.cc/image/map7/z{z}x{x}y{y}.webp", {
+    L.tileLayer(variant.tileUrl, {
       bounds,
       maxNativeZoom: 4,
       maxZoom: 8,
@@ -252,7 +306,7 @@ function initializeHabitatMaps(pal) {
     const markerColor = habitat.time === "nightTimeLocations" ? "#12dfff" : "#ff3355";
     const radius = locations.length > 500 ? 4.6 : locations.length > 80 ? 5.5 : 7;
     locations.forEach((point, index) => {
-      const latLng = pointToLatLng(leafletMap, point);
+      const latLng = pointToLatLng(leafletMap, point, variant);
       L.circleMarker(latLng, {
         radius: radius + 2.8,
         weight: 0,
