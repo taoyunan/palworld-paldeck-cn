@@ -1,9 +1,10 @@
-const UPDATE_NOTICE_VERSION = "2026-07-13-map-update";
+const UPDATE_NOTICE_VERSION = "2026-07-13-boss-map-update";
 const UPDATE_NOTICE_STORAGE_KEY = "palworld-paldeck:update-notice-version";
 
 const UPDATE_ITEMS = [
   "互动地图底图已更新到最新版本。",
   "所有帕鲁的白天、夜晚栖息点位已重新抓取。",
+  "Boss 点位已加入对应帕鲁的互动地图，并使用独立标记显示。",
   "新增世界树地图支持，跨区域帕鲁会按地图分别展示。",
   "栖息区域仍保留白天和夜晚两个区块。"
 ];

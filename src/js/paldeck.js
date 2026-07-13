@@ -85,15 +85,34 @@ function getSegmentLocations(locations, mapType) {
   return locations.filter((point) => (mapType === "tree" ? isTreePoint(point) : !isTreePoint(point)));
 }
 
-function getHabitatSegments(map) {
+function getSegmentPoints(map, mapType) {
   const locations = Array.isArray(map.locations) ? map.locations : [];
+  const bossLocations = Array.isArray(map.bossLocations) ? map.bossLocations : [];
+  const segment = {
+    mapType,
+    locations: getSegmentLocations(locations, mapType),
+    bossLocations: getSegmentLocations(bossLocations, mapType)
+  };
+  segment.total = segment.locations.length + segment.bossLocations.length;
+  return segment;
+}
+
+function habitatPointCount(map) {
+  const locations = Array.isArray(map.locations) ? map.locations.length : 0;
+  const bossLocations = Array.isArray(map.bossLocations) ? map.bossLocations.length : 0;
+  return locations + bossLocations || Number(map.count || 0);
+}
+
+function formatSegmentCount(segment) {
+  if (!segment.bossLocations.length) return `${segment.locations.length} 个点位`;
+  return `${segment.total} 个点位 · Boss ${segment.bossLocations.length}`;
+}
+
+function getHabitatSegments(map) {
   const segments = MAP_SEGMENT_TYPES
-    .map((mapType) => ({
-      mapType,
-      locations: getSegmentLocations(locations, mapType)
-    }))
-    .filter((segment) => segment.locations.length);
-  return segments.length ? segments : [{ mapType: "main", locations: [] }];
+    .map((mapType) => getSegmentPoints(map, mapType))
+    .filter((segment) => segment.total);
+  return segments.length ? segments : [{ mapType: "main", locations: [], bossLocations: [], total: 0 }];
 }
 
 function renderHabitatMapShell(pal) {
@@ -103,7 +122,7 @@ function renderHabitatMapShell(pal) {
   ];
 
   return maps.map((map, index) => {
-    const count = Array.isArray(map.locations) ? map.locations.length : Number(map.count || 0);
+    const count = habitatPointCount(map);
     const timeClass = map.time === "nightTimeLocations" ? "night" : "day";
     return `
       <figure class="habitat-map">
@@ -116,7 +135,7 @@ function renderHabitatMapShell(pal) {
             <div class="habitat-segment">
               <div class="habitat-segment-title">
                 <span>${escapeHtml(MAP_VARIANTS[segment.mapType].label)}</span>
-                <small>${segment.locations.length} 个点位</small>
+                <small>${formatSegmentCount(segment)}</small>
               </div>
               <div class="habitat-leaflet" data-habitat-index="${index}" data-map-type="${segment.mapType}"></div>
             </div>
@@ -266,6 +285,7 @@ function initializeHabitatMaps(pal) {
     const mapType = container.dataset.mapType || "main";
     const variant = MAP_VARIANTS[mapType] || MAP_VARIANTS.main;
     const locations = getSegmentLocations(Array.isArray(habitat.locations) ? habitat.locations : [], mapType);
+    const bossLocations = getSegmentLocations(Array.isArray(habitat.bossLocations) ? habitat.bossLocations : [], mapType);
     const leafletMap = L.map(container, {
       minZoom: 0,
       maxZoom: 8,
@@ -321,6 +341,23 @@ function initializeHabitatMaps(pal) {
         fillColor: markerColor,
         fillOpacity: 0.96
       }).bindPopup(`${escapeHtml(pal.name)} · ${escapeHtml(habitat.label || "")} · ${index + 1}`).addTo(leafletMap);
+    });
+    bossLocations.forEach((point, index) => {
+      const latLng = pointToLatLng(leafletMap, point, variant);
+      L.circleMarker(latLng, {
+        radius: 12,
+        weight: 0,
+        fillColor: "#ffffff",
+        fillOpacity: 0.72,
+        interactive: false
+      }).addTo(leafletMap);
+      L.circleMarker(latLng, {
+        radius: 8.5,
+        weight: 2.4,
+        color: "#4b1d12",
+        fillColor: "#ff9f1a",
+        fillOpacity: 1
+      }).bindPopup(`${escapeHtml(pal.name)} · Boss${point.level ? ` Lv.${escapeHtml(point.level)}` : ""} · ${index + 1}`).addTo(leafletMap);
     });
 
     setTimeout(() => leafletMap.invalidateSize(), 0);
