@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "check": "node --check src/js/pal-icons.js && node --check src/js/paldeck.js && node --check src/js/paldeck-list.js && node --check src/js/breed.js && node --check src/js/data/pals.js && node --check src/js/data/pal-work.js && node --check src/js/data/pal-drops.js && node --check src/js/data/pal-skills.js && node --check src/js/data/pal-breeding.js && node --check scripts/fetch-breeding-data.mjs && node --check scripts/import-paldeck-data.mjs",
+    "check": "node --check src/js/pal-icons.js && node --check src/js/paldeck.js && node --check src/js/paldeck-list.js && node --check src/js/breed.js && node --check src/js/update-notice.js && node --check src/js/data/pals.js && node --check src/js/data/pal-work.js && node --check src/js/data/pal-drops.js && node --check src/js/data/pal-skills.js && node --check src/js/data/pal-breeding.js && node --check scripts/fetch-breeding-data.mjs && node --check scripts/import-paldeck-data.mjs",
     "import:pals": "node scripts/import-paldeck-data.mjs",
     "fetch:breed": "node scripts/fetch-breeding-data.mjs"
   },
