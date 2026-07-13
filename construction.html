@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="幻兽帕鲁简体中文建造图鉴，收录生产、帕鲁、收纳、食物、基础设施、建筑、家具等建造设施资料。">
+  <title>幻兽帕鲁建造图鉴</title>
+  <link rel="stylesheet" href="./src/css/paldeck.css">
+  <link rel="stylesheet" href="./src/css/technologies.css">
+  <link rel="stylesheet" href="./src/css/items.css">
+  <link rel="stylesheet" href="./src/css/constructions.css">
+</head>
+<body class="technology-page construction-page">
+  <header class="deck-header technology-header">
+    <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="eyebrow">Palworld database</span>
+        <span class="brand-title">建造图鉴</span>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a href="./pals.html">帕鲁</a>
+      <a href="./items.html">武器</a>
+      <a class="active" href="./construction.html" aria-current="page">建造</a>
+      <a href="./breed.html">配种计算器</a>
+      <a href="./technologies.html">科技树</a>
+      <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
+      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">github</a>
+    </nav>
+  </header>
+
+  <main class="technology-stage">
+    <section class="technology-console construction-console" aria-labelledby="constructionTitle">
+      <div class="console-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <header class="console-titlebar construction-titlebar">
+        <div>
+          <p class="console-kicker">Construction database</p>
+          <h1 id="constructionTitle">建造图鉴</h1>
+        </div>
+        <div class="console-summary">
+          <span><b id="constructionTotal">—</b> 项建造</span>
+          <a href="https://paldb.cc/cn/Production" target="_blank" rel="noopener">数据来源 ↗</a>
+        </div>
+      </header>
+
+      <div class="item-browser construction-browser">
+        <aside class="item-categories" aria-label="建造分类">
+          <div class="item-category-title">建造栏</div>
+          <div id="constructionCategories"></div>
+        </aside>
+        <section class="item-results" aria-labelledby="constructionResultTitle">
+          <header class="item-results-head">
+            <h2 id="constructionResultTitle">生产</h2>
+            <span id="constructionResultCount"></span>
+          </header>
+          <div class="item-grid-scroll">
+            <div class="construction-groups" id="constructionGrid"></div>
+            <div class="technology-empty" id="constructionEmpty" hidden>
+              <strong>没有匹配的建造设施</strong>
+              <span>换一个名称或分类试试。</span>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="technology-hud" aria-label="搜索建造设施">
+        <label class="technology-search" for="constructionSearch">
+          <input id="constructionSearch" type="search" placeholder="通过名字搜索建造设施">
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </footer>
+    </section>
+  </main>
+
+  <aside class="technology-tooltip construction-tooltip" id="constructionTooltip" role="tooltip" hidden></aside>
+  <script type="module" src="./src/js/constructions.js"></script>
+</body>
+</html>

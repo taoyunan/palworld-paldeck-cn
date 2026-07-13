@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>帕鲁图鉴总览</title>
   <link rel="stylesheet" href="./src/css/paldeck.css">
+  <link rel="stylesheet" href="./src/css/technologies.css">
 </head>
-<body class="list-page">
-  <header class="deck-header">
+<body class="technology-page list-page pal-list-page">
+  <header class="deck-header technology-header">
     <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
       <span class="brand-mark" aria-hidden="true"></span>
       <div>
@@ -16,13 +17,17 @@
       </div>
     </a>
     <nav class="top-nav" aria-label="页面导航">
-      <a href="./breed.html">配种计算</a>
+      <a class="active" href="./pals.html" aria-current="page">帕鲁</a>
+      <a href="./items.html">武器</a>
+      <a href="./construction.html">建造</a>
+      <a href="./breed.html">配种计算器</a>
+      <a href="./technologies.html">科技树</a>
       <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
-      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">GitHub</a>
+      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">github</a>
     </nav>
   </header>
 
-  <main class="list-shell">
+  <main class="list-shell pal-list-console">
     <section class="filter-panel multi-filter-panel" id="filters" aria-label="帕鲁筛选">
       <div class="filter-field">
         <label for="listSearch">搜索</label>

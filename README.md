@@ -1,6 +1,6 @@
 # 幻兽帕鲁中文图鉴
 
-一个面向中文玩家的《幻兽帕鲁》静态图鉴项目，包含帕鲁总览、筛选、详情资料、配种计算、属性与工作适应性图标、掉落物、技能信息，以及白天 / 夜晚栖息区域互动地图。
+一个面向中文玩家的《幻兽帕鲁》静态工具项目，包含帕鲁总览、物品图鉴、建造图鉴、配种计算、互动科技树、属性与工作适应性图标、掉落物、技能信息，以及白天 / 夜晚栖息区域互动地图。
 
 在线访问：
 
@@ -15,6 +15,9 @@
 - 工作适应性支持多选筛选。
 - 配种计算器支持两个亲代算子代、指定子代查父母组合、指定一个亲代查看可配结果。
 - 配种数据保存在本地，页面运行时不依赖外部接口。
+- 科技树收录 1—80 级全部科技，采用接近游戏内界面的等级分栏布局；悬停可查看介绍、解锁内容及所需材料。
+- 物品图鉴收录武器、帕鲁球、防具、饰品、素材、消耗品、弹药、食材、重要物品、滑翔伞与设计图等资料，支持分类、稀有度、名称筛选和悬停详情。
+- 建造图鉴收录生产、帕鲁、收纳、食物、基础设施、照明、建筑、防御、家具与其他设施，悬停可查看科技等级、工作适应性、说明和建造材料。
 - 属性、工作适应性在所有相关位置都带有对应图标。
 - 详情页包含图鉴介绍、伙伴技能、基础资料、工作适应性、掉落物、主动技能。
 - 栖息区域使用互动地图，并区分白天与夜晚。
@@ -27,6 +30,9 @@
 | `index.html` | 默认入口，内容与总览页一致 |
 | `pals.html` | 帕鲁总览页 |
 | `breed.html` | 帕鲁配种计算器 |
+| `items.html` | 物品图鉴、分类与稀有度筛选 |
+| `construction.html` | 建造设施分类与材料图鉴 |
+| `technologies.html` | 游戏界面风格互动科技树 |
 | `paldeck.html?pal=lamball` | 帕鲁详情页示例 |
 
 ## 本地运行
@@ -68,26 +74,41 @@ palworld-paldeck-cn/
 ├─ index.html
 ├─ pals.html
 ├─ breed.html
+├─ construction.html
+├─ items.html
+├─ technologies.html
 ├─ paldeck.html
 ├─ package.json
 ├─ README.md
 ├─ scripts/
+│  ├─ import-technologies.mjs
+│  ├─ import-items.mjs
+│  ├─ import-constructions.mjs
 │  └─ serve.mjs
 └─ src/
    ├─ assets/
    │  └─ paldeck/
    ├─ css/
-   │  └─ paldeck.css
+   │  ├─ paldeck.css
+   │  ├─ items.css
+   │  ├─ constructions.css
+   │  └─ technologies.css
    └─ js/
       ├─ data/
       │  ├─ pal-drops.js
       │  ├─ pal-breeding.js
       │  ├─ pal-skills.js
       │  ├─ pal-work.js
+      │  ├─ items.js
+      │  ├─ constructions.js
+      │  ├─ technologies.js
       │  └─ pals.js
       ├─ pal-icons.js
       ├─ breed.js
       ├─ paldeck-list.js
+      ├─ items.js
+      ├─ constructions.js
+      ├─ technologies.js
       └─ paldeck.js
 ```
 
@@ -102,6 +123,10 @@ palworld-paldeck-cn/
 | `src/js/data/pal-drops.js` | 掉落物数据 |
 | `src/js/data/pal-skills.js` | 主动技能与伙伴技能数据 |
 | `src/js/data/pal-breeding.js` | 本地配种组合数据 |
+| `src/js/data/items.js` | 物品分类、属性、介绍与材料数据 |
+| `src/js/data/constructions.js` | 建造分类、科技等级、介绍与材料数据 |
+| `src/js/data/technologies.js` | 1—80 级科技节点数据 |
+| `src/js/data/technology-details.js` | 科技介绍、解锁内容与材料数据 |
 | `src/js/pal-icons.js` | 属性与工作适应性图标渲染工具 |
 
 ## 更新配种数据

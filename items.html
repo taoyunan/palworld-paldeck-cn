@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="幻兽帕鲁简体中文物品图鉴，收录武器、防具、素材、消耗品、设计图等物品资料。">
+  <title>幻兽帕鲁物品图鉴</title>
+  <link rel="stylesheet" href="./src/css/paldeck.css">
+  <link rel="stylesheet" href="./src/css/technologies.css">
+  <link rel="stylesheet" href="./src/css/items.css">
+</head>
+<body class="technology-page item-page">
+  <header class="deck-header technology-header">
+    <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="eyebrow">Palworld database</span>
+        <span class="brand-title">物品图鉴</span>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a href="./pals.html">帕鲁</a>
+      <a class="active" href="./items.html" aria-current="page">武器</a>
+      <a href="./construction.html">建造</a>
+      <a href="./breed.html">配种计算器</a>
+      <a href="./technologies.html">科技树</a>
+      <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
+      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">github</a>
+    </nav>
+  </header>
+
+  <main class="technology-stage">
+    <section class="technology-console item-console" aria-labelledby="itemTitle">
+      <div class="console-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <header class="console-titlebar item-titlebar">
+        <div>
+          <p class="console-kicker">Inventory database</p>
+          <h1 id="itemTitle">物品图鉴</h1>
+        </div>
+        <div class="console-summary">
+          <span><b id="itemTotal">—</b> 件物品</span>
+          <a href="https://paldb.cc/cn/Weapon" target="_blank" rel="noopener">数据来源 ↗</a>
+        </div>
+      </header>
+
+      <div class="item-rarity-bar" id="rarityFilters" aria-label="稀有度筛选"></div>
+
+      <div class="item-browser">
+        <aside class="item-categories" aria-label="物品分类">
+          <div class="item-category-title">物品栏</div>
+          <div id="itemCategories"></div>
+        </aside>
+        <section class="item-results" aria-labelledby="itemResultTitle">
+          <header class="item-results-head">
+            <h2 id="itemResultTitle">武器</h2>
+            <span id="itemResultCount"></span>
+          </header>
+          <div class="item-grid-scroll">
+            <div class="item-grid" id="itemGrid"></div>
+            <div class="technology-empty" id="itemEmpty" hidden>
+              <strong>没有匹配的物品</strong>
+              <span>换一个关键词、分类或稀有度试试。</span>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="technology-hud">
+        <label class="technology-search" for="itemSearch">
+          <input id="itemSearch" type="search" placeholder="通过名字搜索物品">
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </footer>
+    </section>
+  </main>
+
+  <aside class="technology-tooltip item-tooltip" id="itemTooltip" role="tooltip" hidden></aside>
+  <script type="module" src="./src/js/items.js"></script>
+</body>
+</html>

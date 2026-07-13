@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="幻兽帕鲁简体中文互动科技树，收录普通科技、古代科技、介绍与制作材料。">
+  <title>幻兽帕鲁科技树</title>
+  <link rel="stylesheet" href="./src/css/paldeck.css">
+  <link rel="stylesheet" href="./src/css/technologies.css">
+</head>
+<body class="technology-page">
+  <header class="deck-header technology-header">
+    <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="eyebrow">Palworld database</span>
+        <span class="brand-title">科技</span>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a href="./pals.html">帕鲁</a>
+      <a href="./items.html">武器</a>
+      <a href="./construction.html">建造</a>
+      <a href="./breed.html">配种计算器</a>
+      <a class="active" href="./technologies.html" aria-current="page">科技树</a>
+      <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
+      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">github</a>
+    </nav>
+  </header>
+
+  <main class="technology-stage">
+    <section class="technology-console" aria-labelledby="technologyTitle">
+      <div class="console-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+      <header class="console-titlebar">
+        <div>
+          <p class="console-kicker">Technology database</p>
+          <h1 id="technologyTitle">科技</h1>
+        </div>
+      </header>
+
+      <div class="technology-column-heads" aria-hidden="true">
+        <span></span>
+        <strong class="regular-column-title">科技</strong>
+        <strong class="ancient-column-title">古代科技</strong>
+      </div>
+
+      <div class="technology-tree-scroll" id="technologyTreeScroll">
+        <div class="technology-tree" id="technologyTree"></div>
+        <div class="technology-empty" id="technologyEmpty" hidden>
+          <strong>没有匹配的科技</strong>
+          <span>换一个关键词试试。</span>
+        </div>
+      </div>
+
+      <footer class="technology-hud" aria-label="搜索科技">
+        <label class="technology-search" for="technologySearch">
+          <input id="technologySearch" type="search" placeholder="通过名字搜索">
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </footer>
+    </section>
+  </main>
+
+  <aside class="technology-tooltip" id="technologyTooltip" role="tooltip" hidden></aside>
+
+  <script type="module" src="./src/js/technologies.js"></script>
+</body>
+</html>
