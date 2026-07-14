@@ -1968,6 +1968,10 @@ select:focus {
   background: #0b2531;
 }
 
+.pal-detail-page .habitat-segments {
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
 .pal-list-page .pal-row-head {
   display: none;
 }
@@ -2487,6 +2491,10 @@ select:focus {
 
   .pal-list-page .multi-choice {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pal-detail-page .habitat-segments {
+    grid-template-columns: 1fr;
   }
 
   .pal-list-page .pal-row-main,
