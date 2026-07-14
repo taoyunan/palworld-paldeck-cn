@@ -137,6 +137,20 @@ palworld-paldeck-cn/
 | `src/js/data/technology-details.js` | 科技介绍、解锁内容与材料数据 |
 | `src/js/pal-icons.js` | 属性与工作适应性图标渲染工具 |
 
+## 本地化资源
+
+项目页面使用的图片、图标和地图瓦片已经保存到本地目录：
+
+```text
+assets/paldb/
+```
+
+重新导入数据后，运行下面命令可以下载新增资源，并清理页面数据里的来源外链：
+
+```powershell
+npm.cmd run localize:assets
+```
+
 ## 更新配种数据
 
 运行脚本会更新本地配种静态数据：

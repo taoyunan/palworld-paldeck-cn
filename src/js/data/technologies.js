@@ -1,5 +1,5 @@
-// Generated from https://paldb.cc/cn/Technologies. Run `npm run import:technologies` to refresh.
-export const TECHNOLOGY_SOURCE = "https://paldb.cc/cn/Technologies";
+// Generated local technology data. Run `npm run import:technologies` to refresh.
+export const TECHNOLOGY_SOURCE = "";
 export const TECHNOLOGY_TOTALS = {"regular":1409,"ancient":185};
 export const TECHNOLOGIES = [
   {
@@ -9,7 +9,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"
   },
   {
     "id": "Product_Axe_Grade_01",
@@ -18,7 +18,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp"
   },
   {
     "id": "Product_Pickaxe_Grade_01",
@@ -27,7 +27,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp"
   },
   {
     "id": "HandTorch",
@@ -36,7 +36,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Torch.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Torch.webp"
   },
   {
     "id": "Battle_MeleeWeapon_Bat",
@@ -45,7 +45,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat.webp"
   },
   {
     "id": "PALBOX",
@@ -54,7 +54,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalBoxV2.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalBoxV2.webp"
   },
   {
     "id": "Special_PalSphere_Grade_01",
@@ -63,7 +63,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere.webp"
   },
   {
     "id": "Product_Cooking_Grade_01",
@@ -72,7 +72,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CampFire.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CampFire.webp"
   },
   {
     "id": "Infra_ItemChest_Grade_01",
@@ -81,7 +81,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest.webp"
   },
   {
     "id": "RepairBench",
@@ -90,7 +90,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_RepairBench.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_RepairBench.webp"
   },
   {
     "id": "Wooden_houseset",
@@ -99,7 +99,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wood_Foundation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wood_Foundation.webp"
   },
   {
     "id": "SkinChange",
@@ -108,7 +108,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkinChange.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkinChange.webp"
   },
   {
     "id": "Battle_RangeWeapon_Bow1",
@@ -117,7 +117,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp"
   },
   {
     "id": "Arrow",
@@ -126,7 +126,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp"
   },
   {
     "id": "Spear",
@@ -135,7 +135,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
   },
   {
     "id": "Infra_PlayerBed_Grade_01",
@@ -144,7 +144,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PlayerBed_02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PlayerBed_02.webp"
   },
   {
     "id": "Infra_PalBed_Grade_01",
@@ -153,7 +153,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_02.webp"
   },
   {
     "id": "GlobalPalStorage",
@@ -162,7 +162,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GlobalPalStorage.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GlobalPalStorage.webp"
   },
   {
     "id": "Shield_01",
@@ -171,7 +171,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_01.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_01.webp"
   },
   {
     "id": "Battle_Armor_Grade_01_Cloth",
@@ -180,7 +180,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
   },
   {
     "id": "Battle_Cloth",
@@ -189,7 +189,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
   },
   {
     "id": "PalFoodBox",
@@ -198,7 +198,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalFoodBox.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalFoodBox.webp"
   },
   {
     "id": "Product_Farm_Berries",
@@ -207,7 +207,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Berries.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Berries.webp"
   },
   {
     "id": "MonsterFarm",
@@ -216,7 +216,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MonsterFarm.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MonsterFarm.webp"
   },
   {
     "id": "Battle_Glider_Grade_01",
@@ -225,7 +225,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Old.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Old.webp"
   },
   {
     "id": "FurnitureSet_1",
@@ -234,7 +234,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableSquare_Wood.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableSquare_Wood.webp"
   },
   {
     "id": "FurnitureSet_3",
@@ -243,7 +243,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Counter_Wood.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Counter_Wood.webp"
   },
   {
     "id": "FurnitureSet_2",
@@ -252,7 +252,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel_Wood.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel_Wood.webp"
   },
   {
     "id": "Product_WorkBench_SkillUnlock",
@@ -261,7 +261,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench_SkillUnlock.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench_SkillUnlock.webp"
   },
   {
     "id": "Arrow_Fire",
@@ -270,7 +270,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Fire.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Fire.webp"
   },
   {
     "id": "Torch",
@@ -279,7 +279,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TorchStand.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TorchStand.webp"
   },
   {
     "id": "Signboard",
@@ -288,7 +288,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Signboard.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Signboard.webp"
   },
   {
     "id": "WallSignboard",
@@ -297,7 +297,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WallSignboard.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WallSignboard.webp"
   },
   {
     "id": "SkillUnlock_Boar",
@@ -306,7 +306,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Boar_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Boar_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_Kitsunebi",
@@ -315,7 +315,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_9",
@@ -324,7 +324,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Plant01_Plant.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Plant01_Plant.webp"
   },
   {
     "id": "BaseCampWorkHard",
@@ -333,7 +333,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard.webp"
   },
   {
     "id": "Battle_MeleeWeapon_Bat2",
@@ -342,7 +342,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Bat2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Bat2.webp"
   },
   {
     "id": "Product_StationDeforest",
@@ -351,7 +351,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest2.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest2.webp"
   },
   {
     "id": "Product_StonePit",
@@ -360,7 +360,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StonePit.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StonePit.webp"
   },
   {
     "id": "DefenseWait",
@@ -369,7 +369,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWait.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWait.webp"
   },
   {
     "id": "BaseCampBattleDirector",
@@ -378,7 +378,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampBattleDirector.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampBattleDirector.webp"
   },
   {
     "id": "SkillUnlock_Alpaca",
@@ -387,7 +387,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Alpaca_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Alpaca_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_4",
@@ -396,7 +396,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ivy01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ivy01.webp"
   },
   {
     "id": "Crusher",
@@ -405,7 +405,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Crusher.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Crusher.webp"
   },
   {
     "id": "Arrow_Poison",
@@ -414,7 +414,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Poison.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Poison.webp"
   },
   {
     "id": "DefenseWall_Wood",
@@ -423,7 +423,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Wood.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Wood.webp"
   },
   {
     "id": "Wood_Gate",
@@ -432,7 +432,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wood_Gate.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wood_Gate.webp"
   },
   {
     "id": "Trap_Noose",
@@ -441,7 +441,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_Noose.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_Noose.webp"
   },
   {
     "id": "FurnitureSet_28",
@@ -450,7 +450,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_FirePlace01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_FirePlace01.webp"
   },
   {
     "id": "BuildableGoddessStatue",
@@ -459,7 +459,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BuildableGoddessStatue.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BuildableGoddessStatue.webp"
   },
   {
     "id": "AutoMealPouch_Tier1",
@@ -468,7 +468,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier1.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier1.webp"
   },
   {
     "id": "Battle_Armor_Grade_01_Cloth_Heat",
@@ -477,7 +477,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp"
   },
   {
     "id": "Battle_Armor_Grade_01_Cloth_Cold",
@@ -486,7 +486,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp"
   },
   {
     "id": "Spa",
@@ -495,7 +495,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa.webp"
   },
   {
     "id": "SkillUnlock_Garm",
@@ -504,7 +504,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Garm_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Garm_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_17",
@@ -513,7 +513,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Rug01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Rug01_Stone.webp"
   },
   {
     "id": "Product_Ingot_Grade_01_Copper",
@@ -522,7 +522,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace.webp"
   },
   {
     "id": "Battle_RangeWeapon_Bow3",
@@ -531,7 +531,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow.webp"
   },
   {
     "id": "Battle_Helm_Grade_02_Fur",
@@ -540,7 +540,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
   },
   {
     "id": "Infra_MachineParts",
@@ -549,7 +549,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp"
   },
   {
     "id": "Wooden_ladder",
@@ -558,7 +558,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wooden_Ladder.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wooden_Ladder.webp"
   },
   {
     "id": "Trap_LegHold",
@@ -567,7 +567,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_LegHold.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_LegHold.webp"
   },
   {
     "id": "FurnitureSet_21",
@@ -576,7 +576,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Stone.webp"
   },
   {
     "id": "Special_HatchingPalEgg",
@@ -585,7 +585,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HatchingPalEgg.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HatchingPalEgg.webp"
   },
   {
     "id": "Product_Axe_Grade_02",
@@ -594,7 +594,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp"
   },
   {
     "id": "Product_Pickaxe_Grade_02",
@@ -603,7 +603,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp"
   },
   {
     "id": "Product_Factory_Hard_Grade_01",
@@ -612,7 +612,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
   },
   {
     "id": "HunterFlagSet",
@@ -621,7 +621,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Hunter_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Hunter_Flag.webp"
   },
   {
     "id": "SkillUnlock_WeaselDragon",
@@ -630,7 +630,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_Carbunclo",
@@ -639,7 +639,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Carbunclo_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Carbunclo_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_19",
@@ -648,7 +648,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Chair01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Chair01_Stone.webp"
   },
   {
     "id": "Battle_Armor_Grade_02_Fur",
@@ -657,7 +657,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp"
   },
   {
     "id": "MeatCutterKnife",
@@ -666,7 +666,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MeatCutterKnife.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MeatCutterKnife.webp"
   },
   {
     "id": "Product_Medicine_Grade_01",
@@ -675,7 +675,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_01.webp"
   },
   {
     "id": "SkillUnlock_Monkey",
@@ -684,7 +684,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Monkey_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Monkey_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_Deer",
@@ -693,7 +693,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Deer_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Deer_icon_normal.webp"
   },
   {
     "id": "FurnitureTree_Green",
@@ -702,7 +702,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Green.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Green.webp"
   },
   {
     "id": "TableCircular",
@@ -711,7 +711,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableCircular_Wood_None.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableCircular_Wood_None.webp"
   },
   {
     "id": "GrapplingGun",
@@ -720,7 +720,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
   },
   {
     "id": "Battle_RangeWeapon_BowGun",
@@ -729,7 +729,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp"
   },
   {
     "id": "Spear_2",
@@ -738,7 +738,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
   },
   {
     "id": "Infra_ItemChest_Grade_02",
@@ -747,7 +747,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_02.webp"
   },
   {
     "id": "CoolerBox",
@@ -756,7 +756,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerBox.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerBox.webp"
   },
   {
     "id": "DamagedScarecrow",
@@ -765,7 +765,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DamagedScarecrow.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DamagedScarecrow.webp"
   },
   {
     "id": "SkillUnlock_Monkey_Fire",
@@ -774,7 +774,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Monkey_Fire_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Monkey_Fire_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_22",
@@ -783,7 +783,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf05_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf05_Stone.webp"
   },
   {
     "id": "Special_PalSphere_Grade_02",
@@ -792,7 +792,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Mega.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Mega.webp"
   },
   {
     "id": "Special_SphereFactory_Black_Grade_01",
@@ -801,7 +801,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_01.webp"
   },
   {
     "id": "AutoMealPouch_Tier2",
@@ -810,7 +810,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier2.webp"
   },
   {
     "id": "WallTorch",
@@ -819,7 +819,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TorchHang.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TorchHang.webp"
   },
   {
     "id": "SkillUnlock_Kirin",
@@ -828,7 +828,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kirin_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Kirin_icon_normal.webp"
   },
   {
     "id": "FurnitureTree_Red",
@@ -837,7 +837,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Red.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Red.webp"
   },
   {
     "id": "FurnitureSet_24",
@@ -846,7 +846,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Desk01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Desk01_Stone.webp"
   },
   {
     "id": "Special_PalRankUp",
@@ -855,7 +855,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CharacterRankUp.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CharacterRankUp.webp"
   },
   {
     "id": "FishingSet1",
@@ -864,7 +864,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_1.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_1.webp"
   },
   {
     "id": "Product_Farm_wheat",
@@ -873,7 +873,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_wheet.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_wheet.webp"
   },
   {
     "id": "FlourMill",
@@ -882,7 +882,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlourMill.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlourMill.webp"
   },
   {
     "id": "Processed_Wood",
@@ -891,7 +891,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Processed_Wood.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Processed_Wood.webp"
   },
   {
     "id": "DisplayCharacter",
@@ -900,7 +900,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DisplayCharacter.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DisplayCharacter.webp"
   },
   {
     "id": "SkillUnlock_FlameBuffalo",
@@ -909,7 +909,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlameBuffalo_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FlameBuffalo_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_HawkBird",
@@ -918,7 +918,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HawkBird_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_HawkBird_icon_normal.webp"
   },
   {
     "id": "Lantern",
@@ -927,7 +927,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Lantern.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Lantern.webp"
   },
   {
     "id": "Shield_02",
@@ -936,7 +936,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_02.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_02.webp"
   },
   {
     "id": "Battle_Armor_Grade_02_Fur_Heat",
@@ -945,7 +945,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
   },
   {
     "id": "SkillUnlock_Serpent",
@@ -954,7 +954,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Serpent_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Serpent_icon_normal.webp"
   },
   {
     "id": "FurnitureTree_Yellow",
@@ -963,7 +963,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Yellow.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Yellow.webp"
   },
   {
     "id": "FurnitureSet_20",
@@ -972,7 +972,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BathTub_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BathTub_Stone.webp"
   },
   {
     "id": "FurnitureSet_16",
@@ -981,7 +981,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Mirror01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Mirror01_Stone.webp"
   },
   {
     "id": "Unlock_Picking_Tier1",
@@ -990,7 +990,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking.webp"
   },
   {
     "id": "BronzeSword",
@@ -999,7 +999,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BronzeSword.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BronzeSword.webp"
   },
   {
     "id": "Product_Cooking_Grade_02",
@@ -1008,7 +1008,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CookingStove.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CookingStove.webp"
   },
   {
     "id": "Heater",
@@ -1017,7 +1017,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HeaterMedieval.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HeaterMedieval.webp"
   },
   {
     "id": "Headstone",
@@ -1026,7 +1026,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Headstone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Headstone.webp"
   },
   {
     "id": "SkillUnlock_Penguin",
@@ -1035,7 +1035,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Penguin_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Penguin_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_15",
@@ -1044,7 +1044,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Piano01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Piano01_Stone.webp"
   },
   {
     "id": "FurnitureSet_30",
@@ -1053,7 +1053,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Iron.webp"
   },
   {
     "id": "GrapplingGun2",
@@ -1062,7 +1062,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
   },
   {
     "id": "Battle_Glider_Grade_02",
@@ -1071,7 +1071,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Good.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Good.webp"
   },
   {
     "id": "Battle_Armor_Grade_02_Fur_Cold",
@@ -1080,7 +1080,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
   },
   {
     "id": "Cooler",
@@ -1089,7 +1089,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerMedieval.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerMedieval.webp"
   },
   {
     "id": "SkillUnlock_ColorfulBird",
@@ -1098,7 +1098,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ColorfulBird_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_ColorfulBird_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_Penguin_Electric",
@@ -1107,7 +1107,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Penguin_Electric_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Penguin_Electric_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_25",
@@ -1116,7 +1116,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Toilet01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Toilet01_Stone.webp"
   },
   {
     "id": "FurnitureSet_32",
@@ -1125,7 +1125,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Curtain01_Wall_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Curtain01_Wall_Stone.webp"
   },
   {
     "id": "Accessory_Nonkilling",
@@ -1134,7 +1134,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_Nonkilling.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_Nonkilling.webp"
   },
   {
     "id": "Lab",
@@ -1143,7 +1143,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Lab.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Lab.webp"
   },
   {
     "id": "SphereModule_Heavy",
@@ -1152,7 +1152,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Heavy.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Heavy.webp"
   },
   {
     "id": "Cement",
@@ -1161,7 +1161,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp"
   },
   {
     "id": "Stone_houseset",
@@ -1170,7 +1170,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Foundation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Foundation.webp"
   },
   {
     "id": "DefenseWall",
@@ -1179,7 +1179,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall.webp"
   },
   {
     "id": "Stone_Gate",
@@ -1188,7 +1188,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Gate.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Gate.webp"
   },
   {
     "id": "SkillUnlock_NaughtyCat",
@@ -1197,7 +1197,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NaughtyCat_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_NaughtyCat_icon_normal.webp"
   },
   {
     "id": "BreedFarm",
@@ -1206,7 +1206,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BreedFarm.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BreedFarm.webp"
   },
   {
     "id": "Special_PalSphere_Grade_03",
@@ -1215,7 +1215,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Giga.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Giga.webp"
   },
   {
     "id": "Product_WeaponFactory_Dirty_Grade_01",
@@ -1224,7 +1224,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
   },
   {
     "id": "ToolBoxV1",
@@ -1233,7 +1233,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ToolBoxV1.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ToolBoxV1.webp"
   },
   {
     "id": "BelieverFlagSet",
@@ -1242,7 +1242,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Believer_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Believer_Flag.webp"
   },
   {
     "id": "SkillUnlock_FairyDragon",
@@ -1251,7 +1251,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_PurpleSpider",
@@ -1260,7 +1260,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PurpleSpider_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_PurpleSpider_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_MopKing",
@@ -1269,7 +1269,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MopKing_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_MopKing_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_18",
@@ -1278,7 +1278,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Sofa01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Sofa01_Stone.webp"
   },
   {
     "id": "DimensionPalStorage",
@@ -1287,7 +1287,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DimensionPalStorage.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DimensionPalStorage.webp"
   },
   {
     "id": "Musket",
@@ -1296,7 +1296,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp"
   },
   {
     "id": "Battle_GunPowder_Grade_02",
@@ -1305,7 +1305,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp"
   },
   {
     "id": "RoughBullet",
@@ -1314,7 +1314,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RoughBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RoughBullet.webp"
   },
   {
     "id": "Product_Farm_tomato",
@@ -1323,7 +1323,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_tomato.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_tomato.webp"
   },
   {
     "id": "OlympicCauldron",
@@ -1332,7 +1332,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OlympicCauldron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OlympicCauldron.webp"
   },
   {
     "id": "Trap_LegHold_Big",
@@ -1341,7 +1341,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_LegHold.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_LegHold.webp"
   },
   {
     "id": "SkillUnlock_BirdDragon",
@@ -1350,7 +1350,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_Deer_Ground",
@@ -1359,7 +1359,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Deer_Ground_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Deer_Ground_icon_normal.webp"
   },
   {
     "id": "TableDresser01_Stone",
@@ -1368,7 +1368,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableDresser01_Stone.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableDresser01_Stone.webp"
   },
   {
     "id": "Expedition",
@@ -1377,7 +1377,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Expedition.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Expedition.webp"
   },
   {
     "id": "ElecBaton",
@@ -1386,7 +1386,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElecBaton.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElecBaton.webp"
   },
   {
     "id": "FishingBait_2",
@@ -1395,7 +1395,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_FishingBait_2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_FishingBait_2.webp"
   },
   {
     "id": "ItemBooth",
@@ -1404,7 +1404,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemBooth.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemBooth.webp"
   },
   {
     "id": "PalBooth",
@@ -1413,7 +1413,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalBooth.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalBooth.webp"
   },
   {
     "id": "SkillUnlock_BirdDragon_Ice",
@@ -1422,7 +1422,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_Ice_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_23",
@@ -1431,7 +1431,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Clock01_Wall_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Clock01_Wall_Iron.webp"
   },
   {
     "id": "FurnitureSet_13",
@@ -1440,7 +1440,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stool01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stool01_Iron.webp"
   },
   {
     "id": "Homeward",
@@ -1449,7 +1449,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_Homeward.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_Homeward.webp"
   },
   {
     "id": "Battle_Armor_Grade_03_Copper",
@@ -1458,7 +1458,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp"
   },
   {
     "id": "Battle_Helm_Grade_03_Copper",
@@ -1467,7 +1467,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp"
   },
   {
     "id": "SphereModule_Curve",
@@ -1476,7 +1476,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve.webp"
   },
   {
     "id": "AutoMealPouch_Tier3",
@@ -1485,7 +1485,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier3.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier3.webp"
   },
   {
     "id": "Fountain",
@@ -1494,7 +1494,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Fountain.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Fountain.webp"
   },
   {
     "id": "SkillUnlock_KingAlpaca",
@@ -1503,7 +1503,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_icon_normal.webp"
   },
   {
     "id": "FurnitureTree_Bamboo",
@@ -1512,7 +1512,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Bamboo.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Bamboo.webp"
   },
   {
     "id": "FurnitureSet_6",
@@ -1521,7 +1521,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Container01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Container01_Iron.webp"
   },
   {
     "id": "MakeshiftHandgun",
@@ -1530,7 +1530,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp"
   },
   {
     "id": "Infra_PalBed_Grade_02",
@@ -1539,7 +1539,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_03.webp"
   },
   {
     "id": "PalMedicineBox",
@@ -1548,7 +1548,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalMedicineBox.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalMedicineBox.webp"
   },
   {
     "id": "Clinic",
@@ -1557,7 +1557,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Clinic.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Clinic.webp"
   },
   {
     "id": "FlowerBed",
@@ -1566,7 +1566,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlowerBed.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlowerBed.webp"
   },
   {
     "id": "SkillUnlock_Kitsunebi_Ice",
@@ -1575,7 +1575,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_Ice_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_BlueDragon",
@@ -1584,7 +1584,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_FlowerDinosaur",
@@ -1593,7 +1593,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_icon_normal.webp"
   },
   {
     "id": "Product_CopperPit",
@@ -1602,7 +1602,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit.webp"
   },
   {
     "id": "PalDopingShot",
@@ -1611,7 +1611,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalDopingShot.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalDopingShot.webp"
   },
   {
     "id": "PalDopingShotBullet",
@@ -1620,7 +1620,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_PalDopingShotBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_PalDopingShotBullet.webp"
   },
   {
     "id": "Battle_Armor_Grade_03_Copper_Heat",
@@ -1629,7 +1629,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp"
   },
   {
     "id": "Product_Farm_Lettuce",
@@ -1638,7 +1638,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Lettuce.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Lettuce.webp"
   },
   {
     "id": "Silo",
@@ -1647,7 +1647,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Silo.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Silo.webp"
   },
   {
     "id": "FragGrenade",
@@ -1656,7 +1656,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade.webp"
   },
   {
     "id": "SkillUnlock_Serpent_Ground",
@@ -1665,7 +1665,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Serpent_Ground_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Serpent_Ground_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_HadesBird",
@@ -1674,7 +1674,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_HadesBird_icon_normal.webp"
   },
   {
     "id": "Unlock_Picking_Tier2",
@@ -1683,7 +1683,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking_Tier2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking_Tier2.webp"
   },
   {
     "id": "MakeshiftSubmachineGun",
@@ -1692,7 +1692,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp"
   },
   {
     "id": "Infra_ElectricGenerator_Grade_01",
@@ -1701,7 +1701,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_EnergyGenerator_Electric.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_EnergyGenerator_Electric.webp"
   },
   {
     "id": "Lamp",
@@ -1710,7 +1710,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampStand.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampStand.webp"
   },
   {
     "id": "ManualElectricGenerator",
@@ -1719,7 +1719,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ManualElectricGenerator.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ManualElectricGenerator.webp"
   },
   {
     "id": "Battle_Defense_BowGun",
@@ -1728,7 +1728,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_efenseBulletLauncher_BowGun.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_efenseBulletLauncher_BowGun.webp"
   },
   {
     "id": "SkillUnlock_FengyunDeeper",
@@ -1737,7 +1737,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_IceSeal",
@@ -1746,7 +1746,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceSeal_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_IceSeal_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_29",
@@ -1755,7 +1755,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_FloorLamp01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_FloorLamp01.webp"
   },
   {
     "id": "Battle_RangeWeapon_SphereLauncher_Once",
@@ -1764,7 +1764,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher_Once.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher_Once.webp"
   },
   {
     "id": "Special_PalSphere_Grade_04",
@@ -1773,7 +1773,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Tera.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Tera.webp"
   },
   {
     "id": "Special_SphereFactory_Black_Grade_02",
@@ -1782,7 +1782,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_02.webp"
   },
   {
     "id": "Battle_Armor_Grade_03_Copper_Cold",
@@ -1791,7 +1791,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
   },
   {
     "id": "AdditionalInventory_001",
@@ -1800,7 +1800,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_001.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_001.webp"
   },
   {
     "id": "CeilingLamp",
@@ -1809,7 +1809,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampTop.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampTop.webp"
   },
   {
     "id": "FragGrenade_Elec",
@@ -1818,7 +1818,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Elec.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Elec.webp"
   },
   {
     "id": "SkillUnlock_BlueDragon_Ice",
@@ -1827,7 +1827,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_Ice_icon_normal.webp"
   },
   {
     "id": "FurnitureTree_Tropical",
@@ -1836,7 +1836,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Tropical.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Tropical.webp"
   },
   {
     "id": "UnlockEquipmentSlot_Weapon_01",
@@ -1845,7 +1845,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_UnlockEquipmentSlot_Weapon_01.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_UnlockEquipmentSlot_Weapon_01.webp"
   },
   {
     "id": "Battle_RangeWeapon_HandGun",
@@ -1854,7 +1854,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp"
   },
   {
     "id": "HandgunBullet",
@@ -1863,7 +1863,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_HandgunBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_HandgunBullet.webp"
   },
   {
     "id": "Infra_PlayerBed_Grade_02",
@@ -1872,7 +1872,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PlayerBed_03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PlayerBed_03.webp"
   },
   {
     "id": "BaseCampWorkHard02",
@@ -1881,7 +1881,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard02.webp"
   },
   {
     "id": "Stump",
@@ -1890,7 +1890,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stump.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stump.webp"
   },
   {
     "id": "FireCultFlagSet",
@@ -1899,7 +1899,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FireCult_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FireCult_Flag.webp"
   },
   {
     "id": "SkillUnlock_FeatherOstrich",
@@ -1908,7 +1908,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FeatherOstrich_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FeatherOstrich_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_GrassMammoth",
@@ -1917,7 +1917,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_icon_normal.webp"
   },
   {
     "id": "Accessory_JumpPower_Increase",
@@ -1926,7 +1926,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpPower_Increase.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpPower_Increase.webp"
   },
   {
     "id": "Shield_03",
@@ -1935,7 +1935,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_03.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_03.webp"
   },
   {
     "id": "Battle_MeleeWeapon_Sword",
@@ -1944,7 +1944,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Sword.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Sword.webp"
   },
   {
     "id": "FishingRod_02_1",
@@ -1953,7 +1953,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_3.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_3.webp"
   },
   {
     "id": "Product_Factory_Hard_Grade_02",
@@ -1962,7 +1962,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
   },
   {
     "id": "Product_Farm_Potato",
@@ -1971,7 +1971,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Potato.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Potato.webp"
   },
   {
     "id": "FragGrenade_Ice",
@@ -1980,7 +1980,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ice.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ice.webp"
   },
   {
     "id": "SkillUnlock_FireKirin",
@@ -1989,7 +1989,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FireKirin_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FireKirin_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_ThunderBird",
@@ -1998,7 +1998,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_icon_normal.webp"
   },
   {
     "id": "Lantern_High",
@@ -2007,7 +2007,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Lantern.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Lantern.webp"
   },
   {
     "id": "MakeshiftShotgun",
@@ -2016,7 +2016,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp"
   },
   {
     "id": "Trap_MineAttack",
@@ -2025,7 +2025,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineAttack.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineAttack.webp"
   },
   {
     "id": "Metal_houseset",
@@ -2034,7 +2034,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Metal_Foundation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Metal_Foundation.webp"
   },
   {
     "id": "DefenseWall_Metal",
@@ -2043,7 +2043,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Metal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Metal.webp"
   },
   {
     "id": "Metal_Gate",
@@ -2052,7 +2052,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Metal_Gate.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Metal_Gate.webp"
   },
   {
     "id": "MiningTool",
@@ -2061,7 +2061,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MiningTool.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MiningTool.webp"
   },
   {
     "id": "Cake02",
@@ -2070,7 +2070,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake02.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake02.webp"
   },
   {
     "id": "SkillUnlock_ThunderDog",
@@ -2079,7 +2079,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderDog_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_ThunderDog_icon_normal.webp"
   },
   {
     "id": "YakushimaBlade",
@@ -2088,7 +2088,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_YakushimaBlade.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_YakushimaBlade.webp"
   },
   {
     "id": "MakeshiftAssaultRifle",
@@ -2097,7 +2097,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp"
   },
   {
     "id": "SphereModule_Sniper",
@@ -2106,7 +2106,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Spiper.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Spiper.webp"
   },
   {
     "id": "Bio_Coolant",
@@ -2115,7 +2115,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bio_Coolant.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bio_Coolant.webp"
   },
   {
     "id": "FishingPond1",
@@ -2124,7 +2124,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond1.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond1.webp"
   },
   {
     "id": "Spa2",
@@ -2133,7 +2133,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa_2.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa_2.webp"
   },
   {
     "id": "FragGrenade_Fire",
@@ -2142,7 +2142,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Fire.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Fire.webp"
   },
   {
     "id": "SkillUnlock_GhostAnglerfish",
@@ -2151,7 +2151,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_IceDeer",
@@ -2160,7 +2160,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceDeer_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_IceDeer_icon_normal.webp"
   },
   {
     "id": "GrapplingGun3",
@@ -2169,7 +2169,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
   },
   {
     "id": "Product_WeaponFactory_Dirty_Grade_02",
@@ -2178,7 +2178,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
   },
   {
     "id": "PalHealingGrenade",
@@ -2187,7 +2187,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalHealingGrenade.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalHealingGrenade.webp"
   },
   {
     "id": "Product_Farm_Carrot",
@@ -2196,7 +2196,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Carrot.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Carrot.webp"
   },
   {
     "id": "Cauldron",
@@ -2205,7 +2205,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Cauldron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Cauldron.webp"
   },
   {
     "id": "BaseCampWorkerExtraStation",
@@ -2214,7 +2214,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkerExtraStation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkerExtraStation.webp"
   },
   {
     "id": "SkillUnlock_FairyDragon_Water",
@@ -2223,7 +2223,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_Water_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_Water_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_GrassPanda",
@@ -2232,7 +2232,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_icon_normal.webp"
   },
   {
     "id": "OctaviaSet01",
@@ -2241,7 +2241,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Octavia001_Armor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Octavia001_Armor.webp"
   },
   {
     "id": "Battle_RangeWeapon_OldRevolver",
@@ -2250,7 +2250,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp"
   },
   {
     "id": "Polymer",
@@ -2259,7 +2259,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp"
   },
   {
     "id": "Trap_MineElecShock",
@@ -2268,7 +2268,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineElecShock.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineElecShock.webp"
   },
   {
     "id": "FragGrenade_Water",
@@ -2277,7 +2277,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Water.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Water.webp"
   },
   {
     "id": "Snowman",
@@ -2286,7 +2286,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Snowman.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Snowman.webp"
   },
   {
     "id": "SkillUnlock_Manticore",
@@ -2295,7 +2295,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Manticore_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Manticore_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_RedArmorBird",
@@ -2304,7 +2304,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RedArmorBird_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_RedArmorBird_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_SakuraSaurus",
@@ -2313,7 +2313,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_icon_normal.webp"
   },
   {
     "id": "Altar",
@@ -2322,7 +2322,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Altar.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Altar.webp"
   },
   {
     "id": "Product_Ingot_Grade_02_Iron",
@@ -2331,7 +2331,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace_2.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace_2.webp"
   },
   {
     "id": "Product_Axe_Grade_03",
@@ -2340,7 +2340,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp"
   },
   {
     "id": "Product_Pickaxe_Grade_03",
@@ -2349,7 +2349,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp"
   },
   {
     "id": "Spear_3",
@@ -2358,7 +2358,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
   },
   {
     "id": "SkillUnlock_FireKirin_Dark",
@@ -2367,7 +2367,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FireKirin_Dark_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FireKirin_Dark_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_GrassPanda_Electric",
@@ -2376,7 +2376,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_Electric_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_Electric_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_FlowerDinosaur_Electric",
@@ -2385,7 +2385,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_Electric_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_Electric_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_5",
@@ -2394,7 +2394,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel01_Iron.webp"
   },
   {
     "id": "Accessory_TalentChecker",
@@ -2403,7 +2403,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_TalentChecker.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_TalentChecker.webp"
   },
   {
     "id": "Special_PalSphere_Grade_05",
@@ -2412,7 +2412,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Master.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Master.webp"
   },
   {
     "id": "Special_SphereFactory_Black_Grade_03",
@@ -2421,7 +2421,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_03.webp"
   },
   {
     "id": "Infra_ElectronicCircuit",
@@ -2430,7 +2430,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp"
   },
   {
     "id": "CarbonFiber",
@@ -2439,7 +2439,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
   },
   {
     "id": "FragGrenade_Leaf",
@@ -2448,7 +2448,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Leaf.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Leaf.webp"
   },
   {
     "id": "SkillUnlock_Manticore_Dark",
@@ -2457,7 +2457,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Manticore_Dark_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Manticore_Dark_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_TropicalOstrich",
@@ -2466,7 +2466,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_TropicalOstrich_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_TropicalOstrich_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_14",
@@ -2475,7 +2475,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableSide01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableSide01_Iron.webp"
   },
   {
     "id": "Accessory_AirDash1",
@@ -2484,7 +2484,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
   },
   {
     "id": "Battle_RangeWeapon_Rifle",
@@ -2493,7 +2493,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp"
   },
   {
     "id": "RifleBullet",
@@ -2502,7 +2502,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RifleBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RifleBullet.webp"
   },
   {
     "id": "Product_Farm_Onion",
@@ -2511,7 +2511,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Onion.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Onion.webp"
   },
   {
     "id": "Cloth2",
@@ -2520,7 +2520,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
   },
   {
     "id": "MedicalPalBed_04",
@@ -2529,7 +2529,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_04.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_04.webp"
   },
   {
     "id": "AutoMealPouch_Tier4",
@@ -2538,7 +2538,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier4.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier4.webp"
   },
   {
     "id": "SkillUnlock_Plesiosaur",
@@ -2547,7 +2547,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Plesiosaur_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Plesiosaur_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_VolcanoDragon",
@@ -2556,7 +2556,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_icon_normal.webp"
   },
   {
     "id": "Special_ElectricHatchingPalEgg",
@@ -2565,7 +2565,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricHatchingPalEgg.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricHatchingPalEgg.webp"
   },
   {
     "id": "Battle_RangeWeapon_SubmachineGun",
@@ -2574,7 +2574,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp"
   },
   {
     "id": "Battle_Armor_Grade_03_Iron",
@@ -2583,7 +2583,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp"
   },
   {
     "id": "Battle_Helm_Grade_04_Iron",
@@ -2592,7 +2592,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
   },
   {
     "id": "Corrosive_Solvent",
@@ -2601,7 +2601,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Corrosive_Solvent.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Corrosive_Solvent.webp"
   },
   {
     "id": "EnergyStorage_Electric",
@@ -2610,7 +2610,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_EnergyStorage_Electric.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_EnergyStorage_Electric.webp"
   },
   {
     "id": "SkillUnlock_GhostBeast",
@@ -2619,7 +2619,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostBeast_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GhostBeast_icon_normal.webp"
   },
   {
     "id": "FurnitureTree_Desert",
@@ -2628,7 +2628,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Desert.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Desert.webp"
   },
   {
     "id": "FurnitureSet_31",
@@ -2637,7 +2637,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CableCoil01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CableCoil01_Iron.webp"
   },
   {
     "id": "Product_CoalPit",
@@ -2646,7 +2646,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoalPit.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoalPit.webp"
   },
   {
     "id": "OperatingTable",
@@ -2655,7 +2655,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OperatingTable.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OperatingTable.webp"
   },
   {
     "id": "Launcher_Meteor",
@@ -2664,7 +2664,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Meteor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Meteor.webp"
   },
   {
     "id": "FishingBait_3",
@@ -2673,7 +2673,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_FishingBait_3.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_FishingBait_3.webp"
   },
   {
     "id": "Refrigerator",
@@ -2682,7 +2682,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Refrigerator.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Refrigerator.webp"
   },
   {
     "id": "Trap_MineFreeze",
@@ -2691,7 +2691,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineFreeze.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineFreeze.webp"
   },
   {
     "id": "FragGrenade_Ground",
@@ -2700,7 +2700,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ground.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ground.webp"
   },
   {
     "id": "SkillUnlock_SkyDragon",
@@ -2709,7 +2709,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_7",
@@ -2718,7 +2718,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Sofa01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Sofa01_Iron.webp"
   },
   {
     "id": "Battle_RangeWeapon_SphereLauncher",
@@ -2727,7 +2727,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher.webp"
   },
   {
     "id": "PoliceFlagSet",
@@ -2736,7 +2736,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Police_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Police_Flag.webp"
   },
   {
     "id": "Battle_RangeWeapon_ShotGun",
@@ -2745,7 +2745,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp"
   },
   {
     "id": "ShotGunBullet",
@@ -2754,7 +2754,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ShotgunBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ShotgunBullet.webp"
   },
   {
     "id": "SphereModule_Curve2",
@@ -2763,7 +2763,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve2.webp"
   },
   {
     "id": "Infra_ItemChest_Grade_03",
@@ -2772,7 +2772,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_03.webp"
   },
   {
     "id": "SkillUnlock_BlackMetalDragon",
@@ -2781,7 +2781,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackMetalDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlackMetalDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_MushroomDragon",
@@ -2790,7 +2790,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_MushroomDragon_Dark",
@@ -2799,7 +2799,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_Dark_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_Dark_icon_normal.webp"
   },
   {
     "id": "Product_CopperPit_2",
@@ -2808,7 +2808,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit_2.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit_2.webp"
   },
   {
     "id": "Bat3",
@@ -2817,7 +2817,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat3.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat3.webp"
   },
   {
     "id": "Battle_Armor_Grade_03_Iron_Heat",
@@ -2826,7 +2826,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp"
   },
   {
     "id": "Battle_Glider_Grade_03",
@@ -2835,7 +2835,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Super.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Super.webp"
   },
   {
     "id": "Battle_Defense_MachineGun",
@@ -2844,7 +2844,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseMachinegun.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseMachinegun.webp"
   },
   {
     "id": "FragGrenade_Dark",
@@ -2853,7 +2853,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dark.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dark.webp"
   },
   {
     "id": "SkillUnlock_Umihebi",
@@ -2862,7 +2862,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Umihebi_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_ElecPanda",
@@ -2871,7 +2871,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecPanda_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_ElecPanda_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_WeaselDragon_Fire",
@@ -2880,7 +2880,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_Fire_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_Fire_icon_normal.webp"
   },
   {
     "id": "Accessory_JumpCount_Increase1",
@@ -2889,7 +2889,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp"
   },
   {
     "id": "Battle_RangeWeapon_SemiAutoRifle",
@@ -2898,7 +2898,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp"
   },
   {
     "id": "Battle_Armor_Grade_03_Iron_Cold",
@@ -2907,7 +2907,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp"
   },
   {
     "id": "Product_Cooking_Grade_03",
@@ -2916,7 +2916,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricKitchen.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricKitchen.webp"
   },
   {
     "id": "SanityDecrease1",
@@ -2925,7 +2925,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SanityDecrease1.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SanityDecrease1.webp"
   },
   {
     "id": "ElectricHeater",
@@ -2934,7 +2934,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HeaterElectric.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HeaterElectric.webp"
   },
   {
     "id": "SkillUnlock_WhiteAlienDragon",
@@ -2943,7 +2943,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteAlienDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_WhiteAlienDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_GuardianDog",
@@ -2952,7 +2952,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GuardianDog_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GuardianDog_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_GrassMammoth_Ice",
@@ -2961,7 +2961,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_Ice_icon_normal.webp"
   },
   {
     "id": "GuildChest",
@@ -2970,7 +2970,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GuildChest.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GuildChest.webp"
   },
   {
     "id": "Battle_RangeWeapon_CompoundBow",
@@ -2979,7 +2979,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp"
   },
   {
     "id": "ReinforcedArrow",
@@ -2988,7 +2988,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ReinforcedArrow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ReinforcedArrow.webp"
   },
   {
     "id": "Product_Factory_Hard_Grade_03",
@@ -2997,7 +2997,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
   },
   {
     "id": "ElectricCooler",
@@ -3006,7 +3006,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerElectric.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerElectric.webp"
   },
   {
     "id": "FragGrenade_Dragon",
@@ -3015,7 +3015,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dragon.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dragon.webp"
   },
   {
     "id": "SkillUnlock_IceNarwhal",
@@ -3024,7 +3024,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_GhostAnglerfish_Fire",
@@ -3033,7 +3033,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_Fire_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_Fire_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_VolcanicMonster",
@@ -3042,7 +3042,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_icon_normal.webp"
   },
   {
     "id": "Battle_RangeWeapon_ShotGun_Multi",
@@ -3051,7 +3051,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp"
   },
   {
     "id": "Shield_04",
@@ -3060,7 +3060,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_04.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_04.webp"
   },
   {
     "id": "AdditionalInventory_002",
@@ -3069,7 +3069,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_002.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_002.webp"
   },
   {
     "id": "HighGrade_Processed_Wood",
@@ -3078,7 +3078,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_HighGrade_Processed_Wood.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_HighGrade_Processed_Wood.webp"
   },
   {
     "id": "Product_Medicine_Grade_02",
@@ -3087,7 +3087,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_02.webp"
   },
   {
     "id": "SkillUnlock_Suzaku",
@@ -3096,7 +3096,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Suzaku_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_VolcanicMonster_Ice",
@@ -3105,7 +3105,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_Ice_icon_normal.webp"
   },
   {
     "id": "Product_StationDeforest2",
@@ -3114,7 +3114,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest3.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest3.webp"
   },
   {
     "id": "Special_PalSphere_Grade_06",
@@ -3123,7 +3123,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Legend.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Legend.webp"
   },
   {
     "id": "Product_Ingot_Grade_03_Steal",
@@ -3132,7 +3132,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace3.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace3.webp"
   },
   {
     "id": "Bio_Battery",
@@ -3141,7 +3141,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bio_Battery.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bio_Battery.webp"
   },
   {
     "id": "Katana",
@@ -3150,7 +3150,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Katana.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Katana.webp"
   },
   {
     "id": "Battle_MeleeWeapon_Pickaxe_Steal",
@@ -3159,7 +3159,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_03.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_03.webp"
   },
   {
     "id": "Battle_MeleeWeapon_Axe_Steal",
@@ -3168,7 +3168,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_03.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_03.webp"
   },
   {
     "id": "SkillUnlock_Suzaku_Water",
@@ -3177,7 +3177,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_Water_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Suzaku_Water_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_SakuraSaurus_Water",
@@ -3186,7 +3186,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_Water_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_Water_icon_normal.webp"
   },
   {
     "id": "Glass_houseset",
@@ -3195,7 +3195,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Glass_foundation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Glass_foundation.webp"
   },
   {
     "id": "Battle_RangeWeapon_AssaultRifle",
@@ -3204,7 +3204,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp"
   },
   {
     "id": "AssaultRifleBullet",
@@ -3213,7 +3213,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_AssaultRifleBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_AssaultRifleBullet.webp"
   },
   {
     "id": "FishingRod_03_1",
@@ -3222,7 +3222,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_5.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_5.webp"
   },
   {
     "id": "CompositeDesk",
@@ -3231,7 +3231,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CompositeDesk.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CompositeDesk.webp"
   },
   {
     "id": "SkillUnlock_SkyDragon_Grass",
@@ -3240,7 +3240,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_Grass_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_Grass_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_LazyDragon",
@@ -3249,7 +3249,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_Yeti",
@@ -3258,7 +3258,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Yeti_icon_normal.webp"
   },
   {
     "id": "DecalGunSet",
@@ -3267,7 +3267,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_InkBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_InkBullet.webp"
   },
   {
     "id": "Battle_Armor_Grade_04_Steal",
@@ -3276,7 +3276,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp"
   },
   {
     "id": "Battle_Helm_Grade_05_Steal",
@@ -3285,7 +3285,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp"
   },
   {
     "id": "WorkSpeedIncrease1",
@@ -3294,7 +3294,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkSpeedIncrease1.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkSpeedIncrease1.webp"
   },
   {
     "id": "LargeLamp",
@@ -3303,7 +3303,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampStandLarge.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampStandLarge.webp"
   },
   {
     "id": "SkillUnlock_KingBahamut",
@@ -3312,7 +3312,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_KingAlpaca_Ice",
@@ -3321,7 +3321,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_Ice_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_27",
@@ -3330,7 +3330,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_LightPole01.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_LightPole01.webp"
   },
   {
     "id": "FurnitureSet_26",
@@ -3339,7 +3339,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GoalSoccer_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GoalSoccer_Iron.webp"
   },
   {
     "id": "Product_SulfurPit",
@@ -3348,7 +3348,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SulfurPit.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SulfurPit.webp"
   },
   {
     "id": "Battle_RangeWeapon_SemiAutoShotgun",
@@ -3357,7 +3357,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp"
   },
   {
     "id": "Product_WeaponFactory_Dirty_Grade_03",
@@ -3366,7 +3366,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
   },
   {
     "id": "Cake03",
@@ -3375,7 +3375,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake03.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake03.webp"
   },
   {
     "id": "AutoMealPouch_Tier5",
@@ -3384,7 +3384,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier5.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier5.webp"
   },
   {
     "id": "LargeCeilingLamp",
@@ -3393,7 +3393,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampTopLarge.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampTopLarge.webp"
   },
   {
     "id": "SkillUnlock_HadesBird_Electric",
@@ -3402,7 +3402,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_Electric_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_HadesBird_Electric_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_BlackGriffon",
@@ -3411,7 +3411,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackGriffon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlackGriffon_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_8",
@@ -3420,7 +3420,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SignExit_Ceiling_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SignExit_Ceiling_Iron.webp"
   },
   {
     "id": "Battle_Armor_Grade_04_Steal_Heat",
@@ -3429,7 +3429,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
   },
   {
     "id": "SphereModule_Sniper2",
@@ -3438,7 +3438,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Sniper2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Sniper2.webp"
   },
   {
     "id": "TransmissionTower",
@@ -3447,7 +3447,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TransmissionTower.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TransmissionTower.webp"
   },
   {
     "id": "SkillUnlock_LazyDragon_Electric",
@@ -3456,7 +3456,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_Electric_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_Electric_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_GrassGolem",
@@ -3465,7 +3465,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_CubeTurtle",
@@ -3474,7 +3474,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_11",
@@ -3483,7 +3483,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficCone01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficCone01_Iron.webp"
   },
   {
     "id": "MultiHatchingPalEgg",
@@ -3492,7 +3492,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiHatchingPalEgg.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiHatchingPalEgg.webp"
   },
   {
     "id": "BaseCampItemDispenser",
@@ -3501,7 +3501,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampItemDispenser.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampItemDispenser.webp"
   },
   {
     "id": "HugeKitchen",
@@ -3510,7 +3510,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HugeKitchen.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HugeKitchen.webp"
   },
   {
     "id": "JapaneseStyle_houseset",
@@ -3519,7 +3519,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_JapaneseStyle_foundation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_JapaneseStyle_foundation.webp"
   },
   {
     "id": "FurnitureTree_Snow",
@@ -3528,7 +3528,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Snow.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Snow.webp"
   },
   {
     "id": "FurnitureSet_12",
@@ -3537,7 +3537,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficSign01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficSign01_Iron.webp"
   },
   {
     "id": "FurnitureSet_10",
@@ -3546,7 +3546,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficBarricade01_Iron.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficBarricade01_Iron.webp"
   },
   {
     "id": "GrapplingGun4",
@@ -3555,7 +3555,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
   },
   {
     "id": "Battle_Armor_Grade_04_Steal_Cold",
@@ -3564,7 +3564,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
   },
   {
     "id": "OilPump",
@@ -3573,7 +3573,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump.webp"
   },
   {
     "id": "Plastic",
@@ -3582,7 +3582,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
   },
   {
     "id": "Computer",
@@ -3591,7 +3591,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Computer.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Computer.webp"
   },
   {
     "id": "Battle_Defense_Missile",
@@ -3600,7 +3600,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_efenseBulletLauncher_Missile.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_efenseBulletLauncher_Missile.webp"
   },
   {
     "id": "ScientistFlagSet",
@@ -3609,7 +3609,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Scientist_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Scientist_Flag.webp"
   },
   {
     "id": "ElectricGenerator_Large",
@@ -3618,7 +3618,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricGenerator_Large.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricGenerator_Large.webp"
   },
   {
     "id": "Special_PalSphere_Grade_07",
@@ -3627,7 +3627,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ultimate.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ultimate.webp"
   },
   {
     "id": "Battle_Armor_Grade_05_Plastic",
@@ -3636,7 +3636,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp"
   },
   {
     "id": "Battle_Helm_Grade_06_Plastic",
@@ -3645,7 +3645,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp"
   },
   {
     "id": "Battle_RangeWeapon_LaserRifle",
@@ -3654,7 +3654,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp"
   },
   {
     "id": "LaserBullet",
@@ -3663,7 +3663,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserBullet.webp"
   },
   {
     "id": "CoolerPalFoodBox",
@@ -3672,7 +3672,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerPalFoodBox.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerPalFoodBox.webp"
   },
   {
     "id": "SkillUnlock_Yeti_Grass",
@@ -3681,7 +3681,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_Grass_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Yeti_Grass_icon_normal.webp"
   },
   {
     "id": "OilPump02",
@@ -3690,7 +3690,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump02.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump02.webp"
   },
   {
     "id": "Battle_Glider_Grade_04",
@@ -3699,7 +3699,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Legendary.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Legendary.webp"
   },
   {
     "id": "Battle_RangeWeapon_FlameThrower",
@@ -3708,7 +3708,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp"
   },
   {
     "id": "FlamethrowerBullet",
@@ -3717,7 +3717,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_FlamethrowerBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_FlamethrowerBullet.webp"
   },
   {
     "id": "FishingBait_3_A",
@@ -3726,7 +3726,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_FishingBait_3_A.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_FishingBait_3_A.webp"
   },
   {
     "id": "SkillUnlock_BadCatgirl",
@@ -3735,7 +3735,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BadCatgirl_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BadCatgirl_icon_normal.webp"
   },
   {
     "id": "Product_QuartzPit",
@@ -3744,7 +3744,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_QuartzPit.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_QuartzPit.webp"
   },
   {
     "id": "AdditionalInventory_003",
@@ -3753,7 +3753,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_003.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_003.webp"
   },
   {
     "id": "Battle_Armor_Grade_05_Plastic_Heat",
@@ -3762,7 +3762,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp"
   },
   {
     "id": "Battle_RangeWeapon_GrenadeLauncher",
@@ -3771,7 +3771,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp"
   },
   {
     "id": "GrenadeBullet",
@@ -3780,7 +3780,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GrenadeBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GrenadeBullet.webp"
   },
   {
     "id": "FragGrenade_Super",
@@ -3789,7 +3789,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Super.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Super.webp"
   },
   {
     "id": "SkillUnlock_MoonQueen",
@@ -3798,7 +3798,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MoonQueen_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_MoonQueen_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_SumoDog",
@@ -3807,7 +3807,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SumoDog_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_SumoDog_icon_normal.webp"
   },
   {
     "id": "Unlock_Picking_Tier3",
@@ -3816,7 +3816,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking_Tier3.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking_Tier3.webp"
   },
   {
     "id": "LaserMiningTool",
@@ -3825,7 +3825,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserMiningTool.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserMiningTool.webp"
   },
   {
     "id": "Battle_Armor_Grade_05_Plastic_Cold",
@@ -3834,7 +3834,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp"
   },
   {
     "id": "Battle_RangeWeapon_GatlingGun",
@@ -3843,7 +3843,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp"
   },
   {
     "id": "GatlingBullet",
@@ -3852,7 +3852,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GatlingBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GatlingBullet.webp"
   },
   {
     "id": "IceCrusher",
@@ -3861,7 +3861,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceCrusher.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceCrusher.webp"
   },
   {
     "id": "SkillUnlock_GoldenHorse",
@@ -3870,7 +3870,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GoldenHorse_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GoldenHorse_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_WhiteDeer",
@@ -3879,7 +3879,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_icon_normal.webp"
   },
   {
     "id": "UnlockEquipmentSlot_Weapon_02",
@@ -3888,7 +3888,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_UnlockEquipmentSlot_Weapon_02.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_UnlockEquipmentSlot_Weapon_02.webp"
   },
   {
     "id": "Spear_ForestBoss",
@@ -3897,7 +3897,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss.webp"
   },
   {
     "id": "Shield_05",
@@ -3906,7 +3906,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_05.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_05.webp"
   },
   {
     "id": "Battle_Armor_Grade_05_Plastic_Weight",
@@ -3915,7 +3915,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
   },
   {
     "id": "SkillUnlock_IceSeal_Ground",
@@ -3924,7 +3924,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceSeal_Ground_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_IceSeal_Ground_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_KingBahamut_Dragon",
@@ -3933,7 +3933,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_Dragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_Dragon_icon_normal.webp"
   },
   {
     "id": "FurnitureSet_Japanese",
@@ -3942,7 +3942,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Byobu.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Byobu.webp"
   },
   {
     "id": "NinjaFlagSet",
@@ -3951,7 +3951,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ninja_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ninja_Flag.webp"
   },
   {
     "id": "Battle_RangeWeapon_HomingSphereLauncher",
@@ -3960,7 +3960,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HomingSphereLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HomingSphereLauncher.webp"
   },
   {
     "id": "Battle_RangeWeapon_GuidedMissileLauncher",
@@ -3969,7 +3969,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp"
   },
   {
     "id": "MissileBullet",
@@ -3978,7 +3978,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MissileBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MissileBullet.webp"
   },
   {
     "id": "DismantlingConveyor",
@@ -3987,7 +3987,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DismantlingConveyor.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DismantlingConveyor.webp"
   },
   {
     "id": "MedicalPalBed_05",
@@ -3996,7 +3996,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_05.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_05.webp"
   },
   {
     "id": "FurnitureTree_Cherry",
@@ -4005,7 +4005,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Cherry.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Cherry.webp"
   },
   {
     "id": "OctaviaSet02",
@@ -4014,7 +4014,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Octavia002_Armor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Octavia002_Armor.webp"
   },
   {
     "id": "SFBow",
@@ -4023,7 +4023,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp"
   },
   {
     "id": "SFArrow",
@@ -4032,7 +4032,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SFArrow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SFArrow.webp"
   },
   {
     "id": "AdditionalInventory_004",
@@ -4041,7 +4041,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_004.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_004.webp"
   },
   {
     "id": "BeamSword",
@@ -4050,7 +4050,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamSword.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamSword.webp"
   },
   {
     "id": "SkillUnlock_NightBlueHorse",
@@ -4059,7 +4059,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_FengyunDeeper_Electric",
@@ -4068,7 +4068,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_Electric_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_Electric_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_AmaterasuWolf",
@@ -4077,7 +4077,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_icon_normal.webp"
   },
   {
     "id": "PalSphere_Exotic",
@@ -4086,7 +4086,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Exotic.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Exotic.webp"
   },
   {
     "id": "SphereFactory_Black_04",
@@ -4095,7 +4095,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_04.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_04.webp"
   },
   {
     "id": "StainlessSteel",
@@ -4104,7 +4104,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
   },
   {
     "id": "BlastFurnace4",
@@ -4113,7 +4113,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace4.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace4.webp"
   },
   {
     "id": "MetalDetector",
@@ -4122,7 +4122,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_MetalDetector.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_MetalDetector.webp"
   },
   {
     "id": "SkillUnlock_BlackPuppy",
@@ -4131,7 +4131,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackPuppy_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlackPuppy_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_BlueThunderHorse",
@@ -4140,7 +4140,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueThunderHorse_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlueThunderHorse_icon_normal.webp"
   },
   {
     "id": "MultiElectricHatchingPalEgg",
@@ -4149,7 +4149,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiElectricHatchingPalEgg.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiElectricHatchingPalEgg.webp"
   },
   {
     "id": "ItemChest_04",
@@ -4158,7 +4158,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_04.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_04.webp"
   },
   {
     "id": "LaserGatlingGun",
@@ -4167,7 +4167,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp"
   },
   {
     "id": "LaserGatlingBullet",
@@ -4176,7 +4176,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserGatlingBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserGatlingBullet.webp"
   },
   {
     "id": "SFArmor",
@@ -4185,7 +4185,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
   },
   {
     "id": "Thermal_Core",
@@ -4194,7 +4194,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Thermal_Core.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Thermal_Core.webp"
   },
   {
     "id": "SkillUnlock_Umihebi_Fire",
@@ -4203,7 +4203,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_Fire_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Umihebi_Fire_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_AmaterasuWolf_Dark",
@@ -4212,7 +4212,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_Dark_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_Dark_icon_normal.webp"
   },
   {
     "id": "Shield_SF",
@@ -4221,7 +4221,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_06.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_06.webp"
   },
   {
     "id": "SFHelmet",
@@ -4230,7 +4230,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
   },
   {
     "id": "Cake04",
@@ -4239,7 +4239,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake04.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake04.webp"
   },
   {
     "id": "DarkIslandFlagSet",
@@ -4248,7 +4248,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DarkIsland_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DarkIsland_Flag.webp"
   },
   {
     "id": "SkillUnlock_Horus",
@@ -4257,7 +4257,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Horus_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_Horus_Water",
@@ -4266,7 +4266,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_Water_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Horus_Water_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_WhiteShieldDragon",
@@ -4275,7 +4275,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteShieldDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_WhiteShieldDragon_icon_normal.webp"
   },
   {
     "id": "EnergyRocketLauncher",
@@ -4284,7 +4284,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp"
   },
   {
     "id": "EnergyLauncherBullet",
@@ -4293,7 +4293,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyLauncherBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyLauncherBullet.webp"
   },
   {
     "id": "Potion_Extreme",
@@ -4302,7 +4302,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_Extreme.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_Extreme.webp"
   },
   {
     "id": "PalRevive",
@@ -4311,7 +4311,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalRevive.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalRevive.webp"
   },
   {
     "id": "MedicineFacility_03",
@@ -4320,7 +4320,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_03.webp"
   },
   {
     "id": "SkillUnlock_SaintCentaur",
@@ -4329,7 +4329,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SaintCentaur_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_SaintCentaur_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_BlackCentaur",
@@ -4338,7 +4338,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackCentaur_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlackCentaur_icon_normal.webp"
   },
   {
     "id": "Accessory_AirDash2",
@@ -4347,7 +4347,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
   },
   {
     "id": "Salvage_TreasureBoxKey02",
@@ -4356,7 +4356,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Salvage_TreasureBoxKey02.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Salvage_TreasureBoxKey02.webp"
   },
   {
     "id": "ManganeseIngot",
@@ -4365,7 +4365,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseIngot.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseIngot.webp"
   },
   {
     "id": "Factory_Hard_04",
@@ -4374,7 +4374,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
   },
   {
     "id": "SF_houseset",
@@ -4383,7 +4383,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SF_foundation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SF_foundation.webp"
   },
   {
     "id": "SkillUnlock_IceHorse",
@@ -4392,7 +4392,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_IceHorse_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_IceHorse_Dark",
@@ -4401,7 +4401,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_Dark_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_IceHorse_Dark_icon_normal.webp"
   },
   {
     "id": "CrystalPit",
@@ -4410,7 +4410,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CrystalPit.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CrystalPit.webp"
   },
   {
     "id": "EnergyShotgun",
@@ -4419,7 +4419,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyShotgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyShotgun.webp"
   },
   {
     "id": "EnergyShotgunBullet",
@@ -4428,7 +4428,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyShotgunBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyShotgunBullet.webp"
   },
   {
     "id": "WeaponFactory_Dirty_04",
@@ -4437,7 +4437,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
   },
   {
     "id": "SFArmorHeat",
@@ -4446,7 +4446,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
   },
   {
     "id": "PalDopingShot_2",
@@ -4455,7 +4455,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalDopingShot_2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalDopingShot_2.webp"
   },
   {
     "id": "GrapplingGun5",
@@ -4464,7 +4464,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp"
   },
   {
     "id": "OverheatRifle",
@@ -4473,7 +4473,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OverheatRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OverheatRifle.webp"
   },
   {
     "id": "OverheatRifleBullet",
@@ -4482,7 +4482,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_OverheatRifleBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_OverheatRifleBullet.webp"
   },
   {
     "id": "SFArmorCold",
@@ -4491,7 +4491,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
   },
   {
     "id": "Spa3",
@@ -4500,7 +4500,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa3.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa3.webp"
   },
   {
     "id": "SkillUnlock_Kirin_Ice",
@@ -4509,7 +4509,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kirin_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_Kirin_Ice_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_PoseidonOrca",
@@ -4518,7 +4518,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PoseidonOrca_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_PoseidonOrca_icon_normal.webp"
   },
   {
     "id": "IceHorseStatue",
@@ -4527,7 +4527,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceHorseStatue.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceHorseStatue.webp"
   },
   {
     "id": "Battle_RangeWeapon_RocketLauncher",
@@ -4536,7 +4536,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp"
   },
   {
     "id": "LauncherBullet",
@@ -4545,7 +4545,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ExplosiveBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ExplosiveBullet.webp"
   },
   {
     "id": "ChargeLaserRifle",
@@ -4554,7 +4554,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ChargeLaserRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ChargeLaserRifle.webp"
   },
   {
     "id": "ChargeLaserRifleBullet",
@@ -4563,7 +4563,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ChargeLaserRifleBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ChargeLaserRifleBullet.webp"
   },
   {
     "id": "SFArmorWeight",
@@ -4572,7 +4572,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
   },
   {
     "id": "SkillUnlock_KingSunfish",
@@ -4581,7 +4581,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_icon_normal.webp"
   },
   {
     "id": "Accessory_AirDash3",
@@ -4590,7 +4590,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 6,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
   },
   {
     "id": "AncientBlastFurnace",
@@ -4599,7 +4599,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientBlastFurnace.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientBlastFurnace.webp"
   },
   {
     "id": "SkyislandIngot",
@@ -4608,7 +4608,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_SkyislandIngot.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_SkyislandIngot.webp"
   },
   {
     "id": "SkillUnlock_KingSunfish_Thunder",
@@ -4617,7 +4617,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_Thunder_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_Thunder_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_ThunderFluffyBird",
@@ -4626,7 +4626,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderFluffyBird_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_ThunderFluffyBird_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_DarkMechaDragon",
@@ -4635,7 +4635,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkMechaDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_DarkMechaDragon_icon_normal.webp"
   },
   {
     "id": "WaterBuildKit",
@@ -4644,7 +4644,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_WaterBuildKit.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_WaterBuildKit.webp"
   },
   {
     "id": "PalSphere_Ancient_1",
@@ -4653,7 +4653,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ancient_1.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ancient_1.webp"
   },
   {
     "id": "SkyBow",
@@ -4662,7 +4662,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyBow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyBow.webp"
   },
   {
     "id": "SkyBowArrow",
@@ -4671,7 +4671,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyBowArrow.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyBowArrow.webp"
   },
   {
     "id": "AIcore",
@@ -4680,7 +4680,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AIcore.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AIcore.webp"
   },
   {
     "id": "AncientWorkBench",
@@ -4689,7 +4689,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
   },
   {
     "id": "Ancient_Houseset",
@@ -4698,7 +4698,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_foundation.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_foundation.webp"
   },
   {
     "id": "Spear_ForestBoss2",
@@ -4707,7 +4707,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss2.webp"
   },
   {
     "id": "SkySubmachineGun",
@@ -4716,7 +4716,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkySubmachineGun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkySubmachineGun.webp"
   },
   {
     "id": "SkySubmachineGunBullet",
@@ -4725,7 +4725,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkySubmachineGunBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkySubmachineGunBullet.webp"
   },
   {
     "id": "AncientArmor",
@@ -4734,7 +4734,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmor.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmor.webp"
   },
   {
     "id": "AncientHelmet",
@@ -4743,7 +4743,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientHelmet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientHelmet.webp"
   },
   {
     "id": "SkillUnlock_GhostDragon",
@@ -4752,7 +4752,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_icon_normal.webp"
   },
   {
     "id": "SkyShotgun",
@@ -4761,7 +4761,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyShotgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyShotgun.webp"
   },
   {
     "id": "SkyShotgunBullet",
@@ -4770,7 +4770,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyShotgunBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyShotgunBullet.webp"
   },
   {
     "id": "SphereModule_Homing",
@@ -4779,7 +4779,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Homing.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Homing.webp"
   },
   {
     "id": "FishingPond2",
@@ -4788,7 +4788,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond2.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond2.webp"
   },
   {
     "id": "SkillUnlock_GrassGolem_Dark",
@@ -4797,7 +4797,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_Dark_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_Dark_icon_normal.webp"
   },
   {
     "id": "SkyAssaultRifle",
@@ -4806,7 +4806,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyAssaultRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyAssaultRifle.webp"
   },
   {
     "id": "SkyAssaultRifleBullet",
@@ -4815,7 +4815,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyAssaultRifleBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyAssaultRifleBullet.webp"
   },
   {
     "id": "AncientCookingStove",
@@ -4824,7 +4824,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientCookingStove.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientCookingStove.webp"
   },
   {
     "id": "SkillUnlock_LegendDeer",
@@ -4833,7 +4833,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LegendDeer_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_LegendDeer_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_VolcanoDragon_Ice",
@@ -4842,7 +4842,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_Ice_icon_normal.webp"
   },
   {
     "id": "Accessory_JumpCount_Increase2",
@@ -4851,7 +4851,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 6,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp"
   },
   {
     "id": "Shield_07",
@@ -4860,7 +4860,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_07.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_07.webp"
   },
   {
     "id": "BaseCampWorkHard03",
@@ -4869,7 +4869,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard03.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard03.webp"
   },
   {
     "id": "Farm_SkillFruits",
@@ -4878,7 +4878,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Farm_SkillFruits.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Farm_SkillFruits.webp"
   },
   {
     "id": "SkyIslandFlagSet",
@@ -4887,7 +4887,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkyIsland_Flag.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkyIsland_Flag.webp"
   },
   {
     "id": "SkillUnlock_ThunderBird_Ice",
@@ -4896,7 +4896,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_Ice_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_Ice_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_IceNarwhal_Fire",
@@ -4905,7 +4905,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_Fire_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_Fire_icon_normal.webp"
   },
   {
     "id": "SkyGrenadeLauncher",
@@ -4914,7 +4914,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyGrenadeLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyGrenadeLauncher.webp"
   },
   {
     "id": "SkyGrenadeLauncherBullet",
@@ -4923,7 +4923,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyGrenadeLauncherBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyGrenadeLauncherBullet.webp"
   },
   {
     "id": "SkillUnlock_ThiefBird",
@@ -4932,7 +4932,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThiefBird_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_ThiefBird_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_LotusDragon",
@@ -4941,7 +4941,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LotusDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_LotusDragon_icon_normal.webp"
   },
   {
     "id": "SkyIslandOrePit",
@@ -4950,7 +4950,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 7,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkyIslandOrePit.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkyIslandOrePit.webp"
   },
   {
     "id": "SkyBeamSword",
@@ -4959,7 +4959,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyBeamSword.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyBeamSword.webp"
   },
   {
     "id": "Factory_Money",
@@ -4968,7 +4968,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Money.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Money.webp"
   },
   {
     "id": "Ancient_Clinic",
@@ -4977,7 +4977,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_Clinic.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_Clinic.webp"
   },
   {
     "id": "Ancient_MedicalPalBed",
@@ -4986,7 +4986,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_MedicalPalBed.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_MedicalPalBed.webp"
   },
   {
     "id": "SkillUnlock_SnowTigerBeastman",
@@ -4995,7 +4995,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SnowTigerBeastman_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_SnowTigerBeastman_icon_normal.webp"
   },
   {
     "id": "WorldTreeIngot",
@@ -5004,7 +5004,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeIngot.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeIngot.webp"
   },
   {
     "id": "PalSphere_Ancient_2",
@@ -5013,7 +5013,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ancient_2.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ancient_2.webp"
   },
   {
     "id": "AncientRelicRecycler",
@@ -5022,7 +5022,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 3,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientRelicRecycler.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientRelicRecycler.webp"
   },
   {
     "id": "Cake05",
@@ -5031,7 +5031,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake05.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake05.webp"
   },
   {
     "id": "WidePenetrateShotgun",
@@ -5040,7 +5040,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WidePenetrateShotgun.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WidePenetrateShotgun.webp"
   },
   {
     "id": "WidePenetrateShotgunBullet",
@@ -5049,7 +5049,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_WidePenetrateShotgunBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_WidePenetrateShotgunBullet.webp"
   },
   {
     "id": "AncientArmorHeat",
@@ -5058,7 +5058,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorHeat.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorHeat.webp"
   },
   {
     "id": "AncientElectricGenerator",
@@ -5067,7 +5067,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientElectricGenerator.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientElectricGenerator.webp"
   },
   {
     "id": "SkillUnlock_CubeTurtle_Neutral",
@@ -5076,7 +5076,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_Neutral_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_Neutral_icon_normal.webp"
   },
   {
     "id": "Ancient_Spa",
@@ -5085,7 +5085,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_Spa.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_Spa.webp"
   },
   {
     "id": "GasMask",
@@ -5094,7 +5094,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_GasMask.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_GasMask.webp"
   },
   {
     "id": "Accessory_ExplosionResist",
@@ -5103,7 +5103,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ExplosionResist.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ExplosionResist.webp"
   },
   {
     "id": "SkillUnlock_GhostDragon_Fire",
@@ -5112,7 +5112,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_Fire_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_Fire_icon_normal.webp"
   },
   {
     "id": "MultiElectricHatchingPalEggWithBreed",
@@ -5121,7 +5121,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 8,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiElectricHatchingPalEggWithBreed.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiElectricHatchingPalEggWithBreed.webp"
   },
   {
     "id": "DroneLauncher",
@@ -5130,7 +5130,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DroneLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DroneLauncher.webp"
   },
   {
     "id": "AncientArmorCold",
@@ -5139,7 +5139,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorCold.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorCold.webp"
   },
   {
     "id": "SkillUnlock_NightBlueHorse_Neutral",
@@ -5148,7 +5148,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_Neutral_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_Neutral_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_BlueSkyDragon",
@@ -5157,7 +5157,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueSkyDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_BlueSkyDragon_icon_normal.webp"
   },
   {
     "id": "ElectricArcAssaultRifle",
@@ -5166,7 +5166,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElectricArcAssaultRifle.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElectricArcAssaultRifle.webp"
   },
   {
     "id": "ElectricArcAssaultRifleBullet",
@@ -5175,7 +5175,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ElectricArcAssaultRifleBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ElectricArcAssaultRifleBullet.webp"
   },
   {
     "id": "AncientMultiProduct",
@@ -5184,7 +5184,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientMultiProduct.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientMultiProduct.webp"
   },
   {
     "id": "AncientFarmBlock",
@@ -5193,7 +5193,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientFarmBlock.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientFarmBlock.webp"
   },
   {
     "id": "SkillUnlock_WhiteDeer_Dark",
@@ -5202,7 +5202,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_Dark_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_Dark_icon_normal.webp"
   },
   {
     "id": "AncientArmorWeight",
@@ -5211,7 +5211,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorWeight.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorWeight.webp"
   },
   {
     "id": "Supplement",
@@ -5220,7 +5220,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Supplement.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Supplement.webp"
   },
   {
     "id": "SkillUnlock_DomeArmorDragon",
@@ -5229,7 +5229,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 4,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DomeArmorDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_DomeArmorDragon_icon_normal.webp"
   },
   {
     "id": "SkillUnlock_JetDragon",
@@ -5238,7 +5238,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_JetDragon_icon_normal.webp"
+    "image": "./assets/paldb/image/Pal/Texture/PalIcon/Normal/T_JetDragon_icon_normal.webp"
   },
   {
     "id": "JetDragonStatue",
@@ -5247,7 +5247,7 @@ export const TECHNOLOGIES = [
     "category": "建筑",
     "cost": 1,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_JetDragonStatue.webp"
+    "image": "./assets/paldb/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_JetDragonStatue.webp"
   },
   {
     "id": "BeamLauncher",
@@ -5256,7 +5256,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamLauncher.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamLauncher.webp"
   },
   {
     "id": "BeamLauncherBullet",
@@ -5265,7 +5265,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 2,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_BeamLauncherBullet.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_BeamLauncherBullet.webp"
   },
   {
     "id": "WingGlider_Fuel",
@@ -5274,7 +5274,7 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 5,
     "ancient": false,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WingGlider_Fuel.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WingGlider_Fuel.webp"
   },
   {
     "id": "WingGlider",
@@ -5283,6 +5283,6 @@ export const TECHNOLOGIES = [
     "category": "道具",
     "cost": 9,
     "ancient": true,
-    "image": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_WingGlider.webp"
+    "image": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_WingGlider.webp"
   }
 ];

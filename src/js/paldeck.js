@@ -12,7 +12,7 @@ const MAP_SIZE = { X: 8192 * 16, Y: 8192 * 16 };
 const MAP_VARIANTS = {
   main: {
     label: "帕洛斯群岛",
-    tileUrl: "https://cdn.paldb.cc/image/map8/z{z}x{x}y{y}.webp",
+    tileUrl: "./assets/paldb/image/map8/z{z}x{x}y{y}.webp",
     config: {
       minMapTextureBlockSize: MAP_SIZE,
       landScapeRealPositionMin: { X: -1099400, Y: -724400 },
@@ -21,7 +21,7 @@ const MAP_VARIANTS = {
   },
   tree: {
     label: "世界树",
-    tileUrl: "https://cdn.paldb.cc/image/treemap8/z{z}x{x}y{y}.webp",
+    tileUrl: "./assets/paldb/image/treemap8/z{z}x{x}y{y}.webp",
     config: {
       minMapTextureBlockSize: MAP_SIZE,
       landScapeRealPositionMin: { X: 347351.5, Y: -818197 },

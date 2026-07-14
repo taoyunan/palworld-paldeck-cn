@@ -295,12 +295,10 @@ function popupHtml(point, data) {
     point.cooldown ? `CD ${point.cooldown}` : "",
     point.weight ? `权重 ${point.weight}` : ""
   ].filter(Boolean);
-  const link = point.href ? `<a href="https://paldb.cc/cn/${encodeURIComponent(point.href)}" target="_blank" rel="noopener">PalDB</a>` : "";
   return `
     <div class="map-popup">
       <strong>${escapeHtml(point.item || icon.label || point.type)}</strong>
       <span>${escapeHtml(meta.join(" · "))}</span>
-      ${link}
     </div>
   `;
 }

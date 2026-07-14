@@ -1,6 +1,5 @@
 export const PAL_BREEDING = {
   "generatedAt": "2026-07-10T08:54:20.494Z",
-  "source": "https://paldb.cc/cn/Breed",
   "pals": [
     {
       "id": "green_slime",

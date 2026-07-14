@@ -4,13 +4,13 @@ export const PAL_DROPS = {
       "name": "羊毛",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     },
     {
       "name": "棉悠悠的羊肉",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp"
     }
   ],
   "cattiva": [
@@ -18,7 +18,7 @@ export const PAL_DROPS = {
       "name": "红色野莓",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
     }
   ],
   "chikipi": [
@@ -26,13 +26,13 @@ export const PAL_DROPS = {
       "name": "蛋",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp"
     },
     {
       "name": "皮皮鸡的鸡肉",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp"
     }
   ],
   "lifmunk": [
@@ -40,13 +40,13 @@ export const PAL_DROPS = {
       "name": "小麦种子",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
     },
     {
       "name": "低品质药品",
       "amount": "1",
       "chance": "20%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
     }
   ],
   "fuack": [
@@ -54,13 +54,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "fuack_ignis": [
@@ -68,19 +68,19 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "vixy": [
@@ -88,13 +88,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "celaray": [
@@ -102,7 +102,7 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "celaray_lux": [
@@ -110,7 +110,7 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "cremis": [
@@ -118,7 +118,7 @@ export const PAL_DROPS = {
       "name": "羊毛",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     }
   ],
   "croajiro": [
@@ -126,13 +126,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "布",
       "amount": "1-2",
       "chance": "25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     }
   ],
   "croajiro_noct": [
@@ -140,19 +140,19 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "布",
       "amount": "1-2",
       "chance": "25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "毒腺",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "herbil": [
@@ -160,13 +160,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "小麦种子",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
     }
   ],
   "teafant": [
@@ -174,7 +174,7 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "gumoss": [
@@ -182,19 +182,19 @@ export const PAL_DROPS = {
       "name": "野莓种子",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp"
     },
     {
       "name": "叶泥泥的叶子",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PlantSlime.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PlantSlime.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     }
   ],
   "pupperai": [
@@ -202,7 +202,7 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "clovee": [
@@ -210,7 +210,7 @@ export const PAL_DROPS = {
       "name": "野莓种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp"
     }
   ],
   "jolthog": [
@@ -218,7 +218,7 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     }
   ],
   "jolthog_cryst": [
@@ -226,7 +226,7 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "depresso": [
@@ -234,7 +234,7 @@ export const PAL_DROPS = {
       "name": "毒腺",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "pengullet": [
@@ -242,13 +242,13 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "pengullet_lux": [
@@ -256,13 +256,13 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "penking": [
@@ -270,13 +270,13 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "企丸王的羽饰",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CaptainPenguin.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CaptainPenguin.webp"
     }
   ],
   "penking_lux": [
@@ -284,13 +284,13 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "企丸王的羽饰",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CaptainPenguin.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CaptainPenguin.webp"
     }
   ],
   "hoocrates": [
@@ -298,13 +298,13 @@ export const PAL_DROPS = {
       "name": "纤维",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     },
     {
       "name": "高等技术书",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
     }
   ],
   "melpaca": [
@@ -312,13 +312,13 @@ export const PAL_DROPS = {
       "name": "羊毛",
       "amount": "2-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "kingpaca": [
@@ -326,43 +326,43 @@ export const PAL_DROPS = {
       "name": "羊毛",
       "amount": "5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     },
     {
       "name": "无之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "kingpaca_cryst": [
@@ -370,13 +370,13 @@ export const PAL_DROPS = {
       "name": "羊毛",
       "amount": "5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     },
     {
       "name": "结冰器官",
       "amount": "3-6",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "daedream": [
@@ -384,13 +384,13 @@ export const PAL_DROPS = {
       "name": "毒腺",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     }
   ],
   "tanzee": [
@@ -398,7 +398,7 @@ export const PAL_DROPS = {
       "name": "蘑菇",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
     }
   ],
   "tanzee_ignis": [
@@ -406,13 +406,13 @@ export const PAL_DROPS = {
       "name": "蘑菇",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "nox": [
@@ -420,13 +420,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "40%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     }
   ],
   "flambelle": [
@@ -434,13 +434,13 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     }
   ],
   "rooby": [
@@ -448,13 +448,13 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "mau": [
@@ -462,13 +462,13 @@ export const PAL_DROPS = {
       "name": "金币",
       "amount": "100-200",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "mau_cryst": [
@@ -476,13 +476,13 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "蓝宝石",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
     }
   ],
   "rushoar": [
@@ -490,19 +490,19 @@ export const PAL_DROPS = {
       "name": "草莽猪的猪肉",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "foxparks": [
@@ -510,13 +510,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "foxparks_cryst": [
@@ -524,13 +524,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "结冰器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "killamari": [
@@ -538,19 +538,19 @@ export const PAL_DROPS = {
       "name": "毒腺",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "勾魂鱿的触手",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "killamari_primo": [
@@ -558,13 +558,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "勾魂鱿的触手",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp"
     }
   ],
   "fuddler": [
@@ -572,7 +572,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "eikthyrdeer": [
@@ -580,55 +580,55 @@ export const PAL_DROPS = {
       "name": "紫霞鹿的鹿肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "无之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "eikthyrdeer_terra": [
@@ -636,55 +636,55 @@ export const PAL_DROPS = {
       "name": "紫霞鹿的鹿肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "地之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "direhowl": [
@@ -692,19 +692,19 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "红宝石",
       "amount": "1",
       "chance": "3%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
     },
     {
       "name": "金币",
       "amount": "10-20",
       "chance": "3%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
     }
   ],
   "caprity": [
@@ -712,19 +712,19 @@ export const PAL_DROPS = {
       "name": "灌木羊的香草肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp"
     },
     {
       "name": "红色野莓",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
     },
     {
       "name": "角",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     }
   ],
   "caprity_noct": [
@@ -732,25 +732,25 @@ export const PAL_DROPS = {
       "name": "灌木羊的香草肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp"
     },
     {
       "name": "红色野莓",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
     },
     {
       "name": "角",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "毒腺",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "swee": [
@@ -758,13 +758,13 @@ export const PAL_DROPS = {
       "name": "羊毛",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     },
     {
       "name": "毛掸儿的棉毛",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_MopBaby.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_MopBaby.webp"
     }
   ],
   "sweepa": [
@@ -772,7 +772,7 @@ export const PAL_DROPS = {
       "name": "羊毛",
       "amount": "3-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     }
   ],
   "turtacle": [
@@ -780,13 +780,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "骨头",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "turtacle_terra": [
@@ -794,13 +794,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "hangyu": [
@@ -808,13 +808,13 @@ export const PAL_DROPS = {
       "name": "纤维",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     },
     {
       "name": "小麦种子",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
     }
   ],
   "hangyu_cryst": [
@@ -822,13 +822,13 @@ export const PAL_DROPS = {
       "name": "纤维",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     },
     {
       "name": "结冰器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "woolipop": [
@@ -836,13 +836,13 @@ export const PAL_DROPS = {
       "name": "棉花糖",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     }
   ],
   "woolipop_terra": [
@@ -850,13 +850,13 @@ export const PAL_DROPS = {
       "name": "焦糖棉花糖",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet_Caramel.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet_Caramel.webp"
     },
     {
       "name": "羊毛",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     }
   ],
   "mozzarina": [
@@ -864,13 +864,13 @@ export const PAL_DROPS = {
       "name": "波霸牛的牛肉",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp"
     },
     {
       "name": "牛奶",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp"
     }
   ],
   "azurobe": [
@@ -878,49 +878,49 @@ export const PAL_DROPS = {
       "name": "布",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "水之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "azurobe_cryst": [
@@ -928,55 +928,55 @@ export const PAL_DROPS = {
       "name": "布",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "结冰器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "sparkit": [
@@ -984,7 +984,7 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     }
   ],
   "kelpsea": [
@@ -992,13 +992,13 @@ export const PAL_DROPS = {
       "name": "水灵儿的鱼肉",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "kelpsea_ignis": [
@@ -1006,13 +1006,13 @@ export const PAL_DROPS = {
       "name": "水灵儿的鱼肉",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "ribbuny": [
@@ -1020,25 +1020,25 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "1",
       "chance": "5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "姬小兔的发带",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp"
     },
     {
       "name": "野莓种子",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp"
     }
   ],
   "ribbuny_botan": [
@@ -1046,25 +1046,25 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "姬小兔的发带",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp"
     },
     {
       "name": "胡萝卜种子",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
     },
     {
       "name": "胡萝卜",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp"
     }
   ],
   "jelliette": [
@@ -1072,13 +1072,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "海月仙的水母伞",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_JellyfishFairy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_JellyfishFairy.webp"
     }
   ],
   "jellroy": [
@@ -1086,13 +1086,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "海月灵的水母伞",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_JellyfishGhost.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_JellyfishGhost.webp"
     }
   ],
   "amione": [
@@ -1100,7 +1100,7 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "gloopie": [
@@ -1108,13 +1108,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "墨沫姬的章鱼足",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_OctopusGirl.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_OctopusGirl.webp"
     }
   ],
   "gloopie_primo": [
@@ -1122,13 +1122,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "墨沫姬的章鱼足",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_OctopusGirl.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_OctopusGirl.webp"
     }
   ],
   "galeclaw": [
@@ -1136,13 +1136,13 @@ export const PAL_DROPS = {
       "name": "天擒鸟的鸟肉",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "wispaw": [
@@ -1150,55 +1150,55 @@ export const PAL_DROPS = {
       "name": "小型帕鲁之魂",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     },
     {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "地之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "nitewing": [
@@ -1206,7 +1206,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "tombat": [
@@ -1214,13 +1214,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     }
   ],
   "tocotoco": [
@@ -1228,13 +1228,13 @@ export const PAL_DROPS = {
       "name": "火药",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp"
     },
     {
       "name": "炸蛋鸟的羽毛",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ColorfulBird.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ColorfulBird.webp"
     }
   ],
   "univolt": [
@@ -1242,55 +1242,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "发电器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "角",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "univolt_cryst": [
@@ -1298,61 +1298,61 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "结冰器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "gobfin": [
@@ -1360,7 +1360,7 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "gobfin_ignis": [
@@ -1368,7 +1368,7 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "loupmoon": [
@@ -1376,7 +1376,7 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "loupmoon_cryst": [
@@ -1384,7 +1384,7 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "cawgnito": [
@@ -1392,19 +1392,19 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "毒腺",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     }
   ],
   "arsox": [
@@ -1412,13 +1412,13 @@ export const PAL_DROPS = {
       "name": "角",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "muffly": [
@@ -1426,7 +1426,7 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "bristla": [
@@ -1434,13 +1434,13 @@ export const PAL_DROPS = {
       "name": "番茄种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     }
   ],
   "cinnamoth": [
@@ -1448,19 +1448,19 @@ export const PAL_DROPS = {
       "name": "蜂蜜",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
     },
     {
       "name": "生菜种子",
       "amount": "1",
       "chance": "75%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
     },
     {
       "name": "番茄种子",
       "amount": "1",
       "chance": "75%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
     }
   ],
   "puffolt": [
@@ -1468,7 +1468,7 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     }
   ],
   "elphidran": [
@@ -1476,43 +1476,43 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "elphidran_aqua": [
@@ -1520,43 +1520,43 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "vanwyrm": [
@@ -1564,19 +1564,19 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "红宝石",
       "amount": "1-2",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
     },
     {
       "name": "金币",
       "amount": "10-40",
       "chance": "10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
     }
   ],
   "vanwyrm_cryst": [
@@ -1584,19 +1584,19 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "结冰器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "蓝宝石",
       "amount": "1",
       "chance": "2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
     }
   ],
   "felbat": [
@@ -1604,13 +1604,13 @@ export const PAL_DROPS = {
       "name": "布",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "3%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     }
   ],
   "vaelet": [
@@ -1618,19 +1618,19 @@ export const PAL_DROPS = {
       "name": "低品质药品",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
     },
     {
       "name": "番茄种子",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
     },
     {
       "name": "洋葱种子",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
     }
   ],
   "beegarde": [
@@ -1638,7 +1638,7 @@ export const PAL_DROPS = {
       "name": "蜂蜜",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
     }
   ],
   "elizabee": [
@@ -1646,13 +1646,13 @@ export const PAL_DROPS = {
       "name": "蜂蜜",
       "amount": "5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
     },
     {
       "name": "女皇蜂之杖",
       "amount": "1",
       "chance": "3%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_QueenBee.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_QueenBee.webp"
     }
   ],
   "lovander": [
@@ -1660,31 +1660,31 @@ export const PAL_DROPS = {
       "name": "蘑菇",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
     },
     {
       "name": "蛋糕",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Cake.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Cake.webp"
     },
     {
       "name": "可疑果汁",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Opium.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Opium.webp"
     },
     {
       "name": "怪异果汁",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Narcotic.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Narcotic.webp"
     },
     {
       "name": "消除记忆药",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_StatusPointResetSan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_StatusPointResetSan.webp"
     }
   ],
   "grintale": [
@@ -1692,7 +1692,7 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     }
   ],
   "tarantriss": [
@@ -1700,13 +1700,13 @@ export const PAL_DROPS = {
       "name": "纤维",
       "amount": "2-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     },
     {
       "name": "毒腺",
       "amount": "2-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "polapup": [
@@ -1714,7 +1714,7 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "polapup_terra": [
@@ -1722,55 +1722,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "地之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "leezpunk": [
@@ -1778,19 +1778,19 @@ export const PAL_DROPS = {
       "name": "铜钥匙",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey01.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey01.webp"
     },
     {
       "name": "银钥匙",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey02.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey02.webp"
     },
     {
       "name": "朋克蜥的头冠",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp"
     }
   ],
   "leezpunk_ignis": [
@@ -1798,19 +1798,19 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "银钥匙",
       "amount": "1",
       "chance": "2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey02.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey02.webp"
     },
     {
       "name": "朋克蜥的头冠",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp"
     }
   ],
   "gorirat": [
@@ -1818,49 +1818,49 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "无之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "gorirat_terra": [
@@ -1868,49 +1868,49 @@ export const PAL_DROPS = {
       "name": "金属矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
     },
     {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "地之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "surfent": [
@@ -1918,7 +1918,7 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "surfent_terra": [
@@ -1926,13 +1926,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "金属矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
     }
   ],
   "robinquill": [
@@ -1940,13 +1940,13 @@ export const PAL_DROPS = {
       "name": "土豆种薯",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp"
     },
     {
       "name": "箭",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp"
     }
   ],
   "robinquill_terra": [
@@ -1954,13 +1954,13 @@ export const PAL_DROPS = {
       "name": "土豆种薯",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp"
     },
     {
       "name": "箭",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp"
     }
   ],
   "flopie": [
@@ -1968,13 +1968,13 @@ export const PAL_DROPS = {
       "name": "低品质药品",
       "amount": "1",
       "chance": "20%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
     },
     {
       "name": "生菜种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
     }
   ],
   "wixen": [
@@ -1982,13 +1982,13 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "高等技术书",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
     }
   ],
   "wixen_noct": [
@@ -1996,13 +1996,13 @@ export const PAL_DROPS = {
       "name": "中型帕鲁之魂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "高等技术书",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
     }
   ],
   "katress": [
@@ -2010,19 +2010,19 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "暗巫猫的体毛",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp"
     },
     {
       "name": "高等技术书",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
     }
   ],
   "katress_ignis": [
@@ -2030,19 +2030,19 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "暗巫猫的体毛",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp"
     },
     {
       "name": "高等技术书",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp"
     }
   ],
   "helzephyr": [
@@ -2050,49 +2050,49 @@ export const PAL_DROPS = {
       "name": "毒腺",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "中型帕鲁之魂",
       "amount": "1",
       "chance": "3%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "helzephyr_lux": [
@@ -2100,49 +2100,49 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "中型帕鲁之魂",
       "amount": "1",
       "chance": "3%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "elgrove": [
@@ -2150,55 +2150,55 @@ export const PAL_DROPS = {
       "name": "角",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "草之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "elgrove_cryst": [
@@ -2206,61 +2206,61 @@ export const PAL_DROPS = {
       "name": "角",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "结冰器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "lunaris": [
@@ -2268,7 +2268,7 @@ export const PAL_DROPS = {
       "name": "帕鲁矿碎块",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
     }
   ],
   "fenglope": [
@@ -2276,49 +2276,49 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "无之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "fenglope_lux": [
@@ -2326,55 +2326,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dinossom": [
@@ -2382,13 +2382,13 @@ export const PAL_DROPS = {
       "name": "番茄种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
     },
     {
       "name": "生菜种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
     }
   ],
   "dinossom_lux": [
@@ -2396,13 +2396,13 @@ export const PAL_DROPS = {
       "name": "番茄种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
     },
     {
       "name": "胡萝卜种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
     }
   ],
   "bushi": [
@@ -2410,13 +2410,13 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "金属锭",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
     }
   ],
   "bushi_noct": [
@@ -2424,19 +2424,19 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "4-8",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "金属锭",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
     },
     {
       "name": "中型帕鲁之魂",
       "amount": "1-2",
       "chance": "40%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     }
   ],
   "munchill": [
@@ -2444,19 +2444,19 @@ export const PAL_DROPS = {
       "name": "肚肚鳄的鳄鱼肉",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_IceCrocodile.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Meat_IceCrocodile.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "mammorest": [
@@ -2464,55 +2464,55 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "皮革",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "森猛犸的巨兽肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "mammorest_cryst": [
@@ -2520,55 +2520,55 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "皮革",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "森猛犸的巨兽肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "finsider": [
@@ -2576,19 +2576,19 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "finsider_ignis": [
@@ -2596,19 +2596,19 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "petallia": [
@@ -2616,13 +2616,13 @@ export const PAL_DROPS = {
       "name": "美丽花朵",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "土豆种薯",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp"
     }
   ],
   "petallia_ignis": [
@@ -2630,55 +2630,55 @@ export const PAL_DROPS = {
       "name": "美丽花朵",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "火之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "leafan": [
@@ -2686,7 +2686,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "incineram": [
@@ -2694,13 +2694,13 @@ export const PAL_DROPS = {
       "name": "角",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "incineram_noct": [
@@ -2708,13 +2708,13 @@ export const PAL_DROPS = {
       "name": "角",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "dazzi": [
@@ -2722,13 +2722,13 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "雷鸣童子的云朵",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp"
     }
   ],
   "dazzi_noct": [
@@ -2736,19 +2736,19 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "雷鸣童子的云朵",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp"
     },
     {
       "name": "暗黑碎片",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     }
   ],
   "pyrin": [
@@ -2756,49 +2756,49 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "pyrin_noct": [
@@ -2806,49 +2806,49 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "relaxaurus": [
@@ -2856,49 +2856,49 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "1-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "红宝石",
       "amount": "1",
       "chance": "5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "relaxaurus_lux": [
@@ -2906,55 +2906,55 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "1-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "发电器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "蓝宝石",
       "amount": "1",
       "chance": "5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "foxcicle": [
@@ -2962,13 +2962,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "结冰器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "beakon": [
@@ -2976,43 +2976,43 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "beakon_cryst": [
@@ -3020,49 +3020,49 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "水之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "ghangler": [
@@ -3070,13 +3070,13 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "毒腺",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "ghangler_ignis": [
@@ -3084,13 +3084,13 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "rayhound": [
@@ -3098,7 +3098,7 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     }
   ],
   "rayhound_cryst": [
@@ -3106,49 +3106,49 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "水之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "menasting": [
@@ -3156,13 +3156,13 @@ export const PAL_DROPS = {
       "name": "中型帕鲁之魂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "毒腺",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "menasting_terra": [
@@ -3170,13 +3170,13 @@ export const PAL_DROPS = {
       "name": "中型帕鲁之魂",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "蓝宝石",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
     }
   ],
   "needoll": [
@@ -3184,7 +3184,7 @@ export const PAL_DROPS = {
       "name": "纤维",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     }
   ],
   "needoll_noct": [
@@ -3192,13 +3192,13 @@ export const PAL_DROPS = {
       "name": "纤维",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     },
     {
       "name": "毒腺",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "reindrix": [
@@ -3206,61 +3206,61 @@ export const PAL_DROPS = {
       "name": "严冬鹿的鹿肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "结冰器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "mossanda": [
@@ -3268,55 +3268,55 @@ export const PAL_DROPS = {
       "name": "硬木材",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "胡萝卜种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "mossanda_lux": [
@@ -3324,61 +3324,61 @@ export const PAL_DROPS = {
       "name": "硬木材",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
     },
     {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "chillet": [
@@ -3386,49 +3386,49 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "结冰器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "chillet_ignis": [
@@ -3436,49 +3436,49 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "ragnahawk": [
@@ -3486,43 +3486,43 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "5-7",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "moldron": [
@@ -3530,49 +3530,49 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "moldron_cryst": [
@@ -3580,13 +3580,13 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "palumba": [
@@ -3594,19 +3594,19 @@ export const PAL_DROPS = {
       "name": "硬木材",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
     },
     {
       "name": "洋葱种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
     },
     {
       "name": "胡萝卜种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
     }
   ],
   "digtoise": [
@@ -3614,13 +3614,13 @@ export const PAL_DROPS = {
       "name": "金属矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     }
   ],
   "broncherry": [
@@ -3628,49 +3628,49 @@ export const PAL_DROPS = {
       "name": "连理龙的恐龙肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp"
     },
     {
       "name": "洋葱种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "broncherry_aqua": [
@@ -3678,49 +3678,49 @@ export const PAL_DROPS = {
       "name": "连理龙的恐龙肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp"
     },
     {
       "name": "洋葱种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dumud": [
@@ -3728,13 +3728,13 @@ export const PAL_DROPS = {
       "name": "趴趴鲶的鱼肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     }
   ],
   "dumud_gild": [
@@ -3742,19 +3742,19 @@ export const PAL_DROPS = {
       "name": "趴趴鲶的鱼肉",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "金币",
       "amount": "100-200",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
     }
   ],
   "braloha": [
@@ -3762,61 +3762,61 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "红色野莓",
       "amount": "1-2",
       "chance": "60%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
     },
     {
       "name": "生菜种子",
       "amount": "1-2",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
     },
     {
       "name": "番茄种子",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "kitsun": [
@@ -3824,13 +3824,13 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "kitsun_noct": [
@@ -3838,19 +3838,19 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "暗黑碎片",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     }
   ],
   "blazehowl": [
@@ -3858,43 +3858,43 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "3-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "blazehowl_noct": [
@@ -3902,43 +3902,43 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "warsect": [
@@ -3946,43 +3946,43 @@ export const PAL_DROPS = {
       "name": "蜂蜜",
       "amount": "3-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
     },
     {
       "name": "地之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "warsect_terra": [
@@ -3990,7 +3990,7 @@ export const PAL_DROPS = {
       "name": "蜂蜜",
       "amount": "3-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp"
     }
   ],
   "frostplume": [
@@ -3998,7 +3998,7 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "majex": [
@@ -4006,55 +4006,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "喷火器官",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "sibelyx": [
@@ -4062,13 +4062,13 @@ export const PAL_DROPS = {
       "name": "优质的布",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "结冰器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "sibelyx_primo": [
@@ -4076,55 +4076,55 @@ export const PAL_DROPS = {
       "name": "优质的布",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "无之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "maraith": [
@@ -4132,19 +4132,19 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "15%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     },
     {
       "name": "原油",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp"
     }
   ],
   "shroomer": [
@@ -4152,55 +4152,55 @@ export const PAL_DROPS = {
       "name": "蘑菇",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
     },
     {
       "name": "红色野莓",
       "amount": "1-2",
       "chance": "60%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "草之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "shroomer_noct": [
@@ -4208,13 +4208,13 @@ export const PAL_DROPS = {
       "name": "毒腺",
       "amount": "4-8",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "不可思议的蘑菇",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp"
     }
   ],
   "icelyn": [
@@ -4222,7 +4222,7 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "gildra": [
@@ -4230,13 +4230,13 @@ export const PAL_DROPS = {
       "name": "布",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "jormuntide": [
@@ -4244,43 +4244,43 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "jormuntide_ignis": [
@@ -4288,49 +4288,49 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "suzaku": [
@@ -4338,43 +4338,43 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "suzaku_aqua": [
@@ -4382,43 +4382,43 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "水之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dazemu": [
@@ -4426,7 +4426,7 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "quivern": [
@@ -4434,43 +4434,43 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "quivern_botan": [
@@ -4478,55 +4478,55 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "红色野莓",
       "amount": "1-2",
       "chance": "60%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "lullu": [
@@ -4534,13 +4534,13 @@ export const PAL_DROPS = {
       "name": "美丽花朵",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "红色野莓",
       "amount": "1-2",
       "chance": "60%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp"
     }
   ],
   "kikit": [
@@ -4548,19 +4548,19 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "骨头",
       "amount": "1-2",
       "chance": "60%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "原油",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp"
     }
   ],
   "yakumo": [
@@ -4568,7 +4568,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "skutlass": [
@@ -4576,13 +4576,13 @@ export const PAL_DROPS = {
       "name": "鞘刀鱼排",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SwordCutlassFish.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SwordCutlassFish.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "skutlass_ignis": [
@@ -4590,55 +4590,55 @@ export const PAL_DROPS = {
       "name": "鞘刀鱼排",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SwordCutlassFish.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SwordCutlassFish.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "水之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "reptyro": [
@@ -4646,7 +4646,7 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "5-7",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     }
   ],
   "reptyro_cryst": [
@@ -4654,7 +4654,7 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "3-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "starryon": [
@@ -4662,49 +4662,49 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "暗黑碎片",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "starryon_primo": [
@@ -4712,55 +4712,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "夜星砂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "无之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "pierdon": [
@@ -4768,19 +4768,19 @@ export const PAL_DROPS = {
       "name": "金属矿石",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
     },
     {
       "name": "石炭",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp"
     },
     {
       "name": "硫磺",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp"
     }
   ],
   "pierdon_cryst": [
@@ -4788,61 +4788,61 @@ export const PAL_DROPS = {
       "name": "烈阳金属",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_SkyIslandOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_SkyIslandOre.webp"
     },
     {
       "name": "结冰器官",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "纯水晶",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "cryolinx": [
@@ -4850,7 +4850,7 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     }
   ],
   "cryolinx_terra": [
@@ -4858,7 +4858,7 @@ export const PAL_DROPS = {
       "name": "金属矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
     }
   ],
   "snugloo": [
@@ -4866,55 +4866,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "羊毛",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "wumpo": [
@@ -4922,49 +4922,49 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "1",
       "chance": "20%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "wumpo_botan": [
@@ -4972,55 +4972,55 @@ export const PAL_DROPS = {
       "name": "硬木材",
       "amount": "2-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood_Fine.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "1",
       "chance": "20%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "胡萝卜种子",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "sootseer": [
@@ -5028,19 +5028,19 @@ export const PAL_DROPS = {
       "name": "中型帕鲁之魂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "骨头",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "原油",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp"
     }
   ],
   "carnibora": [
@@ -5048,55 +5048,55 @@ export const PAL_DROPS = {
       "name": "毒腺",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "纤维",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "草之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "blazamut": [
@@ -5104,49 +5104,49 @@ export const PAL_DROPS = {
       "name": "石炭",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp"
     },
     {
       "name": "喷火器官",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "blazamut_ryu": [
@@ -5154,49 +5154,49 @@ export const PAL_DROPS = {
       "name": "石炭",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp"
     },
     {
       "name": "中型帕鲁之魂",
       "amount": "1",
       "chance": "5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dualith": [
@@ -5204,55 +5204,55 @@ export const PAL_DROPS = {
       "name": "美丽花朵",
       "amount": "3-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "地之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dualith_noct": [
@@ -5260,55 +5260,55 @@ export const PAL_DROPS = {
       "name": "不可思议的蘑菇",
       "amount": "3-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "anubis": [
@@ -5316,55 +5316,55 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "3-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "革新技术书",
       "amount": "1",
       "chance": "5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
     },
     {
       "name": "地之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "sekhmet": [
@@ -5372,49 +5372,49 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "地之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "prixter": [
@@ -5422,7 +5422,7 @@ export const PAL_DROPS = {
       "name": "毒腺",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     }
   ],
   "prixter_lux": [
@@ -5430,7 +5430,7 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     }
   ],
   "tetroise": [
@@ -5438,49 +5438,49 @@ export const PAL_DROPS = {
       "name": "红宝石",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "地之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "tetroise_primo": [
@@ -5488,55 +5488,55 @@ export const PAL_DROPS = {
       "name": "绿宝石",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Eemerald.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Eemerald.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "无之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "nyafia": [
@@ -5544,7 +5544,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "mimog": [
@@ -5552,19 +5552,19 @@ export const PAL_DROPS = {
       "name": "金币",
       "amount": "1000-2000",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
     },
     {
       "name": "汪汪币",
       "amount": "14-21",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_DogCoin.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_DogCoin.webp"
     },
     {
       "name": "修炼之书（特大）",
       "amount": "1",
       "chance": "20%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_ExpBoost_04.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_ExpBoost_04.webp"
     }
   ],
   "xenovader": [
@@ -5572,7 +5572,7 @@ export const PAL_DROPS = {
       "name": "陨石碎片",
       "amount": "3-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp"
     }
   ],
   "xenogard": [
@@ -5580,13 +5580,13 @@ export const PAL_DROPS = {
       "name": "陨石碎片",
       "amount": "5-12",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "3-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     }
   ],
   "prunelia": [
@@ -5594,19 +5594,19 @@ export const PAL_DROPS = {
       "name": "低品质药品",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "胡萝卜种子",
       "amount": "1",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
     }
   ],
   "nitemary": [
@@ -5614,7 +5614,7 @@ export const PAL_DROPS = {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     }
   ],
   "nitemary_botan": [
@@ -5622,49 +5622,49 @@ export const PAL_DROPS = {
       "name": "中型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "草之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "smokie": [
@@ -5672,7 +5672,7 @@ export const PAL_DROPS = {
       "name": "铬铁矿",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp"
     }
   ],
   "smokie_cryst": [
@@ -5680,55 +5680,55 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "中型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "omascul": [
@@ -5736,7 +5736,7 @@ export const PAL_DROPS = {
       "name": "暗黑碎片",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     }
   ],
   "whalaska": [
@@ -5744,61 +5744,61 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "珊瑚矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseOre.webp"
     },
     {
       "name": "结冰器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "whalaska_ignis": [
@@ -5806,73 +5806,73 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "珊瑚矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseOre.webp"
     },
     {
       "name": "喷火器官",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "火之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     }
   ],
   "verdash": [
@@ -5880,13 +5880,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "splatterina": [
@@ -5894,43 +5894,43 @@ export const PAL_DROPS = {
       "name": "暗黑碎片",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "gildane": [
@@ -5938,7 +5938,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "dogen": [
@@ -5946,7 +5946,7 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     }
   ],
   "bulldosu": [
@@ -5954,13 +5954,13 @@ export const PAL_DROPS = {
       "name": "骨头",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
     },
     {
       "name": "纤维",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     }
   ],
   "celesdir": [
@@ -5968,55 +5968,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "六棱晶矿",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_RainbowCrystal.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_RainbowCrystal.webp"
     },
     {
       "name": "无之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "celesdir_noct": [
@@ -6024,61 +6024,61 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "暗黑碎片",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "astegon": [
@@ -6086,49 +6086,49 @@ export const PAL_DROPS = {
       "name": "塑钢",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "knocklem": [
@@ -6136,55 +6136,55 @@ export const PAL_DROPS = {
       "name": "金属矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "地之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     }
   ],
   "knocklem_ignis": [
@@ -6192,55 +6192,55 @@ export const PAL_DROPS = {
       "name": "金属矿石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
     },
     {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "火之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "silvegis": [
@@ -6248,43 +6248,43 @@ export const PAL_DROPS = {
       "name": "铬铁矿",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "azurmane": [
@@ -6292,43 +6292,43 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "valentail": [
@@ -6336,7 +6336,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "snock": [
@@ -6344,13 +6344,13 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "snock_lux": [
@@ -6358,55 +6358,55 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "souffline": [
@@ -6414,7 +6414,7 @@ export const PAL_DROPS = {
       "name": "小麦种子",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
     }
   ],
   "lapiron": [
@@ -6422,7 +6422,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "hoodle": [
@@ -6430,13 +6430,13 @@ export const PAL_DROPS = {
       "name": "小型帕鲁之魂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     },
     {
       "name": "角",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     }
   ],
   "slowatt": [
@@ -6444,13 +6444,13 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     }
   ],
   "bakemi": [
@@ -6458,19 +6458,19 @@ export const PAL_DROPS = {
       "name": "布",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "角",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     }
   ],
   "solmora": [
@@ -6478,13 +6478,13 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "水栖帕鲁的黏液",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     }
   ],
   "solmora_lux": [
@@ -6492,55 +6492,55 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "发电器官",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "lapure": [
@@ -6548,7 +6548,7 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     }
   ],
   "eidrolon": [
@@ -6556,49 +6556,49 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "5-6",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "eidrolon_ignis": [
@@ -6606,61 +6606,61 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "5-6",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "喷火器官",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dynamoff": [
@@ -6668,7 +6668,7 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     }
   ],
   "tropicaw": [
@@ -6676,13 +6676,13 @@ export const PAL_DROPS = {
       "name": "美丽花朵",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "纤维",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
     }
   ],
   "flaracle": [
@@ -6690,55 +6690,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "3-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "喷火器官",
       "amount": "3-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "火之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "ophydia": [
@@ -6746,49 +6746,49 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dupin": [
@@ -6796,55 +6796,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "喷火器官",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "火之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "roujay": [
@@ -6852,55 +6852,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "3-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "红宝石",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "venusa": [
@@ -6908,55 +6908,55 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "毒腺",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "mycora": [
@@ -6964,55 +6964,55 @@ export const PAL_DROPS = {
       "name": "蘑菇",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp"
     },
     {
       "name": "不可思议的蘑菇",
       "amount": "2-3",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "地之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ground.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "loomen": [
@@ -7020,61 +7020,61 @@ export const PAL_DROPS = {
       "name": "优质帕鲁油",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "毒腺",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "wistella": [
@@ -7082,55 +7082,55 @@ export const PAL_DROPS = {
       "name": "夜星砂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp"
     },
     {
       "name": "小型帕鲁之魂",
       "amount": "3-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "solenne": [
@@ -7138,55 +7138,55 @@ export const PAL_DROPS = {
       "name": "暗黑碎片",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     },
     {
       "name": "高品质恢复药",
       "amount": "2",
       "chance": "50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "无之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalAwakening_Material_Neutral.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "renjishi": [
@@ -7194,55 +7194,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "喷火器官",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "火之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "aegidron": [
@@ -7250,55 +7250,55 @@ export const PAL_DROPS = {
       "name": "超高热核心",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Thermal_Core.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Thermal_Core.webp"
     },
     {
       "name": "究极帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "grizzbolt": [
@@ -7306,55 +7306,55 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "lyleen": [
@@ -7362,67 +7362,67 @@ export const PAL_DROPS = {
       "name": "高品质恢复药",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "革新技术书",
       "amount": "1",
       "chance": "10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "草之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     }
   ],
   "lyleen_noct": [
@@ -7430,67 +7430,67 @@ export const PAL_DROPS = {
       "name": "高品质恢复药",
       "amount": "1-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
     },
     {
       "name": "美丽花朵",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
     },
     {
       "name": "革新技术书",
       "amount": "1",
       "chance": "10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     }
   ],
   "orserk": [
@@ -7498,55 +7498,55 @@ export const PAL_DROPS = {
       "name": "发电器官",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "龙之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dragon.webp"
     }
   ],
   "faleris": [
@@ -7554,55 +7554,55 @@ export const PAL_DROPS = {
       "name": "喷火器官",
       "amount": "1-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "火之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Fire.webp"
     }
   ],
   "faleris_aqua": [
@@ -7610,55 +7610,55 @@ export const PAL_DROPS = {
       "name": "水栖帕鲁的黏液",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "水之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Water.webp"
     }
   ],
   "shadowbeak": [
@@ -7666,61 +7666,61 @@ export const PAL_DROPS = {
       "name": "塑钢",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
     },
     {
       "name": "碳纤维",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
     },
     {
       "name": "革新技术书",
       "amount": "1",
       "chance": "10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "30-50",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "4-8",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "2-3",
       "chance": "Lv.80 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.80 25%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "selyne": [
@@ -7728,61 +7728,61 @@ export const PAL_DROPS = {
       "name": "优质的布",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
     },
     {
       "name": "蓝宝石",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     },
     {
       "name": "暗之辉石",
       "amount": "10-20",
       "chance": "Lv.80 100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Dark.webp"
     }
   ],
   "bastigor": [
@@ -7790,55 +7790,55 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "结冰器官",
       "amount": "2-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "冰之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Ice.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "shaolong": [
@@ -7846,61 +7846,61 @@ export const PAL_DROPS = {
       "name": "角",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "雷之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Electric.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "silvance": [
@@ -7908,55 +7908,55 @@ export const PAL_DROPS = {
       "name": "究极帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
     },
     {
       "name": "古代文明核心",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "草之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "dandilord": [
@@ -7964,61 +7964,61 @@ export const PAL_DROPS = {
       "name": "究极帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
     },
     {
       "name": "古代文明核心",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp"
     },
     {
       "name": "毒腺",
       "amount": "4-5",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
     },
     {
       "name": "世界树圣水",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeHolyWater.webp"
     },
     {
       "name": "草之辉石",
       "amount": "1-3",
       "chance": "Lv.70 50%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalAwakening_Material_Grass.webp"
     },
     {
       "name": "腐朽的古代文明遗物",
       "amount": "1-10",
       "chance": "Lv.70 10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_1.webp"
     },
     {
       "name": "沉眠的古代文明遗物",
       "amount": "1-5",
       "chance": "Lv.70 5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_2.webp"
     },
     {
       "name": "漂亮的古代文明遗物",
       "amount": "1-3",
       "chance": "Lv.70 3.33%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_3.webp"
     },
     {
       "name": "发光的古代文明遗物",
       "amount": "1-2",
       "chance": "Lv.70 2.5%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_4.webp"
     },
     {
       "name": "闪耀的古代文明遗物",
       "amount": "1",
       "chance": "Lv.70 2%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeRelic_5.webp"
     }
   ],
   "bellanoir": [
@@ -8026,7 +8026,7 @@ export const PAL_DROPS = {
       "name": "暗黑碎片",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     }
   ],
   "bellanoir_libero": [
@@ -8034,13 +8034,13 @@ export const PAL_DROPS = {
       "name": "暗黑碎片",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
     },
     {
       "name": "高品质恢复药",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp"
     }
   ],
   "xenolord": [
@@ -8048,7 +8048,7 @@ export const PAL_DROPS = {
       "name": "陨石碎片",
       "amount": "7-15",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp"
     }
   ],
   "hartalis": [
@@ -8056,19 +8056,19 @@ export const PAL_DROPS = {
       "name": "角",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
     },
     {
       "name": "皮革",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "30%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     }
   ],
   "paladius": [
@@ -8076,19 +8076,19 @@ export const PAL_DROPS = {
       "name": "六棱晶锭",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
     },
     {
       "name": "钻石",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     }
   ],
   "necromus": [
@@ -8096,19 +8096,19 @@ export const PAL_DROPS = {
       "name": "六棱晶锭",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
     },
     {
       "name": "钻石",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     }
   ],
   "frostallion": [
@@ -8116,13 +8116,13 @@ export const PAL_DROPS = {
       "name": "结冰器官",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
     },
     {
       "name": "钻石",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
     }
   ],
   "frostallion_noct": [
@@ -8130,13 +8130,13 @@ export const PAL_DROPS = {
       "name": "钻石",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     }
   ],
   "neptilius": [
@@ -8144,25 +8144,25 @@ export const PAL_DROPS = {
       "name": "珊瑚矿石",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ManganeseOre.webp"
     },
     {
       "name": "六棱晶锭",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
     },
     {
       "name": "钻石",
       "amount": "1",
       "chance": "30%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     }
   ],
   "jetragon": [
@@ -8170,25 +8170,25 @@ export const PAL_DROPS = {
       "name": "烈阳金属",
       "amount": "10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_SkyIslandOre.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_SkyIslandOre.webp"
     },
     {
       "name": "超高热核心",
       "amount": "1-2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Thermal_Core.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Thermal_Core.webp"
     },
     {
       "name": "钻石",
       "amount": "1",
       "chance": "30%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
     },
     {
       "name": "大型帕鲁之魂",
       "amount": "1",
       "chance": "1%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
     }
   ],
   "panthalus": [
@@ -8196,13 +8196,13 @@ export const PAL_DROPS = {
       "name": "钻石",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
     },
     {
       "name": "究极帕鲁之魂",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
     }
   ],
   "astralym": [
@@ -8210,13 +8210,13 @@ export const PAL_DROPS = {
       "name": "皮革",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
     },
     {
       "name": "优质帕鲁油",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
     }
   ],
   "green_slime": [
@@ -8224,7 +8224,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "blue_slime": [
@@ -8232,7 +8232,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "red_slime": [
@@ -8240,7 +8240,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "purple_slime": [
@@ -8248,7 +8248,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "2-3",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "illuminant_slime": [
@@ -8256,7 +8256,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "rainbow_slime": [
@@ -8264,7 +8264,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "5-10",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "enchanted_sword": [
@@ -8272,7 +8272,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "cave_bat": [
@@ -8280,7 +8280,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "illuminant_bat": [
@@ -8288,7 +8288,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "2-4",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ],
   "eye_of_cthulhu": [
@@ -8296,13 +8296,13 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "2",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     },
     {
       "name": "克苏鲁之眼面具",
       "amount": "1",
       "chance": "10%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_YakushimaHeadEquip006.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_YakushimaHeadEquip006.webp"
     }
   ],
   "demon_eye": [
@@ -8310,7 +8310,7 @@ export const PAL_DROPS = {
       "name": "神圣锭",
       "amount": "1",
       "chance": "100%",
-      "icon": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
+      "icon": "./assets/paldb/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_YakushimaIngot001.webp"
     }
   ]
 };

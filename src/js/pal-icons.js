@@ -1,15 +1,15 @@
 export const IMAGE_FALLBACK = "./src/assets/paldeck/pal-placeholder.svg";
 
 export const ELEMENT_ICONS = {
-  "无属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_00.webp",
-  "火属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_01.webp",
-  "水属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_02.webp",
-  "雷属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_03.webp",
-  "草属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_04.webp",
-  "暗属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_05.webp",
-  "地属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_06.webp",
-  "龙属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_07.webp",
-  "冰属性": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_Icon_element_s_08.webp"
+  "无属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_00.webp",
+  "火属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_01.webp",
+  "水属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_02.webp",
+  "雷属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_03.webp",
+  "草属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_04.webp",
+  "暗属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_05.webp",
+  "地属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_06.webp",
+  "龙属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_07.webp",
+  "冰属性": "./assets/paldb/image/Pal/Texture/UI/InGame/T_Icon_element_s_08.webp"
 };
 
 export const ELEMENT_CLASS_NAMES = {
