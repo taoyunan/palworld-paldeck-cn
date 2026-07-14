@@ -1548,6 +1548,31 @@ select:focus {
   background: #f5faf7;
 }
 
+.breed-route-toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 4px;
+}
+
+.breed-route-toggle-row button {
+  min-height: 38px;
+  border: 1px solid rgba(36, 107, 86, 0.28);
+  border-radius: 7px;
+  background: #f0f7f3;
+  color: var(--green);
+  cursor: pointer;
+  padding: 0 14px;
+  font-weight: 900;
+}
+
+.breed-route-toggle-row button:hover,
+.breed-route-toggle-row button:focus-visible,
+.breed-route-toggle-row button.active {
+  border-color: rgba(36, 107, 86, 0.5);
+  background: #e4f3eb;
+  outline: none;
+}
+
 .breed-route-inline {
   display: grid;
   gap: 12px;
@@ -2294,6 +2319,21 @@ select:focus {
 
 .breed-console-page .breed-route-inline {
   border-top-color: rgba(155, 203, 211, 0.3);
+}
+
+.breed-console-page .breed-route-toggle-row button {
+  border-color: rgba(18, 231, 242, 0.34);
+  border-radius: 2px;
+  background: rgba(18, 231, 242, 0.1);
+  color: #d9faff;
+}
+
+.breed-console-page .breed-route-toggle-row button:hover,
+.breed-console-page .breed-route-toggle-row button:focus-visible,
+.breed-console-page .breed-route-toggle-row button.active {
+  border-color: var(--tech-cyan, #12e7f2);
+  background: rgba(18, 231, 242, 0.18);
+  box-shadow: inset 0 -3px 0 var(--tech-cyan, #12e7f2), 0 0 12px rgba(18, 231, 242, 0.22);
 }
 
 .breed-console-page .breed-route-layout {

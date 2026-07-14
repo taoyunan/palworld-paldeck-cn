@@ -20,6 +20,8 @@ const singleParentCount = document.querySelector("#singleParentCount");
 const breedRouteCount = document.querySelector("#breedRouteCount");
 const useCurrentParentsButton = document.querySelector("#useCurrentParents");
 const clearOwnedPalsButton = document.querySelector("#clearOwnedPals");
+const toggleBreedRouteButton = document.querySelector("#toggleBreedRoute");
+const breedRouteInline = document.querySelector("#breedRouteInline");
 
 const palById = new Map(PALS.map((pal) => [pal.id, pal]));
 const pairToChild = new Map();
@@ -27,6 +29,7 @@ const childToPairs = new Map();
 const parentToCombos = new Map();
 const ownedPalIds = new Set();
 const palSelectWidgets = new Map();
+let isBreedRouteOpen = false;
 
 function displayNo(pal) {
   return pal?.no || "联动";
@@ -500,8 +503,17 @@ function renderBreedRoute() {
 }
 
 function renderRoutePlanner() {
+  if (!isBreedRouteOpen) return;
   renderOwnedPalList();
   renderBreedRoute();
+}
+
+function setBreedRouteOpen(open) {
+  isBreedRouteOpen = open;
+  breedRouteInline.hidden = !open;
+  toggleBreedRouteButton.setAttribute("aria-expanded", String(open));
+  toggleBreedRouteButton.classList.toggle("active", open);
+  if (open) renderRoutePlanner();
 }
 
 function applyInitialValues() {
@@ -556,7 +568,7 @@ breedDataCount.textContent = `${PAL_BREEDING.combos.length} 组本地数据`;
 
 targetChildSelect.addEventListener("change", () => {
   renderParentCombos();
-  renderBreedRoute();
+  if (isBreedRouteOpen) renderBreedRoute();
   updateUrl();
 });
 parentComboSearch.addEventListener("input", renderParentCombos);
@@ -586,6 +598,9 @@ clearOwnedPalsButton.addEventListener("click", () => {
   ownedPalIds.clear();
   renderRoutePlanner();
   updateUrl();
+});
+toggleBreedRouteButton.addEventListener("click", () => {
+  setBreedRouteOpen(!isBreedRouteOpen);
 });
 document.addEventListener("click", (event) => {
   if (!event.target.closest(".pal-select")) closePalSelects();
