@@ -2,6 +2,7 @@ import { MAP_DATABASE } from "./data/maps.js";
 
 const MAP_SIZE = { X: 8192 * 16, Y: 8192 * 16 };
 const DEFAULT_TYPES = new Set(["Alpha Pal", "Region", "Fast Travel", "Dungeon", "Black Marketeer"]);
+const PROMINENT_TYPES = new Set(["Alpha Pal", "Tower", "Fast Travel", "Dungeon", "Region", "Black Marketeer"]);
 const CATEGORY_ORDER = ["Locations", "Enemies", "Resource", "Mine", "Eggs", "Fishing", "Collectibles", "NPCs", "Oilrig", "Other"];
 const CATEGORY_LABELS = {
   Collectibles: "收集品",
@@ -224,13 +225,24 @@ function groupedCategoryEntries(data) {
   });
 }
 
+function mapIconHtml(image, label = "", extraClass = "") {
+  return `
+    <span class="map-icon-ring${extraClass ? ` ${extraClass}` : ""}">
+      ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(label)}">` : ""}
+    </span>
+  `;
+}
+
 function markerIcon(point, data) {
   const icon = data.icons[point.type] || {};
   const image = point.icon || icon.icon;
   if (!image) return null;
-  const size = Math.max(24, Math.min(34, Number(icon.width || 30)));
-  return L.icon({
-    iconUrl: image,
+  const isBoss = point.type === "Alpha Pal";
+  const isProminent = PROMINENT_TYPES.has(point.type);
+  const size = isBoss ? 46 : isProminent ? 42 : 32;
+  return L.divIcon({
+    className: `map-marker-icon${isProminent ? " prominent" : ""}${isBoss ? " boss" : ""}`,
+    html: mapIconHtml(image, point.item || typeLabel(point.type, icon), isBoss ? "boss" : isProminent ? "prominent" : ""),
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
     popupAnchor: [0, -size / 2]
@@ -238,11 +250,13 @@ function markerIcon(point, data) {
 }
 
 function fallbackMarker(latLng, point) {
+  const isBoss = point.type === "Alpha Pal";
+  const isProminent = PROMINENT_TYPES.has(point.type);
   return L.circleMarker(latLng, {
-    radius: point.type === "Region" ? 5 : 6.5,
-    weight: 1.8,
+    radius: isBoss ? 10 : isProminent ? 8.5 : 6.5,
+    weight: isProminent ? 2.4 : 1.8,
     color: "#0b1920",
-    fillColor: point.type === "Region" ? "#8df6ff" : "#ffb52e",
+    fillColor: isBoss ? "#ff4f8b" : isProminent ? "#8df6ff" : "#ffb52e",
     fillOpacity: 0.92
   });
 }
@@ -278,7 +292,7 @@ function renderCategories() {
           const label = typeLabel(entry.type, entry.icon);
           return `
             <button type="button" class="map-category-button${state.activeTypes.has(entry.type) ? " active" : ""}" data-type="${escapeHtml(entry.type)}">
-              ${entry.icon.icon ? `<img src="${escapeHtml(entry.icon.icon)}" alt="">` : "<span></span>"}
+              ${mapIconHtml(entry.icon.icon, label)}
               <span>${escapeHtml(label)}</span>
               <small>${entry.count}</small>
             </button>

@@ -129,7 +129,7 @@
 .map-category-button {
   position: relative;
   display: grid;
-  grid-template-columns: 30px minmax(0, 1fr) auto;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
   width: 100%;
   min-height: 44px;
   align-items: center;
@@ -168,11 +168,36 @@
   box-shadow: 0 0 9px var(--tech-cyan);
 }
 
-.map-category-button img {
-  width: 26px;
-  height: 26px;
+.map-icon-ring {
+  display: inline-grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 2px solid rgba(236, 253, 255, 0.88);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.18), transparent 30%),
+    rgba(9, 43, 54, 0.96);
+  box-shadow:
+    inset 0 0 0 1px rgba(27, 88, 104, 0.92),
+    0 3px 8px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+}
+
+.map-icon-ring img {
+  width: 22px;
+  height: 22px;
   object-fit: contain;
-  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.35));
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.42));
+}
+
+.map-category-button.active .map-icon-ring,
+.map-category-button:hover .map-icon-ring,
+.map-category-button:focus-visible .map-icon-ring {
+  border-color: #fff;
+  box-shadow:
+    inset 0 0 0 1px rgba(31, 126, 147, 0.95),
+    0 0 12px rgba(18, 231, 242, 0.36);
 }
 
 .map-category-button span:nth-child(2) {
@@ -219,6 +244,66 @@
   border-color: rgba(255, 255, 255, 0.18);
   background: rgba(22, 30, 38, 0.92);
   color: #fff;
+}
+
+.map-marker-icon {
+  background: transparent;
+  border: 0;
+}
+
+.map-marker-icon .map-icon-ring {
+  width: 32px;
+  height: 32px;
+  border-width: 2px;
+  border-color: rgba(248, 253, 255, 0.96);
+  background:
+    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.22), transparent 28%),
+    rgba(8, 37, 48, 0.96);
+  box-shadow:
+    inset 0 0 0 1px rgba(37, 100, 117, 0.98),
+    0 0 0 1px rgba(4, 16, 20, 0.64),
+    0 5px 11px rgba(0, 0, 0, 0.48);
+}
+
+.map-marker-icon .map-icon-ring img {
+  width: 24px;
+  height: 24px;
+}
+
+.map-marker-icon.prominent .map-icon-ring {
+  width: 42px;
+  height: 42px;
+  border-width: 3px;
+  border-color: #f7ffff;
+  box-shadow:
+    inset 0 0 0 1px rgba(40, 122, 144, 0.96),
+    0 0 0 1px rgba(4, 16, 20, 0.74),
+    0 0 14px rgba(18, 231, 242, 0.38),
+    0 7px 15px rgba(0, 0, 0, 0.54);
+}
+
+.map-marker-icon.prominent .map-icon-ring img {
+  width: 31px;
+  height: 31px;
+}
+
+.map-marker-icon.boss .map-icon-ring {
+  width: 46px;
+  height: 46px;
+  border-color: #fff;
+  background:
+    radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.24), transparent 28%),
+    rgba(27, 35, 55, 0.98);
+  box-shadow:
+    inset 0 0 0 1px rgba(114, 202, 217, 0.92),
+    0 0 0 1px rgba(4, 16, 20, 0.74),
+    0 0 16px rgba(255, 79, 139, 0.46),
+    0 8px 17px rgba(0, 0, 0, 0.58);
+}
+
+.map-marker-icon.boss .map-icon-ring img {
+  width: 35px;
+  height: 35px;
 }
 
 .map-popup {
