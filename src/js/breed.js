@@ -28,6 +28,7 @@ const pairToChild = new Map();
 const childToPairs = new Map();
 const parentToCombos = new Map();
 const ownedPalIds = new Set();
+const palSelectWidgets = new Map();
 
 function displayNo(pal) {
   return pal?.no || "联动";
@@ -216,6 +217,86 @@ function fillSelect(select, selectedId = "") {
   if (selectedId && palById.has(selectedId)) select.value = selectedId;
 }
 
+function palSelectLabel(palId) {
+  const pal = palById.get(palId);
+  if (!pal) return "";
+  return `
+    ${imageTag(pal.image, pal.name)}
+    <span>
+      <strong>${escapeHtml(pal.name)}</strong>
+      <em>${escapeHtml(displayNo(pal))}</em>
+    </span>
+  `;
+}
+
+function updatePalSelectWidget(select) {
+  const widget = palSelectWidgets.get(select);
+  if (!widget) return;
+  widget.trigger.innerHTML = `${palSelectLabel(select.value)}<i aria-hidden="true"></i>`;
+  widget.menu.querySelectorAll("[data-value]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.value === select.value);
+  });
+}
+
+function closePalSelects(except = null) {
+  palSelectWidgets.forEach((widget) => {
+    if (widget.root !== except) widget.root.classList.remove("open");
+  });
+}
+
+function enhancePalSelect(select) {
+  if (palSelectWidgets.has(select)) {
+    updatePalSelectWidget(select);
+    return;
+  }
+
+  const root = document.createElement("div");
+  root.className = "pal-select";
+  root.dataset.for = select.id;
+
+  const trigger = document.createElement("button");
+  trigger.type = "button";
+  trigger.className = "pal-select-trigger";
+  trigger.setAttribute("aria-haspopup", "listbox");
+
+  const menu = document.createElement("div");
+  menu.className = "pal-select-menu";
+  menu.setAttribute("role", "listbox");
+
+  menu.innerHTML = [...PALS].sort(sortPals).map((pal) => `
+    <button type="button" role="option" data-value="${escapeHtml(pal.id)}">
+      ${palSelectLabel(pal.id)}
+    </button>
+  `).join("");
+
+  root.append(trigger, menu);
+  select.classList.add("pal-select-native");
+  select.insertAdjacentElement("afterend", root);
+
+  trigger.addEventListener("click", () => {
+    const willOpen = !root.classList.contains("open");
+    closePalSelects(root);
+    root.classList.toggle("open", willOpen);
+  });
+
+  menu.addEventListener("click", (event) => {
+    const option = event.target.closest("[data-value]");
+    if (!option) return;
+    select.value = option.dataset.value;
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+    root.classList.remove("open");
+    updatePalSelectWidget(select);
+  });
+
+  select.addEventListener("change", () => updatePalSelectWidget(select));
+  palSelectWidgets.set(select, { root, trigger, menu });
+  updatePalSelectWidget(select);
+}
+
+function enhancePalSelects() {
+  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect].forEach((select) => enhancePalSelect(select));
+}
+
 function palMini(palId, extraClass = "") {
   const pal = palById.get(palId);
   if (!pal) return "";
@@ -290,7 +371,8 @@ function ownedPalOption(pal) {
       <input type="checkbox" value="${escapeHtml(pal.id)}"${checked}>
       ${imageTag(pal.image, pal.name)}
       <span>
-        <strong>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}</strong>
+        <strong>${escapeHtml(pal.name)}</strong>
+        <em>${escapeHtml(displayNo(pal))}</em>
       </span>
     </label>
   `;
@@ -481,6 +563,7 @@ function renderAll() {
 
 buildIndexes();
 applyInitialValues();
+enhancePalSelects();
 breedDataCount.textContent = `${PAL_BREEDING.combos.length} 组本地数据`;
 
 [parentASelect, parentBSelect].forEach((select) => {
@@ -522,6 +605,12 @@ clearOwnedPalsButton.addEventListener("click", () => {
   ownedPalIds.clear();
   renderRoutePlanner();
   updateUrl();
+});
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".pal-select")) closePalSelects();
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closePalSelects();
 });
 
 renderAll();
