@@ -1,11 +1,13 @@
 import { PALS } from "./data/pals.js";
 import { PAL_BREEDING } from "./data/pal-breeding.js";
+import { VERSION_1_NEW_IDS } from "./data/pal-version-tags.js";
 import { escapeHtml, imageTag } from "./pal-icons.js";
 
 const parentASelect = document.querySelector("#parentA");
 const parentBSelect = document.querySelector("#parentB");
 const targetChildSelect = document.querySelector("#targetChild");
 const parentComboSearch = document.querySelector("#parentComboSearch");
+const singleParentSelect = document.querySelector("#singleParent");
 const ownedPalSearch = document.querySelector("#ownedPalSearch");
 const childResult = document.querySelector("#childResult");
 const parentCombos = document.querySelector("#parentCombos");
@@ -38,12 +40,28 @@ function palSearchText(pal) {
   return `${pal.no || ""} ${pal.name || ""} ${pal.englishName || ""}`.toLowerCase();
 }
 
+function versionBadge(palId) {
+  return VERSION_1_NEW_IDS.has(palId) ? `<em class="version-badge">1.0新增</em>` : "";
+}
+
 function sortPals(left, right) {
   const leftNo = left.no || "9999";
   const rightNo = right.no || "9999";
   const noCompare = leftNo.localeCompare(rightNo, "zh-Hans-CN", { numeric: true });
   if (noCompare) return noCompare;
   return left.name.localeCompare(right.name, "zh-Hans-CN");
+}
+
+function sortedPals(pals = PALS) {
+  return [...pals].sort(sortPals);
+}
+
+function targetChildOptions(query = "") {
+  const normalizedQuery = query.trim().toLowerCase();
+  return sortedPals(PALS.filter((pal) => {
+    if (!childToPairs.has(pal.id)) return false;
+    return !normalizedQuery || palSearchText(pal).includes(normalizedQuery);
+  }));
 }
 
 function pairKey(parentA, parentB) {
@@ -208,13 +226,17 @@ function recommendedPlans(targetId, ownedSet, limit = 5) {
     .slice(0, limit);
 }
 
-function fillSelect(select, selectedId = "") {
-  const options = [...PALS].sort(sortPals).map((pal) => {
+function fillSelect(select, selectedId = "", pals = sortedPals()) {
+  const options = pals.map((pal) => {
     const prefix = pal.no ? `${pal.no} ` : "";
     return `<option value="${escapeHtml(pal.id)}">${escapeHtml(prefix + pal.name)}</option>`;
   });
   select.innerHTML = options.join("");
-  if (selectedId && palById.has(selectedId)) select.value = selectedId;
+  if (selectedId && pals.some((pal) => pal.id === selectedId)) {
+    select.value = selectedId;
+  } else if (pals[0]) {
+    select.value = pals[0].id;
+  }
 }
 
 function palSelectLabel(palId) {
@@ -223,7 +245,7 @@ function palSelectLabel(palId) {
   return `
     ${imageTag(pal.image, pal.name)}
     <span>
-      <strong>${escapeHtml(pal.name)}</strong>
+      <strong>${escapeHtml(pal.name)}${versionBadge(pal.id)}</strong>
       <em>${escapeHtml(displayNo(pal))}</em>
     </span>
   `;
@@ -236,6 +258,18 @@ function updatePalSelectWidget(select) {
   widget.menu.querySelectorAll("[data-value]").forEach((button) => {
     button.classList.toggle("active", button.dataset.value === select.value);
   });
+}
+
+function updatePalSelectOptions(select, pals, selectedId = select.value) {
+  fillSelect(select, selectedId, pals);
+  const widget = palSelectWidgets.get(select);
+  if (!widget) return;
+  widget.menu.innerHTML = pals.map((pal) => `
+    <button type="button" role="option" data-value="${escapeHtml(pal.id)}">
+      ${palSelectLabel(pal.id)}
+    </button>
+  `).join("");
+  updatePalSelectWidget(select);
 }
 
 function closePalSelects(except = null) {
@@ -263,7 +297,8 @@ function enhancePalSelect(select) {
   menu.className = "pal-select-menu";
   menu.setAttribute("role", "listbox");
 
-  menu.innerHTML = [...PALS].sort(sortPals).map((pal) => `
+  const options = select === targetChildSelect ? targetChildOptions(parentComboSearch.value) : sortedPals();
+  menu.innerHTML = options.map((pal) => `
     <button type="button" role="option" data-value="${escapeHtml(pal.id)}">
       ${palSelectLabel(pal.id)}
     </button>
@@ -294,7 +329,7 @@ function enhancePalSelect(select) {
 }
 
 function enhancePalSelects() {
-  [parentASelect, parentBSelect, targetChildSelect].forEach((select) => enhancePalSelect(select));
+  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect].forEach((select) => enhancePalSelect(select));
 }
 
 function palMini(palId, extraClass = "") {
@@ -305,7 +340,7 @@ function palMini(palId, extraClass = "") {
     <a class="breed-pal-mini ${extraClass}" href="./paldeck.html?pal=${encodeURIComponent(pal.id)}">
       ${imageTag(pal.image, pal.name)}
       <span>
-        <strong>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}</strong>
+        <strong>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}${versionBadge(pal.id)}</strong>
       </span>
     </a>
   `;
@@ -320,7 +355,7 @@ function palResultCard(palId) {
       ${imageTag(pal.image, pal.name)}
       <div>
         <p class="eyebrow">子代</p>
-        <h2>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}</h2>
+        <h2>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}${versionBadge(pal.id)}</h2>
         <p class="breed-result-note">当前亲代组合的配种结果</p>
         <a href="./paldeck.html?pal=${encodeURIComponent(pal.id)}">查看图鉴资料</a>
       </div>
@@ -328,23 +363,24 @@ function palResultCard(palId) {
   `;
 }
 
-function comboMatchesQuery(combo, query) {
-  if (!query) return true;
-  return [combo.parentA, combo.parentB, combo.child]
-    .map((id) => palById.get(id))
-    .filter(Boolean)
-    .some((pal) => palSearchText(pal).includes(query));
-}
-
 function comboRow(combo, mode = "parents") {
-  const child = mode === "child" ? combo.child : null;
+  if (mode === "single") {
+    return `
+      <article class="breed-combo-row single-parent">
+        ${palMini(combo.parentB)}
+        <span class="breed-operator">=</span>
+        ${palMini(combo.child, "child")}
+      </article>
+    `;
+  }
+
   return `
     <article class="breed-combo-row">
       ${palMini(combo.parentA)}
       <span class="breed-operator">+</span>
       ${palMini(combo.parentB)}
       <span class="breed-operator">=</span>
-      ${palMini(child || combo.child, "child")}
+      ${palMini(combo.child, "child")}
     </article>
   `;
 }
@@ -442,16 +478,24 @@ function renderChildResult() {
 
 function renderParentCombos() {
   const child = targetChildSelect.value;
-  const query = parentComboSearch.value.trim().toLowerCase();
-  const combos = (childToPairs.get(child) || []).filter((combo) => comboMatchesQuery(combo, query));
+  const combos = child ? (childToPairs.get(child) || []) : [];
 
   parentComboCount.textContent = `${combos.length} 组`;
   parentCombos.innerHTML = combos.map((combo) => comboRow(combo)).join("")
-    || `<p class="empty list-empty">没有匹配的父母组合。</p>`;
+    || `<p class="empty list-empty">没有匹配的子代或父母组合。</p>`;
+}
+
+function renderTargetChildFilter() {
+  const current = targetChildSelect.value;
+  const options = targetChildOptions(parentComboSearch.value);
+  updatePalSelectOptions(targetChildSelect, options, current);
+  renderParentCombos();
+  if (isBreedRouteOpen) renderBreedRoute();
+  updateUrl();
 }
 
 function renderSingleParentResults() {
-  const parent = parentASelect.value;
+  const parent = singleParentSelect.value;
   const combos = [...new Map((parentToCombos.get(parent) || []).map((combo) => {
     const otherParent = combo.parentA === parent ? combo.parentB : combo.parentA;
     return [`${otherParent}+${combo.child}`, { parentA: parent, parentB: otherParent, child: combo.child }];
@@ -462,11 +506,16 @@ function renderSingleParentResults() {
   });
 
   singleParentCount.textContent = `${combos.length} 组`;
-  singleParentResults.innerHTML = combos.map((combo) => comboRow(combo, "child")).join("")
+  singleParentResults.innerHTML = combos.map((combo) => comboRow(combo, "single")).join("")
     || `<p class="empty list-empty">没有可配结果。</p>`;
 }
 
-function renderOwnedPalList() {
+function updateOwnedPalCount() {
+  ownedPalCount.textContent = `已选 ${ownedPalIds.size} 只`;
+}
+
+function renderOwnedPalList({ preserveScroll = false } = {}) {
+  const scrollTop = preserveScroll ? ownedPalList.scrollTop : 0;
   const query = ownedPalSearch.value.trim().toLowerCase();
   const pals = [...PALS]
     .sort(sortPals)
@@ -474,7 +523,8 @@ function renderOwnedPalList() {
 
   ownedPalList.innerHTML = pals.map((pal) => ownedPalOption(pal)).join("")
     || `<p class="empty list-empty">没有匹配的帕鲁。</p>`;
-  ownedPalCount.textContent = `已选 ${ownedPalIds.size} 只`;
+  if (preserveScroll) ownedPalList.scrollTop = scrollTop;
+  updateOwnedPalCount();
 }
 
 function renderBreedRoute() {
@@ -501,9 +551,9 @@ function renderBreedRoute() {
     : `<p class="empty list-empty">当前数据里没有找到可行的补充路线。</p>`;
 }
 
-function renderRoutePlanner() {
+function renderRoutePlanner({ renderList = true, preserveListScroll = false } = {}) {
   if (!isBreedRouteOpen) return;
-  renderOwnedPalList();
+  if (renderList) renderOwnedPalList({ preserveScroll: preserveListScroll });
   renderBreedRoute();
 }
 
@@ -520,14 +570,19 @@ function applyInitialValues() {
   const first = params.get("parentA") || "lamball";
   const second = params.get("parentB") || "cattiva";
   const child = params.get("child") || "lamball";
+  const single = params.get("single") || first;
   const owned = (params.get("owned") || `${first},${second}`)
     .split(",")
     .filter((id) => palById.has(id));
 
-  [parentASelect, parentBSelect, targetChildSelect].forEach((select) => fillSelect(select));
+  fillSelect(parentASelect);
+  fillSelect(parentBSelect);
+  fillSelect(targetChildSelect, child, targetChildOptions());
+  fillSelect(singleParentSelect);
   parentASelect.value = palById.has(first) ? first : "lamball";
   parentBSelect.value = palById.has(second) ? second : "cattiva";
-  targetChildSelect.value = palById.has(child) ? child : "lamball";
+  if (palById.has(child) && childToPairs.has(child)) targetChildSelect.value = child;
+  singleParentSelect.value = palById.has(single) ? single : parentASelect.value;
   ownedPalIds.clear();
   (owned.length ? owned : [parentASelect.value, parentBSelect.value]).forEach((id) => ownedPalIds.add(id));
 }
@@ -537,6 +592,7 @@ function updateUrl() {
     parentA: parentASelect.value,
     parentB: parentBSelect.value,
     child: targetChildSelect.value,
+    single: singleParentSelect.value,
     owned: [...ownedPalIds].join(",")
   });
   window.history.replaceState(null, "", `?${params}`);
@@ -558,7 +614,6 @@ breedDataCount.textContent = `${PAL_BREEDING.combos.length} 组本地数据`;
 [parentASelect, parentBSelect].forEach((select) => {
   select.addEventListener("change", () => {
     renderChildResult();
-    renderSingleParentResults();
     updateUrl();
   });
 });
@@ -568,7 +623,11 @@ targetChildSelect.addEventListener("change", () => {
   if (isBreedRouteOpen) renderBreedRoute();
   updateUrl();
 });
-parentComboSearch.addEventListener("input", renderParentCombos);
+parentComboSearch.addEventListener("input", renderTargetChildFilter);
+singleParentSelect.addEventListener("change", () => {
+  renderSingleParentResults();
+  updateUrl();
+});
 ownedPalSearch.addEventListener("input", renderOwnedPalList);
 ownedPalList.addEventListener("change", (event) => {
   const checkbox = event.target.closest('input[type="checkbox"]');
@@ -578,18 +637,19 @@ ownedPalList.addEventListener("change", (event) => {
   } else {
     ownedPalIds.delete(checkbox.value);
   }
-  renderRoutePlanner();
+  updateOwnedPalCount();
+  renderBreedRoute();
   updateUrl();
 });
 useCurrentParentsButton.addEventListener("click", () => {
   ownedPalIds.clear();
   [parentASelect.value, parentBSelect.value].forEach((id) => ownedPalIds.add(id));
-  renderRoutePlanner();
+  renderRoutePlanner({ preserveListScroll: true });
   updateUrl();
 });
 clearOwnedPalsButton.addEventListener("click", () => {
   ownedPalIds.clear();
-  renderRoutePlanner();
+  renderRoutePlanner({ preserveListScroll: true });
   updateUrl();
 });
 toggleBreedRouteButton.addEventListener("click", () => {
