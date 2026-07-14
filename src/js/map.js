@@ -2,7 +2,15 @@ import { MAP_DATABASE } from "./data/maps.js";
 
 const MAP_SIZE = { X: 8192 * 16, Y: 8192 * 16 };
 const DEFAULT_TYPES = new Set(["Alpha Pal", "Region", "Fast Travel", "Dungeon", "Black Marketeer"]);
-const PROMINENT_TYPES = new Set(["Alpha Pal", "Tower", "Fast Travel", "Dungeon", "Region", "Black Marketeer"]);
+const MARKER_STYLE_BY_TYPE = {
+  "Alpha Pal": { className: "boss", size: 34, radius: 8.5, color: "#ff4f8b" },
+  Tower: { className: "major", size: 32, radius: 8, color: "#8df6ff" },
+  "Fast Travel": { className: "landmark", size: 30, radius: 7.5, color: "#8df6ff" },
+  Dungeon: { className: "landmark", size: 30, radius: 7.5, color: "#8df6ff" },
+  "Black Marketeer": { className: "landmark", size: 30, radius: 7.5, color: "#8df6ff" },
+  Region: { className: "region", size: 22, radius: 5.5, color: "#8df6ff" }
+};
+const DEFAULT_MARKER_STYLE = { className: "normal", size: 24, radius: 5.5, color: "#ffb52e" };
 const CATEGORY_ORDER = ["Locations", "Enemies", "Resource", "Mine", "Eggs", "Fishing", "Collectibles", "NPCs", "Oilrig", "Other"];
 const CATEGORY_LABELS = {
   Collectibles: "收集品",
@@ -233,30 +241,31 @@ function mapIconHtml(image, label = "", extraClass = "") {
   `;
 }
 
+function markerStyle(type) {
+  return MARKER_STYLE_BY_TYPE[type] || DEFAULT_MARKER_STYLE;
+}
+
 function markerIcon(point, data) {
   const icon = data.icons[point.type] || {};
   const image = point.icon || icon.icon;
   if (!image) return null;
-  const isBoss = point.type === "Alpha Pal";
-  const isProminent = PROMINENT_TYPES.has(point.type);
-  const size = isBoss ? 46 : isProminent ? 42 : 32;
+  const style = markerStyle(point.type);
   return L.divIcon({
-    className: `map-marker-icon${isProminent ? " prominent" : ""}${isBoss ? " boss" : ""}`,
-    html: mapIconHtml(image, point.item || typeLabel(point.type, icon), isBoss ? "boss" : isProminent ? "prominent" : ""),
-    iconSize: [size, size],
-    iconAnchor: [size / 2, size / 2],
-    popupAnchor: [0, -size / 2]
+    className: `map-marker-icon ${style.className}`,
+    html: mapIconHtml(image, point.item || typeLabel(point.type, icon), style.className),
+    iconSize: [style.size, style.size],
+    iconAnchor: [style.size / 2, style.size / 2],
+    popupAnchor: [0, -style.size / 2]
   });
 }
 
 function fallbackMarker(latLng, point) {
-  const isBoss = point.type === "Alpha Pal";
-  const isProminent = PROMINENT_TYPES.has(point.type);
+  const style = markerStyle(point.type);
   return L.circleMarker(latLng, {
-    radius: isBoss ? 10 : isProminent ? 8.5 : 6.5,
-    weight: isProminent ? 2.4 : 1.8,
+    radius: style.radius,
+    weight: style.className === "normal" ? 1.5 : 2,
     color: "#0b1920",
-    fillColor: isBoss ? "#ff4f8b" : isProminent ? "#8df6ff" : "#ffb52e",
+    fillColor: style.color,
     fillOpacity: 0.92
   });
 }
