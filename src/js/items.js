@@ -1,5 +1,7 @@
 import { ITEMS, ITEM_CATEGORIES } from "./data/items.js";
 
+const CJK_PATTERN = /[\u3400-\u9fff]/;
+const PLACEHOLDER_PATTERN = /(?:zh-hans text|description not finalized|#N\/A|N\/A|NPC_WEAPON|PV_ITEMS|\[WIP\])/i;
 const RARITIES = [
   { id: "all", label: "全部", source: "" },
   { id: "common", label: "常见", source: "常见" },
@@ -27,6 +29,37 @@ const elements = {
   tooltip: document.querySelector("#itemTooltip")
 };
 
+function isPlaceholderText(value) {
+  const text = String(value ?? "").trim();
+  if (!text || text === "-") return true;
+  if (PLACEHOLDER_PATTERN.test(text)) return true;
+  return !CJK_PATTERN.test(text) && /[A-Za-z_]/.test(text);
+}
+
+function isPlaceholderName(value) {
+  return isPlaceholderText(value) || /[A-Za-z_]{3,}/.test(String(value ?? ""));
+}
+
+function cleanOptionalText(value) {
+  return isPlaceholderText(value) ? "" : value;
+}
+
+function cleanItem(item) {
+  return {
+    ...item,
+    description: cleanOptionalText(item.description),
+    materials: item.materials.filter((material) => !isPlaceholderText(material.name))
+  };
+}
+
+const DISPLAY_ITEMS = ITEMS.map(cleanItem).filter((item) => !isPlaceholderName(item.name));
+const DISPLAY_CATEGORIES = ITEM_CATEGORIES
+  .map((category) => ({
+    ...category,
+    count: DISPLAY_ITEMS.filter((item) => item.category === category.id).length
+  }))
+  .filter((category) => category.count > 0);
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -37,7 +70,7 @@ function escapeHtml(value) {
 }
 
 function renderCategories() {
-  const categories = [{ id: "all", label: "全部物品", count: ITEMS.length }, ...ITEM_CATEGORIES];
+  const categories = [{ id: "all", label: "全部物品", count: DISPLAY_ITEMS.length }, ...DISPLAY_CATEGORIES];
   elements.categories.innerHTML = categories.map((category) => `
     <button class="item-category-button${category.id === activeCategory ? " active" : ""}"
       type="button" data-category="${escapeHtml(category.id)}">
@@ -81,10 +114,10 @@ function matchesFilters(item) {
 
 function renderItems() {
   hideTooltip();
-  const filtered = ITEMS.filter(matchesFilters);
+  const filtered = DISPLAY_ITEMS.filter(matchesFilters);
   const category = activeCategory === "all"
     ? { label: "全部物品" }
-    : ITEM_CATEGORIES.find((entry) => entry.id === activeCategory);
+    : DISPLAY_CATEGORIES.find((entry) => entry.id === activeCategory);
   const rarity = RARITIES.find((entry) => entry.id === activeRarity);
 
   elements.title.textContent = `${category?.label ?? "物品"}${activeRarity === "all" ? "" : ` · ${rarity.label}`}`;
@@ -92,7 +125,7 @@ function renderItems() {
   elements.empty.hidden = filtered.length !== 0;
   elements.grid.hidden = filtered.length === 0;
   elements.grid.innerHTML = filtered.map((item, index) => `
-    <button class="item-card" type="button" data-item-index="${ITEMS.indexOf(item)}"
+    <button class="item-card" type="button" data-item-index="${DISPLAY_ITEMS.indexOf(item)}"
       data-rarity="${item.rarity}" aria-label="${escapeHtml(`${item.name}，${item.rarityLabel}，${item.categoryLabel}`)}"
       aria-describedby="itemTooltip">
       <span class="item-card-rarity">${escapeHtml(item.rarityLabel)}</span>
@@ -101,7 +134,7 @@ function renderItems() {
     </button>`).join("");
 
   elements.grid.querySelectorAll(".item-card").forEach((card) => {
-    const item = ITEMS[Number(card.dataset.itemIndex)];
+    const item = DISPLAY_ITEMS[Number(card.dataset.itemIndex)];
     card.addEventListener("mouseenter", (event) => scheduleTooltip(card, item, event.clientX, event.clientY));
     card.addEventListener("mousemove", (event) => {
       lastPointer = { x: event.clientX, y: event.clientY };
@@ -183,7 +216,7 @@ function hideTooltip(card) {
   elements.tooltip.hidden = true;
 }
 
-elements.total.textContent = ITEMS.length.toLocaleString("zh-CN");
+elements.total.textContent = DISPLAY_ITEMS.length.toLocaleString("zh-CN");
 renderCategories();
 renderRarityFilters();
 renderItems();
