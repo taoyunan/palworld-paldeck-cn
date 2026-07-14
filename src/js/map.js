@@ -2,6 +2,60 @@ import { MAP_DATABASE } from "./data/maps.js";
 
 const MAP_SIZE = { X: 8192 * 16, Y: 8192 * 16 };
 const DEFAULT_TYPES = new Set(["Alpha Pal", "Region", "Fast Travel", "Dungeon", "Black Marketeer"]);
+const CATEGORY_ORDER = ["Locations", "Enemies", "Resource", "Mine", "Eggs", "Fishing", "Collectibles", "NPCs", "Oilrig", "Other"];
+const CATEGORY_LABELS = {
+  Collectibles: "收集品",
+  Eggs: "帕鲁蛋",
+  Enemies: "敌人与事件",
+  Fishing: "钓鱼与打捞",
+  Locations: "地点",
+  Mine: "矿物",
+  NPCs: "NPC",
+  Oilrig: "油田",
+  Other: "其他",
+  Resource: "资源"
+};
+const TYPE_LABELS = {
+  "Ancient Ruin": "古代遗迹",
+  "Anti-Air Turret": "防空炮塔",
+  "Cave Entrance": "洞穴入口",
+  City: "城镇",
+  "Coal Cluster": "石炭矿群",
+  "Desert Egg": "沙漠蛋",
+  Dungeon: "地下城",
+  "Enemy Camp": "敌人营地",
+  "Feybreak Egg": "天坠之地蛋",
+  "Fishing Spot": "钓鱼点",
+  "Frozen Egg": "冰冻蛋",
+  "Fruit Tree": "果树",
+  "Grass Egg": "草原蛋",
+  "Heat Source": "热源",
+  Home: "推荐据点",
+  Incident: "事件",
+  Junk: "废料",
+  "Memo Planner": "备忘录",
+  NPC: "NPC",
+  "Oilrig Treasure": "油田宝箱",
+  "Oilrig Treasure Goal": "油田核心宝箱",
+  "Ore Cluster": "金属矿群",
+  "Pure Quartz Cluster": "纯水晶矿群",
+  Region: "区域",
+  "Sakura Egg": "樱岛蛋",
+  "Salvage Rank1": "打捞点 I",
+  "Salvage Rank2": "打捞点 II",
+  "Skyland Warp Altar": "天岛传送祭坛",
+  "Sulfur Cluster": "硫磺矿群",
+  Sunreach: "朝阳岛",
+  "Sunreach Egg": "朝阳岛蛋",
+  Supply: "补给品",
+  Treasure: "宝箱",
+  "Treasure Element": "属性宝箱",
+  Unknown: "未知",
+  Volcano: "火山",
+  "Volcano Egg": "火山蛋",
+  Watchtower: "瞭望塔",
+  "World Tree Egg": "世界树蛋"
+};
 
 const elements = {
   map: document.querySelector("#worldMap"),
@@ -50,6 +104,20 @@ function escapeHtml(value) {
 
 function currentMapData() {
   return MAP_DATABASE[state.mapId] || MAP_DATABASE.main;
+}
+
+function categoryRank(category) {
+  const index = CATEGORY_ORDER.indexOf(category);
+  return index === -1 ? CATEGORY_ORDER.length : index;
+}
+
+function categoryLabel(category) {
+  return CATEGORY_LABELS[category] || category || CATEGORY_LABELS.Other;
+}
+
+function typeLabel(type, icon = {}) {
+  const label = TYPE_LABELS[type] || icon.label || type;
+  return TYPE_LABELS[label] || label;
 }
 
 function normalizedConfig(data) {
@@ -104,8 +172,8 @@ function pointText(point, data) {
   return [
     point.item,
     point.type,
-    icon.label,
-    icon.category,
+    typeLabel(point.type, icon),
+    categoryLabel(icon.category),
     point.comment,
     point.level,
     point.id
@@ -130,10 +198,30 @@ function categoryEntries(data) {
       icon: data.icons[type] || { label: type, category: "Other", icon: "" }
     }))
     .sort((left, right) => {
-      const categoryCompare = String(left.icon.category).localeCompare(String(right.icon.category), "zh-Hans-CN");
-      if (categoryCompare) return categoryCompare;
-      return String(left.icon.label || left.type).localeCompare(String(right.icon.label || right.type), "zh-Hans-CN");
+      const rankCompare = categoryRank(left.icon.category) - categoryRank(right.icon.category);
+      if (rankCompare) return rankCompare;
+      return typeLabel(left.type, left.icon).localeCompare(typeLabel(right.type, right.icon), "zh-Hans-CN");
     });
+}
+
+function groupedCategoryEntries(data) {
+  const groups = new Map();
+  for (const entry of categoryEntries(data)) {
+    const category = entry.icon.category || "Other";
+    if (!groups.has(category)) {
+      groups.set(category, {
+        category,
+        label: categoryLabel(category),
+        items: []
+      });
+    }
+    groups.get(category).items.push(entry);
+  }
+  return [...groups.values()].sort((left, right) => {
+    const rankCompare = categoryRank(left.category) - categoryRank(right.category);
+    if (rankCompare) return rankCompare;
+    return left.label.localeCompare(right.label, "zh-Hans-CN");
+  });
 }
 
 function markerIcon(point, data) {
@@ -162,12 +250,12 @@ function fallbackMarker(latLng, point) {
 function popupHtml(point, data) {
   const icon = data.icons[point.type] || {};
   const meta = [
-    icon.label || point.type,
+    typeLabel(point.type, icon),
     point.level ? `Lv.${point.level}` : "",
     point.comment || "",
-    point.onlyTime ? `Only ${point.onlyTime}` : "",
+    point.onlyTime ? `限定时间 ${point.onlyTime}` : "",
     point.cooldown ? `CD ${point.cooldown}` : "",
-    point.weight ? `Weight ${point.weight}` : ""
+    point.weight ? `权重 ${point.weight}` : ""
   ].filter(Boolean);
   const link = point.href ? `<a href="https://paldb.cc/cn/${encodeURIComponent(point.href)}" target="_blank" rel="noopener">PalDB</a>` : "";
   return `
@@ -181,17 +269,24 @@ function popupHtml(point, data) {
 
 function renderCategories() {
   const data = currentMapData();
-  const categories = categoryEntries(data);
-  elements.categories.innerHTML = categories.map((entry) => {
-    const label = entry.icon.label || entry.type;
-    return `
-      <button type="button" class="map-category-button${state.activeTypes.has(entry.type) ? " active" : ""}" data-type="${escapeHtml(entry.type)}">
-        ${entry.icon.icon ? `<img src="${escapeHtml(entry.icon.icon)}" alt="">` : "<span></span>"}
-        <span>${escapeHtml(label)}</span>
-        <small>${entry.count}</small>
-      </button>
-    `;
-  }).join("");
+  const groups = groupedCategoryEntries(data);
+  elements.categories.innerHTML = groups.map((group) => `
+    <section class="map-category-group">
+      <h3>${escapeHtml(group.label)}</h3>
+      <div class="map-category-items">
+        ${group.items.map((entry) => {
+          const label = typeLabel(entry.type, entry.icon);
+          return `
+            <button type="button" class="map-category-button${state.activeTypes.has(entry.type) ? " active" : ""}" data-type="${escapeHtml(entry.type)}">
+              ${entry.icon.icon ? `<img src="${escapeHtml(entry.icon.icon)}" alt="">` : "<span></span>"}
+              <span>${escapeHtml(label)}</span>
+              <small>${entry.count}</small>
+            </button>
+          `;
+        }).join("")}
+      </div>
+    </section>
+  `).join("");
 }
 
 function renderMarkers({ fit = false } = {}) {
