@@ -9,8 +9,6 @@ const parentComboSearch = document.querySelector("#parentComboSearch");
 const singleParentSelect = document.querySelector("#singleParent");
 const ownedPalSearch = document.querySelector("#ownedPalSearch");
 const childResult = document.querySelector("#childResult");
-const parentAPreview = document.querySelector("#parentAPreview");
-const parentBPreview = document.querySelector("#parentBPreview");
 const parentCombos = document.querySelector("#parentCombos");
 const singleParentResults = document.querySelector("#singleParentResults");
 const ownedPalList = document.querySelector("#ownedPalList");
@@ -311,21 +309,6 @@ function palMini(palId, extraClass = "") {
   `;
 }
 
-function selectedPalPreview(palId) {
-  const pal = palById.get(palId);
-  if (!pal) return "";
-
-  return `
-    <a class="breed-preview-card" href="./paldeck.html?pal=${encodeURIComponent(pal.id)}">
-      ${imageTag(pal.image, pal.name)}
-      <span>
-        <em>${escapeHtml(displayNo(pal))}</em>
-        <strong>${escapeHtml(pal.name)}</strong>
-      </span>
-    </a>
-  `;
-}
-
 function palResultCard(palId) {
   const pal = palById.get(palId);
   if (!pal) return `<p class="empty">没有找到子代数据。</p>`;
@@ -452,8 +435,6 @@ function renderChildResult() {
   const parentA = parentASelect.value;
   const parentB = parentBSelect.value;
   const child = pairToChild.get(pairKey(parentA, parentB));
-  parentAPreview.innerHTML = selectedPalPreview(parentA);
-  parentBPreview.innerHTML = selectedPalPreview(parentB);
   childResult.innerHTML = child ? palResultCard(child) : `<p class="empty">请选择两个亲代。</p>`;
 }
 

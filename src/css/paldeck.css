@@ -1595,13 +1595,14 @@ select:focus {
   grid-template-columns: minmax(240px, 0.58fr) minmax(0, 1.42fr);
   gap: 12px;
   min-height: 0;
+  max-height: 420px;
 }
 
 .breed-owned-list {
   display: grid;
   align-content: start;
   gap: 6px;
-  max-height: 380px;
+  max-height: 100%;
   overflow: auto;
   padding-right: 2px;
 }
@@ -1649,6 +1650,13 @@ select:focus {
   display: grid;
   gap: 10px;
   min-width: 0;
+}
+
+.breed-route-result {
+  align-content: start;
+  max-height: 100%;
+  overflow: auto;
+  padding-right: 4px;
 }
 
 .breed-route-card {
@@ -2286,6 +2294,10 @@ select:focus {
 
 .breed-console-page .breed-route-inline {
   border-top-color: rgba(155, 203, 211, 0.3);
+}
+
+.breed-console-page .breed-route-layout {
+  max-height: clamp(280px, calc(100vh - 570px), 430px);
 }
 
 .breed-console-page .breed-section-head.compact h3 {
