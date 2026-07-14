@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="幻兽帕鲁简体中文互动地图，支持帕洛斯群岛、世界树、点位分类筛选和地图搜索。">
+  <title>幻兽帕鲁互动地图</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="./src/css/paldeck.css">
+  <link rel="stylesheet" href="./src/css/technologies.css">
+  <link rel="stylesheet" href="./src/css/map.css">
+</head>
+<body class="technology-page map-page">
+  <header class="deck-header technology-header">
+    <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="eyebrow">Palworld database</span>
+        <span class="brand-title">互动地图</span>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a href="./pals.html">帕鲁</a>
+      <a href="./items.html">物品</a>
+      <a href="./construction.html">建造</a>
+      <a class="active" href="./map.html" aria-current="page">地图</a>
+      <a href="./breed.html">配种计算器</a>
+      <a href="./technologies.html">科技树</a>
+      <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
+      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">github</a>
+    </nav>
+  </header>
+
+  <main class="technology-stage map-stage">
+    <section class="technology-console map-console" aria-labelledby="mapTitle">
+      <div class="console-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <header class="console-titlebar map-titlebar">
+        <div>
+          <p class="console-kicker">Interactive map</p>
+          <h1 id="mapTitle">互动地图</h1>
+        </div>
+        <div class="console-summary">
+          <span><b id="mapVisibleCount">0</b> 个点位</span>
+          <span id="mapSourceLabel">帕洛斯群岛</span>
+        </div>
+      </header>
+
+      <div class="map-browser">
+        <aside class="map-sidebar" aria-label="地图筛选">
+          <div class="map-switch" role="group" aria-label="地图切换">
+            <button type="button" data-map-id="main" class="active">帕洛斯群岛</button>
+            <button type="button" data-map-id="tree">世界树</button>
+          </div>
+          <label class="map-search" for="mapSearch">
+            <span>搜索点位</span>
+            <input id="mapSearch" type="search" placeholder="名称、类型、备注">
+          </label>
+          <div class="map-category-head">
+            <span>分类</span>
+            <button type="button" id="mapClearFilters">清空</button>
+          </div>
+          <div class="map-categories" id="mapCategories"></div>
+        </aside>
+        <section class="map-panel" aria-label="互动地图">
+          <div id="worldMap" class="world-map"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+  <script type="module" src="./src/js/map.js"></script>
+  <script type="module" src="./src/js/update-notice.js"></script>
+</body>
+</html>
