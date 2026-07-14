@@ -71,6 +71,7 @@ const elements = {
   categories: document.querySelector("#mapCategories"),
   search: document.querySelector("#mapSearch"),
   clear: document.querySelector("#mapClearFilters"),
+  statues: document.querySelector("#mapShowStatues"),
   count: document.querySelector("#mapVisibleCount"),
   source: document.querySelector("#mapSourceLabel"),
   switchButtons: [...document.querySelectorAll("[data-map-id]")]
@@ -213,6 +214,12 @@ function categoryEntries(data) {
     });
 }
 
+function statueTypes(data) {
+  return categoryEntries(data)
+    .filter((entry) => entry.type.includes("Effigy"))
+    .map((entry) => entry.type);
+}
+
 function groupedCategoryEntries(data) {
   const groups = new Map();
   for (const entry of categoryEntries(data)) {
@@ -231,6 +238,14 @@ function groupedCategoryEntries(data) {
     if (rankCompare) return rankCompare;
     return left.label.localeCompare(right.label, "zh-Hans-CN");
   });
+}
+
+function syncQuickButtons(data) {
+  const statues = statueTypes(data);
+  const isStatueFilter = statues.length > 0
+    && state.activeTypes.size === statues.length
+    && statues.every((type) => state.activeTypes.has(type));
+  elements.statues.classList.toggle("active", isStatueFilter);
 }
 
 function mapIconHtml(image, label = "", extraClass = "") {
@@ -310,6 +325,7 @@ function renderCategories() {
       </div>
     </section>
   `).join("");
+  syncQuickButtons(data);
 }
 
 function renderMarkers({ fit = false } = {}) {
@@ -396,10 +412,18 @@ elements.categories.addEventListener("click", (event) => {
     state.activeTypes.add(type);
   }
   button.classList.toggle("active", state.activeTypes.has(type));
+  syncQuickButtons(currentMapData());
   renderMarkers();
 });
 
 elements.search.addEventListener("input", () => renderMarkers());
+elements.statues.addEventListener("click", () => {
+  const data = currentMapData();
+  state.activeTypes = new Set(statueTypes(data));
+  elements.search.value = "";
+  renderCategories();
+  renderMarkers({ fit: true });
+});
 elements.clear.addEventListener("click", () => {
   state.activeTypes.clear();
   renderCategories();
