@@ -7,19 +7,28 @@ const parentBSelect = document.querySelector("#parentB");
 const targetChildSelect = document.querySelector("#targetChild");
 const parentComboSearch = document.querySelector("#parentComboSearch");
 const singleParentSelect = document.querySelector("#singleParent");
+const routeTargetSelect = document.querySelector("#routeTargetChild");
+const ownedPalSearch = document.querySelector("#ownedPalSearch");
 const childResult = document.querySelector("#childResult");
 const parentAPreview = document.querySelector("#parentAPreview");
 const parentBPreview = document.querySelector("#parentBPreview");
 const parentCombos = document.querySelector("#parentCombos");
 const singleParentResults = document.querySelector("#singleParentResults");
+const ownedPalList = document.querySelector("#ownedPalList");
+const ownedPalCount = document.querySelector("#ownedPalCount");
+const breedRouteResult = document.querySelector("#breedRouteResult");
 const breedDataCount = document.querySelector("#breedDataCount");
 const parentComboCount = document.querySelector("#parentComboCount");
 const singleParentCount = document.querySelector("#singleParentCount");
+const breedRouteCount = document.querySelector("#breedRouteCount");
+const useCurrentParentsButton = document.querySelector("#useCurrentParents");
+const clearOwnedPalsButton = document.querySelector("#clearOwnedPals");
 
 const palById = new Map(PALS.map((pal) => [pal.id, pal]));
 const pairToChild = new Map();
 const childToPairs = new Map();
 const parentToCombos = new Map();
+const ownedPalIds = new Set();
 
 function displayNo(pal) {
   return pal?.no || "联动";
@@ -41,6 +50,26 @@ function pairKey(parentA, parentB) {
   return [parentA, parentB].sort((left, right) => left.localeCompare(right)).join("+");
 }
 
+function planScore(plan) {
+  if (!plan) return [Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY];
+  return [plan.missing.size, plan.round, plan.breedCount];
+}
+
+function isBetterPlan(candidate, current) {
+  const candidateScore = planScore(candidate);
+  const currentScore = planScore(current);
+  for (let index = 0; index < candidateScore.length; index += 1) {
+    if (candidateScore[index] !== currentScore[index]) {
+      return candidateScore[index] < currentScore[index];
+    }
+  }
+  return false;
+}
+
+function mergeMissing(left, right) {
+  return new Set([...left, ...right]);
+}
+
 function buildIndexes() {
   PAL_BREEDING.combos.forEach(([parentA, parentB, child]) => {
     const combo = { parentA, parentB, child };
@@ -54,6 +83,129 @@ function buildIndexes() {
       parentToCombos.get(parent).push(combo);
     });
   });
+}
+
+function initialPlanIndex(ownedSet, { allowMissingSeeds = false, forbiddenSeeds = new Set() } = {}) {
+  const plans = new Map();
+  ownedSet.forEach((id) => {
+    if (palById.has(id)) {
+      plans.set(id, {
+        id,
+        round: 0,
+        missing: new Set(),
+        breedCount: 0,
+        recipe: null,
+        seedMissing: false
+      });
+    }
+  });
+
+  if (allowMissingSeeds) {
+    PALS.forEach((pal) => {
+      if (!plans.has(pal.id) && !forbiddenSeeds.has(pal.id)) {
+        plans.set(pal.id, {
+          id: pal.id,
+          round: 0,
+          missing: new Set([pal.id]),
+          breedCount: 0,
+          recipe: null,
+          seedMissing: true
+        });
+      }
+    });
+  }
+
+  return plans;
+}
+
+function buildPlanIndex(ownedSet, options = {}) {
+  const plans = initialPlanIndex(ownedSet, options);
+  let changed = true;
+  let guard = 0;
+
+  while (changed && guard < PALS.length + 8) {
+    changed = false;
+    guard += 1;
+
+    for (const [parentA, parentB, child] of PAL_BREEDING.combos) {
+      const left = plans.get(parentA);
+      const right = plans.get(parentB);
+      if (!left || !right) continue;
+
+      const candidate = {
+        id: child,
+        round: Math.max(left.round, right.round) + 1,
+        missing: mergeMissing(left.missing, right.missing),
+        breedCount: left.breedCount + right.breedCount + 1,
+        recipe: { parentA, parentB, child, left, right },
+        seedMissing: false
+      };
+
+      if (isBetterPlan(candidate, plans.get(child))) {
+        plans.set(child, candidate);
+        changed = true;
+      }
+    }
+  }
+
+  return plans;
+}
+
+function findBestPlan(targetId, ownedSet, options = {}) {
+  return buildPlanIndex(ownedSet, options).get(targetId) || null;
+}
+
+function combineParentPlans(targetId, parentAPlan, parentBPlan) {
+  if (!parentAPlan || !parentBPlan) return null;
+  const combo = {
+    parentA: parentAPlan.id,
+    parentB: parentBPlan.id,
+    child: targetId,
+    left: parentAPlan,
+    right: parentBPlan
+  };
+  return {
+    id: targetId,
+    round: Math.max(parentAPlan.round, parentBPlan.round) + 1,
+    missing: mergeMissing(parentAPlan.missing, parentBPlan.missing),
+    breedCount: parentAPlan.breedCount + parentBPlan.breedCount + 1,
+    recipe: combo,
+    seedMissing: false
+  };
+}
+
+function recommendedPlans(targetId, ownedSet, limit = 5) {
+  const combos = childToPairs.get(targetId) || [];
+  const candidates = [];
+  const seen = new Set();
+  const assistedPlans = buildPlanIndex(ownedSet, {
+    allowMissingSeeds: true,
+    forbiddenSeeds: new Set([targetId])
+  });
+
+  combos.forEach((combo) => {
+    if (!ownedSet.has(targetId) && (combo.parentA === targetId || combo.parentB === targetId)) return;
+    const left = assistedPlans.get(combo.parentA);
+    const right = assistedPlans.get(combo.parentB);
+    const plan = combineParentPlans(targetId, left, right);
+    if (!plan || plan.missing.size === 0) return;
+
+    const key = [...plan.missing].sort().join("|") + `:${combo.parentA}+${combo.parentB}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    candidates.push(plan);
+  });
+
+  return candidates
+    .sort((left, right) => {
+      const leftScore = planScore(left);
+      const rightScore = planScore(right);
+      for (let index = 0; index < leftScore.length; index += 1) {
+        if (leftScore[index] !== rightScore[index]) return leftScore[index] - rightScore[index];
+      }
+      return String(left.recipe.parentA).localeCompare(String(right.recipe.parentA));
+    })
+    .slice(0, limit);
 }
 
 function fillSelect(select, selectedId = "") {
@@ -132,6 +284,89 @@ function comboRow(combo, mode = "parents") {
   `;
 }
 
+function ownedPalOption(pal) {
+  const checked = ownedPalIds.has(pal.id) ? " checked" : "";
+  return `
+    <label class="breed-owned-option">
+      <input type="checkbox" value="${escapeHtml(pal.id)}"${checked}>
+      ${imageTag(pal.image, pal.name)}
+      <span>
+        <strong>${escapeHtml(displayNo(pal))} ${escapeHtml(pal.name)}</strong>
+      </span>
+    </label>
+  `;
+}
+
+function collectPlanSteps(plan, steps = [], seen = new Set()) {
+  if (!plan?.recipe) return steps;
+  collectPlanSteps(plan.recipe.left, steps, seen);
+  collectPlanSteps(plan.recipe.right, steps, seen);
+  const key = `${plan.id}:${plan.recipe.parentA}+${plan.recipe.parentB}:${plan.round}`;
+  if (!seen.has(key)) {
+    seen.add(key);
+    steps.push({
+      round: plan.round,
+      parentA: plan.recipe.parentA,
+      parentB: plan.recipe.parentB,
+      child: plan.id
+    });
+  }
+  return steps;
+}
+
+function missingPalsHtml(plan) {
+  const missing = [...plan.missing].sort((left, right) => sortPals(palById.get(left), palById.get(right)));
+  if (!missing.length) return "";
+  return `
+    <div class="breed-route-missing">
+      <span>建议补充</span>
+      <div>${missing.map((id) => palMini(id)).join("")}</div>
+    </div>
+  `;
+}
+
+function routeStepsHtml(plan) {
+  const steps = collectPlanSteps(plan)
+    .sort((left, right) => left.round - right.round || sortPals(palById.get(left.child), palById.get(right.child)));
+
+  if (!steps.length) {
+    return `<p class="empty list-empty">目标已经在已有帕鲁里，不需要配种。</p>`;
+  }
+
+  return `
+    <div class="breed-route-steps">
+      ${steps.map((step) => `
+        <article class="breed-route-step">
+          <span class="breed-route-round">第 ${step.round} 轮</span>
+          <div class="breed-combo-row">
+            ${palMini(step.parentA)}
+            <span class="breed-operator">+</span>
+            ${palMini(step.parentB)}
+            <span class="breed-operator">=</span>
+            ${palMini(step.child, "child")}
+          </div>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
+function routePlanCard(plan, title) {
+  return `
+    <article class="breed-route-card">
+      <div class="breed-route-card-head">
+        <div>
+          <p class="eyebrow">${escapeHtml(title)}</p>
+          <h3>${escapeHtml(displayNo(palById.get(plan.id)))} ${escapeHtml(palById.get(plan.id)?.name || plan.id)}</h3>
+        </div>
+        <span>最少 ${plan.round} 轮</span>
+      </div>
+      ${missingPalsHtml(plan)}
+      ${routeStepsHtml(plan)}
+    </article>
+  `;
+}
+
 function renderChildResult() {
   const parentA = parentASelect.value;
   const parentB = parentBSelect.value;
@@ -167,18 +402,65 @@ function renderSingleParentResults() {
     || `<p class="empty list-empty">没有可配结果。</p>`;
 }
 
+function renderOwnedPalList() {
+  const query = ownedPalSearch.value.trim().toLowerCase();
+  const pals = [...PALS]
+    .sort(sortPals)
+    .filter((pal) => !query || palSearchText(pal).includes(query));
+
+  ownedPalList.innerHTML = pals.map((pal) => ownedPalOption(pal)).join("")
+    || `<p class="empty list-empty">没有匹配的帕鲁。</p>`;
+  ownedPalCount.textContent = `已选 ${ownedPalIds.size} 只`;
+}
+
+function renderBreedRoute() {
+  const target = routeTargetSelect.value;
+  const ownedSet = new Set([...ownedPalIds].filter((id) => palById.has(id)));
+  const exactPlan = findBestPlan(target, ownedSet);
+
+  if (!ownedSet.size) {
+    breedRouteCount.textContent = "未选择已有帕鲁";
+    breedRouteResult.innerHTML = `<p class="empty list-empty">先在左侧选择你已有的帕鲁。</p>`;
+    return;
+  }
+
+  if (exactPlan) {
+    breedRouteCount.textContent = exactPlan.round === 0 ? "已拥有目标" : `最少 ${exactPlan.round} 轮`;
+    breedRouteResult.innerHTML = routePlanCard(exactPlan, exactPlan.round === 0 ? "已在已有池中" : "只用已有帕鲁");
+    return;
+  }
+
+  const plans = recommendedPlans(target, ownedSet);
+  breedRouteCount.textContent = plans.length ? `推荐 ${plans.length} 条路线` : "无法计算路线";
+  breedRouteResult.innerHTML = plans.length
+    ? plans.map((plan, index) => routePlanCard(plan, `推荐路线 ${index + 1}`)).join("")
+    : `<p class="empty list-empty">当前数据里没有找到可行的补充路线。</p>`;
+}
+
+function renderRoutePlanner() {
+  renderOwnedPalList();
+  renderBreedRoute();
+}
+
 function applyInitialValues() {
   const params = new URLSearchParams(window.location.search);
   const first = params.get("parentA") || "lamball";
   const second = params.get("parentB") || "cattiva";
   const child = params.get("child") || "lamball";
   const single = params.get("single") || first;
+  const routeChild = params.get("routeChild") || child;
+  const owned = (params.get("owned") || `${first},${second}`)
+    .split(",")
+    .filter((id) => palById.has(id));
 
-  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect].forEach((select) => fillSelect(select));
+  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect, routeTargetSelect].forEach((select) => fillSelect(select));
   parentASelect.value = palById.has(first) ? first : "lamball";
   parentBSelect.value = palById.has(second) ? second : "cattiva";
   targetChildSelect.value = palById.has(child) ? child : "lamball";
   singleParentSelect.value = palById.has(single) ? single : parentASelect.value;
+  routeTargetSelect.value = palById.has(routeChild) ? routeChild : targetChildSelect.value;
+  ownedPalIds.clear();
+  (owned.length ? owned : [parentASelect.value, parentBSelect.value]).forEach((id) => ownedPalIds.add(id));
 }
 
 function updateUrl() {
@@ -186,7 +468,9 @@ function updateUrl() {
     parentA: parentASelect.value,
     parentB: parentBSelect.value,
     child: targetChildSelect.value,
-    single: singleParentSelect.value
+    single: singleParentSelect.value,
+    routeChild: routeTargetSelect.value,
+    owned: [...ownedPalIds].join(",")
   });
   window.history.replaceState(null, "", `?${params}`);
 }
@@ -195,6 +479,7 @@ function renderAll() {
   renderChildResult();
   renderParentCombos();
   renderSingleParentResults();
+  renderRoutePlanner();
   updateUrl();
 }
 
@@ -216,6 +501,33 @@ targetChildSelect.addEventListener("change", () => {
 parentComboSearch.addEventListener("input", renderParentCombos);
 singleParentSelect.addEventListener("change", () => {
   renderSingleParentResults();
+  updateUrl();
+});
+routeTargetSelect.addEventListener("change", () => {
+  renderBreedRoute();
+  updateUrl();
+});
+ownedPalSearch.addEventListener("input", renderOwnedPalList);
+ownedPalList.addEventListener("change", (event) => {
+  const checkbox = event.target.closest('input[type="checkbox"]');
+  if (!checkbox) return;
+  if (checkbox.checked) {
+    ownedPalIds.add(checkbox.value);
+  } else {
+    ownedPalIds.delete(checkbox.value);
+  }
+  renderRoutePlanner();
+  updateUrl();
+});
+useCurrentParentsButton.addEventListener("click", () => {
+  ownedPalIds.clear();
+  [parentASelect.value, parentBSelect.value].forEach((id) => ownedPalIds.add(id));
+  renderRoutePlanner();
+  updateUrl();
+});
+clearOwnedPalsButton.addEventListener("click", () => {
+  ownedPalIds.clear();
+  renderRoutePlanner();
   updateUrl();
 });
 

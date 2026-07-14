@@ -1247,6 +1247,10 @@ select:focus {
   align-items: start;
 }
 
+.breed-route-panel {
+  grid-column: 1 / -1;
+}
+
 .breed-equation {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) 36px minmax(220px, 1fr) 36px minmax(280px, 1.18fr);
@@ -1427,6 +1431,151 @@ select:focus {
 
 .breed-combo-row:hover {
   background: #f5faf7;
+}
+
+.breed-owned-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.breed-owned-toolbar span {
+  margin-right: auto;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.breed-owned-toolbar button {
+  min-height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fff;
+  color: var(--green);
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.breed-route-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.72fr) minmax(0, 1.28fr);
+  gap: 12px;
+  min-height: 0;
+}
+
+.breed-owned-list {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  max-height: 520px;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.breed-owned-option {
+  display: grid;
+  grid-template-columns: 18px 38px minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+  min-height: 48px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.breed-owned-option input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--green);
+}
+
+.breed-owned-option img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #eff3ef;
+}
+
+.breed-owned-option strong {
+  display: block;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.breed-route-result,
+.breed-route-steps {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.breed-route-card {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(135deg, #fbfcfb, #f5f8f6);
+}
+
+.breed-route-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.breed-route-card-head h3 {
+  color: var(--green);
+  font-size: 20px;
+}
+
+.breed-route-card-head > span {
+  flex: 0 0 auto;
+  border: 1px solid rgba(36, 107, 86, 0.24);
+  border-radius: 999px;
+  background: #f0f7f3;
+  color: var(--green);
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.breed-route-missing {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px dashed rgba(168, 102, 27, 0.38);
+  border-radius: 7px;
+  background: rgba(255, 246, 229, 0.74);
+}
+
+.breed-route-missing > span,
+.breed-route-round {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.breed-route-missing > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+  gap: 6px;
+}
+
+.breed-route-step {
+  display: grid;
+  gap: 5px;
 }
 
 .breed-pal-mini {
@@ -1880,6 +2029,54 @@ select:focus {
   max-height: none;
   min-height: 0;
   overflow: auto;
+}
+
+.breed-console-page .breed-tool-grid {
+  overflow: auto;
+  align-content: start;
+}
+
+.breed-console-page .breed-route-panel {
+  min-height: 0;
+}
+
+.breed-console-page .breed-owned-toolbar span,
+.breed-console-page .breed-route-missing > span,
+.breed-console-page .breed-route-round {
+  color: #8fb8c3;
+}
+
+.breed-console-page .breed-owned-toolbar button,
+.breed-console-page .breed-owned-option,
+.breed-console-page .breed-route-card {
+  border-color: rgba(155, 203, 211, 0.3);
+  border-radius: 2px;
+  background: rgba(3, 31, 43, 0.84);
+  color: #edfcff;
+}
+
+.breed-console-page .breed-owned-option img {
+  border-color: rgba(155, 203, 211, 0.3);
+  border-radius: 2px;
+  background: rgba(10, 59, 75, 0.88);
+}
+
+.breed-console-page .breed-owned-option strong,
+.breed-console-page .breed-route-card-head h3 {
+  color: #fff;
+}
+
+.breed-console-page .breed-route-card-head > span {
+  border-color: rgba(18, 231, 242, 0.32);
+  border-radius: 2px;
+  background: rgba(18, 231, 242, 0.12);
+  color: #8df6ff;
+}
+
+.breed-console-page .breed-route-missing {
+  border-color: rgba(255, 194, 71, 0.32);
+  border-radius: 2px;
+  background: rgba(104, 65, 15, 0.2);
 }
 
 .pal-detail-console {
@@ -2444,6 +2641,7 @@ select:focus {
   .breed-picker-grid.compact,
   .breed-tool-grid,
   .breed-equation,
+  .breed-route-layout,
   .breed-output-card,
   .breed-combo-row {
     grid-template-columns: 1fr;
