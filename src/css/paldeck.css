@@ -1242,7 +1242,7 @@ select:focus {
 
 .breed-tool-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+  grid-template-columns: minmax(680px, 1.65fr) minmax(300px, 0.55fr);
   gap: 16px;
   align-items: start;
 }
