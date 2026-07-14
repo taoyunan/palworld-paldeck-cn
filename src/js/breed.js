@@ -6,7 +6,6 @@ const parentASelect = document.querySelector("#parentA");
 const parentBSelect = document.querySelector("#parentB");
 const targetChildSelect = document.querySelector("#targetChild");
 const parentComboSearch = document.querySelector("#parentComboSearch");
-const singleParentSelect = document.querySelector("#singleParent");
 const ownedPalSearch = document.querySelector("#ownedPalSearch");
 const childResult = document.querySelector("#childResult");
 const parentCombos = document.querySelector("#parentCombos");
@@ -295,7 +294,7 @@ function enhancePalSelect(select) {
 }
 
 function enhancePalSelects() {
-  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect].forEach((select) => enhancePalSelect(select));
+  [parentASelect, parentBSelect, targetChildSelect].forEach((select) => enhancePalSelect(select));
 }
 
 function palMini(palId, extraClass = "") {
@@ -452,7 +451,7 @@ function renderParentCombos() {
 }
 
 function renderSingleParentResults() {
-  const parent = singleParentSelect.value;
+  const parent = parentASelect.value;
   const combos = [...new Map((parentToCombos.get(parent) || []).map((combo) => {
     const otherParent = combo.parentA === parent ? combo.parentB : combo.parentA;
     return [`${otherParent}+${combo.child}`, { parentA: parent, parentB: otherParent, child: combo.child }];
@@ -521,16 +520,14 @@ function applyInitialValues() {
   const first = params.get("parentA") || "lamball";
   const second = params.get("parentB") || "cattiva";
   const child = params.get("child") || "lamball";
-  const single = params.get("single") || first;
   const owned = (params.get("owned") || `${first},${second}`)
     .split(",")
     .filter((id) => palById.has(id));
 
-  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect].forEach((select) => fillSelect(select));
+  [parentASelect, parentBSelect, targetChildSelect].forEach((select) => fillSelect(select));
   parentASelect.value = palById.has(first) ? first : "lamball";
   parentBSelect.value = palById.has(second) ? second : "cattiva";
   targetChildSelect.value = palById.has(child) ? child : "lamball";
-  singleParentSelect.value = palById.has(single) ? single : parentASelect.value;
   ownedPalIds.clear();
   (owned.length ? owned : [parentASelect.value, parentBSelect.value]).forEach((id) => ownedPalIds.add(id));
 }
@@ -540,7 +537,6 @@ function updateUrl() {
     parentA: parentASelect.value,
     parentB: parentBSelect.value,
     child: targetChildSelect.value,
-    single: singleParentSelect.value,
     owned: [...ownedPalIds].join(",")
   });
   window.history.replaceState(null, "", `?${params}`);
@@ -562,6 +558,7 @@ breedDataCount.textContent = `${PAL_BREEDING.combos.length} 组本地数据`;
 [parentASelect, parentBSelect].forEach((select) => {
   select.addEventListener("change", () => {
     renderChildResult();
+    renderSingleParentResults();
     updateUrl();
   });
 });
@@ -572,10 +569,6 @@ targetChildSelect.addEventListener("change", () => {
   updateUrl();
 });
 parentComboSearch.addEventListener("input", renderParentCombos);
-singleParentSelect.addEventListener("change", () => {
-  renderSingleParentResults();
-  updateUrl();
-});
 ownedPalSearch.addEventListener("input", renderOwnedPalList);
 ownedPalList.addEventListener("change", (event) => {
   const checkbox = event.target.closest('input[type="checkbox"]');

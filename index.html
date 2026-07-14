@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>帕鲁图鉴总览</title>
   <link rel="stylesheet" href="./src/css/paldeck.css">
+  <link rel="stylesheet" href="./src/css/technologies.css">
+  <script type="module" src="./src/js/asset-cdn.js"></script>
 </head>
-<body class="list-page">
-  <header class="deck-header">
-    <a class="deck-brand" href="./pals.html" aria-label="返回帕鲁总览">
+<body class="technology-page list-page pal-list-page">
+  <header class="deck-header technology-header">
+    <a class="deck-brand" href="./" aria-label="返回帕鲁总览">
       <span class="brand-mark" aria-hidden="true"></span>
       <div>
         <p class="eyebrow">Paldeck</p>
@@ -16,18 +18,19 @@
       </div>
     </a>
     <nav class="top-nav" aria-label="页面导航">
-      <a class="active" href="./pals.html" aria-current="page">帕鲁</a>
+      <a class="active" href="./" aria-current="page">帕鲁</a>
       <a href="./items.html">物品</a>
       <a href="./construction.html">建造</a>
       <a href="./map.html">地图</a>
       <a href="./breed.html">配种计算器</a>
       <a href="./technologies.html">科技树</a>
+      <a href="./mods.html">MOD推荐</a>
       <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
       <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">github</a>
     </nav>
   </header>
 
-  <main class="list-shell">
+  <main class="list-shell pal-list-console">
     <section class="filter-panel multi-filter-panel" id="filters" aria-label="帕鲁筛选">
       <div class="filter-field">
         <label for="listSearch">搜索</label>

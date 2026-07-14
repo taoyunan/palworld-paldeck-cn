@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="幻兽帕鲁 MOD 推荐，收录 3DM MOD站 2026 年 7 月 10 日之后发布的最新模组。">
+  <title>幻兽帕鲁 MOD 推荐</title>
+  <link rel="stylesheet" href="./src/css/paldeck.css">
+  <link rel="stylesheet" href="./src/css/mods.css">
+  <script type="module" src="./src/js/asset-cdn.js"></script>
+</head>
+<body class="mods-page">
+  <header class="deck-header">
+    <a class="deck-brand" href="./" aria-label="返回帕鲁总览">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="eyebrow">Palworld Mods</span>
+        <span class="brand-title">MOD 推荐</span>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a href="./">帕鲁</a>
+      <a href="./items.html">物品</a>
+      <a href="./construction.html">建造</a>
+      <a href="./map.html">地图</a>
+      <a href="./breed.html">配种计算器</a>
+      <a href="./technologies.html">科技树</a>
+      <a class="active" href="./mods.html" aria-current="page">MOD推荐</a>
+      <a class="config-link" href="https://taoyunan.github.io/palworld-config-cn/" target="_blank" rel="noopener">配置工具</a>
+      <a class="github-link" href="https://github.com/taoyunan/palworld-paldeck-cn" target="_blank" rel="noopener">github</a>
+    </nav>
+  </header>
+
+  <main class="mods-shell">
+    <section class="mods-hero" aria-labelledby="modsTitle">
+      <div>
+        <p class="eyebrow">Community Picks · 3DM</p>
+        <h1 id="modsTitle">让帕洛斯群岛更好玩</h1>
+        <p class="mods-lead">集中查看 2026 年 7 月 10 日之后发布的《幻兽帕鲁》MOD。点击卡片可前往 3DM MOD站查看介绍与下载方式。</p>
+      </div>
+      <a class="mods-source" id="modsSource" href="https://mod.3dmgame.com/Palworld" target="_blank" rel="noopener">
+        <span>内容来源</span>
+        <strong>3DM MOD站</strong>
+        <small id="modsUpdated">正在读取数据…</small>
+      </a>
+    </section>
+
+    <section class="mods-toolbar" aria-label="MOD 筛选">
+      <label class="mods-search" for="modSearch">
+        <span>搜索</span>
+        <input id="modSearch" type="search" placeholder="名称或介绍">
+      </label>
+      <div class="mods-categories" id="modCategories" role="group" aria-label="MOD 类型"></div>
+      <span class="mods-count" id="modCount" aria-live="polite"></span>
+    </section>
+
+    <section class="mods-grid" id="modsGrid" aria-label="MOD 推荐列表"></section>
+    <section class="mods-empty" id="modsEmpty" hidden>
+      <strong>没有找到匹配的 MOD</strong>
+      <span>换一个关键词或分类试试。</span>
+    </section>
+  </main>
+
+  <script type="module" src="./src/js/mods.js"></script>
+</body>
+</html>

@@ -11,6 +11,20 @@ function absoluteUrl(url) {
   return new URL(url, BASE_URL).href;
 }
 
+function localAssetUrl(url) {
+  if (!url) return "";
+  const absolute = absoluteUrl(url);
+  try {
+    const { pathname } = new URL(absolute);
+    const path = decodeURIComponent(pathname).replace(/^\/+/, "");
+    if (!path.startsWith("image/")) return absolute;
+    const assetPath = `./assets/paldb/${path}`;
+    return /\.[a-z0-9]+$/i.test(assetPath) ? assetPath : `${assetPath}.webp`;
+  } catch {
+    return url;
+  }
+}
+
 async function fetchText(url) {
   const response = await fetch(url, {
     headers: {
@@ -76,7 +90,7 @@ function compactPoint(point) {
     cooldown: point.cooldown || "",
     onlyTime: point.onlyTime || "",
     weight: point.weight || "",
-    icon: point.fixed_icon || "",
+    icon: localAssetUrl(point.fixed_icon || ""),
     ipos: point.ipos || null,
     pos: point.pos || null
   };
@@ -95,7 +109,7 @@ function compactIcons(iconLookup = {}) {
   return Object.fromEntries(Object.entries(iconLookup).map(([key, value]) => [key, {
     label: value.label || key,
     category: value.category || "Other",
-    icon: value.fixed_icon || "",
+    icon: localAssetUrl(value.fixed_icon || ""),
     width: value.icon_width || 30,
     height: value.icon_height || 30
   }]));
@@ -119,9 +133,7 @@ async function buildMap(mapType, pageUrl) {
   return {
     id: mapType,
     label: mapType === "tree" ? "世界树" : "帕洛斯群岛",
-    source: pageUrl,
-    dataUrl,
-    tileUrl: `https://cdn.paldb.cc/${String(options.imageMapDir || "").replace(/^\/+/, "").replace(/\/?$/, "/")}z{z}x{x}y{y}.webp`,
+    tileUrl: `./assets/paldb/${String(options.imageMapDir || "").replace(/^\/+/, "").replace(/\/?$/, "/")}z{z}x{x}y{y}.webp`,
     config,
     options,
     icons: iconLookup,

@@ -192,7 +192,7 @@ function pointText(point, data) {
 
 function pointMatches(point, data) {
   const query = elements.search.value.trim().toLocaleLowerCase("zh-CN");
-  const typeMatches = state.activeTypes.size === 0 || state.activeTypes.has(point.type);
+  const typeMatches = state.activeTypes.size > 0 && state.activeTypes.has(point.type);
   return typeMatches && (!query || pointText(point, data).includes(query));
 }
 
@@ -424,6 +424,7 @@ elements.statues.addEventListener("click", () => {
 });
 elements.clear.addEventListener("click", () => {
   state.activeTypes.clear();
+  elements.search.value = "";
   renderCategories();
   renderMarkers();
 });
