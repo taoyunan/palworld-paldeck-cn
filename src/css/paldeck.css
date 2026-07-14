@@ -2046,10 +2046,11 @@ select:focus {
 
 .breed-shell {
   display: grid;
+  grid-template-columns: minmax(720px, 1fr) minmax(360px, 420px);
   grid-template-rows: auto minmax(0, 1fr);
-  gap: 0;
+  gap: 16px;
   height: calc(100vh - 112px);
-  padding: 0;
+  padding: 16px;
   overflow: hidden;
 }
 
@@ -2063,10 +2064,11 @@ select:focus {
 }
 
 .breed-console-page .breed-calc-panel {
-  border: 0;
-  border-bottom: 3px solid rgba(129, 207, 216, 0.42);
+  grid-column: 2;
+  grid-row: 1;
+  border: 1px solid rgba(157, 219, 229, 0.35);
   background:
-    linear-gradient(90deg, rgba(0, 116, 126, 0.95) 0 76%, rgba(97, 39, 121, 0.95) 76%),
+    linear-gradient(120deg, rgba(0, 116, 126, 0.95) 0 72%, rgba(97, 39, 121, 0.95) 72%),
     #065c67;
 }
 
@@ -2074,6 +2076,74 @@ select:focus {
   background:
     linear-gradient(90deg, rgba(18, 231, 242, 0.12), transparent 18%),
     repeating-linear-gradient(90deg, transparent 0 54px, rgba(216, 250, 255, 0.045) 54px 55px);
+}
+
+.breed-console-page .breed-calc-panel .breed-equation {
+  grid-template-columns: minmax(0, 1fr) 24px minmax(0, 1fr);
+  gap: 8px;
+}
+
+.breed-console-page .breed-calc-panel .breed-main-operator {
+  min-height: 18px;
+  font-size: 22px;
+}
+
+.breed-console-page .breed-calc-panel .breed-equation > .breed-main-operator:nth-child(4),
+.breed-console-page .breed-calc-panel .breed-result {
+  grid-column: 1 / -1;
+}
+
+.breed-console-page .breed-calc-panel .breed-input-card {
+  grid-template-rows: auto auto;
+  gap: 8px;
+  padding: 10px;
+}
+
+.breed-console-page .breed-calc-panel .breed-result {
+  min-height: 0;
+}
+
+.breed-console-page .breed-calc-panel .breed-preview-card {
+  grid-template-columns: 50px minmax(0, 1fr);
+  gap: 8px;
+  min-height: 64px;
+  padding: 7px;
+}
+
+.breed-console-page .breed-calc-panel .breed-preview-card > img {
+  width: 50px;
+  height: 50px;
+}
+
+.breed-console-page .breed-calc-panel .breed-preview-card > span > em {
+  min-height: 18px;
+  margin-bottom: 3px;
+  padding: 0 6px;
+}
+
+.breed-console-page .breed-calc-panel .breed-preview-card > span > strong {
+  font-size: 15px;
+}
+
+.breed-console-page .breed-calc-panel .breed-output-card {
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 9px;
+  min-height: 82px;
+  padding: 9px;
+}
+
+.breed-console-page .breed-calc-panel .breed-output-card > img {
+  width: 56px;
+  height: 56px;
+}
+
+.breed-console-page .breed-calc-panel .breed-output-card h2 {
+  font-size: 17px;
+}
+
+.breed-console-page .breed-calc-panel .breed-result-note {
+  margin: 4px 0;
+  font-size: 12px;
 }
 
 .breed-console-page .breed-section-head h1,
@@ -2084,14 +2154,22 @@ select:focus {
 
 .breed-console-page .breed-tool-grid {
   min-height: 0;
-  padding: 16px;
-  overflow: hidden;
-  align-items: stretch;
+  display: contents;
 }
 
 .breed-console-page .breed-tool-grid > .breed-panel {
   min-height: 0;
   overflow: visible;
+}
+
+.breed-console-page .breed-tool-grid > .breed-panel:first-child {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.breed-console-page .breed-tool-grid > .breed-panel:nth-child(2) {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .breed-console-page .breed-field {
@@ -2776,6 +2854,34 @@ select:focus {
   .skill-row small {
     grid-column: 2 / -1;
   }
+
+  .breed-console-page {
+    overflow: auto;
+  }
+
+  .breed-console-page .breed-shell {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    min-height: calc(100vh - 112px);
+    overflow: visible;
+  }
+
+  .breed-console-page .breed-calc-panel,
+  .breed-console-page .breed-tool-grid > .breed-panel:first-child,
+  .breed-console-page .breed-tool-grid > .breed-panel:nth-child(2) {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .breed-console-page .breed-calc-panel .breed-equation {
+    grid-template-columns: minmax(220px, 1fr) 36px minmax(220px, 1fr) 36px minmax(280px, 1.18fr);
+  }
+
+  .breed-console-page .breed-calc-panel .breed-equation > .breed-main-operator:nth-child(4),
+  .breed-console-page .breed-calc-panel .breed-result {
+    grid-column: auto;
+  }
 }
 
 @media (max-width: 860px) {
@@ -2815,6 +2921,7 @@ select:focus {
   .breed-picker-grid.compact,
   .breed-tool-grid,
   .breed-equation,
+  .breed-console-page .breed-calc-panel .breed-equation,
   .breed-route-layout,
   .breed-output-card,
   .breed-combo-row {
