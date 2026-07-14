@@ -1247,10 +1247,6 @@ select:focus {
   align-items: start;
 }
 
-.breed-route-panel {
-  grid-column: 1 / -1;
-}
-
 .breed-equation {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) 36px minmax(220px, 1fr) 36px minmax(280px, 1.18fr);
@@ -1433,6 +1429,24 @@ select:focus {
   background: #f5faf7;
 }
 
+.breed-route-inline {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.breed-section-head.compact {
+  align-items: center;
+}
+
+.breed-section-head.compact h3 {
+  color: var(--green);
+  font-size: 20px;
+  line-height: 1.15;
+}
+
 .breed-owned-toolbar {
   display: flex;
   align-items: center;
@@ -1459,7 +1473,7 @@ select:focus {
 
 .breed-route-layout {
   display: grid;
-  grid-template-columns: minmax(300px, 0.72fr) minmax(0, 1.28fr);
+  grid-template-columns: minmax(240px, 0.58fr) minmax(0, 1.42fr);
   gap: 12px;
   min-height: 0;
 }
@@ -1468,7 +1482,7 @@ select:focus {
   display: grid;
   align-content: start;
   gap: 6px;
-  max-height: 520px;
+  max-height: 380px;
   overflow: auto;
   padding-right: 2px;
 }
@@ -2036,8 +2050,12 @@ select:focus {
   align-content: start;
 }
 
-.breed-console-page .breed-route-panel {
-  min-height: 0;
+.breed-console-page .breed-route-inline {
+  border-top-color: rgba(155, 203, 211, 0.3);
+}
+
+.breed-console-page .breed-section-head.compact h3 {
+  color: #fff;
 }
 
 .breed-console-page .breed-owned-toolbar span,

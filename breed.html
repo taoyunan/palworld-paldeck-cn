@@ -78,6 +78,30 @@
           </label>
         </div>
         <div class="breed-combo-list" id="parentCombos"></div>
+        <div class="breed-route-inline">
+          <div class="breed-section-head compact">
+            <div>
+              <p class="eyebrow">Route Planner</p>
+              <h3>已有帕鲁推目标子代</h3>
+            </div>
+            <span class="section-count" id="breedRouteCount"></span>
+          </div>
+          <div class="breed-picker-grid compact">
+            <label class="breed-field" for="ownedPalSearch">
+              <span>筛选已有帕鲁</span>
+              <input id="ownedPalSearch" type="search" placeholder="输入名称、编号、英文名">
+            </label>
+          </div>
+          <div class="breed-owned-toolbar">
+            <span id="ownedPalCount">已选 0 只</span>
+            <button type="button" id="useCurrentParents">使用上方亲代</button>
+            <button type="button" id="clearOwnedPals">清空已有</button>
+          </div>
+          <div class="breed-route-layout">
+            <div class="breed-owned-list" id="ownedPalList"></div>
+            <div class="breed-route-result" id="breedRouteResult"></div>
+          </div>
+        </div>
       </section>
 
       <section class="breed-panel" aria-label="单个亲代可配结果">
@@ -93,35 +117,6 @@
           <select id="singleParent"></select>
         </label>
         <div class="breed-combo-list" id="singleParentResults"></div>
-      </section>
-
-      <section class="breed-panel breed-route-panel" aria-label="根据已有帕鲁规划最短配种路线">
-        <div class="breed-section-head">
-          <div>
-            <p class="eyebrow">Route Planner</p>
-            <h2>已有帕鲁推目标子代</h2>
-          </div>
-          <span class="section-count" id="breedRouteCount"></span>
-        </div>
-        <div class="breed-picker-grid compact">
-          <label class="breed-field" for="routeTargetChild">
-            <span>目标子代</span>
-            <select id="routeTargetChild"></select>
-          </label>
-          <label class="breed-field" for="ownedPalSearch">
-            <span>筛选已有帕鲁</span>
-            <input id="ownedPalSearch" type="search" placeholder="输入名称、编号、英文名">
-          </label>
-        </div>
-        <div class="breed-owned-toolbar">
-          <span id="ownedPalCount">已选 0 只</span>
-          <button type="button" id="useCurrentParents">使用上方亲代</button>
-          <button type="button" id="clearOwnedPals">清空已有</button>
-        </div>
-        <div class="breed-route-layout">
-          <div class="breed-owned-list" id="ownedPalList"></div>
-          <div class="breed-route-result" id="breedRouteResult"></div>
-        </div>
       </section>
     </div>
   </main>

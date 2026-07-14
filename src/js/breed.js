@@ -7,7 +7,6 @@ const parentBSelect = document.querySelector("#parentB");
 const targetChildSelect = document.querySelector("#targetChild");
 const parentComboSearch = document.querySelector("#parentComboSearch");
 const singleParentSelect = document.querySelector("#singleParent");
-const routeTargetSelect = document.querySelector("#routeTargetChild");
 const ownedPalSearch = document.querySelector("#ownedPalSearch");
 const childResult = document.querySelector("#childResult");
 const parentAPreview = document.querySelector("#parentAPreview");
@@ -414,7 +413,7 @@ function renderOwnedPalList() {
 }
 
 function renderBreedRoute() {
-  const target = routeTargetSelect.value;
+  const target = targetChildSelect.value;
   const ownedSet = new Set([...ownedPalIds].filter((id) => palById.has(id)));
   const exactPlan = findBestPlan(target, ownedSet);
 
@@ -448,17 +447,15 @@ function applyInitialValues() {
   const second = params.get("parentB") || "cattiva";
   const child = params.get("child") || "lamball";
   const single = params.get("single") || first;
-  const routeChild = params.get("routeChild") || child;
   const owned = (params.get("owned") || `${first},${second}`)
     .split(",")
     .filter((id) => palById.has(id));
 
-  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect, routeTargetSelect].forEach((select) => fillSelect(select));
+  [parentASelect, parentBSelect, targetChildSelect, singleParentSelect].forEach((select) => fillSelect(select));
   parentASelect.value = palById.has(first) ? first : "lamball";
   parentBSelect.value = palById.has(second) ? second : "cattiva";
   targetChildSelect.value = palById.has(child) ? child : "lamball";
   singleParentSelect.value = palById.has(single) ? single : parentASelect.value;
-  routeTargetSelect.value = palById.has(routeChild) ? routeChild : targetChildSelect.value;
   ownedPalIds.clear();
   (owned.length ? owned : [parentASelect.value, parentBSelect.value]).forEach((id) => ownedPalIds.add(id));
 }
@@ -469,7 +466,6 @@ function updateUrl() {
     parentB: parentBSelect.value,
     child: targetChildSelect.value,
     single: singleParentSelect.value,
-    routeChild: routeTargetSelect.value,
     owned: [...ownedPalIds].join(",")
   });
   window.history.replaceState(null, "", `?${params}`);
@@ -496,15 +492,12 @@ breedDataCount.textContent = `${PAL_BREEDING.combos.length} 组本地数据`;
 
 targetChildSelect.addEventListener("change", () => {
   renderParentCombos();
+  renderBreedRoute();
   updateUrl();
 });
 parentComboSearch.addEventListener("input", renderParentCombos);
 singleParentSelect.addEventListener("change", () => {
   renderSingleParentResults();
-  updateUrl();
-});
-routeTargetSelect.addEventListener("change", () => {
-  renderBreedRoute();
   updateUrl();
 });
 ownedPalSearch.addEventListener("input", renderOwnedPalList);
