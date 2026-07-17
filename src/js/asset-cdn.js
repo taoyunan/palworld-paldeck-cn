@@ -240,7 +240,7 @@ function installFloatingControls() {
     </div>
     <div class="asset-cdn-buttons">
       <button class="asset-cdn-button asset-top-button" type="button" title="回到顶部" aria-label="回到顶部">↑</button>
-      <button class="asset-cdn-button asset-route-button" type="button" aria-label="选择图片线路">CDN</button>
+      <button class="asset-cdn-button asset-route-button" type="button" aria-label="选择图片线路">线路</button>
     </div>
   `;
   document.body.append(controls);
