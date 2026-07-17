@@ -3,11 +3,71 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-17T08:31:55.979Z",
-  "count": 96
+  "updatedAt": "2026-07-17T10:28:03.622Z",
+  "count": 101
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 256323,
+    "title": "【转载】幻兽帕鲁 ProgressiveInfiniteLeveling (world included) 兵种与战斗体系调整",
+    "description": "《幻兽帕鲁》ProgressiveInfiniteLeveling (world included) 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a59d6e903bb3@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-17T07:17:33.506Z",
+    "downloads": 133,
+    "views": 417,
+    "favorites": 75
+  },
+  {
+    "id": 256320,
+    "title": "【转载】幻兽帕鲁 No Building Limits 事件与敌人行为扩展",
+    "description": "《幻兽帕鲁》No Building Limits 事件与敌人行为扩展，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a59d3bc0612e@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-17T07:04:00.235Z",
+    "downloads": 121,
+    "views": 448,
+    "favorites": 83
+  },
+  {
+    "id": 256317,
+    "title": "【转载】幻兽帕鲁 MapRevealer-1.0 地图补丁",
+    "description": "《幻兽帕鲁》MapRevealer-1.0 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a59d1b2be35c@webp",
+    "category": "其他",
+    "original": 4,
+    "createdAt": "2026-07-17T06:55:20.657Z",
+    "downloads": 114,
+    "views": 443,
+    "favorites": 76
+  },
+  {
+    "id": 256315,
+    "title": "【转载】幻兽帕鲁 GuildSight 地图补丁",
+    "description": "《幻兽帕鲁》GuildSight 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a59cf223e764@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-17T06:44:28.502Z",
+    "downloads": 155,
+    "views": 411,
+    "favorites": 87
+  },
+  {
+    "id": 256312,
+    "title": "【转载】幻兽帕鲁 SmartBaseRange 光照与截图表现优化",
+    "description": "《幻兽帕鲁》SmartBaseRange 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a59caad86018@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-17T06:25:22.969Z",
+    "downloads": 138,
+    "views": 458,
+    "favorites": 92
+  },
   {
     "id": 256242,
     "title": "幻兽帕鲁中文可视化服务器配置工具 v1.1.0",
