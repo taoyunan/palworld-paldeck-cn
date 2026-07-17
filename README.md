@@ -87,6 +87,9 @@ palworld-paldeck-cn/
 ├─ paldeck.html
 ├─ package.json
 ├─ README.md
+├─ .github/
+│  └─ workflows/
+│     └─ update-mods.yml
 ├─ scripts/
 │  ├─ import-technologies.mjs
 │  ├─ import-items.mjs
@@ -173,7 +176,7 @@ src/js/data/pal-breeding.js
 
 ## 更新 MOD 推荐
 
-MOD 推荐页的数据在构建时从 3DM MOD站同步，运行：
+MOD 推荐页的数据会通过 GitHub Actions 每 30 分钟自动同步一次，也可以在本地手动运行：
 
 ```powershell
 npm.cmd run import:mods
@@ -184,6 +187,8 @@ npm.cmd run import:mods
 ```text
 src/js/data/mod-recommendations.js
 ```
+
+也可以在 GitHub 仓库的 Actions 页面手动运行 `Update MOD Recommendations` 工作流。
 
 ## 部署
 

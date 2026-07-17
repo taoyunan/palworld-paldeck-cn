@@ -3,82 +3,886 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-14T09:02:50.433Z",
-  "count": 29
+  "updatedAt": "2026-07-17T06:03:49.668Z",
+  "count": 96
 };
 
 export const MOD_RECOMMENDATIONS = [
   {
+    "id": 256242,
+    "title": "幻兽帕鲁中文可视化服务器配置工具 v1.1.0",
+    "description": "一款面向《幻兽帕鲁》私人服务器的中文可视化配置工具，支持导入现有 PalWorldSettings.ini、中文编辑、参数校验、修改对比、体验预设和 Windows 原生保存。",
+    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a56890bf0c35.png",
+    "category": "其他",
+    "original": 1,
+    "createdAt": "2026-07-14T19:10:31.313Z",
+    "downloads": 161,
+    "views": 407,
+    "favorites": 82
+  },
+  {
+    "id": 256238,
+    "title": "【转载】幻兽帕鲁 Mount Speed - PalSchema 光照与截图表现优化",
+    "description": "《幻兽帕鲁》Mount Speed - PalSchema 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5618a5a6014@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T11:08:59.086Z",
+    "downloads": 145,
+    "views": 388,
+    "favorites": 78
+  },
+  {
+    "id": 256237,
+    "title": "【转载】幻兽帕鲁 YetAnotherMinimap 地图补丁",
+    "description": "《幻兽帕鲁》YetAnotherMinimap 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a560afa00d5b@webp",
+    "category": "其他",
+    "original": 4,
+    "createdAt": "2026-07-14T10:10:40.485Z",
+    "downloads": 127,
+    "views": 497,
+    "favorites": 89
+  },
+  {
+    "id": 256234,
+    "title": "【转载】世界设置解除封锁 World Settings Unblocker",
+    "description": "适用于《幻兽帕鲁》的 World Settings Unblocker，解封创建世界后原本不可编辑的世界设置菜单项。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e6a0707f1@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:35:33.565Z",
+    "downloads": 150,
+    "views": 454,
+    "favorites": 95
+  },
+  {
+    "id": 256233,
+    "title": "【转载】旧准星恢复 Old Reticle Restored",
+    "description": "适用于《幻兽帕鲁》的 Old Reticle Restored，让早期版本常驻显示的旧准星在 1.0 中重新可用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e5f735208@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:32:45.833Z",
+    "downloads": 146,
+    "views": 410,
+    "favorites": 89
+  },
+  {
+    "id": 256232,
+    "title": "【转载】恢复抢先体验翻滚 Restore Early Access Dodge Roll",
+    "description": "适用于《幻兽帕鲁》的 Restore Early Access Dodge Roll，恢复抢先体验时期更平滑的翻滚曲线。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e56cb4f2d@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:30:27.839Z",
+    "downloads": 139,
+    "views": 428,
+    "favorites": 90
+  },
+  {
+    "id": 256231,
+    "title": "【转载】Alpha 配种开关 Toggle Alpha Breeding",
+    "description": "适用于《幻兽帕鲁》的 Toggle Alpha Breeding，可用 F7 在游戏中切换 100% Alpha 后代。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e50ee568c@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:28:52.843Z",
+    "downloads": 165,
+    "views": 436,
+    "favorites": 90
+  },
+  {
+    "id": 256230,
+    "title": "【转载】皇家唤冬兽黑月替换 Royal Frostallion Noct",
+    "description": "适用于《幻兽帕鲁》的 Royal Frostallion Noct，把唤冬兽黑月默认模型替换为皇家唤冬兽风格。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e48ee4058@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:27:16.173Z",
+    "downloads": 142,
+    "views": 413,
+    "favorites": 74
+  },
+  {
+    "id": 256229,
+    "title": "【转载】精简 HUD 常驻提示 Declutter HUD",
+    "description": "适用于《幻兽帕鲁》的 Declutter HUD，隐藏常驻 HUD 提示，蹲下时可临时显示检查。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e40697c8d@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:24:28.533Z",
+    "downloads": 139,
+    "views": 452,
+    "favorites": 85
+  },
+  {
+    "id": 256228,
+    "title": "【转载】制作菜单快捷键 Helpful Crafting Keybinds",
+    "description": "适用于《幻兽帕鲁》的 Helpful Crafting Keybinds，为制作菜单加入数量拆分、记忆数量和快速确认快捷键。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e284e2584@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:18:02.923Z",
+    "downloads": 163,
+    "views": 404,
+    "favorites": 79
+  },
+  {
+    "id": 256227,
+    "title": "【转载】终极滑翔伞 Ultimate Gliders",
+    "description": "适用于《幻兽帕鲁》的 Ultimate Gliders，将标准滑翔伞和帕鲁滑翔速度提高到 1000，并移除滑翔体力消耗。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e1e7e7bdd@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:15:25.709Z",
+    "downloads": 143,
+    "views": 411,
+    "favorites": 82
+  },
+  {
+    "id": 256226,
+    "title": "【转载】瞬间满级道具 Instant Max Level Items",
+    "description": "适用于《幻兽帕鲁》的 Instant Max Level Items，让帕鲁经验道具一次使用即可升到满级。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e148b09a0@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:12:46.258Z",
+    "downloads": 148,
+    "views": 361,
+    "favorites": 100
+  },
+  {
+    "id": 256225,
+    "title": "【转载】完美基地帕鲁 Perfect Base Pals",
+    "description": "适用于《幻兽帕鲁》的 Perfect Base Pals，让基地帕鲁持续工作，避免饥饿、SAN 下降、生病和偷懒。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55e01ee0bac@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T07:07:49.164Z",
+    "downloads": 142,
+    "views": 436,
+    "favorites": 88
+  },
+  {
+    "id": 256224,
+    "title": "【转载】镜头控制 Camera Control",
+    "description": "《幻兽帕鲁》镜头控制 Camera Control，可在游戏中调整镜头位置并开关镜头碰撞。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55de46b981a@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:59:55.965Z",
+    "downloads": 154,
+    "views": 462,
+    "favorites": 80
+  },
+  {
+    "id": 256223,
+    "title": "【转载】鱼塘单次工作 Fish Pond 1 Work",
+    "description": "《幻兽帕鲁》鱼塘单次工作 Fish Pond 1 Work，让基地鱼塘钓鱼工作几乎瞬间完成。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ddea97eba@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:58:24.248Z",
+    "downloads": 149,
+    "views": 423,
+    "favorites": 86
+  },
+  {
+    "id": 256222,
+    "title": "【转载】菜单暂停 Pause On Menu",
+    "description": "《幻兽帕鲁》菜单暂停 Pause On Menu，打开 ESC/选项菜单时暂停游戏。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55dd785e0fb@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:56:30.206Z",
+    "downloads": 168,
+    "views": 461,
+    "favorites": 84
+  },
+  {
+    "id": 256221,
+    "title": "【转载】永不通缉 Never Wanted",
+    "description": "《幻兽帕鲁》永不通缉 Never Wanted，犯罪行为不再触发通缉等级和 PIDF 守卫。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55dd16e1859@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:54:53.018Z",
+    "downloads": 169,
+    "views": 456,
+    "favorites": 86
+  },
+  {
+    "id": 256220,
+    "title": "【转载】解除帧率上限 Unlimited FPS",
+    "description": "《幻兽帕鲁》解除帧率上限 Unlimited FPS，让游戏的 Unlimited 帧率设置真正不封顶。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55dcb9f260e@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:53:19.176Z",
+    "downloads": 148,
+    "views": 386,
+    "favorites": 81
+  },
+  {
+    "id": 256219,
+    "title": "【转载】世界设置解锁 World Settings Unlocker",
+    "description": "《幻兽帕鲁》世界设置解锁 World Settings Unlocker，解锁世界设置滑块范围以输入更高或更低数值。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55dc67c29d4@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:51:57.198Z",
+    "downloads": 135,
+    "views": 424,
+    "favorites": 80
+  },
+  {
+    "id": 256218,
+    "title": "【转载】玩法与战斗调校 Palworld Gameplay and Combat Tuner",
+    "description": "《幻兽帕鲁》玩法与战斗调校 Palworld Gameplay and Combat Tuner，用配置工具调整战斗、负重、科技点和基地范围等项目。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55dc11c6dd3@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:50:31.959Z",
+    "downloads": 140,
+    "views": 404,
+    "favorites": 74
+  },
+  {
+    "id": 256217,
+    "title": "【转载】地下城 Boss 重生时间修改 Dungeon Boss Respawn Time Modify",
+    "description": "《幻兽帕鲁》地下城 Boss 重生时间修改 Dungeon Boss Respawn Time Modify，可配置固定地下城 Boss 的真实重生冷却。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55dbb3d1baa@webp",
+    "category": "其他",
+    "original": 4,
+    "createdAt": "2026-07-14T06:48:57.576Z",
+    "downloads": 174,
+    "views": 460,
+    "favorites": 87
+  },
+  {
+    "id": 256216,
+    "title": "【转载】一击必杀 Insta-Kill",
+    "description": "《幻兽帕鲁》一击必杀 Insta-Kill，将玩家攻击数值提高到 999999999。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55db585a313@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:47:25.437Z",
+    "downloads": 123,
+    "views": 436,
+    "favorites": 84
+  },
+  {
+    "id": 256215,
+    "title": "【转载】技能果实扩展 Skill Fruits Expansion",
+    "description": "《幻兽帕鲁》技能果实扩展 Skill Fruits Expansion，为没有官方技能果实的主动技能加入 28 种技能果实。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55dacb7ae82@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:45:05.512Z",
+    "downloads": 140,
+    "views": 439,
+    "favorites": 77
+  },
+  {
+    "id": 256214,
+    "title": "【转载】免费强化玩家能力 Free Enhance Player Ability",
+    "description": "《幻兽帕鲁》免费强化玩家能力 Free Enhance Player Ability，将玩家能力强化成本降为 0。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d83069ebe@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:33:57.662Z",
+    "downloads": 157,
+    "views": 385,
+    "favorites": 92
+  },
+  {
+    "id": 256213,
+    "title": "【转载】强制突变开关 Toggle Forced Mutation",
+    "description": "《幻兽帕鲁》强制突变开关 Toggle Forced Mutation，用 F8 在原版突变率和 100% 突变率之间切换。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d79f5d637@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:31:33.073Z",
+    "downloads": 146,
+    "views": 425,
+    "favorites": 82
+  },
+  {
+    "id": 256212,
+    "title": "【转载】工作适应性书籍可重复使用 Reusable Work Suitability Books",
+    "description": "《幻兽帕鲁》工作适应性书籍可重复使用 Reusable Work Suitability Books，让工作适应性书籍使用后不消耗。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d6edb733b@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:28:35.461Z",
+    "downloads": 154,
+    "views": 375,
+    "favorites": 89
+  },
+  {
+    "id": 256211,
+    "title": "【转载】帕鲁进化 PalEvo",
+    "description": "《幻兽帕鲁》帕鲁进化 PalEvo，为原版帕鲁加入基于等级的自动进化路线。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d6818bacc@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:26:49.914Z",
+    "downloads": 158,
+    "views": 435,
+    "favorites": 91
+  },
+  {
+    "id": 256209,
+    "title": "【转载】滑翔无体力消耗 No Glider Stamina Costs",
+    "description": "《幻兽帕鲁》滑翔无体力消耗 No Glider Stamina Costs，移除滑翔时的体力消耗。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d570d5bc9@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:22:14.092Z",
+    "downloads": 139,
+    "views": 441,
+    "favorites": 73
+  },
+  {
+    "id": 256208,
+    "title": "【转载】扮演 Auri Play As Auri",
+    "description": "《幻兽帕鲁》扮演 Auri Play As Auri，将女性玩家角色替换为 Auri。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d50783f1b@webp",
+    "category": "角色",
+    "original": 4,
+    "createdAt": "2026-07-14T06:20:39.579Z",
+    "downloads": 141,
+    "views": 363,
+    "favorites": 78
+  },
+  {
+    "id": 256207,
+    "title": "【转载】HUD 缩放 Resize HUD",
+    "description": "《幻兽帕鲁》HUD 缩放 Resize HUD，提供不同 UI/HUD 缩放配置。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d49bc8bdd@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:18:41.513Z",
+    "downloads": 135,
+    "views": 430,
+    "favorites": 97
+  },
+  {
+    "id": 256206,
+    "title": "【转载】扮演 Zenara Play as Zenara",
+    "description": "《幻兽帕鲁》扮演 Zenara Play as Zenara，将女性玩家角色替换为 Zenara。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55d43d2f703@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T06:17:10.826Z",
+    "downloads": 135,
+    "views": 401,
+    "favorites": 88
+  },
+  {
+    "id": 256204,
+    "title": "【转载】任意位置放置原油提取机 Oil Extractors Anywhere",
+    "description": "《幻兽帕鲁》任意位置放置原油提取机 Oil Extractors Anywhere，移除原油提取机放置限制。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55cecc125d5@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:53:54.090Z",
+    "downloads": 119,
+    "views": 367,
+    "favorites": 70
+  },
+  {
+    "id": 256203,
+    "title": "【转载】显示全部雕像强化 Reveal All Statue Upgrades",
+    "description": "《幻兽帕鲁》显示全部雕像强化 Reveal All Statue Upgrades，显示力量石像全部帕鲁之魂强化类别。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ccd466234@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:45:30.380Z",
+    "downloads": 113,
+    "views": 403,
+    "favorites": 75
+  },
+  {
+    "id": 256202,
+    "title": "【转载】设计图转关键物品 Schematics and More as Key Items",
+    "description": "《幻兽帕鲁》设计图转关键物品 Schematics and More as Key Items，将设计图、钥匙、弹药和货币转入关键物品栏。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55cc7ba55f0@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:44:00.437Z",
+    "downloads": 138,
+    "views": 364,
+    "favorites": 84
+  },
+  {
+    "id": 256201,
+    "title": "【转载】多段跳 Multi Jump",
+    "description": "《幻兽帕鲁》多段跳 Multi Jump，允许角色在空中再次跳跃。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55cc24cf90a@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:42:34.039Z",
+    "downloads": 117,
+    "views": 360,
+    "favorites": 76
+  },
+  {
+    "id": 256200,
+    "title": "【转载】无坠落伤害 No Fall Damage Mod",
+    "description": "《幻兽帕鲁》无坠落伤害 No Fall Damage Mod，移除角色坠落伤害。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55cbcb41136@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:41:04.361Z",
+    "downloads": 128,
+    "views": 374,
+    "favorites": 86
+  },
+  {
+    "id": 256199,
+    "title": "【转载】全物品 1 金币 All Items for 1 Coin",
+    "description": "《幻兽帕鲁》全物品 1 金币 All Items for 1 Coin，为三类商人加入 2466 个物品并设为 1 金币。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55cb72696e6@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:39:38.600Z",
+    "downloads": 139,
+    "views": 373,
+    "favorites": 68
+  },
+  {
+    "id": 256197,
+    "title": "【转载】瞬间完成远征 Instant Expeditions",
+    "description": "《幻兽帕鲁》瞬间完成远征 Instant Expeditions，将所有远征完成时间降为 0 秒。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55cac55ca83@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:36:43.225Z",
+    "downloads": 123,
+    "views": 345,
+    "favorites": 67
+  },
+  {
+    "id": 256196,
+    "title": "【转载】出售全部帕鲁和 NPC All Pals and NPCs for Sale",
+    "description": "《幻兽帕鲁》出售全部帕鲁和 NPC All Pals and NPCs for Sale，将帕鲁和 NPC 加入商人售卖列表。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ca696a6c4@webp",
+    "category": "角色",
+    "original": 4,
+    "createdAt": "2026-07-14T05:35:13.474Z",
+    "downloads": 123,
+    "views": 337,
+    "favorites": 83
+  },
+  {
+    "id": 256195,
+    "title": "【转载】翼包无翼细胞消耗 Wing Pack No Wing Cell Cost",
+    "description": "《幻兽帕鲁》翼包无翼细胞消耗 Wing Pack No Wing Cell Cost，让翼包无需翼细胞即可使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ca03307f1@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:33:28.510Z",
+    "downloads": 147,
+    "views": 352,
+    "favorites": 68
+  },
+  {
+    "id": 256194,
+    "title": "【转载】免费科技 Technology is Free",
+    "description": "《幻兽帕鲁》免费科技 Technology is Free，将解锁科技所需消耗降为 0。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c9a595c95@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:31:54.943Z",
+    "downloads": 121,
+    "views": 368,
+    "favorites": 72
+  },
+  {
+    "id": 256193,
+    "title": "【转载】瞬间砍树 Instantly Chop Trees",
+    "description": "《幻兽帕鲁》瞬间砍树 Instantly Chop Trees，将可砍伐树木生命值降为 1。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c7c1aeeec@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:23:51.346Z",
+    "downloads": 114,
+    "views": 328,
+    "favorites": 66
+  },
+  {
+    "id": 256190,
+    "title": "【转载】材料快速生产 Fast Materials Production",
+    "description": "《幻兽帕鲁》材料快速生产 Fast Materials Production，提高资源生产建筑速度，提供 25%、50%、75% 三种版本。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c6a6dceb7@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:19:08.648Z",
+    "downloads": 122,
+    "views": 390,
+    "favorites": 69
+  },
+  {
+    "id": 256189,
+    "title": "【转载】无限弹夹 Bottomless Clip",
+    "description": "《幻兽帕鲁》无限弹夹 Bottomless Clip，让枪械不再需要换弹。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c65077d22@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:17:41.804Z",
+    "downloads": 134,
+    "views": 355,
+    "favorites": 77
+  },
+  {
+    "id": 256188,
+    "title": "【转载】渐进式工作适应性 ProgressiveWorkSuitability",
+    "description": "《幻兽帕鲁》渐进式工作适应性 ProgressiveWorkSuitability，让基地帕鲁越工作越擅长对应岗位。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c5c229fd4@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:15:19.654Z",
+    "downloads": 119,
+    "views": 376,
+    "favorites": 72
+  },
+  {
+    "id": 256187,
+    "title": "【转载】终极捕获率 Ultimate Capture Rate",
+    "description": "《幻兽帕鲁》终极捕获率 Ultimate Capture Rate，让所有可正常捕获的帕鲁捕获率变为 100%。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c568ad7df@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:13:50.696Z",
+    "downloads": 123,
+    "views": 326,
+    "favorites": 71
+  },
+  {
+    "id": 256186,
+    "title": "【转载】商店全物品 1 金币 All Shop Prices are 1",
+    "description": "《幻兽帕鲁》商店全物品 1 金币 All Shop Prices are 1，将所有商店售价设为 1 金币。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c4cd2800b@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:11:14.663Z",
+    "downloads": 131,
+    "views": 364,
+    "favorites": 66
+  },
+  {
+    "id": 256185,
+    "title": "【转载】终极帕鲁之魂强化 Ultimate Pal Soul Upgrades",
+    "description": "《幻兽帕鲁》终极帕鲁之魂强化 Ultimate Pal Soul Upgrades，大幅提高帕鲁之魂升级效果并取消消耗。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c471c23da@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:09:43.689Z",
+    "downloads": 132,
+    "views": 341,
+    "favorites": 77
+  },
+  {
+    "id": 256184,
+    "title": "【转载】免费雕像强化 Free Statue Upgrades",
+    "description": "《幻兽帕鲁》免费雕像强化 Free Statue Upgrades，移除力量石像玩家强化的帕鲁之魂消耗。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c3c41009b@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T05:06:50.306Z",
+    "downloads": 126,
+    "views": 369,
+    "favorites": 68
+  },
+  {
+    "id": 256183,
+    "title": "【转载】解锁全部科技 GY_UnlockAllTechnology",
+    "description": "《幻兽帕鲁》解锁全部科技 GY_UnlockAllTechnology，按 F6 解锁全部科技。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c1df4ab4b@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:58:45.209Z",
+    "downloads": 107,
+    "views": 366,
+    "favorites": 67
+  },
+  {
+    "id": 256182,
+    "title": "【转载】地图收集物修复 Map Collectables Fixed",
+    "description": "《幻兽帕鲁》地图收集物修复 Map Collectables Fixed，修复 1.0 版本地图收集物图标显示问题。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c18611319@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:57:16.538Z",
+    "downloads": 107,
+    "views": 332,
+    "favorites": 81
+  },
+  {
+    "id": 256181,
+    "title": "【转载】一千格储物箱 1000 Storage Slots",
+    "description": "《幻兽帕鲁》一千格储物箱 1000 Storage Slots，将所有支持的储物设施容量提升到 1000 格。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c129c2a79@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:55:43.971Z",
+    "downloads": 136,
+    "views": 336,
+    "favorites": 82
+  },
+  {
+    "id": 256179,
+    "title": "【转载】必定捕获 Always Capture",
+    "description": "《幻兽帕鲁》必定捕获 Always Capture，将可捕获对象的捕获率提高到 100%。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c0d6dea79@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:54:20.564Z",
+    "downloads": 113,
+    "views": 345,
+    "favorites": 81
+  },
+  {
+    "id": 256178,
+    "title": "【转载】完整被动词条手术 Complete Passive Surgery",
+    "description": "《幻兽帕鲁》完整被动词条手术 Complete Passive Surgery，解锁手术台全部被动词条并可免费应用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c04827430@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:52:00.320Z",
+    "downloads": 122,
+    "views": 403,
+    "favorites": 79
+  },
+  {
+    "id": 256177,
+    "title": "【转载】世界捕获率滑块上限 World Capture Rate Slider MAX",
+    "description": "《幻兽帕鲁》世界捕获率滑块上限 World Capture Rate Slider MAX，将世界设置中的捕获率上限扩展到 30 倍。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bfeaceb34@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:50:24.212Z",
+    "downloads": 119,
+    "views": 379,
+    "favorites": 69
+  },
+  {
+    "id": 256176,
+    "title": "【转载】任意地点快速旅行 Fast travel from anywhere",
+    "description": "《幻兽帕鲁》任意地点快速旅行 Fast travel from anywhere，可从任意位置传送到已解锁的快速旅行点。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bf8acf911@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:48:47.662Z",
+    "downloads": 110,
+    "views": 349,
+    "favorites": 82
+  },
+  {
+    "id": 256175,
+    "title": "【转载】堆叠数量与重量调整 Stack Size and Weight Mod",
+    "description": "《幻兽帕鲁》堆叠数量与重量调整 Stack Size and Weight Mod，将堆叠上限提高到 999999，并可移除物品重量。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bf301d022@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:47:17.914Z",
+    "downloads": 136,
+    "views": 366,
+    "favorites": 80
+  },
+  {
+    "id": 256174,
+    "title": "【转载】配种突变与时间调整 Better Mutation with Breeding Time",
+    "description": "《幻兽帕鲁》配种突变与时间调整 Better Mutation with Breeding Time，强化配种突变、产蛋和繁育时间。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bed6d73fe@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:45:48.607Z",
+    "downloads": 115,
+    "views": 333,
+    "favorites": 76
+  },
+  {
+    "id": 256172,
+    "title": "【转载】缩小建筑 Smaller Buildings",
+    "description": "《幻兽帕鲁》缩小建筑 Smaller Buildings，缩小建筑体积，方便基地布局和空间规划。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bce6738b1@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:37:32.631Z",
+    "downloads": 103,
+    "views": 328,
+    "favorites": 77
+  },
+  {
+    "id": 256171,
+    "title": "【转载】无建造成本 No Building Costs",
+    "description": "《幻兽帕鲁》无建造成本 No Building Costs，移除或降低建造消耗，方便快速搭建基地设施。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bc962cab8@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:36:11.673Z",
+    "downloads": 130,
+    "views": 390,
+    "favorites": 78
+  },
+  {
+    "id": 256170,
+    "title": "【转载】捕获不可捕获对象 Capture the Uncapturables",
+    "description": "《幻兽帕鲁》捕获不可捕获对象 Capture the Uncapturables，调整捕获相关规则，让捕捉流程或捕获结果更符合需求。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bc3ca33e0@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:34:42.017Z",
+    "downloads": 140,
+    "views": 387,
+    "favorites": 74
+  },
+  {
+    "id": 256169,
+    "title": "【转载】无制作成本 No Crafting Cost",
+    "description": "《幻兽帕鲁》无制作成本 No Crafting Cost，移除或降低制作消耗，减少制作物品时的材料压力。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bbe33d98a@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:33:13.445Z",
+    "downloads": 125,
+    "views": 369,
+    "favorites": 70
+  },
+  {
+    "id": 256168,
+    "title": "【转载】三倍完整战利品包 Zwaffel's Complete Loot Package 3x",
+    "description": "《幻兽帕鲁》三倍完整战利品包 Zwaffel's Complete Loot Package 3x，调整掉落或战利品产出，让刷取收益更符合需求。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bb8a96363@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:31:43.717Z",
+    "downloads": 145,
+    "views": 306,
+    "favorites": 69
+  },
+  {
+    "id": 256167,
+    "title": "【转载】升级获得更多属性点 More Stat Points Per Level",
+    "description": "《幻兽帕鲁》升级获得更多属性点 More Stat Points Per Level，调整升级获得的属性点数量，让角色成长更快。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bb2652cd3@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:30:03.926Z",
+    "downloads": 123,
+    "views": 359,
+    "favorites": 56
+  },
+  {
+    "id": 256166,
+    "title": "【转载】工作速度加快 Faster Work Speeds",
+    "description": "《幻兽帕鲁》工作速度加快 Faster Work Speeds，提高工作速度，减少基地生产和作业等待时间。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bacda13ae@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:28:35.970Z",
+    "downloads": 139,
+    "views": 401,
+    "favorites": 79
+  },
+  {
+    "id": 256165,
+    "title": "【转载】移动速度加快 Faster Movement Speed",
+    "description": "《幻兽帕鲁》移动速度加快 Faster Movement Speed，提升角色或移动相关速度，让跑图和日常移动更快。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ba6259ac4@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:27:13.663Z",
+    "downloads": 117,
+    "views": 376,
+    "favorites": 79
+  },
+  {
+    "id": 256162,
+    "title": "【转载】瞬间完成远征 InstantExpeditions",
+    "description": "《幻兽帕鲁》瞬间完成远征 InstantExpeditions，调整远征相关流程或加成，让派遣和结算更省时间。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55b976d04ac@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-14T04:22:52.839Z",
+    "downloads": 141,
+    "views": 343,
+    "favorites": 81
+  },
+  {
     "id": 256161,
-    "title": "【转载】幻兽帕鲁 开发者物品生成菜单 PalItemSpawner",
+    "title": "【转载】开发者物品生成菜单 PalItemSpawner",
     "description": "《幻兽帕鲁》开发者物品生成菜单 PalItemSpawner，开启游戏内开发者物品生成菜单，可搜索、筛选并生成物品，用于测试或调试。",
     "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ae8bbe509@webp",
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:36:18.205Z",
-    "downloads": 66,
-    "views": 225,
-    "favorites": 51
+    "downloads": 2145,
+    "views": 7721,
+    "favorites": 1130
   },
   {
     "id": 256160,
-    "title": "【转载】幻兽帕鲁 隐藏指南针 Hide Compass",
+    "title": "【转载】隐藏指南针 Hide Compass",
     "description": "《幻兽帕鲁》隐藏指南针 Hide Compass，隐藏 HUD 上的指南针元素，让界面更简洁。",
     "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55adafaf37e@webp",
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:32:37.613Z",
-    "downloads": 71,
-    "views": 222,
-    "favorites": 44
+    "downloads": 2004,
+    "views": 6183,
+    "favorites": 1117
   },
   {
     "id": 256159,
-    "title": "【转载】幻兽帕鲁 Boss 战计时器延长 Longer Boss Battle Timer",
+    "title": "【转载】Boss 战计时器延长 Longer Boss Battle Timer",
     "description": "《幻兽帕鲁》Boss 战计时器延长 Longer Boss Battle Timer，延长塔 Boss 和 Raid 等 Boss 战时间限制，让战斗有更充足的处理空间。",
     "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55a9abdeb02@webp",
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:15:33.699Z",
-    "downloads": 76,
-    "views": 247,
-    "favorites": 46
+    "downloads": 1917,
+    "views": 5572,
+    "favorites": 1150
   },
   {
     "id": 256158,
-    "title": "【转载】幻兽帕鲁 基地自动化 Palworld Base Automation",
+    "title": "【转载】基地自动化 Palworld Base Automation",
     "description": "《幻兽帕鲁》基地自动化 Palworld Base Automation，自动化处理基地内部分重复操作，减少手动搬运和管理负担。",
     "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55a68a197f1@webp",
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:02:07.621Z",
-    "downloads": 78,
-    "views": 213,
-    "favorites": 38
+    "downloads": 1965,
+    "views": 6985,
+    "favorites": 1117
   },
   {
     "id": 256157,
-    "title": "【转载】幻兽帕鲁 地图雕像标记 Statue Map Markers",
+    "title": "【转载】地图雕像标记 Statue Map Markers",
     "description": "《幻兽帕鲁》地图雕像标记 Statue Map Markers，在地图上显示雕像位置标记，可用快捷键切换显示，方便查找和规划收集路线。",
     "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55a10b16d51@webp",
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-14T02:38:50.732Z",
-    "downloads": 76,
-    "views": 188,
-    "favorites": 44
+    "downloads": 2037,
+    "views": 6666,
+    "favorites": 1245
   },
   {
     "id": 256156,
-    "title": "【转载】幻兽帕鲁 极致画质配置 Ultra Graphics",
+    "title": "【转载】极致画质配置 Ultra Graphics",
     "description": "《幻兽帕鲁》极致画质配置 Ultra Graphics，结合 Unreal Engine 配置和 UE4SS Lua 脚本强化部分光源、间接光照、阴影距离和视距表现。",
     "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a559d2918aa1@webp",
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-14T02:22:13.040Z",
-    "downloads": 67,
-    "views": 235,
-    "favorites": 42
+    "downloads": 1990,
+    "views": 6642,
+    "favorites": 1150
   },
   {
     "id": 256135,
@@ -88,9 +892,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T12:48:33.788Z",
-    "downloads": 625,
-    "views": 2232,
-    "favorites": 355
+    "downloads": 2125,
+    "views": 7005,
+    "favorites": 1223
   },
   {
     "id": 256117,
@@ -100,9 +904,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:59:53.290Z",
-    "downloads": 235,
-    "views": 840,
-    "favorites": 148
+    "downloads": 1669,
+    "views": 5143,
+    "favorites": 978
   },
   {
     "id": 256116,
@@ -112,9 +916,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:58:18.930Z",
-    "downloads": 621,
-    "views": 1829,
-    "favorites": 347
+    "downloads": 2072,
+    "views": 6200,
+    "favorites": 1169
   },
   {
     "id": 256115,
@@ -124,9 +928,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:56:44.630Z",
-    "downloads": 606,
-    "views": 1822,
-    "favorites": 359
+    "downloads": 2085,
+    "views": 6132,
+    "favorites": 1210
   },
   {
     "id": 256114,
@@ -136,9 +940,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-13T06:55:33.493Z",
-    "downloads": 596,
-    "views": 1866,
-    "favorites": 353
+    "downloads": 2012,
+    "views": 6103,
+    "favorites": 1154
   },
   {
     "id": 256113,
@@ -148,9 +952,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:54:10.571Z",
-    "downloads": 570,
-    "views": 1883,
-    "favorites": 378
+    "downloads": 1968,
+    "views": 6052,
+    "favorites": 1174
   },
   {
     "id": 256112,
@@ -160,9 +964,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:52:06.389Z",
-    "downloads": 601,
-    "views": 1905,
-    "favorites": 347
+    "downloads": 2028,
+    "views": 6521,
+    "favorites": 1163
   },
   {
     "id": 256111,
@@ -172,9 +976,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:50:11.676Z",
-    "downloads": 604,
-    "views": 1757,
-    "favorites": 350
+    "downloads": 2145,
+    "views": 6261,
+    "favorites": 1191
   },
   {
     "id": 256110,
@@ -184,9 +988,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:48:43.116Z",
-    "downloads": 614,
-    "views": 2036,
-    "favorites": 360
+    "downloads": 2156,
+    "views": 7293,
+    "favorites": 1186
   },
   {
     "id": 256109,
@@ -196,9 +1000,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:47:03.773Z",
-    "downloads": 668,
-    "views": 1889,
-    "favorites": 353
+    "downloads": 2249,
+    "views": 6611,
+    "favorites": 1172
   },
   {
     "id": 256108,
@@ -208,9 +1012,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:44:41.005Z",
-    "downloads": 648,
-    "views": 1952,
-    "favorites": 357
+    "downloads": 2241,
+    "views": 7100,
+    "favorites": 1181
   },
   {
     "id": 256107,
@@ -220,9 +1024,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:10:00.849Z",
-    "downloads": 603,
-    "views": 1742,
-    "favorites": 334
+    "downloads": 2025,
+    "views": 5773,
+    "favorites": 1134
   },
   {
     "id": 256106,
@@ -232,9 +1036,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-13T05:53:39.617Z",
-    "downloads": 517,
-    "views": 1854,
-    "favorites": 319
+    "downloads": 1877,
+    "views": 5919,
+    "favorites": 1132
   },
   {
     "id": 256105,
@@ -244,9 +1048,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T05:46:33.418Z",
-    "downloads": 621,
-    "views": 1752,
-    "favorites": 303
+    "downloads": 2043,
+    "views": 5724,
+    "favorites": 1105
   },
   {
     "id": 256104,
@@ -256,9 +1060,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T05:41:42.614Z",
-    "downloads": 607,
-    "views": 1711,
-    "favorites": 328
+    "downloads": 1993,
+    "views": 5978,
+    "favorites": 1144
   },
   {
     "id": 256097,
@@ -268,9 +1072,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T04:54:17.671Z",
-    "downloads": 956,
-    "views": 3562,
-    "favorites": 549
+    "downloads": 2406,
+    "views": 7706,
+    "favorites": 1372
   },
   {
     "id": 256093,
@@ -280,9 +1084,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T04:41:03.351Z",
-    "downloads": 955,
-    "views": 2849,
-    "favorites": 556
+    "downloads": 2383,
+    "views": 6746,
+    "favorites": 1374
   },
   {
     "id": 256089,
@@ -292,9 +1096,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-13T04:27:16.804Z",
-    "downloads": 958,
-    "views": 3202,
-    "favorites": 511
+    "downloads": 2368,
+    "views": 7700,
+    "favorites": 1356
   },
   {
     "id": 256088,
@@ -304,9 +1108,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T04:21:31.670Z",
-    "downloads": 943,
-    "views": 3015,
-    "favorites": 547
+    "downloads": 2349,
+    "views": 7517,
+    "favorites": 1361
   },
   {
     "id": 256080,
@@ -316,9 +1120,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T02:40:44.360Z",
-    "downloads": 889,
-    "views": 2897,
-    "favorites": 491
+    "downloads": 2224,
+    "views": 6990,
+    "favorites": 1319
   },
   {
     "id": 256056,
@@ -328,9 +1132,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-07-11T11:57:34.536Z",
-    "downloads": 754,
-    "views": 2388,
-    "favorites": 480
+    "downloads": 1859,
+    "views": 5481,
+    "favorites": 1090
   },
   {
     "id": 256035,
@@ -340,9 +1144,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-10T18:49:05.464Z",
-    "downloads": 2210,
-    "views": 8119,
-    "favorites": 1206
+    "downloads": 3232,
+    "views": 11022,
+    "favorites": 1766
   },
   {
     "id": 256030,
@@ -352,8 +1156,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-10T17:24:20.581Z",
-    "downloads": 2300,
-    "views": 9979,
-    "favorites": 1202
+    "downloads": 3594,
+    "views": 13963,
+    "favorites": 1713
   }
 ];

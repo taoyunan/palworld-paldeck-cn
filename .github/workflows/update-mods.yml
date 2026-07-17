@@ -1,0 +1,43 @@
+name: Update MOD Recommendations
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mod-recommendations
+  cancel-in-progress: true
+
+jobs:
+  update-mods:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Import latest MOD recommendations
+        run: npm run import:mods
+
+      - name: Check scripts
+        run: npm run check
+
+      - name: Commit updated MOD data
+        run: |
+          if git diff --quiet -- src/js/data/mod-recommendations.js; then
+            echo "No MOD data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/js/data/mod-recommendations.js
+          git commit -m "Update MOD recommendations"
+          git push
