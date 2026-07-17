@@ -103,7 +103,7 @@
 
 .mods-toolbar {
   display: grid;
-  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr) auto;
+  grid-template-columns: minmax(240px, 320px) minmax(140px, 180px) minmax(0, 1fr) auto;
   gap: 18px;
   align-items: end;
   margin: 26px 0 20px;
@@ -114,7 +114,8 @@
   box-shadow: 0 12px 30px rgba(34, 48, 41, 0.08);
 }
 
-.mods-search {
+.mods-search,
+.mods-sort {
   display: grid;
   gap: 7px;
   color: var(--muted);
@@ -122,7 +123,8 @@
   font-weight: 800;
 }
 
-.mods-search input {
+.mods-search input,
+.mods-sort select {
   width: 100%;
   min-height: 42px;
   padding: 0 14px;
@@ -133,7 +135,13 @@
   outline: none;
 }
 
-.mods-search input:focus {
+.mods-sort select {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.mods-search input:focus,
+.mods-sort select:focus {
   border-color: var(--teal);
   box-shadow: 0 0 0 3px rgba(35, 130, 124, 0.12);
 }
@@ -345,7 +353,8 @@
 
 @media (max-width: 1180px) {
   .mods-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .mods-toolbar { grid-template-columns: minmax(220px, 300px) 1fr; }
+  .mods-toolbar { grid-template-columns: minmax(220px, 1fr) minmax(140px, 180px); }
+  .mods-categories { grid-column: 1 / -1; }
   .mods-count { grid-column: 1 / -1; padding: 0; }
 }
 

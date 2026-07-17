@@ -9,7 +9,8 @@ const ORIGINAL_LABELS = new Map([
 
 const state = {
   category: "全部",
-  query: ""
+  query: "",
+  sort: "hot"
 };
 
 const elements = {
@@ -18,8 +19,23 @@ const elements = {
   empty: document.querySelector("#modsEmpty"),
   grid: document.querySelector("#modsGrid"),
   search: document.querySelector("#modSearch"),
+  sort: document.querySelector("#modSort"),
   source: document.querySelector("#modsSource"),
   updated: document.querySelector("#modsUpdated")
+};
+
+const SORTERS = {
+  hot: (left, right) =>
+    Number(right.views || 0) - Number(left.views || 0)
+    || Number(right.downloads || 0) - Number(left.downloads || 0)
+    || Date.parse(right.createdAt) - Date.parse(left.createdAt),
+  time: (left, right) =>
+    Date.parse(right.createdAt) - Date.parse(left.createdAt)
+    || Number(right.views || 0) - Number(left.views || 0),
+  downloads: (left, right) =>
+    Number(right.downloads || 0) - Number(left.downloads || 0)
+    || Number(right.views || 0) - Number(left.views || 0)
+    || Date.parse(right.createdAt) - Date.parse(left.createdAt)
 };
 
 function escapeHtml(value) {
@@ -77,8 +93,13 @@ function matches(mod) {
   return categoryMatches && (!state.query || haystack.includes(state.query));
 }
 
+function sortMods(mods) {
+  const sorter = SORTERS[state.sort] || SORTERS.hot;
+  return [...mods].sort(sorter);
+}
+
 function renderMods() {
-  const mods = MOD_RECOMMENDATIONS.filter(matches);
+  const mods = sortMods(MOD_RECOMMENDATIONS.filter(matches));
   elements.count.textContent = `显示 ${mods.length} / ${MOD_RECOMMENDATIONS.length} 个`;
   elements.empty.hidden = mods.length !== 0;
   elements.grid.hidden = mods.length === 0;
@@ -106,6 +127,11 @@ elements.source.href = MOD_RECOMMENDATION_META.sourceUrl;
 elements.updated.textContent = `收录 ${MOD_RECOMMENDATION_META.count} 个 · 更新于 ${formatDate(MOD_RECOMMENDATION_META.updatedAt)}`;
 elements.search.addEventListener("input", () => {
   state.query = elements.search.value.trim().toLocaleLowerCase("zh-CN");
+  renderMods();
+});
+
+elements.sort.addEventListener("change", () => {
+  state.sort = elements.sort.value;
   renderMods();
 });
 

@@ -50,6 +50,14 @@
         <span>搜索</span>
         <input id="modSearch" type="search" placeholder="名称或介绍">
       </label>
+      <label class="mods-sort" for="modSort">
+        <span>排序</span>
+        <select id="modSort">
+          <option value="hot">热度</option>
+          <option value="time">时间</option>
+          <option value="downloads">下载量</option>
+        </select>
+      </label>
       <div class="mods-categories" id="modCategories" role="group" aria-label="MOD 类型"></div>
       <span class="mods-count" id="modCount" aria-live="polite"></span>
     </section>
