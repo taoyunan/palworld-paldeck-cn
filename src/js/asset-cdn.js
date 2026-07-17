@@ -5,6 +5,7 @@ const CDN_BASES = [
   `https://fastly.jsdelivr.net/gh/${REPO}@main`,
   `https://gcore.jsdelivr.net/gh/${REPO}@main`,
   `https://testingcf.jsdelivr.net/gh/${REPO}@main`,
+  `https://cdn.statically.io/gh/${REPO}/main`,
   `https://raw.gitmirror.com/${REPO}/main`,
   `https://raw.githubusercontent.com/${REPO}/main`,
   ""
