@@ -3,11 +3,71 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-18T18:14:10.923Z",
-  "count": 102
+  "updatedAt": "2026-07-18T19:37:40.266Z",
+  "count": 107
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 256398,
+    "title": "【转载】幻兽帕鲁 HUD Locator All in 1 光照与截图表现优化",
+    "description": "《幻兽帕鲁》HUD Locator All in 1 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5bb75fca5ac@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-18T17:27:34.019Z",
+    "downloads": 0,
+    "views": 0,
+    "favorites": 0
+  },
+  {
+    "id": 256394,
+    "title": "【转载】幻兽帕鲁 Field Boss Defeat Marker 地图补丁",
+    "description": "《幻兽帕鲁》Field Boss Defeat Marker 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5bb16a4518c@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-18T17:02:07.121Z",
+    "downloads": 0,
+    "views": 5,
+    "favorites": 0
+  },
+  {
+    "id": 256393,
+    "title": "【转载】幻兽帕鲁 Genshin Impact Characters As NPCs Collection_02 地图补丁",
+    "description": "《幻兽帕鲁》Genshin Impact Characters As NPCs Collection_02 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5baf1761d7f@webp",
+    "category": "角色",
+    "original": 4,
+    "createdAt": "2026-07-18T16:52:18.543Z",
+    "downloads": 0,
+    "views": 9,
+    "favorites": 0
+  },
+  {
+    "id": 256385,
+    "title": "【转载】幻兽帕鲁 Craft Ancient Core And HolyWater 脚本前置库",
+    "description": "《幻兽帕鲁》Craft Ancient Core And HolyWater 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5b7e71dda25@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-18T13:24:38.038Z",
+    "downloads": 66,
+    "views": 235,
+    "favorites": 38
+  },
+  {
+    "id": 256381,
+    "title": "【转载】幻兽帕鲁 Skip Salvage Minigame 光照与截图表现优化",
+    "description": "《幻兽帕鲁》Skip Salvage Minigame 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5b76e585de8@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-18T12:52:26.307Z",
+    "downloads": 54,
+    "views": 203,
+    "favorites": 24
+  },
   {
     "id": 256323,
     "title": "【转载】幻兽帕鲁 ProgressiveInfiniteLeveling (world included) 兵种与战斗体系调整",
