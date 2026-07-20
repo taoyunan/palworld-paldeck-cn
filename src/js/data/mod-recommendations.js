@@ -3,22 +3,106 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-20T16:49:55.125Z",
-  "count": 118
+  "updatedAt": "2026-07-20T18:46:47.101Z",
+  "count": 125
 };
 
 export const MOD_RECOMMENDATIONS = [
   {
-    "id": 256406,
-    "title": "【转载】幻兽帕鲁 Endless Siege - Timed Base Raids and Tower Boss Finale 脚本前置库",
-    "description": "《幻兽帕鲁》Endless Siege - Timed Base Raids and Tower Boss Finale 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5bc1a2c8e70@webp",
+    "id": 256486,
+    "title": "【转载】幻兽帕鲁 Astralym (God of destruction) 地图补丁",
+    "description": "《幻兽帕鲁》Astralym (God of destruction) 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e58c9cfa79@webp",
     "category": "功能插件",
     "original": 4,
-    "createdAt": "2026-07-18T18:11:23.283Z",
-    "downloads": 45,
-    "views": 189,
-    "favorites": 30
+    "createdAt": "2026-07-20T17:20:50.291Z",
+    "downloads": 76,
+    "views": 211,
+    "favorites": 34
+  },
+  {
+    "id": 256484,
+    "title": "【转载】幻兽帕鲁 Tower Bosses Unlock All Pal Gear (PalSchema) 兵种与战斗体系调整",
+    "description": "《幻兽帕鲁》Tower Bosses Unlock All Pal Gear (PalSchema) 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e568829965@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-20T17:11:08.397Z",
+    "downloads": 67,
+    "views": 164,
+    "favorites": 47
+  },
+  {
+    "id": 256482,
+    "title": "【转载】幻兽帕鲁 Ancient Core Drops 脚本前置库",
+    "description": "《幻兽帕鲁》Ancient Core Drops 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e5524bc77b@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-20T17:05:12.808Z",
+    "downloads": 62,
+    "views": 222,
+    "favorites": 43
+  },
+  {
+    "id": 256481,
+    "title": "【转载】幻兽帕鲁 Soul Drops 事件与敌人行为扩展",
+    "description": "《幻兽帕鲁》Soul Drops 事件与敌人行为扩展，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e4f18b4c35@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-20T16:39:24.921Z",
+    "downloads": 65,
+    "views": 177,
+    "favorites": 38
+  },
+  {
+    "id": 256468,
+    "title": "【转载】幻兽帕鲁 Human Mercy Bypass - Capture Mode and Uncapturable Pal 事件与敌人行为扩展",
+    "description": "《幻兽帕鲁》Human Mercy Bypass - Capture Mode and Uncapturable Pal 事件与敌人行为扩展，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e17a047059@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-20T12:42:46.353Z",
+    "downloads": 68,
+    "views": 204,
+    "favorites": 39
+  },
+  {
+    "id": 256465,
+    "title": "【转载】幻兽帕鲁 BetterServer 兵种与战斗体系调整",
+    "description": "《幻兽帕鲁》BetterServer 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e13aee8dd3@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-20T12:25:56.574Z",
+    "downloads": 71,
+    "views": 177,
+    "favorites": 39
+  },
+  {
+    "id": 256459,
+    "title": "【转载】幻兽帕鲁 Wild Egg Magnet 光照与截图表现优化",
+    "description": "《幻兽帕鲁》Wild Egg Magnet 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5df906aa572@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-20T10:32:12.454Z",
+    "downloads": 58,
+    "views": 205,
+    "favorites": 49
+  },
+  {
+    "id": 256458,
+    "title": "【转载】幻兽帕鲁 Relic Statue Markers on Map 地图补丁",
+    "description": "《幻兽帕鲁》Relic Statue Markers on Map 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5df8242c5c2@webp",
+    "category": "其他",
+    "original": 4,
+    "createdAt": "2026-07-20T10:28:26.616Z",
+    "downloads": 57,
+    "views": 179,
+    "favorites": 42
   },
   {
     "id": 256398,
