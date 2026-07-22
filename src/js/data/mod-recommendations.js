@@ -3,11 +3,47 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-22T16:11:03.749Z",
-  "count": 127
+  "updatedAt": "2026-07-22T17:45:55.231Z",
+  "count": 130
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 256590,
+    "title": "【转载】幻兽帕鲁 Drop Item Hotkey 光照与截图表现优化",
+    "description": "《幻兽帕鲁》Drop Item Hotkey 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60f3788546f@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-22T16:45:17.268Z",
+    "downloads": 0,
+    "views": 2,
+    "favorites": 0
+  },
+  {
+    "id": 256580,
+    "title": "【转载】幻兽帕鲁 Smart Production Queue 脚本前置库",
+    "description": "《幻兽帕鲁》Smart Production Queue 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60c5ea06d79@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-22T13:30:56.008Z",
+    "downloads": 0,
+    "views": 8,
+    "favorites": 0
+  },
+  {
+    "id": 256577,
+    "title": "【转载】幻兽帕鲁 Wing Pack - Flight Editor (Basic) 光照与截图表现优化",
+    "description": "《幻兽帕鲁》Wing Pack - Flight Editor (Basic) 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60c1115c375@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-22T13:10:14.163Z",
+    "downloads": 0,
+    "views": 6,
+    "favorites": 0
+  },
   {
     "id": 256531,
     "title": "【转载】幻兽帕鲁 Pal Tweaks (Base Working) - Mod Palschema 修复与优化补丁",
