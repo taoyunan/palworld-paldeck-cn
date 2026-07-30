@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-30T06:14:55.872Z",
+  "updatedAt": "2026-07-30T09:09:01.672Z",
   "count": 134
 };
 
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-23T12:46:47.560Z",
-    "downloads": 589,
-    "views": 2052,
-    "favorites": 343
+    "downloads": 692,
+    "views": 2407,
+    "favorites": 411
   },
   {
     "id": 256617,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-23T12:16:33.518Z",
-    "downloads": 633,
-    "views": 1941,
-    "favorites": 361
+    "downloads": 735,
+    "views": 2268,
+    "favorites": 437
   },
   {
     "id": 256590,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T16:45:17.268Z",
-    "downloads": 3424,
-    "views": 11401,
-    "favorites": 1936
+    "downloads": 3498,
+    "views": 11627,
+    "favorites": 1962
   },
   {
     "id": 256580,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T13:30:56.008Z",
-    "downloads": 3299,
-    "views": 10678,
-    "favorites": 1929
+    "downloads": 3361,
+    "views": 10917,
+    "favorites": 1959
   },
   {
     "id": 256577,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T13:10:14.163Z",
-    "downloads": 3220,
-    "views": 9786,
-    "favorites": 1854
+    "downloads": 3293,
+    "views": 9996,
+    "favorites": 1885
   },
   {
     "id": 256569,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T12:12:16.718Z",
-    "downloads": 3189,
-    "views": 10031,
-    "favorites": 1845
+    "downloads": 3255,
+    "views": 10205,
+    "favorites": 1877
   },
   {
     "id": 256567,
@@ -88,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-22T12:06:56.871Z",
-    "downloads": 3262,
-    "views": 9683,
-    "favorites": 1818
+    "downloads": 3331,
+    "views": 9889,
+    "favorites": 1845
   },
   {
     "id": 256531,
@@ -100,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-21T10:08:30.446Z",
-    "downloads": 3073,
-    "views": 9865,
-    "favorites": 1685
+    "downloads": 3143,
+    "views": 10097,
+    "favorites": 1711
   },
   {
     "id": 256486,
@@ -112,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-20T17:20:50.291Z",
-    "downloads": 3833,
-    "views": 12606,
-    "favorites": 2069
+    "downloads": 3887,
+    "views": 12793,
+    "favorites": 2099
   },
   {
     "id": 256484,
@@ -124,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-20T17:11:08.397Z",
-    "downloads": 3768,
-    "views": 11474,
-    "favorites": 2176
+    "downloads": 3836,
+    "views": 11690,
+    "favorites": 2210
   },
   {
     "id": 256482,
@@ -136,9 +136,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-20T17:05:12.808Z",
-    "downloads": 3795,
-    "views": 11331,
-    "favorites": 2187
+    "downloads": 3870,
+    "views": 11527,
+    "favorites": 2215
   },
   {
     "id": 256481,
@@ -148,9 +148,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-20T16:39:24.921Z",
-    "downloads": 3738,
-    "views": 10789,
-    "favorites": 2098
+    "downloads": 3796,
+    "views": 10963,
+    "favorites": 2130
   },
   {
     "id": 256468,
@@ -160,9 +160,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-20T12:42:46.353Z",
-    "downloads": 3628,
-    "views": 10670,
-    "favorites": 2036
+    "downloads": 3692,
+    "views": 10850,
+    "favorites": 2068
   },
   {
     "id": 256465,
@@ -172,9 +172,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-20T12:25:56.574Z",
-    "downloads": 3519,
-    "views": 10612,
-    "favorites": 2010
+    "downloads": 3593,
+    "views": 10809,
+    "favorites": 2038
   },
   {
     "id": 256459,
@@ -184,9 +184,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-20T10:32:12.454Z",
-    "downloads": 3498,
-    "views": 10704,
-    "favorites": 2040
+    "downloads": 3561,
+    "views": 10890,
+    "favorites": 2074
   },
   {
     "id": 256458,
@@ -196,9 +196,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-20T10:28:26.616Z",
-    "downloads": 3536,
-    "views": 10591,
-    "favorites": 2051
+    "downloads": 3599,
+    "views": 10806,
+    "favorites": 2083
   },
   {
     "id": 256406,
@@ -208,9 +208,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-18T18:11:23.283Z",
-    "downloads": 2879,
-    "views": 8360,
-    "favorites": 1626
+    "downloads": 2938,
+    "views": 8515,
+    "favorites": 1664
   },
   {
     "id": 256398,
@@ -220,9 +220,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-18T17:27:34.019Z",
-    "downloads": 4090,
-    "views": 12622,
-    "favorites": 2287
+    "downloads": 4148,
+    "views": 12807,
+    "favorites": 2324
   },
   {
     "id": 256394,
@@ -232,9 +232,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-18T17:02:07.121Z",
-    "downloads": 4026,
-    "views": 12946,
-    "favorites": 2285
+    "downloads": 4101,
+    "views": 13148,
+    "favorites": 2318
   },
   {
     "id": 256393,
@@ -244,9 +244,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "角色",
     "original": 4,
     "createdAt": "2026-07-18T16:52:18.543Z",
-    "downloads": 4091,
-    "views": 12830,
-    "favorites": 2258
+    "downloads": 4162,
+    "views": 13017,
+    "favorites": 2295
   },
   {
     "id": 256385,
@@ -256,9 +256,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-18T13:24:38.038Z",
-    "downloads": 4013,
-    "views": 12152,
-    "favorites": 2301
+    "downloads": 4082,
+    "views": 12351,
+    "favorites": 2328
   },
   {
     "id": 256381,
@@ -268,9 +268,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-18T12:52:26.307Z",
-    "downloads": 3945,
-    "views": 11308,
-    "favorites": 2248
+    "downloads": 4016,
+    "views": 11493,
+    "favorites": 2281
   },
   {
     "id": 256379,
@@ -280,9 +280,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-18T12:22:40.320Z",
-    "downloads": 4066,
-    "views": 11743,
-    "favorites": 2306
+    "downloads": 4131,
+    "views": 11937,
+    "favorites": 2337
   },
   {
     "id": 256378,
@@ -292,9 +292,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-18T12:02:39.383Z",
-    "downloads": 4060,
-    "views": 11624,
-    "favorites": 2262
+    "downloads": 4127,
+    "views": 11813,
+    "favorites": 2291
   },
   {
     "id": 256377,
@@ -304,9 +304,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-18T11:59:20.694Z",
-    "downloads": 4049,
-    "views": 12569,
-    "favorites": 2273
+    "downloads": 4103,
+    "views": 12765,
+    "favorites": 2306
   },
   {
     "id": 256323,
@@ -316,9 +316,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-17T07:17:33.506Z",
-    "downloads": 4344,
-    "views": 14125,
-    "favorites": 2459
+    "downloads": 4415,
+    "views": 14306,
+    "favorites": 2488
   },
   {
     "id": 256320,
@@ -328,9 +328,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-17T07:04:00.235Z",
-    "downloads": 4461,
-    "views": 13820,
-    "favorites": 2446
+    "downloads": 4518,
+    "views": 14008,
+    "favorites": 2476
   },
   {
     "id": 256317,
@@ -340,9 +340,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-17T06:55:20.657Z",
-    "downloads": 4526,
-    "views": 14190,
-    "favorites": 2507
+    "downloads": 4609,
+    "views": 14387,
+    "favorites": 2542
   },
   {
     "id": 256315,
@@ -352,9 +352,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-17T06:44:28.502Z",
-    "downloads": 4397,
-    "views": 13465,
-    "favorites": 2473
+    "downloads": 4456,
+    "views": 13673,
+    "favorites": 2512
   },
   {
     "id": 256312,
@@ -364,9 +364,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-17T06:25:22.969Z",
-    "downloads": 4385,
-    "views": 13256,
-    "favorites": 2435
+    "downloads": 4460,
+    "views": 13430,
+    "favorites": 2472
   },
   {
     "id": 256291,
@@ -376,9 +376,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-17T02:38:23.067Z",
-    "downloads": 4428,
-    "views": 13375,
-    "favorites": 2424
+    "downloads": 4494,
+    "views": 13564,
+    "favorites": 2455
   },
   {
     "id": 256242,
@@ -388,9 +388,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 1,
     "createdAt": "2026-07-14T19:10:31.313Z",
-    "downloads": 3550,
-    "views": 11337,
-    "favorites": 1773
+    "downloads": 3582,
+    "views": 11423,
+    "favorites": 1783
   },
   {
     "id": 256240,
@@ -400,9 +400,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T14:09:41.918Z",
-    "downloads": 1986,
-    "views": 5606,
-    "favorites": 1031
+    "downloads": 2026,
+    "views": 5674,
+    "favorites": 1049
   },
   {
     "id": 256238,
@@ -412,9 +412,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T11:08:59.086Z",
-    "downloads": 3185,
-    "views": 9265,
-    "favorites": 1691
+    "downloads": 3219,
+    "views": 9357,
+    "favorites": 1705
   },
   {
     "id": 256237,
@@ -424,9 +424,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-14T10:10:40.485Z",
-    "downloads": 3136,
-    "views": 9445,
-    "favorites": 1742
+    "downloads": 3166,
+    "views": 9534,
+    "favorites": 1757
   },
   {
     "id": 256234,
@@ -436,9 +436,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:35:33.565Z",
-    "downloads": 3115,
-    "views": 8943,
-    "favorites": 1642
+    "downloads": 3145,
+    "views": 9032,
+    "favorites": 1655
   },
   {
     "id": 256233,
@@ -448,9 +448,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:32:45.833Z",
-    "downloads": 3169,
-    "views": 8702,
-    "favorites": 1614
+    "downloads": 3198,
+    "views": 8798,
+    "favorites": 1628
   },
   {
     "id": 256232,
@@ -460,9 +460,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:30:27.839Z",
-    "downloads": 3081,
-    "views": 8768,
-    "favorites": 1640
+    "downloads": 3125,
+    "views": 8847,
+    "favorites": 1658
   },
   {
     "id": 256231,
@@ -472,9 +472,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:28:52.843Z",
-    "downloads": 3066,
-    "views": 9537,
-    "favorites": 1638
+    "downloads": 3101,
+    "views": 9611,
+    "favorites": 1659
   },
   {
     "id": 256230,
@@ -484,9 +484,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:27:16.173Z",
-    "downloads": 3102,
-    "views": 9067,
-    "favorites": 1670
+    "downloads": 3133,
+    "views": 9144,
+    "favorites": 1688
   },
   {
     "id": 256229,
@@ -496,9 +496,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:24:28.533Z",
-    "downloads": 3062,
-    "views": 8772,
-    "favorites": 1649
+    "downloads": 3090,
+    "views": 8860,
+    "favorites": 1664
   },
   {
     "id": 256228,
@@ -508,9 +508,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:18:02.923Z",
-    "downloads": 3088,
-    "views": 8717,
-    "favorites": 1631
+    "downloads": 3116,
+    "views": 8805,
+    "favorites": 1652
   },
   {
     "id": 256227,
@@ -520,9 +520,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:15:25.709Z",
-    "downloads": 3128,
-    "views": 8623,
-    "favorites": 1612
+    "downloads": 3158,
+    "views": 8715,
+    "favorites": 1630
   },
   {
     "id": 256226,
@@ -532,9 +532,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:12:46.258Z",
-    "downloads": 3082,
-    "views": 8940,
-    "favorites": 1665
+    "downloads": 3113,
+    "views": 9019,
+    "favorites": 1685
   },
   {
     "id": 256225,
@@ -544,9 +544,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T07:07:49.164Z",
-    "downloads": 3161,
-    "views": 9785,
-    "favorites": 1669
+    "downloads": 3192,
+    "views": 9864,
+    "favorites": 1688
   },
   {
     "id": 256224,
@@ -556,9 +556,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:59:55.965Z",
-    "downloads": 3007,
-    "views": 8527,
-    "favorites": 1638
+    "downloads": 3037,
+    "views": 8590,
+    "favorites": 1649
   },
   {
     "id": 256223,
@@ -568,9 +568,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:58:24.248Z",
-    "downloads": 3071,
-    "views": 8733,
-    "favorites": 1613
+    "downloads": 3105,
+    "views": 8817,
+    "favorites": 1626
   },
   {
     "id": 256222,
@@ -580,9 +580,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:56:30.206Z",
-    "downloads": 3078,
-    "views": 8820,
-    "favorites": 1636
+    "downloads": 3114,
+    "views": 8890,
+    "favorites": 1656
   },
   {
     "id": 256221,
@@ -592,9 +592,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:54:53.018Z",
-    "downloads": 3122,
-    "views": 8455,
-    "favorites": 1656
+    "downloads": 3144,
+    "views": 8535,
+    "favorites": 1675
   },
   {
     "id": 256220,
@@ -604,9 +604,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:53:19.176Z",
-    "downloads": 3127,
-    "views": 8780,
-    "favorites": 1581
+    "downloads": 3158,
+    "views": 8861,
+    "favorites": 1602
   },
   {
     "id": 256219,
@@ -616,9 +616,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:51:57.198Z",
-    "downloads": 3120,
-    "views": 8833,
-    "favorites": 1682
+    "downloads": 3150,
+    "views": 8933,
+    "favorites": 1703
   },
   {
     "id": 256218,
@@ -628,9 +628,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:50:31.959Z",
-    "downloads": 3084,
-    "views": 8568,
-    "favorites": 1603
+    "downloads": 3120,
+    "views": 8659,
+    "favorites": 1625
   },
   {
     "id": 256217,
@@ -640,9 +640,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-14T06:48:57.576Z",
-    "downloads": 3205,
-    "views": 9159,
-    "favorites": 1684
+    "downloads": 3237,
+    "views": 9242,
+    "favorites": 1699
   },
   {
     "id": 256216,
@@ -652,9 +652,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:47:25.437Z",
-    "downloads": 3106,
-    "views": 8689,
-    "favorites": 1657
+    "downloads": 3130,
+    "views": 8783,
+    "favorites": 1671
   },
   {
     "id": 256215,
@@ -664,9 +664,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:45:05.512Z",
-    "downloads": 3148,
-    "views": 8897,
-    "favorites": 1638
+    "downloads": 3172,
+    "views": 8974,
+    "favorites": 1655
   },
   {
     "id": 256214,
@@ -676,9 +676,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:33:57.662Z",
-    "downloads": 3226,
-    "views": 8614,
-    "favorites": 1656
+    "downloads": 3259,
+    "views": 8697,
+    "favorites": 1671
   },
   {
     "id": 256213,
@@ -688,9 +688,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:31:33.073Z",
-    "downloads": 3078,
-    "views": 8736,
-    "favorites": 1646
+    "downloads": 3104,
+    "views": 8824,
+    "favorites": 1667
   },
   {
     "id": 256212,
@@ -700,9 +700,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:28:35.461Z",
-    "downloads": 3126,
-    "views": 8959,
-    "favorites": 1647
+    "downloads": 3155,
+    "views": 9045,
+    "favorites": 1663
   },
   {
     "id": 256211,
@@ -712,9 +712,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:26:49.914Z",
-    "downloads": 3135,
-    "views": 9321,
-    "favorites": 1692
+    "downloads": 3170,
+    "views": 9418,
+    "favorites": 1708
   },
   {
     "id": 256210,
@@ -724,9 +724,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:23:55.671Z",
-    "downloads": 1964,
-    "views": 5373,
-    "favorites": 975
+    "downloads": 2003,
+    "views": 5439,
+    "favorites": 987
   },
   {
     "id": 256209,
@@ -736,9 +736,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:22:14.092Z",
-    "downloads": 3091,
-    "views": 8594,
-    "favorites": 1670
+    "downloads": 3122,
+    "views": 8671,
+    "favorites": 1690
   },
   {
     "id": 256208,
@@ -748,9 +748,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "角色",
     "original": 4,
     "createdAt": "2026-07-14T06:20:39.579Z",
-    "downloads": 3296,
-    "views": 10521,
-    "favorites": 1615
+    "downloads": 3334,
+    "views": 10633,
+    "favorites": 1630
   },
   {
     "id": 256207,
@@ -760,9 +760,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:18:41.513Z",
-    "downloads": 3069,
-    "views": 8478,
-    "favorites": 1657
+    "downloads": 3109,
+    "views": 8560,
+    "favorites": 1676
   },
   {
     "id": 256206,
@@ -772,9 +772,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:17:10.826Z",
-    "downloads": 3081,
-    "views": 8700,
-    "favorites": 1668
+    "downloads": 3114,
+    "views": 8785,
+    "favorites": 1682
   },
   {
     "id": 256204,
@@ -784,9 +784,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:53:54.090Z",
-    "downloads": 3018,
-    "views": 8484,
-    "favorites": 1629
+    "downloads": 3046,
+    "views": 8555,
+    "favorites": 1645
   },
   {
     "id": 256203,
@@ -796,9 +796,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:45:30.380Z",
-    "downloads": 2968,
-    "views": 8696,
-    "favorites": 1630
+    "downloads": 3001,
+    "views": 8764,
+    "favorites": 1644
   },
   {
     "id": 256202,
@@ -808,9 +808,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:44:00.437Z",
-    "downloads": 3086,
-    "views": 8433,
-    "favorites": 1651
+    "downloads": 3127,
+    "views": 8511,
+    "favorites": 1669
   },
   {
     "id": 256201,
@@ -820,9 +820,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:42:34.039Z",
-    "downloads": 3098,
-    "views": 8340,
-    "favorites": 1649
+    "downloads": 3127,
+    "views": 8423,
+    "favorites": 1666
   },
   {
     "id": 256200,
@@ -832,9 +832,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:41:04.361Z",
-    "downloads": 3079,
-    "views": 8500,
-    "favorites": 1670
+    "downloads": 3109,
+    "views": 8594,
+    "favorites": 1683
   },
   {
     "id": 256199,
@@ -844,9 +844,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:39:38.600Z",
-    "downloads": 3258,
-    "views": 9105,
-    "favorites": 1625
+    "downloads": 3296,
+    "views": 9175,
+    "favorites": 1642
   },
   {
     "id": 256198,
@@ -856,9 +856,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:38:02.271Z",
-    "downloads": 1872,
-    "views": 5322,
-    "favorites": 985
+    "downloads": 1905,
+    "views": 5416,
+    "favorites": 1001
   },
   {
     "id": 256197,
@@ -868,9 +868,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:36:43.225Z",
-    "downloads": 3237,
-    "views": 9463,
-    "favorites": 1641
+    "downloads": 3270,
+    "views": 9556,
+    "favorites": 1658
   },
   {
     "id": 256196,
@@ -880,9 +880,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "角色",
     "original": 4,
     "createdAt": "2026-07-14T05:35:13.474Z",
-    "downloads": 3052,
-    "views": 9093,
-    "favorites": 1643
+    "downloads": 3090,
+    "views": 9207,
+    "favorites": 1658
   },
   {
     "id": 256195,
@@ -892,9 +892,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:33:28.510Z",
-    "downloads": 3116,
-    "views": 8639,
-    "favorites": 1636
+    "downloads": 3164,
+    "views": 8743,
+    "favorites": 1647
   },
   {
     "id": 256194,
@@ -904,9 +904,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:31:54.943Z",
-    "downloads": 3038,
-    "views": 8451,
-    "favorites": 1630
+    "downloads": 3072,
+    "views": 8537,
+    "favorites": 1645
   },
   {
     "id": 256193,
@@ -916,9 +916,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:23:51.346Z",
-    "downloads": 2992,
-    "views": 8441,
-    "favorites": 1636
+    "downloads": 3033,
+    "views": 8519,
+    "favorites": 1649
   },
   {
     "id": 256192,
@@ -928,9 +928,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:22:09.895Z",
-    "downloads": 1872,
-    "views": 5298,
-    "favorites": 939
+    "downloads": 1906,
+    "views": 5387,
+    "favorites": 956
   },
   {
     "id": 256191,
@@ -940,9 +940,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:20:39.849Z",
-    "downloads": 1816,
-    "views": 5130,
-    "favorites": 997
+    "downloads": 1851,
+    "views": 5211,
+    "favorites": 1013
   },
   {
     "id": 256190,
@@ -952,9 +952,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:19:08.648Z",
-    "downloads": 3049,
-    "views": 8930,
-    "favorites": 1566
+    "downloads": 3077,
+    "views": 9021,
+    "favorites": 1580
   },
   {
     "id": 256189,
@@ -964,9 +964,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:17:41.804Z",
-    "downloads": 3106,
-    "views": 8504,
-    "favorites": 1647
+    "downloads": 3142,
+    "views": 8583,
+    "favorites": 1662
   },
   {
     "id": 256188,
@@ -976,9 +976,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:15:19.654Z",
-    "downloads": 3018,
-    "views": 8837,
-    "favorites": 1621
+    "downloads": 3049,
+    "views": 8941,
+    "favorites": 1638
   },
   {
     "id": 256187,
@@ -988,9 +988,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:13:50.696Z",
-    "downloads": 3083,
-    "views": 8604,
-    "favorites": 1611
+    "downloads": 3117,
+    "views": 8681,
+    "favorites": 1626
   },
   {
     "id": 256186,
@@ -1000,9 +1000,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:11:14.663Z",
-    "downloads": 3200,
-    "views": 8721,
-    "favorites": 1633
+    "downloads": 3234,
+    "views": 8804,
+    "favorites": 1651
   },
   {
     "id": 256185,
@@ -1012,9 +1012,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:09:43.689Z",
-    "downloads": 3195,
-    "views": 9062,
-    "favorites": 1606
+    "downloads": 3219,
+    "views": 9145,
+    "favorites": 1620
   },
   {
     "id": 256184,
@@ -1024,9 +1024,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:06:50.306Z",
-    "downloads": 3164,
-    "views": 8774,
-    "favorites": 1573
+    "downloads": 3184,
+    "views": 8854,
+    "favorites": 1590
   },
   {
     "id": 256183,
@@ -1036,9 +1036,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:58:45.209Z",
-    "downloads": 3009,
-    "views": 8603,
-    "favorites": 1580
+    "downloads": 3041,
+    "views": 8695,
+    "favorites": 1592
   },
   {
     "id": 256182,
@@ -1048,9 +1048,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:57:16.538Z",
-    "downloads": 3037,
-    "views": 9204,
-    "favorites": 1644
+    "downloads": 3079,
+    "views": 9308,
+    "favorites": 1658
   },
   {
     "id": 256181,
@@ -1060,9 +1060,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:55:43.971Z",
-    "downloads": 3180,
-    "views": 9023,
-    "favorites": 1665
+    "downloads": 3209,
+    "views": 9108,
+    "favorites": 1676
   },
   {
     "id": 256179,
@@ -1072,9 +1072,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:54:20.564Z",
-    "downloads": 3004,
-    "views": 8738,
-    "favorites": 1623
+    "downloads": 3034,
+    "views": 8816,
+    "favorites": 1638
   },
   {
     "id": 256178,
@@ -1084,9 +1084,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:52:00.320Z",
-    "downloads": 3328,
-    "views": 10519,
-    "favorites": 1654
+    "downloads": 3371,
+    "views": 10655,
+    "favorites": 1663
   },
   {
     "id": 256177,
@@ -1096,9 +1096,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:50:24.212Z",
-    "downloads": 2981,
-    "views": 8462,
-    "favorites": 1579
+    "downloads": 3011,
+    "views": 8539,
+    "favorites": 1600
   },
   {
     "id": 256176,
@@ -1108,9 +1108,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:48:47.662Z",
-    "downloads": 3154,
-    "views": 9277,
-    "favorites": 1666
+    "downloads": 3189,
+    "views": 9367,
+    "favorites": 1684
   },
   {
     "id": 256175,
@@ -1120,9 +1120,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:47:17.914Z",
-    "downloads": 3171,
-    "views": 9216,
-    "favorites": 1670
+    "downloads": 3199,
+    "views": 9313,
+    "favorites": 1687
   },
   {
     "id": 256174,
@@ -1132,9 +1132,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:45:48.607Z",
-    "downloads": 3102,
-    "views": 9023,
-    "favorites": 1643
+    "downloads": 3138,
+    "views": 9110,
+    "favorites": 1661
   },
   {
     "id": 256173,
@@ -1144,9 +1144,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:44:24.012Z",
-    "downloads": 1959,
-    "views": 5166,
-    "favorites": 935
+    "downloads": 1987,
+    "views": 5250,
+    "favorites": 948
   },
   {
     "id": 256172,
@@ -1156,9 +1156,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:37:32.631Z",
-    "downloads": 2990,
-    "views": 8391,
-    "favorites": 1596
+    "downloads": 3022,
+    "views": 8476,
+    "favorites": 1611
   },
   {
     "id": 256171,
@@ -1168,9 +1168,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:36:11.673Z",
-    "downloads": 3177,
-    "views": 8702,
-    "favorites": 1622
+    "downloads": 3210,
+    "views": 8781,
+    "favorites": 1635
   },
   {
     "id": 256170,
@@ -1180,9 +1180,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:34:42.017Z",
-    "downloads": 3144,
-    "views": 9027,
-    "favorites": 1595
+    "downloads": 3180,
+    "views": 9112,
+    "favorites": 1615
   },
   {
     "id": 256169,
@@ -1192,9 +1192,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:33:13.445Z",
-    "downloads": 3032,
-    "views": 8433,
-    "favorites": 1635
+    "downloads": 3071,
+    "views": 8509,
+    "favorites": 1652
   },
   {
     "id": 256168,
@@ -1204,9 +1204,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:31:43.717Z",
-    "downloads": 3058,
-    "views": 8496,
-    "favorites": 1604
+    "downloads": 3093,
+    "views": 8564,
+    "favorites": 1619
   },
   {
     "id": 256167,
@@ -1216,9 +1216,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:30:03.926Z",
-    "downloads": 2996,
-    "views": 8841,
-    "favorites": 1639
+    "downloads": 3029,
+    "views": 8931,
+    "favorites": 1656
   },
   {
     "id": 256166,
@@ -1228,9 +1228,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:28:35.970Z",
-    "downloads": 2953,
-    "views": 8406,
-    "favorites": 1646
+    "downloads": 2982,
+    "views": 8482,
+    "favorites": 1662
   },
   {
     "id": 256165,
@@ -1240,9 +1240,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:27:13.663Z",
-    "downloads": 3066,
-    "views": 8417,
-    "favorites": 1616
+    "downloads": 3106,
+    "views": 8493,
+    "favorites": 1634
   },
   {
     "id": 256164,
@@ -1252,9 +1252,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:25:15.840Z",
-    "downloads": 1920,
-    "views": 5555,
-    "favorites": 973
+    "downloads": 1953,
+    "views": 5641,
+    "favorites": 993
   },
   {
     "id": 256162,
@@ -1264,9 +1264,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:22:52.839Z",
-    "downloads": 3208,
-    "views": 8583,
-    "favorites": 1616
+    "downloads": 3247,
+    "views": 8656,
+    "favorites": 1629
   },
   {
     "id": 256161,
@@ -1276,9 +1276,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:36:18.205Z",
-    "downloads": 5132,
-    "views": 16385,
-    "favorites": 2683
+    "downloads": 5168,
+    "views": 16485,
+    "favorites": 2700
   },
   {
     "id": 256160,
@@ -1288,9 +1288,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:32:37.613Z",
-    "downloads": 4883,
-    "views": 14322,
-    "favorites": 2624
+    "downloads": 4921,
+    "views": 14410,
+    "favorites": 2641
   },
   {
     "id": 256159,
@@ -1300,9 +1300,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:15:33.699Z",
-    "downloads": 4851,
-    "views": 13318,
-    "favorites": 2699
+    "downloads": 4881,
+    "views": 13412,
+    "favorites": 2715
   },
   {
     "id": 256158,
@@ -1312,9 +1312,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T03:02:07.621Z",
-    "downloads": 4863,
-    "views": 15769,
-    "favorites": 2692
+    "downloads": 4887,
+    "views": 15861,
+    "favorites": 2706
   },
   {
     "id": 256157,
@@ -1324,9 +1324,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-14T02:38:50.732Z",
-    "downloads": 4966,
-    "views": 15277,
-    "favorites": 2751
+    "downloads": 4997,
+    "views": 15362,
+    "favorites": 2766
   },
   {
     "id": 256156,
@@ -1336,9 +1336,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-14T02:22:13.040Z",
-    "downloads": 4865,
-    "views": 15224,
-    "favorites": 2665
+    "downloads": 4909,
+    "views": 15316,
+    "favorites": 2678
   },
   {
     "id": 256135,
@@ -1348,9 +1348,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T12:48:33.788Z",
-    "downloads": 4874,
-    "views": 14577,
-    "favorites": 2648
+    "downloads": 4912,
+    "views": 14656,
+    "favorites": 2661
   },
   {
     "id": 256117,
@@ -1360,9 +1360,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:59:53.290Z",
-    "downloads": 4413,
-    "views": 12842,
-    "favorites": 2360
+    "downloads": 4451,
+    "views": 12929,
+    "favorites": 2377
   },
   {
     "id": 256116,
@@ -1372,9 +1372,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:58:18.930Z",
-    "downloads": 4859,
-    "views": 13828,
-    "favorites": 2596
+    "downloads": 4889,
+    "views": 13927,
+    "favorites": 2614
   },
   {
     "id": 256115,
@@ -1384,9 +1384,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:56:44.630Z",
-    "downloads": 4835,
-    "views": 13638,
-    "favorites": 2633
+    "downloads": 4868,
+    "views": 13738,
+    "favorites": 2650
   },
   {
     "id": 256114,
@@ -1396,9 +1396,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-13T06:55:33.493Z",
-    "downloads": 4755,
-    "views": 13859,
-    "favorites": 2616
+    "downloads": 4790,
+    "views": 13915,
+    "favorites": 2635
   },
   {
     "id": 256113,
@@ -1408,9 +1408,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:54:10.571Z",
-    "downloads": 4751,
-    "views": 13570,
-    "favorites": 2603
+    "downloads": 4783,
+    "views": 13669,
+    "favorites": 2615
   },
   {
     "id": 256112,
@@ -1420,9 +1420,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:52:06.389Z",
-    "downloads": 4803,
-    "views": 14740,
-    "favorites": 2606
+    "downloads": 4837,
+    "views": 14839,
+    "favorites": 2624
   },
   {
     "id": 256111,
@@ -1432,9 +1432,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:50:11.676Z",
-    "downloads": 4963,
-    "views": 14053,
-    "favorites": 2556
+    "downloads": 4993,
+    "views": 14149,
+    "favorites": 2574
   },
   {
     "id": 256110,
@@ -1444,9 +1444,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:48:43.116Z",
-    "downloads": 4999,
-    "views": 15547,
-    "favorites": 2609
+    "downloads": 5033,
+    "views": 15628,
+    "favorites": 2629
   },
   {
     "id": 256109,
@@ -1456,9 +1456,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:47:03.773Z",
-    "downloads": 5057,
-    "views": 14625,
-    "favorites": 2623
+    "downloads": 5096,
+    "views": 14720,
+    "favorites": 2640
   },
   {
     "id": 256108,
@@ -1468,9 +1468,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:44:41.005Z",
-    "downloads": 5160,
-    "views": 15894,
-    "favorites": 2622
+    "downloads": 5200,
+    "views": 16014,
+    "favorites": 2641
   },
   {
     "id": 256107,
@@ -1480,9 +1480,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T06:10:00.849Z",
-    "downloads": 4685,
-    "views": 13042,
-    "favorites": 2566
+    "downloads": 4714,
+    "views": 13136,
+    "favorites": 2587
   },
   {
     "id": 256106,
@@ -1492,9 +1492,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-13T05:53:39.617Z",
-    "downloads": 4590,
-    "views": 13390,
-    "favorites": 2545
+    "downloads": 4617,
+    "views": 13473,
+    "favorites": 2562
   },
   {
     "id": 256105,
@@ -1504,9 +1504,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T05:46:33.418Z",
-    "downloads": 4820,
-    "views": 13222,
-    "favorites": 2502
+    "downloads": 4847,
+    "views": 13314,
+    "favorites": 2519
   },
   {
     "id": 256104,
@@ -1516,9 +1516,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T05:41:42.614Z",
-    "downloads": 4710,
-    "views": 13365,
-    "favorites": 2581
+    "downloads": 4745,
+    "views": 13440,
+    "favorites": 2593
   },
   {
     "id": 256097,
@@ -1528,9 +1528,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T04:54:17.671Z",
-    "downloads": 5027,
-    "views": 16077,
-    "favorites": 2735
+    "downloads": 5061,
+    "views": 16173,
+    "favorites": 2747
   },
   {
     "id": 256093,
@@ -1540,9 +1540,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T04:41:03.351Z",
-    "downloads": 5006,
-    "views": 14123,
-    "favorites": 2783
+    "downloads": 5034,
+    "views": 14202,
+    "favorites": 2801
   },
   {
     "id": 256089,
@@ -1552,9 +1552,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-13T04:27:16.804Z",
-    "downloads": 5086,
-    "views": 16065,
-    "favorites": 2757
+    "downloads": 5122,
+    "views": 16205,
+    "favorites": 2775
   },
   {
     "id": 256088,
@@ -1564,9 +1564,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T04:21:31.670Z",
-    "downloads": 5036,
-    "views": 15087,
-    "favorites": 2737
+    "downloads": 5069,
+    "views": 15172,
+    "favorites": 2755
   },
   {
     "id": 256080,
@@ -1576,9 +1576,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-13T02:40:44.360Z",
-    "downloads": 4970,
-    "views": 14458,
-    "favorites": 2742
+    "downloads": 4995,
+    "views": 14528,
+    "favorites": 2756
   },
   {
     "id": 256056,
@@ -1588,9 +1588,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-07-11T11:57:34.536Z",
-    "downloads": 6539,
-    "views": 19304,
-    "favorites": 3728
+    "downloads": 6604,
+    "views": 19536,
+    "favorites": 3760
   },
   {
     "id": 256035,
@@ -1600,9 +1600,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-10T18:49:05.464Z",
-    "downloads": 5430,
-    "views": 17276,
-    "favorites": 2825
+    "downloads": 5451,
+    "views": 17371,
+    "favorites": 2839
   },
   {
     "id": 256030,
@@ -1612,8 +1612,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "其他",
     "original": 4,
     "createdAt": "2026-07-10T17:24:20.581Z",
-    "downloads": 6379,
-    "views": 23481,
-    "favorites": 2777
+    "downloads": 6426,
+    "views": 23607,
+    "favorites": 2790
   }
 ];
