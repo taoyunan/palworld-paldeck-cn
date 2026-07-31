@@ -3,34 +3,82 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-31T14:43:15.329Z",
-  "count": 136
+  "updatedAt": "2026-07-31T16:28:38.420Z",
+  "count": 140
 };
 
 export const MOD_RECOMMENDATIONS = [
   {
-    "id": 256803,
-    "title": "【转载】幻兽帕鲁 Palbox Search Plus 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Palbox Search Plus 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6b28f08459a@webp",
-    "category": "功能插件",
+    "id": 256866,
+    "title": "【转载】幻兽帕鲁 Quality Of Life 修复与优化补丁",
+    "description": "《幻兽帕鲁》Quality Of Life 修复与优化补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6cb49a8e4f8@webp",
+    "category": "游戏优化",
     "original": 4,
-    "createdAt": "2026-07-30T10:36:08.607Z",
-    "downloads": 840,
-    "views": 2488,
-    "favorites": 449
+    "createdAt": "2026-07-31T14:44:15.043Z",
+    "downloads": 63,
+    "views": 214,
+    "favorites": 32
   },
   {
-    "id": 256797,
-    "title": "【转载】幻兽帕鲁 Pal List Searchbar 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Pal List Searchbar 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6b1cf757744@webp",
+    "id": 256865,
+    "title": "【转载】幻兽帕鲁 RightClickBack - Close Menus with Right Click 光照与截图表现优化",
+    "description": "《幻兽帕鲁》RightClickBack - Close Menus with Right Click 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6cb4396134b@webp",
     "category": "功能插件",
     "original": 4,
-    "createdAt": "2026-07-30T09:44:59.591Z",
-    "downloads": 801,
-    "views": 2371,
-    "favorites": 475
+    "createdAt": "2026-07-31T14:42:38.618Z",
+    "downloads": 65,
+    "views": 224,
+    "favorites": 43
+  },
+  {
+    "id": 256853,
+    "title": "【转载】幻兽帕鲁 Palworld Easy Tweaks (PET) 地图补丁",
+    "description": "《幻兽帕鲁》Palworld Easy Tweaks (PET) 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6ca4a241363@webp",
+    "category": "游戏优化",
+    "original": 4,
+    "createdAt": "2026-07-31T13:36:13.700Z",
+    "downloads": 78,
+    "views": 189,
+    "favorites": 44
+  },
+  {
+    "id": 256849,
+    "title": "【转载】幻兽帕鲁 Config Partner Pal Skill Cooldown 兵种与战斗体系调整",
+    "description": "《幻兽帕鲁》Config Partner Pal Skill Cooldown 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6c9901eaa7b@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-31T12:46:31.010Z",
+    "downloads": 76,
+    "views": 212,
+    "favorites": 42
+  },
+  {
+    "id": 256848,
+    "title": "【转载】幻兽帕鲁 Mercy Mode 脚本前置库",
+    "description": "《幻兽帕鲁》Mercy Mode 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6c92e803bfa@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-31T12:20:28.415Z",
+    "downloads": 57,
+    "views": 227,
+    "favorites": 39
+  },
+  {
+    "id": 256847,
+    "title": "【转载】幻兽帕鲁 Mod Options Framework 脚本前置库",
+    "description": "《幻兽帕鲁》Mod Options Framework 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6c91b24d510@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-07-31T12:15:18.566Z",
+    "downloads": 65,
+    "views": 199,
+    "favorites": 47
   },
   {
     "id": 256619,
