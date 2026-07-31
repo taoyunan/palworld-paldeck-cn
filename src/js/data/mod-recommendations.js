@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-31T07:41:54.589Z",
+  "updatedAt": "2026-07-31T10:24:38.047Z",
   "count": 136
 };
 
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-30T10:36:08.607Z",
-    "downloads": 550,
-    "views": 1657,
-    "favorites": 303
+    "downloads": 840,
+    "views": 2488,
+    "favorites": 449
   },
   {
     "id": 256797,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-30T09:44:59.591Z",
-    "downloads": 537,
-    "views": 1682,
-    "favorites": 320
+    "downloads": 801,
+    "views": 2371,
+    "favorites": 475
   },
   {
     "id": 256619,
