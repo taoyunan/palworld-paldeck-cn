@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-07-31T21:01:09.162Z",
+  "updatedAt": "2026-07-31T22:29:27.534Z",
   "count": 142
 };
 
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T14:44:15.043Z",
-    "downloads": 63,
-    "views": 214,
-    "favorites": 32
+    "downloads": 267,
+    "views": 808,
+    "favorites": 151
   },
   {
     "id": 256865,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T14:42:38.618Z",
-    "downloads": 65,
-    "views": 224,
-    "favorites": 43
+    "downloads": 292,
+    "views": 772,
+    "favorites": 159
   },
   {
     "id": 256853,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T13:36:13.700Z",
-    "downloads": 78,
-    "views": 189,
-    "favorites": 44
+    "downloads": 255,
+    "views": 847,
+    "favorites": 178
   },
   {
     "id": 256849,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:46:31.010Z",
-    "downloads": 76,
-    "views": 212,
-    "favorites": 42
+    "downloads": 289,
+    "views": 838,
+    "favorites": 151
   },
   {
     "id": 256848,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:20:28.415Z",
-    "downloads": 57,
-    "views": 227,
-    "favorites": 39
+    "downloads": 243,
+    "views": 811,
+    "favorites": 150
   },
   {
     "id": 256847,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:15:18.566Z",
-    "downloads": 65,
-    "views": 199,
-    "favorites": 47
+    "downloads": 275,
+    "views": 805,
+    "favorites": 185
   },
   {
     "id": 256803,
