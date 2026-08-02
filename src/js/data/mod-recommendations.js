@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-08-02T18:46:33.558Z",
+  "updatedAt": "2026-08-02T20:02:45.560Z",
   "count": 142
 };
 
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T14:44:15.043Z",
-    "downloads": 1356,
-    "views": 4550,
-    "favorites": 802
+    "downloads": 1499,
+    "views": 5081,
+    "favorites": 888
   },
   {
     "id": 256865,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T14:42:38.618Z",
-    "downloads": 1269,
-    "views": 4059,
-    "favorites": 818
+    "downloads": 1420,
+    "views": 4481,
+    "favorites": 906
   },
   {
     "id": 256853,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T13:36:13.700Z",
-    "downloads": 1331,
-    "views": 4287,
-    "favorites": 796
+    "downloads": 1480,
+    "views": 4748,
+    "favorites": 887
   },
   {
     "id": 256849,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:46:31.010Z",
-    "downloads": 1273,
-    "views": 3967,
-    "favorites": 767
+    "downloads": 1430,
+    "views": 4324,
+    "favorites": 867
   },
   {
     "id": 256848,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:20:28.415Z",
-    "downloads": 1324,
-    "views": 4008,
-    "favorites": 802
+    "downloads": 1466,
+    "views": 4479,
+    "favorites": 889
   },
   {
     "id": 256847,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:15:18.566Z",
-    "downloads": 1297,
-    "views": 3881,
-    "favorites": 838
+    "downloads": 1458,
+    "views": 4238,
+    "favorites": 927
   },
   {
     "id": 256803,
