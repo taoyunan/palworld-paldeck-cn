@@ -3,11 +3,47 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-08-20T00:26:52.741Z",
-  "count": 143
+  "updatedAt": "2026-08-20T01:57:58.982Z",
+  "count": 102
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 257455,
+    "title": "【转载】幻兽帕鲁 乌克兰语翻译 Ukrainian Translation (full)",
+    "description": "《幻兽帕鲁》乌克兰语翻译 Ukrainian Translation (full)，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202608/MOD6a830d165c04f@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-08-17T13:31:51.112Z",
+    "downloads": 0,
+    "views": 4,
+    "favorites": 0
+  },
+  {
+    "id": 257447,
+    "title": "【转载】幻兽帕鲁 意大利语翻译 Palvolve - Evolve your Pals",
+    "description": "《幻兽帕鲁》意大利语翻译 Palvolve - Evolve your Pals，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202608/MOD6a82f852a72c9@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-08-17T12:03:09.026Z",
+    "downloads": 0,
+    "views": 4,
+    "favorites": 0
+  },
+  {
+    "id": 257419,
+    "title": "把所有NPC的经验值改为1",
+    "description": "服务器可用\n据点的npc经验全部改为1\n服务器已开放，要塞内的NPC体验改为1",
+    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a829b923c267.png",
+    "category": "游戏优化",
+    "original": 1,
+    "createdAt": "2026-08-17T05:27:13.537Z",
+    "downloads": 0,
+    "views": 8,
+    "favorites": 0
+  },
   {
     "id": 257392,
     "title": "所有商人都不可捕捉",
@@ -16,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 1794,
-    "views": 5111,
-    "favorites": 1031
+    "downloads": 1879,
+    "views": 5341,
+    "favorites": 1082
   },
   {
     "id": 257391,
@@ -28,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 1710,
-    "views": 5244,
-    "favorites": 1011
+    "downloads": 1798,
+    "views": 5485,
+    "favorites": 1062
   },
   {
     "id": 257390,
@@ -40,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 1739,
-    "views": 5165,
-    "favorites": 1071
+    "downloads": 1822,
+    "views": 5387,
+    "favorites": 1116
   },
   {
     "id": 257361,
@@ -52,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 1901,
-    "views": 5762,
-    "favorites": 1069
+    "downloads": 2040,
+    "views": 6192,
+    "favorites": 1166
   },
   {
     "id": 256866,
@@ -64,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T14:44:15.043Z",
-    "downloads": 5440,
-    "views": 16928,
-    "favorites": 2909
+    "downloads": 5465,
+    "views": 16988,
+    "favorites": 2919
   },
   {
     "id": 256865,
@@ -76,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T14:42:38.618Z",
-    "downloads": 5132,
-    "views": 15514,
-    "favorites": 2956
+    "downloads": 5155,
+    "views": 15585,
+    "favorites": 2966
   },
   {
     "id": 256853,
@@ -88,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T13:36:13.700Z",
-    "downloads": 5207,
-    "views": 15434,
-    "favorites": 2898
+    "downloads": 5227,
+    "views": 15511,
+    "favorites": 2910
   },
   {
     "id": 256849,
@@ -100,9 +136,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:46:31.010Z",
-    "downloads": 5209,
-    "views": 15128,
-    "favorites": 2855
+    "downloads": 5239,
+    "views": 15207,
+    "favorites": 2870
   },
   {
     "id": 256848,
@@ -112,9 +148,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:20:28.415Z",
-    "downloads": 5137,
-    "views": 14836,
-    "favorites": 2921
+    "downloads": 5157,
+    "views": 14899,
+    "favorites": 2932
   },
   {
     "id": 256847,
@@ -124,9 +160,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:15:18.566Z",
-    "downloads": 5207,
-    "views": 14620,
-    "favorites": 2912
+    "downloads": 5231,
+    "views": 14676,
+    "favorites": 2926
   },
   {
     "id": 256803,
@@ -136,9 +172,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-30T10:36:08.607Z",
-    "downloads": 5420,
-    "views": 15489,
-    "favorites": 2949
+    "downloads": 5436,
+    "views": 15554,
+    "favorites": 2956
   },
   {
     "id": 256797,
@@ -148,9 +184,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-30T09:44:59.591Z",
-    "downloads": 5449,
-    "views": 15158,
-    "favorites": 2971
+    "downloads": 5467,
+    "views": 15235,
+    "favorites": 2985
   },
   {
     "id": 256619,
@@ -160,9 +196,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-23T12:46:47.560Z",
-    "downloads": 3402,
-    "views": 10363,
-    "favorites": 1789
+    "downloads": 3421,
+    "views": 10426,
+    "favorites": 1805
   },
   {
     "id": 256617,
@@ -172,9 +208,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-23T12:16:33.518Z",
-    "downloads": 3428,
-    "views": 9836,
-    "favorites": 1774
+    "downloads": 3447,
+    "views": 9890,
+    "favorites": 1788
   },
   {
     "id": 256590,
@@ -184,9 +220,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T16:45:17.268Z",
-    "downloads": 6149,
-    "views": 19063,
-    "favorites": 3284
+    "downloads": 6167,
+    "views": 19128,
+    "favorites": 3295
   },
   {
     "id": 256580,
@@ -196,9 +232,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T13:30:56.008Z",
-    "downloads": 5956,
-    "views": 18202,
-    "favorites": 3264
+    "downloads": 5971,
+    "views": 18269,
+    "favorites": 3281
   },
   {
     "id": 256577,
@@ -208,9 +244,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T13:10:14.163Z",
-    "downloads": 5995,
-    "views": 17124,
-    "favorites": 3177
+    "downloads": 6021,
+    "views": 17182,
+    "favorites": 3189
   },
   {
     "id": 256569,
@@ -220,9 +256,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-22T12:12:16.718Z",
-    "downloads": 5939,
-    "views": 17614,
-    "favorites": 3207
+    "downloads": 5967,
+    "views": 17678,
+    "favorites": 3216
   },
   {
     "id": 256567,
@@ -232,9 +268,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-22T12:06:56.871Z",
-    "downloads": 6105,
-    "views": 17346,
-    "favorites": 3189
+    "downloads": 6129,
+    "views": 17420,
+    "favorites": 3200
   },
   {
     "id": 256531,
@@ -244,9 +280,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-21T10:08:30.446Z",
-    "downloads": 5660,
-    "views": 17601,
-    "favorites": 2984
+    "downloads": 5684,
+    "views": 17667,
+    "favorites": 2994
   },
   {
     "id": 256486,
@@ -257,7 +293,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-20T17:20:50.291Z",
     "downloads": 6307,
-    "views": 19679,
+    "views": 19683,
     "favorites": 3321
   },
   {
@@ -269,7 +305,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-20T17:11:08.397Z",
     "downloads": 6349,
-    "views": 18630,
+    "views": 18642,
     "favorites": 3413
   },
   {
@@ -281,7 +317,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-20T17:05:12.808Z",
     "downloads": 6286,
-    "views": 18285,
+    "views": 18290,
     "favorites": 3438
   },
   {
@@ -305,7 +341,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-20T12:42:46.353Z",
     "downloads": 6098,
-    "views": 17588,
+    "views": 17590,
     "favorites": 3317
   },
   {
@@ -329,7 +365,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-20T10:32:12.454Z",
     "downloads": 5984,
-    "views": 17671,
+    "views": 17680,
     "favorites": 3236
   },
   {
@@ -389,7 +425,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-18T16:52:18.543Z",
     "downloads": 6193,
-    "views": 18869,
+    "views": 18874,
     "favorites": 3357
   },
   {
@@ -425,7 +461,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-18T12:22:40.320Z",
     "downloads": 6202,
-    "views": 17603,
+    "views": 17608,
     "favorites": 3362
   },
   {
@@ -437,7 +473,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-18T12:02:39.383Z",
     "downloads": 6242,
-    "views": 17131,
+    "views": 17135,
     "favorites": 3290
   },
   {
@@ -473,7 +509,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-17T07:04:00.235Z",
     "downloads": 6374,
-    "views": 19038,
+    "views": 19042,
     "favorites": 3433
   },
   {
@@ -485,7 +521,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-17T06:55:20.657Z",
     "downloads": 6500,
-    "views": 19478,
+    "views": 19484,
     "favorites": 3467
   },
   {
@@ -533,7 +569,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 1,
     "createdAt": "2026-07-14T19:10:31.313Z",
     "downloads": 5063,
-    "views": 15897,
+    "views": 15902,
     "favorites": 2508
   },
   {
@@ -557,7 +593,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T11:08:59.086Z",
     "downloads": 4566,
-    "views": 13085,
+    "views": 13087,
     "favorites": 2420
   },
   {
@@ -605,7 +641,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T07:30:27.839Z",
     "downloads": 4493,
-    "views": 12442,
+    "views": 12448,
     "favorites": 2370
   },
   {
@@ -665,7 +701,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T07:15:25.709Z",
     "downloads": 4547,
-    "views": 12233,
+    "views": 12235,
     "favorites": 2325
   },
   {
@@ -725,7 +761,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:56:30.206Z",
     "downloads": 4496,
-    "views": 12516,
+    "views": 12519,
     "favorites": 2365
   },
   {
@@ -749,7 +785,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:53:19.176Z",
     "downloads": 4535,
-    "views": 12551,
+    "views": 12554,
     "favorites": 2277
   },
   {
@@ -785,7 +821,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:48:57.576Z",
     "downloads": 4647,
-    "views": 12800,
+    "views": 12803,
     "favorites": 2401
   },
   {
@@ -809,7 +845,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:45:05.512Z",
     "downloads": 4565,
-    "views": 12759,
+    "views": 12760,
     "favorites": 2335
   },
   {
@@ -845,7 +881,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:28:35.461Z",
     "downloads": 4561,
-    "views": 12570,
+    "views": 12573,
     "favorites": 2331
   },
   {
@@ -856,8 +892,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T06:26:49.914Z",
-    "downloads": 4586,
-    "views": 13853,
+    "downloads": 4590,
+    "views": 13862,
     "favorites": 2382
   },
   {
@@ -881,7 +917,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:22:14.092Z",
     "downloads": 4497,
-    "views": 12136,
+    "views": 12142,
     "favorites": 2384
   },
   {
@@ -905,7 +941,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:18:41.513Z",
     "downloads": 4495,
-    "views": 12120,
+    "views": 12122,
     "favorites": 2396
   },
   {
@@ -917,7 +953,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T06:17:10.826Z",
     "downloads": 4550,
-    "views": 12435,
+    "views": 12438,
     "favorites": 2372
   },
   {
@@ -952,8 +988,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T05:44:00.437Z",
-    "downloads": 4560,
-    "views": 12010,
+    "downloads": 4562,
+    "views": 12014,
     "favorites": 2371
   },
   {
@@ -1001,7 +1037,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T05:38:02.271Z",
     "downloads": 3322,
-    "views": 9060,
+    "views": 9069,
     "favorites": 1693
   },
   {
@@ -1013,7 +1049,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T05:36:43.225Z",
     "downloads": 4778,
-    "views": 13637,
+    "views": 13645,
     "favorites": 2350
   },
   {
@@ -1073,7 +1109,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T05:22:09.895Z",
     "downloads": 3292,
-    "views": 8944,
+    "views": 8946,
     "favorites": 1642
   },
   {
@@ -1181,7 +1217,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-14T04:58:45.209Z",
     "downloads": 4424,
-    "views": 12401,
+    "views": 12403,
     "favorites": 2298
   },
   {
@@ -1192,536 +1228,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-14T04:57:16.538Z",
-    "downloads": 4529,
-    "views": 13326,
+    "downloads": 4531,
+    "views": 13329,
     "favorites": 2340
-  },
-  {
-    "id": 256181,
-    "title": "【转载】一千格储物箱 1000 Storage Slots",
-    "description": "《幻兽帕鲁》一千格储物箱 1000 Storage Slots，将所有支持的储物设施容量提升到 1000 格。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c129c2a79@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:55:43.971Z",
-    "downloads": 4654,
-    "views": 12870,
-    "favorites": 2391
-  },
-  {
-    "id": 256179,
-    "title": "【转载】必定捕获 Always Capture",
-    "description": "《幻兽帕鲁》必定捕获 Always Capture，将可捕获对象的捕获率提高到 100%。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c0d6dea79@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:54:20.564Z",
-    "downloads": 4377,
-    "views": 12399,
-    "favorites": 2346
-  },
-  {
-    "id": 256178,
-    "title": "【转载】完整被动词条手术 Complete Passive Surgery",
-    "description": "《幻兽帕鲁》完整被动词条手术 Complete Passive Surgery，解锁手术台全部被动词条并可免费应用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55c04827430@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:52:00.320Z",
-    "downloads": 4871,
-    "views": 14875,
-    "favorites": 2358
-  },
-  {
-    "id": 256177,
-    "title": "【转载】世界捕获率滑块上限 World Capture Rate Slider MAX",
-    "description": "《幻兽帕鲁》世界捕获率滑块上限 World Capture Rate Slider MAX，将世界设置中的捕获率上限扩展到 30 倍。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bfeaceb34@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:50:24.212Z",
-    "downloads": 4378,
-    "views": 11987,
-    "favorites": 2285
-  },
-  {
-    "id": 256176,
-    "title": "【转载】任意地点快速旅行 Fast travel from anywhere",
-    "description": "《幻兽帕鲁》任意地点快速旅行 Fast travel from anywhere，可从任意位置传送到已解锁的快速旅行点。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bf8acf911@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:48:47.662Z",
-    "downloads": 4722,
-    "views": 13370,
-    "favorites": 2377
-  },
-  {
-    "id": 256175,
-    "title": "【转载】堆叠数量与重量调整 Stack Size and Weight Mod",
-    "description": "《幻兽帕鲁》堆叠数量与重量调整 Stack Size and Weight Mod，将堆叠上限提高到 999999，并可移除物品重量。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bf301d022@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:47:17.914Z",
-    "downloads": 4657,
-    "views": 13121,
-    "favorites": 2396
-  },
-  {
-    "id": 256174,
-    "title": "【转载】配种突变与时间调整 Better Mutation with Breeding Time",
-    "description": "《幻兽帕鲁》配种突变与时间调整 Better Mutation with Breeding Time，强化配种突变、产蛋和繁育时间。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bed6d73fe@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:45:48.607Z",
-    "downloads": 4623,
-    "views": 12801,
-    "favorites": 2333
-  },
-  {
-    "id": 256173,
-    "title": "【转载】三倍平衡制作 Balanced Crafting x3",
-    "description": "《幻兽帕鲁》三倍平衡制作 Balanced Crafting x3，将多数配方产出提高到 3 倍，材料成本保持不变。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55be81a0c84@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:44:24.012Z",
-    "downloads": 3456,
-    "views": 8791,
-    "favorites": 1660
-  },
-  {
-    "id": 256172,
-    "title": "【转载】缩小建筑 Smaller Buildings",
-    "description": "《幻兽帕鲁》缩小建筑 Smaller Buildings，缩小建筑体积，方便基地布局和空间规划。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bce6738b1@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:37:32.631Z",
-    "downloads": 4412,
-    "views": 12149,
-    "favorites": 2268
-  },
-  {
-    "id": 256171,
-    "title": "【转载】无建造成本 No Building Costs",
-    "description": "《幻兽帕鲁》无建造成本 No Building Costs，移除或降低建造消耗，方便快速搭建基地设施。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bc962cab8@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:36:11.673Z",
-    "downloads": 4598,
-    "views": 12451,
-    "favorites": 2306
-  },
-  {
-    "id": 256170,
-    "title": "【转载】捕获不可捕获对象 Capture the Uncapturables",
-    "description": "《幻兽帕鲁》捕获不可捕获对象 Capture the Uncapturables，调整捕获相关规则，让捕捉流程或捕获结果更符合需求。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bc3ca33e0@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:34:42.017Z",
-    "downloads": 4631,
-    "views": 12806,
-    "favorites": 2285
-  },
-  {
-    "id": 256169,
-    "title": "【转载】无制作成本 No Crafting Cost",
-    "description": "《幻兽帕鲁》无制作成本 No Crafting Cost，移除或降低制作消耗，减少制作物品时的材料压力。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bbe33d98a@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:33:13.445Z",
-    "downloads": 4445,
-    "views": 12115,
-    "favorites": 2339
-  },
-  {
-    "id": 256168,
-    "title": "【转载】三倍完整战利品包 Zwaffel's Complete Loot Package 3x",
-    "description": "《幻兽帕鲁》三倍完整战利品包 Zwaffel's Complete Loot Package 3x，调整掉落或战利品产出，让刷取收益更符合需求。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bb8a96363@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:31:43.717Z",
-    "downloads": 4485,
-    "views": 12047,
-    "favorites": 2310
-  },
-  {
-    "id": 256167,
-    "title": "【转载】升级获得更多属性点 More Stat Points Per Level",
-    "description": "《幻兽帕鲁》升级获得更多属性点 More Stat Points Per Level，调整升级获得的属性点数量，让角色成长更快。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bb2652cd3@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:30:03.926Z",
-    "downloads": 4434,
-    "views": 12535,
-    "favorites": 2364
-  },
-  {
-    "id": 256166,
-    "title": "【转载】工作速度加快 Faster Work Speeds",
-    "description": "《幻兽帕鲁》工作速度加快 Faster Work Speeds，提高工作速度，减少基地生产和作业等待时间。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55bacda13ae@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:28:35.970Z",
-    "downloads": 4362,
-    "views": 11995,
-    "favorites": 2357
-  },
-  {
-    "id": 256165,
-    "title": "【转载】移动速度加快 Faster Movement Speed",
-    "description": "《幻兽帕鲁》移动速度加快 Faster Movement Speed，提升角色或移动相关速度，让跑图和日常移动更快。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ba6259ac4@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:27:13.663Z",
-    "downloads": 4490,
-    "views": 12104,
-    "favorites": 2320
-  },
-  {
-    "id": 256164,
-    "title": "【转载】蛋孵化配种优化 Better Egg Breeding",
-    "description": "《幻兽帕鲁》蛋孵化配种优化 Better Egg Breeding，调整配种、蛋孵化或相关成长流程，让繁育和培育体验更方便。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55b9db8f251@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:25:15.840Z",
-    "downloads": 3356,
-    "views": 9401,
-    "favorites": 1686
-  },
-  {
-    "id": 256162,
-    "title": "【转载】瞬间完成远征 InstantExpeditions",
-    "description": "《幻兽帕鲁》瞬间完成远征 InstantExpeditions，调整远征相关流程或加成，让派遣和结算更省时间。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55b976d04ac@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T04:22:52.839Z",
-    "downloads": 4656,
-    "views": 12182,
-    "favorites": 2316
-  },
-  {
-    "id": 256161,
-    "title": "【转载】开发者物品生成菜单 PalItemSpawner",
-    "description": "《幻兽帕鲁》开发者物品生成菜单 PalItemSpawner，开启游戏内开发者物品生成菜单，可搜索、筛选并生成物品，用于测试或调试。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55ae8bbe509@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T03:36:18.205Z",
-    "downloads": 6529,
-    "views": 20602,
-    "favorites": 3420
-  },
-  {
-    "id": 256160,
-    "title": "【转载】隐藏指南针 Hide Compass",
-    "description": "《幻兽帕鲁》隐藏指南针 Hide Compass，隐藏 HUD 上的指南针元素，让界面更简洁。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55adafaf37e@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T03:32:37.613Z",
-    "downloads": 6306,
-    "views": 17893,
-    "favorites": 3282
-  },
-  {
-    "id": 256159,
-    "title": "【转载】Boss 战计时器延长 Longer Boss Battle Timer",
-    "description": "《幻兽帕鲁》Boss 战计时器延长 Longer Boss Battle Timer，延长塔 Boss 和 Raid 等 Boss 战时间限制，让战斗有更充足的处理空间。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55a9abdeb02@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T03:15:33.699Z",
-    "downloads": 6231,
-    "views": 16960,
-    "favorites": 3404
-  },
-  {
-    "id": 256158,
-    "title": "【转载】基地自动化 Palworld Base Automation",
-    "description": "《幻兽帕鲁》基地自动化 Palworld Base Automation，自动化处理基地内部分重复操作，减少手动搬运和管理负担。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55a68a197f1@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-14T03:02:07.621Z",
-    "downloads": 6284,
-    "views": 19720,
-    "favorites": 3398
-  },
-  {
-    "id": 256157,
-    "title": "【转载】地图雕像标记 Statue Map Markers",
-    "description": "《幻兽帕鲁》地图雕像标记 Statue Map Markers，在地图上显示雕像位置标记，可用快捷键切换显示，方便查找和规划收集路线。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a55a10b16d51@webp",
-    "category": "其他",
-    "original": 4,
-    "createdAt": "2026-07-14T02:38:50.732Z",
-    "downloads": 6391,
-    "views": 19279,
-    "favorites": 3451
-  },
-  {
-    "id": 256156,
-    "title": "【转载】极致画质配置 Ultra Graphics",
-    "description": "《幻兽帕鲁》极致画质配置 Ultra Graphics，结合 Unreal Engine 配置和 UE4SS Lua 脚本强化部分光源、间接光照、阴影距离和视距表现。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a559d2918aa1@webp",
-    "category": "其他",
-    "original": 4,
-    "createdAt": "2026-07-14T02:22:13.040Z",
-    "downloads": 6280,
-    "views": 19068,
-    "favorites": 3365
-  },
-  {
-    "id": 256135,
-    "title": "【转载】矿石节点自定义 Ore Nodes Custums",
-    "description": "《幻兽帕鲁》矿石节点自定义 Ore Nodes Custums，调整矿石、硫磺、石炭、石英等采集节点产出，可选择不同倍率并按需要修改节点数值。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a54de7bba57c@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T12:48:33.788Z",
-    "downloads": 6229,
-    "views": 18026,
-    "favorites": 3305
-  },
-  {
-    "id": 256117,
-    "title": "【转载】基地快速升级 Instant LvUp Base",
-    "description": "《幻兽帕鲁》基地快速升级 Instant LvUp Base，无需在基地内建造指定数量建筑或放置帕鲁，即可解锁基地等级。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5493d3415be@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:59:53.290Z",
-    "downloads": 5748,
-    "views": 16294,
-    "favorites": 3045
-  },
-  {
-    "id": 256116,
-    "title": "【转载】远征加成 Expedition Boosters",
-    "description": "《幻兽帕鲁》远征加成 Expedition Boosters，为远征相关内容提供加成配置，并通过 PalSchema 生成模组文件。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548c6580793@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:58:18.930Z",
-    "downloads": 6172,
-    "views": 17281,
-    "favorites": 3294
-  },
-  {
-    "id": 256115,
-    "title": "【转载】无限体力 InfiniteStamina",
-    "description": "《幻兽帕鲁》无限体力 InfiniteStamina，提供无限体力效果，减少奔跑、移动或相关动作中的体力限制。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548c07b1565@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:56:44.630Z",
-    "downloads": 6126,
-    "views": 16986,
-    "favorites": 3302
-  },
-  {
-    "id": 256114,
-    "title": "【转载】地下城 Boss 重生计时器 Dungeon Boss Respawn Map Timer",
-    "description": "《幻兽帕鲁》地下城 Boss 重生计时器 Dungeon Boss Respawn Map Timer，在世界地图的固定地下城 Boss 图标下显示重生倒计时，时间读取自游戏自身地下城重生数据。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548bc070178@webp",
-    "category": "其他",
-    "original": 4,
-    "createdAt": "2026-07-13T06:55:33.493Z",
-    "downloads": 6060,
-    "views": 17303,
-    "favorites": 3287
-  },
-  {
-    "id": 256113,
-    "title": "【转载】自动跳过模组警告 Automatically Skip Mod Caution",
-    "description": "《幻兽帕鲁》自动跳过模组警告 Automatically Skip Mod Caution，自动跳过启用模组后游戏弹出的 caution 警告窗口，减少每次启动时的确认操作。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548b6dbf9ef@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:54:10.571Z",
-    "downloads": 6089,
-    "views": 17102,
-    "favorites": 3250
-  },
-  {
-    "id": 256112,
-    "title": "【转载】帕鲁球投掷召唤恢复 FSS Full Sphere Summon",
-    "description": "《幻兽帕鲁》帕鲁球投掷召唤恢复 FSS Full Sphere Summon，恢复并改进投掷帕鲁球召唤帕鲁的体验。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548ae9d9bcf@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:52:06.389Z",
-    "downloads": 6195,
-    "views": 18772,
-    "favorites": 3267
-  },
-  {
-    "id": 256111,
-    "title": "【转载】抓钩枪无冷却 No Grappling Gun Cooldown",
-    "description": "《幻兽帕鲁》抓钩枪无冷却 No Grappling Gun Cooldown，移除抓钩枪冷却限制，让抓钩移动更连续。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548a7fa5ad7@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:50:11.676Z",
-    "downloads": 6300,
-    "views": 17659,
-    "favorites": 3213
-  },
-  {
-    "id": 256110,
-    "title": "【转载】帕鲁信息 HUD 显示 Pal Info Simple HUD",
-    "description": "《幻兽帕鲁》帕鲁信息 HUD 显示 Pal Info Simple HUD，瞄准帕鲁或人形 NPC 时自动显示信息卡，包括等级、性别、属性、HP、IV、工作适应性、技能、被动和掉落等。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548a23ac90d@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:48:43.116Z",
-    "downloads": 6358,
-    "views": 19309,
-    "favorites": 3268
-  },
-  {
-    "id": 256109,
-    "title": "【转载】商人商品 1 金币 1Gold Merchant",
-    "description": "《幻兽帕鲁》商人商品 1 金币 1Gold Merchant，把多类道具、武器、装备和图纸加入商人售卖，并将价格调整为 1 金币。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5489bfb1718@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:47:03.773Z",
-    "downloads": 6377,
-    "views": 18392,
-    "favorites": 3290
-  },
-  {
-    "id": 256108,
-    "title": "【转载】综合商店 GY_OmniShop",
-    "description": "《幻兽帕鲁》综合商店 GY_OmniShop，把 1.0.0 新增道具、装备和技能果实加入商人商店。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5489303e4eb@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:44:41.005Z",
-    "downloads": 6618,
-    "views": 20245,
-    "favorites": 3282
-  },
-  {
-    "id": 256107,
-    "title": "【转载】服务器日志工具 PalServerLogger",
-    "description": "《幻兽帕鲁》服务器日志工具 PalServerLogger，为 Windows 专用服务器输出更清晰的日志，便于服务器管理和问题排查。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a548114bdc0a@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T06:10:00.849Z",
-    "downloads": 6013,
-    "views": 16368,
-    "favorites": 3194
-  },
-  {
-    "id": 256106,
-    "title": "【转载】制作产量调整 Tweaksmith",
-    "description": "《幻兽帕鲁》制作产量调整 Tweaksmith，通过普通文本文件调整制作配方产量，可设置精确数量、倍数、分类规则和单项覆盖。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a547d3b91ef6@webp",
-    "category": "游戏优化",
-    "original": 4,
-    "createdAt": "2026-07-13T05:53:39.617Z",
-    "downloads": 5896,
-    "views": 16779,
-    "favorites": 3196
-  },
-  {
-    "id": 256105,
-    "title": "【转载】隐藏 HUD 版本号 No Game Version on HUD",
-    "description": "《幻兽帕鲁》隐藏 HUD 版本号 No Game Version on HUD，移除 HUD 上的游戏版本和模组数据等调试信息，让界面更干净。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a547b93250e4@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T05:46:33.418Z",
-    "downloads": 6124,
-    "views": 16581,
-    "favorites": 3145
-  },
-  {
-    "id": 256104,
-    "title": "【转载】玉藻狐牧场掉落调整 Vixy Ranch Drop Overhaul",
-    "description": "《幻兽帕鲁》玉藻狐牧场掉落调整 Vixy Ranch Drop Overhaul，让玉藻狐在牧场中的掉落随牧场等级成长，高等级玉藻狐可获得更好的帕鲁球掉落。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a547a71f02b7@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T05:41:42.614Z",
-    "downloads": 6083,
-    "views": 16808,
-    "favorites": 3221
-  },
-  {
-    "id": 256097,
-    "title": "【转载】奖励引擎 RewardsEngine",
-    "description": "《幻兽帕鲁》奖励引擎 RewardsEngine，为服务器或世界提供奖励配置能力，可通过配置文件和命令给玩家发放奖励。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a546f548efcb@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T04:54:17.671Z",
-    "downloads": 6332,
-    "views": 19564,
-    "favorites": 3400
-  },
-  {
-    "id": 256093,
-    "title": "【转载】隐藏模组警告弹窗 No Mod Warning Dialog",
-    "description": "《幻兽帕鲁》隐藏模组警告弹窗 No Mod Warning Dialog，移除启用模组时游戏弹出的警告对话框，减少每次进游戏都要确认的操作。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a546c3a8e005@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T04:41:03.351Z",
-    "downloads": 6329,
-    "views": 17444,
-    "favorites": 3495
-  },
-  {
-    "id": 256089,
-    "title": "【转载】帕鲁球召唤多人修复 FSS Full Sphere Summon MP Fixed",
-    "description": "《幻兽帕鲁》帕鲁球召唤多人修复 FSS Full Sphere Summon MP Fixed，恢复早期版本中投掷帕鲁球召唤帕鲁的体验，并加入多人游戏相关修复。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5468ffc7d5b@webp",
-    "category": "游戏优化",
-    "original": 4,
-    "createdAt": "2026-07-13T04:27:16.804Z",
-    "downloads": 6407,
-    "views": 20216,
-    "favorites": 3413
-  },
-  {
-    "id": 256088,
-    "title": "【转载】跳过快速旅行确认 Skip Fast Travel Confirm",
-    "description": "《幻兽帕鲁》跳过快速旅行确认 Skip Fast Travel Confirm，移除快速旅行时的“Fast Travel?”确认弹窗，点击快速旅行点后直接传送。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5467a68b319@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T04:21:31.670Z",
-    "downloads": 6371,
-    "views": 18522,
-    "favorites": 3403
-  },
-  {
-    "id": 256080,
-    "title": "【转载】地图标记与战争迷雾调整 More Markers and Less Fog of War",
-    "description": "《幻兽帕鲁》地图标记与战争迷雾调整 More Markers and Less Fog of War，为地图增加更多标记，并提供减少地图迷雾的版本。原帖要求同时安装 More Markers 和一个 LessMapShroud 版本。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a54500519155@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-13T02:40:44.360Z",
-    "downloads": 6234,
-    "views": 17846,
-    "favorites": 3400
   }
 ];
