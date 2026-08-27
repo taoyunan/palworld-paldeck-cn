@@ -3,8 +3,8 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-08-27T10:42:14.288Z",
-  "count": 43
+  "updatedAt": "2026-08-27T20:50:39.620Z",
+  "count": 23
 };
 
 export const MOD_RECOMMENDATIONS = [
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 139,
-    "views": 384,
-    "favorites": 98
+    "downloads": 433,
+    "views": 1362,
+    "favorites": 284
   },
   {
     "id": 257721,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 165,
-    "views": 385,
-    "favorites": 85
+    "downloads": 477,
+    "views": 1359,
+    "favorites": 298
   },
   {
     "id": 257720,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 171,
-    "views": 502,
-    "favorites": 95
+    "downloads": 633,
+    "views": 1919,
+    "favorites": 381
   },
   {
     "id": 257455,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T13:31:51.112Z",
-    "downloads": 2178,
-    "views": 6062,
-    "favorites": 1213
+    "downloads": 2261,
+    "views": 6263,
+    "favorites": 1250
   },
   {
     "id": 257447,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T12:03:09.026Z",
-    "downloads": 2221,
-    "views": 6086,
-    "favorites": 1225
+    "downloads": 2289,
+    "views": 6314,
+    "favorites": 1267
   },
   {
     "id": 257419,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-08-17T05:27:13.537Z",
-    "downloads": 3362,
-    "views": 9240,
-    "favorites": 1903
+    "downloads": 3639,
+    "views": 9916,
+    "favorites": 2029
   },
   {
     "id": 257392,
@@ -88,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 3847,
-    "views": 10847,
-    "favorites": 2196
+    "downloads": 3919,
+    "views": 11096,
+    "favorites": 2233
   },
   {
     "id": 257391,
@@ -100,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 3733,
-    "views": 11073,
-    "favorites": 2128
+    "downloads": 3813,
+    "views": 11270,
+    "favorites": 2169
   },
   {
     "id": 257390,
@@ -112,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 3793,
-    "views": 10633,
-    "favorites": 2196
+    "downloads": 3878,
+    "views": 10863,
+    "favorites": 2233
   },
   {
     "id": 257361,
@@ -124,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 4569,
-    "views": 14065,
-    "favorites": 2414
+    "downloads": 4653,
+    "views": 14316,
+    "favorites": 2447
   },
   {
     "id": 256866,
@@ -136,9 +136,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T14:44:15.043Z",
-    "downloads": 6167,
-    "views": 19032,
-    "favorites": 3293
+    "downloads": 6203,
+    "views": 19145,
+    "favorites": 3308
   },
   {
     "id": 256865,
@@ -148,9 +148,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T14:42:38.618Z",
-    "downloads": 5854,
-    "views": 17519,
-    "favorites": 3321
+    "downloads": 5896,
+    "views": 17622,
+    "favorites": 3343
   },
   {
     "id": 256853,
@@ -160,9 +160,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-07-31T13:36:13.700Z",
-    "downloads": 5918,
-    "views": 17458,
-    "favorites": 3261
+    "downloads": 5962,
+    "views": 17563,
+    "favorites": 3282
   },
   {
     "id": 256849,
@@ -172,9 +172,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:46:31.010Z",
-    "downloads": 5941,
-    "views": 17043,
-    "favorites": 3241
+    "downloads": 5980,
+    "views": 17152,
+    "favorites": 3260
   },
   {
     "id": 256848,
@@ -184,9 +184,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:20:28.415Z",
-    "downloads": 5890,
-    "views": 16711,
-    "favorites": 3291
+    "downloads": 5925,
+    "views": 16812,
+    "favorites": 3317
   },
   {
     "id": 256847,
@@ -196,9 +196,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:15:18.566Z",
-    "downloads": 5954,
-    "views": 16537,
-    "favorites": 3255
+    "downloads": 5987,
+    "views": 16640,
+    "favorites": 3280
   },
   {
     "id": 256803,
@@ -208,9 +208,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-30T10:36:08.607Z",
-    "downloads": 6169,
-    "views": 17403,
-    "favorites": 3314
+    "downloads": 6199,
+    "views": 17506,
+    "favorites": 3333
   },
   {
     "id": 256797,
@@ -220,9 +220,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-30T09:44:59.591Z",
-    "downloads": 6160,
-    "views": 16996,
-    "favorites": 3334
+    "downloads": 6192,
+    "views": 17090,
+    "favorites": 3349
   },
   {
     "id": 256619,
@@ -233,7 +233,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-23T12:46:47.560Z",
     "downloads": 3708,
-    "views": 11126,
+    "views": 11130,
     "favorites": 1936
   },
   {
@@ -245,7 +245,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-23T12:16:33.518Z",
     "downloads": 3721,
-    "views": 10577,
+    "views": 10584,
     "favorites": 1915
   },
   {
@@ -257,7 +257,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-22T16:45:17.268Z",
     "downloads": 6308,
-    "views": 19608,
+    "views": 19618,
     "favorites": 3375
   },
   {
@@ -269,7 +269,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-22T13:30:56.008Z",
     "downloads": 6149,
-    "views": 18831,
+    "views": 18833,
     "favorites": 3362
   },
   {
@@ -281,247 +281,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-22T13:10:14.163Z",
     "downloads": 6183,
-    "views": 17676,
+    "views": 17681,
     "favorites": 3274
-  },
-  {
-    "id": 256569,
-    "title": "【转载】幻兽帕鲁 MapsPlus 地图补丁",
-    "description": "《幻兽帕鲁》MapsPlus 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60b37c74d99@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-22T12:12:16.718Z",
-    "downloads": 6119,
-    "views": 18196,
-    "favorites": 3299
-  },
-  {
-    "id": 256567,
-    "title": "【转载】幻兽帕鲁 Stutter Fix Pack 兼容修复补丁",
-    "description": "《幻兽帕鲁》Stutter Fix Pack 兼容修复补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60b23b82fbe@webp",
-    "category": "游戏优化",
-    "original": 4,
-    "createdAt": "2026-07-22T12:06:56.871Z",
-    "downloads": 6300,
-    "views": 17982,
-    "favorites": 3289
-  },
-  {
-    "id": 256531,
-    "title": "【转载】幻兽帕鲁 Pal Tweaks (Base Working) - Mod Palschema 修复与优化补丁",
-    "description": "《幻兽帕鲁》Pal Tweaks (Base Working) - Mod Palschema 修复与优化补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5f44f902314@webp",
-    "category": "游戏优化",
-    "original": 4,
-    "createdAt": "2026-07-21T10:08:30.446Z",
-    "downloads": 5756,
-    "views": 18030,
-    "favorites": 3027
-  },
-  {
-    "id": 256486,
-    "title": "【转载】幻兽帕鲁 Astralym (God of destruction) 地图补丁",
-    "description": "《幻兽帕鲁》Astralym (God of destruction) 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e58c9cfa79@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-20T17:20:50.291Z",
-    "downloads": 6307,
-    "views": 19801,
-    "favorites": 3321
-  },
-  {
-    "id": 256484,
-    "title": "【转载】幻兽帕鲁 Tower Bosses Unlock All Pal Gear (PalSchema) 兵种与战斗体系调整",
-    "description": "《幻兽帕鲁》Tower Bosses Unlock All Pal Gear (PalSchema) 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e568829965@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-20T17:11:08.397Z",
-    "downloads": 6354,
-    "views": 18776,
-    "favorites": 3413
-  },
-  {
-    "id": 256482,
-    "title": "【转载】幻兽帕鲁 Ancient Core Drops 脚本前置库",
-    "description": "《幻兽帕鲁》Ancient Core Drops 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e5524bc77b@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-20T17:05:12.808Z",
-    "downloads": 6286,
-    "views": 18336,
-    "favorites": 3438
-  },
-  {
-    "id": 256481,
-    "title": "【转载】幻兽帕鲁 Soul Drops 事件与敌人行为扩展",
-    "description": "《幻兽帕鲁》Soul Drops 事件与敌人行为扩展，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e4f18b4c35@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-20T16:39:24.921Z",
-    "downloads": 6290,
-    "views": 17686,
-    "favorites": 3347
-  },
-  {
-    "id": 256468,
-    "title": "【转载】幻兽帕鲁 Human Mercy Bypass - Capture Mode and Uncapturable Pal 事件与敌人行为扩展",
-    "description": "《幻兽帕鲁》Human Mercy Bypass - Capture Mode and Uncapturable Pal 事件与敌人行为扩展，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e17a047059@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-20T12:42:46.353Z",
-    "downloads": 6098,
-    "views": 17657,
-    "favorites": 3317
-  },
-  {
-    "id": 256465,
-    "title": "【转载】幻兽帕鲁 BetterServer 兵种与战斗体系调整",
-    "description": "《幻兽帕鲁》BetterServer 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5e13aee8dd3@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-20T12:25:56.574Z",
-    "downloads": 6038,
-    "views": 17513,
-    "favorites": 3288
-  },
-  {
-    "id": 256459,
-    "title": "【转载】幻兽帕鲁 Wild Egg Magnet 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Wild Egg Magnet 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5df906aa572@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-20T10:32:12.454Z",
-    "downloads": 5984,
-    "views": 17727,
-    "favorites": 3236
-  },
-  {
-    "id": 256458,
-    "title": "【转载】幻兽帕鲁 Relic Statue Markers on Map 地图补丁",
-    "description": "《幻兽帕鲁》Relic Statue Markers on Map 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5df8242c5c2@webp",
-    "category": "其他",
-    "original": 4,
-    "createdAt": "2026-07-20T10:28:26.616Z",
-    "downloads": 6058,
-    "views": 17523,
-    "favorites": 3327
-  },
-  {
-    "id": 256406,
-    "title": "【转载】幻兽帕鲁 Endless Siege - Timed Base Raids and Tower Boss Finale 脚本前置库",
-    "description": "《幻兽帕鲁》Endless Siege - Timed Base Raids and Tower Boss Finale 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5bc1a2c8e70@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-18T18:11:23.283Z",
-    "downloads": 4994,
-    "views": 14068,
-    "favorites": 2702
-  },
-  {
-    "id": 256398,
-    "title": "【转载】幻兽帕鲁 HUD Locator All in 1 光照与截图表现优化",
-    "description": "《幻兽帕鲁》HUD Locator All in 1 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5bb75fca5ac@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-18T17:27:34.019Z",
-    "downloads": 6178,
-    "views": 18475,
-    "favorites": 3395
-  },
-  {
-    "id": 256394,
-    "title": "【转载】幻兽帕鲁 Field Boss Defeat Marker 地图补丁",
-    "description": "《幻兽帕鲁》Field Boss Defeat Marker 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5bb16a4518c@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-18T17:02:07.121Z",
-    "downloads": 6187,
-    "views": 18956,
-    "favorites": 3344
-  },
-  {
-    "id": 256393,
-    "title": "【转载】幻兽帕鲁 Genshin Impact Characters As NPCs Collection_02 地图补丁",
-    "description": "《幻兽帕鲁》Genshin Impact Characters As NPCs Collection_02 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5baf1761d7f@webp",
-    "category": "角色",
-    "original": 4,
-    "createdAt": "2026-07-18T16:52:18.543Z",
-    "downloads": 6199,
-    "views": 18994,
-    "favorites": 3357
-  },
-  {
-    "id": 256385,
-    "title": "【转载】幻兽帕鲁 Craft Ancient Core And HolyWater 脚本前置库",
-    "description": "《幻兽帕鲁》Craft Ancient Core And HolyWater 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5b7e71dda25@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-18T13:24:38.038Z",
-    "downloads": 6132,
-    "views": 17946,
-    "favorites": 3377
-  },
-  {
-    "id": 256381,
-    "title": "【转载】幻兽帕鲁 Skip Salvage Minigame 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Skip Salvage Minigame 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5b76e585de8@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-18T12:52:26.307Z",
-    "downloads": 6099,
-    "views": 16862,
-    "favorites": 3328
-  },
-  {
-    "id": 256379,
-    "title": "【转载】幻兽帕鲁 Pal Trust Multiplier 事件与敌人行为扩展",
-    "description": "《幻兽帕鲁》Pal Trust Multiplier 事件与敌人行为扩展，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5b6feb6ee38@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-18T12:22:40.320Z",
-    "downloads": 6202,
-    "views": 17663,
-    "favorites": 3362
-  },
-  {
-    "id": 256378,
-    "title": "【转载】幻兽帕鲁 ChickNomad - Instant Fishing (for 1.0) 兵种与战斗体系调整",
-    "description": "《幻兽帕鲁》ChickNomad - Instant Fishing (for 1.0) 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5b6b3ae3b8a@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-18T12:02:39.383Z",
-    "downloads": 6242,
-    "views": 17167,
-    "favorites": 3290
-  },
-  {
-    "id": 256377,
-    "title": "【转载】幻兽帕鲁 PalMiniMap 地图补丁",
-    "description": "《幻兽帕鲁》PalMiniMap 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a5b6a743e5b7@webp",
-    "category": "其他",
-    "original": 4,
-    "createdAt": "2026-07-18T11:59:20.694Z",
-    "downloads": 6227,
-    "views": 18634,
-    "favorites": 3316
   }
 ];
