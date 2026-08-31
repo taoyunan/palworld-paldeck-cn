@@ -3,8 +3,8 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-08-30T23:58:03.490Z",
-  "count": 23
+  "updatedAt": "2026-08-31T02:37:08.390Z",
+  "count": 18
 };
 
 export const MOD_RECOMMENDATIONS = [
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 1415,
-    "views": 4141,
-    "favorites": 842
+    "downloads": 1540,
+    "views": 4446,
+    "favorites": 899
   },
   {
     "id": 257721,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 1481,
-    "views": 4173,
-    "favorites": 861
+    "downloads": 1591,
+    "views": 4518,
+    "favorites": 936
   },
   {
     "id": 257720,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 2181,
-    "views": 6699,
-    "favorites": 1310
+    "downloads": 2296,
+    "views": 7043,
+    "favorites": 1379
   },
   {
     "id": 257455,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T13:31:51.112Z",
-    "downloads": 2796,
-    "views": 7785,
-    "favorites": 1534
+    "downloads": 2872,
+    "views": 7967,
+    "favorites": 1563
   },
   {
     "id": 257447,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T12:03:09.026Z",
-    "downloads": 2845,
-    "views": 7845,
-    "favorites": 1541
+    "downloads": 2918,
+    "views": 8033,
+    "favorites": 1574
   },
   {
     "id": 257419,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-08-17T05:27:13.537Z",
-    "downloads": 4597,
-    "views": 12676,
-    "favorites": 2619
+    "downloads": 4721,
+    "views": 13004,
+    "favorites": 2686
   },
   {
     "id": 257392,
@@ -88,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 4488,
-    "views": 12669,
-    "favorites": 2533
+    "downloads": 4559,
+    "views": 12862,
+    "favorites": 2574
   },
   {
     "id": 257391,
@@ -100,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 4371,
-    "views": 12826,
-    "favorites": 2469
+    "downloads": 4439,
+    "views": 12986,
+    "favorites": 2511
   },
   {
     "id": 257390,
@@ -112,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 4410,
-    "views": 12437,
-    "favorites": 2496
+    "downloads": 4474,
+    "views": 12615,
+    "favorites": 2527
   },
   {
     "id": 257361,
@@ -124,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 5274,
-    "views": 16413,
-    "favorites": 2738
+    "downloads": 5333,
+    "views": 16597,
+    "favorites": 2773
   },
   {
     "id": 256866,
@@ -137,7 +137,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-31T14:44:15.043Z",
     "downloads": 6509,
-    "views": 20009,
+    "views": 20019,
     "favorites": 3451
   },
   {
@@ -173,7 +173,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-31T12:46:31.010Z",
     "downloads": 6262,
-    "views": 17951,
+    "views": 17956,
     "favorites": 3395
   },
   {
@@ -184,8 +184,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:20:28.415Z",
-    "downloads": 6225,
-    "views": 17493,
+    "downloads": 6227,
+    "views": 17495,
     "favorites": 3439
   },
   {
@@ -208,8 +208,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-30T10:36:08.607Z",
-    "downloads": 6369,
-    "views": 18019,
+    "downloads": 6371,
+    "views": 18025,
     "favorites": 3421
   },
   {
@@ -221,67 +221,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-30T09:44:59.591Z",
     "downloads": 6383,
-    "views": 17622,
+    "views": 17627,
     "favorites": 3448
-  },
-  {
-    "id": 256619,
-    "title": "【转载】幻兽帕鲁 BuildFlight - Free Camera Building 光照与截图表现优化",
-    "description": "《幻兽帕鲁》BuildFlight - Free Camera Building 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a620d0bceb80@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-23T12:46:47.560Z",
-    "downloads": 3710,
-    "views": 11159,
-    "favorites": 1936
-  },
-  {
-    "id": 256617,
-    "title": "【转载】幻兽帕鲁 AntiWaste - Item Disassemble 兼容修复补丁",
-    "description": "《幻兽帕鲁》AntiWaste - Item Disassemble 兼容修复补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6205fb8acdc@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-23T12:16:33.518Z",
-    "downloads": 3721,
-    "views": 10610,
-    "favorites": 1915
-  },
-  {
-    "id": 256590,
-    "title": "【转载】幻兽帕鲁 Drop Item Hotkey 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Drop Item Hotkey 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60f3788546f@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-22T16:45:17.268Z",
-    "downloads": 6308,
-    "views": 19647,
-    "favorites": 3375
-  },
-  {
-    "id": 256580,
-    "title": "【转载】幻兽帕鲁 Smart Production Queue 脚本前置库",
-    "description": "《幻兽帕鲁》Smart Production Queue 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60c5ea06d79@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-22T13:30:56.008Z",
-    "downloads": 6149,
-    "views": 18854,
-    "favorites": 3362
-  },
-  {
-    "id": 256577,
-    "title": "【转载】幻兽帕鲁 Wing Pack - Flight Editor (Basic) 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Wing Pack - Flight Editor (Basic) 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a60c1115c375@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-22T13:10:14.163Z",
-    "downloads": 6183,
-    "views": 17692,
-    "favorites": 3274
   }
 ];
