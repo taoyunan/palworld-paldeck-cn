@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-01T23:27:25.555Z",
+  "updatedAt": "2026-09-02T01:10:31.641Z",
   "count": 18
 };
 
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 1978,
-    "views": 5692,
-    "favorites": 1138
+    "downloads": 2024,
+    "views": 5806,
+    "favorites": 1161
   },
   {
     "id": 257721,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 2068,
-    "views": 5815,
-    "favorites": 1186
+    "downloads": 2106,
+    "views": 5936,
+    "favorites": 1211
   },
   {
     "id": 257720,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 2842,
-    "views": 8667,
-    "favorites": 1697
+    "downloads": 2922,
+    "views": 8879,
+    "favorites": 1740
   },
   {
     "id": 257455,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T13:31:51.112Z",
-    "downloads": 3148,
-    "views": 8824,
-    "favorites": 1697
+    "downloads": 3181,
+    "views": 8885,
+    "favorites": 1710
   },
   {
     "id": 257447,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T12:03:09.026Z",
-    "downloads": 3214,
-    "views": 8880,
-    "favorites": 1715
+    "downloads": 3235,
+    "views": 8930,
+    "favorites": 1726
   },
   {
     "id": 257419,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-08-17T05:27:13.537Z",
-    "downloads": 5169,
-    "views": 14241,
-    "favorites": 2901
+    "downloads": 5208,
+    "views": 14359,
+    "favorites": 2923
   },
   {
     "id": 257392,
@@ -88,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 4783,
-    "views": 13377,
-    "favorites": 2691
+    "downloads": 4811,
+    "views": 13458,
+    "favorites": 2704
   },
   {
     "id": 257391,
@@ -100,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 4676,
-    "views": 13579,
-    "favorites": 2620
+    "downloads": 4691,
+    "views": 13642,
+    "favorites": 2633
   },
   {
     "id": 257390,
@@ -112,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 4697,
-    "views": 13222,
-    "favorites": 2640
+    "downloads": 4720,
+    "views": 13266,
+    "favorites": 2652
   },
   {
     "id": 257361,
@@ -124,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 5692,
-    "views": 17714,
-    "favorites": 2928
+    "downloads": 5724,
+    "views": 17771,
+    "favorites": 2941
   },
   {
     "id": 256866,
@@ -137,7 +137,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-31T14:44:15.043Z",
     "downloads": 6513,
-    "views": 20073,
+    "views": 20077,
     "favorites": 3451
   },
   {
@@ -196,8 +196,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-07-31T12:15:18.566Z",
-    "downloads": 6269,
-    "views": 17397,
+    "downloads": 6271,
+    "views": 17402,
     "favorites": 3426
   },
   {
@@ -221,7 +221,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-07-30T09:44:59.591Z",
     "downloads": 6383,
-    "views": 17627,
+    "views": 17629,
     "favorites": 3448
   }
 ];
