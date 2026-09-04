@@ -3,11 +3,23 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-04T06:04:42.895Z",
-  "count": 18
+  "updatedAt": "2026-09-04T11:31:43.934Z",
+  "count": 11
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 258376,
+    "title": "【转载】玩法扩展 (1.0.3) MH All Game Setting and Faster Hatch Press (in",
+    "description": "《幻兽帕鲁》玩法扩展 (1.0.3) MH All Game Setting and Faster Hatch Press (in，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a97f2c8aed7c@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-09-02T09:57:04.301Z",
+    "downloads": 100,
+    "views": 279,
+    "favorites": 54
+  },
   {
     "id": 257722,
     "title": "更难的入侵系统",
@@ -16,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 2428,
-    "views": 6830,
-    "favorites": 1345
+    "downloads": 2512,
+    "views": 7058,
+    "favorites": 1380
   },
   {
     "id": 257721,
@@ -28,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 2485,
-    "views": 7063,
-    "favorites": 1395
+    "downloads": 2563,
+    "views": 7297,
+    "favorites": 1440
   },
   {
     "id": 257720,
@@ -40,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 3461,
-    "views": 10420,
-    "favorites": 2028
+    "downloads": 3533,
+    "views": 10702,
+    "favorites": 2076
   },
   {
     "id": 257455,
@@ -52,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T13:31:51.112Z",
-    "downloads": 3364,
-    "views": 9427,
-    "favorites": 1802
+    "downloads": 3403,
+    "views": 9533,
+    "favorites": 1826
   },
   {
     "id": 257447,
@@ -64,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T12:03:09.026Z",
-    "downloads": 3432,
-    "views": 9433,
-    "favorites": 1827
+    "downloads": 3467,
+    "views": 9560,
+    "favorites": 1844
   },
   {
     "id": 257419,
@@ -76,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-08-17T05:27:13.537Z",
-    "downloads": 5606,
-    "views": 15443,
-    "favorites": 3132
+    "downloads": 5692,
+    "views": 15700,
+    "favorites": 3172
   },
   {
     "id": 257392,
@@ -88,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 5007,
-    "views": 13997,
-    "favorites": 2805
+    "downloads": 5041,
+    "views": 14101,
+    "favorites": 2830
   },
   {
     "id": 257391,
@@ -100,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 4887,
-    "views": 14135,
-    "favorites": 2722
+    "downloads": 4920,
+    "views": 14247,
+    "favorites": 2740
   },
   {
     "id": 257390,
@@ -112,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 4908,
-    "views": 13745,
-    "favorites": 2751
+    "downloads": 4957,
+    "views": 13839,
+    "favorites": 2771
   },
   {
     "id": 257361,
@@ -124,104 +136,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 5918,
-    "views": 18392,
-    "favorites": 3031
-  },
-  {
-    "id": 256866,
-    "title": "【转载】幻兽帕鲁 Quality Of Life 修复与优化补丁",
-    "description": "《幻兽帕鲁》Quality Of Life 修复与优化补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6cb49a8e4f8@webp",
-    "category": "游戏优化",
-    "original": 4,
-    "createdAt": "2026-07-31T14:44:15.043Z",
-    "downloads": 6514,
-    "views": 20100,
-    "favorites": 3451
-  },
-  {
-    "id": 256865,
-    "title": "【转载】幻兽帕鲁 RightClickBack - Close Menus with Right Click 光照与截图表现优化",
-    "description": "《幻兽帕鲁》RightClickBack - Close Menus with Right Click 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6cb4396134b@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-31T14:42:38.618Z",
-    "downloads": 6192,
-    "views": 18426,
-    "favorites": 3492
-  },
-  {
-    "id": 256853,
-    "title": "【转载】幻兽帕鲁 Palworld Easy Tweaks (PET) 地图补丁",
-    "description": "《幻兽帕鲁》Palworld Easy Tweaks (PET) 地图补丁，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6ca4a241363@webp",
-    "category": "游戏优化",
-    "original": 4,
-    "createdAt": "2026-07-31T13:36:13.700Z",
-    "downloads": 6212,
-    "views": 18363,
-    "favorites": 3415
-  },
-  {
-    "id": 256849,
-    "title": "【转载】幻兽帕鲁 Config Partner Pal Skill Cooldown 兵种与战斗体系调整",
-    "description": "《幻兽帕鲁》Config Partner Pal Skill Cooldown 兵种与战斗体系调整，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6c9901eaa7b@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-31T12:46:31.010Z",
-    "downloads": 6262,
-    "views": 18006,
-    "favorites": 3395
-  },
-  {
-    "id": 256848,
-    "title": "【转载】幻兽帕鲁 Mercy Mode 脚本前置库",
-    "description": "《幻兽帕鲁》Mercy Mode 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6c92e803bfa@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-31T12:20:28.415Z",
-    "downloads": 6227,
-    "views": 17524,
-    "favorites": 3439
-  },
-  {
-    "id": 256847,
-    "title": "【转载】幻兽帕鲁 Mod Options Framework 脚本前置库",
-    "description": "《幻兽帕鲁》Mod Options Framework 脚本前置库，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6c91b24d510@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-31T12:15:18.566Z",
-    "downloads": 6271,
-    "views": 17417,
-    "favorites": 3426
-  },
-  {
-    "id": 256803,
-    "title": "【转载】幻兽帕鲁 Palbox Search Plus 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Palbox Search Plus 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6b28f08459a@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-30T10:36:08.607Z",
-    "downloads": 6371,
-    "views": 18076,
-    "favorites": 3421
-  },
-  {
-    "id": 256797,
-    "title": "【转载】幻兽帕鲁 Pal List Searchbar 光照与截图表现优化",
-    "description": "《幻兽帕鲁》Pal List Searchbar 光照与截图表现优化，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202607/MOD6a6b1cf757744@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-07-30T09:44:59.591Z",
-    "downloads": 6383,
-    "views": 17639,
-    "favorites": 3448
+    "downloads": 5958,
+    "views": 18548,
+    "favorites": 3049
   }
 ];
