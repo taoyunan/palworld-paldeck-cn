@@ -3,11 +3,35 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-04T11:31:43.934Z",
-  "count": 11
+  "updatedAt": "2026-09-04T15:05:24.311Z",
+  "count": 13
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 258512,
+    "title": "【转载】建筑限制解除 Building restrictions disabler for 1.0.3 STEAM and Gamepass",
+    "description": "《幻兽帕鲁》修改器与 Cheat Engine 表 Building restrictions disabler for 1.0.3 STEAM and Gamepass，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a9a95c4eeb4e@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-09-04T09:57:19.598Z",
+    "downloads": 138,
+    "views": 430,
+    "favorites": 82
+  },
+  {
+    "id": 258498,
+    "title": "【转载】牧场掉落扩展 True Monster Rancher",
+    "description": "《幻兽帕鲁》家具模型与物件替换 True Monster Rancher，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a9a8e108f5a3@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-09-04T09:24:11.419Z",
+    "downloads": 122,
+    "views": 409,
+    "favorites": 71
+  },
   {
     "id": 258376,
     "title": "【转载】玩法扩展 (1.0.3) MH All Game Setting and Faster Hatch Press (in",
