@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-05T08:41:16.326Z",
+  "updatedAt": "2026-09-05T12:11:41.412Z",
   "count": 13
 };
 
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:57:19.598Z",
-    "downloads": 609,
-    "views": 1805,
-    "favorites": 366
+    "downloads": 824,
+    "views": 2500,
+    "favorites": 510
   },
   {
     "id": 258498,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:24:11.419Z",
-    "downloads": 631,
-    "views": 1728,
-    "favorites": 329
+    "downloads": 863,
+    "views": 2382,
+    "favorites": 473
   },
   {
     "id": 258376,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 486,
-    "views": 1510,
-    "favorites": 290
+    "downloads": 649,
+    "views": 1946,
+    "favorites": 381
   },
   {
     "id": 257722,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 2656,
-    "views": 7429,
-    "favorites": 1445
+    "downloads": 2734,
+    "views": 7616,
+    "favorites": 1479
   },
   {
     "id": 257721,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 2708,
-    "views": 7681,
-    "favorites": 1509
+    "downloads": 2773,
+    "views": 7853,
+    "favorites": 1536
   },
   {
     "id": 257720,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 3675,
-    "views": 11106,
-    "favorites": 2155
+    "downloads": 3740,
+    "views": 11292,
+    "favorites": 2186
   },
   {
     "id": 257455,
@@ -88,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T13:31:51.112Z",
-    "downloads": 3484,
-    "views": 9717,
-    "favorites": 1865
+    "downloads": 3516,
+    "views": 9791,
+    "favorites": 1882
   },
   {
     "id": 257447,
@@ -100,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T12:03:09.026Z",
-    "downloads": 3539,
-    "views": 9756,
-    "favorites": 1876
+    "downloads": 3572,
+    "views": 9841,
+    "favorites": 1892
   },
   {
     "id": 257419,
@@ -112,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-08-17T05:27:13.537Z",
-    "downloads": 5851,
-    "views": 16090,
-    "favorites": 3237
+    "downloads": 5929,
+    "views": 16278,
+    "favorites": 3266
   },
   {
     "id": 257392,
@@ -124,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 5107,
-    "views": 14282,
-    "favorites": 2861
+    "downloads": 5138,
+    "views": 14367,
+    "favorites": 2878
   },
   {
     "id": 257391,
@@ -136,9 +136,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 4991,
-    "views": 14411,
-    "favorites": 2772
+    "downloads": 5018,
+    "views": 14498,
+    "favorites": 2792
   },
   {
     "id": 257390,
@@ -148,9 +148,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 5023,
-    "views": 14049,
-    "favorites": 2802
+    "downloads": 5048,
+    "views": 14124,
+    "favorites": 2819
   },
   {
     "id": 257361,
@@ -160,8 +160,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 6038,
-    "views": 18806,
-    "favorites": 3081
+    "downloads": 6082,
+    "views": 18943,
+    "favorites": 3097
   }
 ];
