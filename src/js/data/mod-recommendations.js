@@ -3,11 +3,23 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-07T10:32:06.699Z",
-  "count": 13
+  "updatedAt": "2026-09-07T16:09:59.817Z",
+  "count": 14
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 258648,
+    "title": "【转载】工具插件 PalGrid",
+    "description": "《幻兽帕鲁》工具插件 PalGrid，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a9e849d7b3a1@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-09-07T09:33:02.006Z",
+    "downloads": 209,
+    "views": 636,
+    "favorites": 119
+  },
   {
     "id": 258512,
     "title": "【转载】建筑限制解除 Building restrictions disabler for 1.0.3 STEAM and Gamepass",
@@ -40,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 1179,
-    "views": 3532,
-    "favorites": 697
+    "downloads": 1337,
+    "views": 4039,
+    "favorites": 784
   },
   {
     "id": 257722,
@@ -52,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 3075,
-    "views": 8527,
-    "favorites": 1632
+    "downloads": 3158,
+    "views": 8785,
+    "favorites": 1686
   },
   {
     "id": 257721,
@@ -64,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 3096,
-    "views": 8709,
-    "favorites": 1682
+    "downloads": 3190,
+    "views": 8989,
+    "favorites": 1729
   },
   {
     "id": 257720,
@@ -76,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 4052,
-    "views": 12196,
-    "favorites": 2333
+    "downloads": 4155,
+    "views": 12469,
+    "favorites": 2376
   },
   {
     "id": 257455,
@@ -88,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T13:31:51.112Z",
-    "downloads": 3682,
-    "views": 10202,
-    "favorites": 1957
+    "downloads": 3742,
+    "views": 10318,
+    "favorites": 1979
   },
   {
     "id": 257447,
@@ -100,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-08-17T12:03:09.026Z",
-    "downloads": 3741,
-    "views": 10255,
-    "favorites": 1977
+    "downloads": 3786,
+    "views": 10386,
+    "favorites": 1996
   },
   {
     "id": 257419,
@@ -112,9 +124,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 1,
     "createdAt": "2026-08-17T05:27:13.537Z",
-    "downloads": 6236,
-    "views": 17193,
-    "favorites": 3416
+    "downloads": 6323,
+    "views": 17459,
+    "favorites": 3468
   },
   {
     "id": 257392,
@@ -124,9 +136,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 5298,
-    "views": 14733,
-    "favorites": 2944
+    "downloads": 5352,
+    "views": 14880,
+    "favorites": 2966
   },
   {
     "id": 257391,
@@ -136,9 +148,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 5169,
-    "views": 14920,
-    "favorites": 2859
+    "downloads": 5213,
+    "views": 15036,
+    "favorites": 2884
   },
   {
     "id": 257390,
@@ -148,9 +160,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 5217,
-    "views": 14517,
-    "favorites": 2888
+    "downloads": 5270,
+    "views": 14651,
+    "favorites": 2913
   },
   {
     "id": 257361,
@@ -160,8 +172,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 6279,
-    "views": 19508,
-    "favorites": 3174
+    "downloads": 6345,
+    "views": 19732,
+    "favorites": 3197
   }
 ];
