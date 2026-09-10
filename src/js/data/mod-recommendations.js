@@ -3,11 +3,23 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-10T00:21:35.729Z",
-  "count": 14
+  "updatedAt": "2026-09-10T04:57:48.637Z",
+  "count": 8
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 258742,
+    "title": "【转载】地图任务扩展 Less Restrictive Building (for 1.0)",
+    "description": "《幻兽帕鲁》地图任务扩展 Less Restrictive Building (for 1.0)，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a9fee18eccb6@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-09-08T11:15:19.238Z",
+    "downloads": 114,
+    "views": 307,
+    "favorites": 48
+  },
   {
     "id": 258648,
     "title": "【转载】工具插件 PalGrid",
@@ -16,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-07T09:33:02.006Z",
-    "downloads": 1613,
-    "views": 5002,
-    "favorites": 964
+    "downloads": 1754,
+    "views": 5363,
+    "favorites": 1045
   },
   {
     "id": 258512,
@@ -28,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:57:19.598Z",
-    "downloads": 2753,
-    "views": 7983,
-    "favorites": 1631
+    "downloads": 2838,
+    "views": 8186,
+    "favorites": 1682
   },
   {
     "id": 258498,
@@ -40,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:24:11.419Z",
-    "downloads": 2750,
-    "views": 7836,
-    "favorites": 1544
+    "downloads": 2835,
+    "views": 8074,
+    "favorites": 1589
   },
   {
     "id": 258376,
@@ -52,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 1983,
-    "views": 5897,
-    "favorites": 1174
+    "downloads": 2026,
+    "views": 6034,
+    "favorites": 1197
   },
   {
     "id": 257722,
@@ -64,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 3521,
-    "views": 9752,
-    "favorites": 1860
+    "downloads": 3547,
+    "views": 9793,
+    "favorites": 1877
   },
   {
     "id": 257721,
@@ -76,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 3529,
-    "views": 9883,
-    "favorites": 1909
+    "downloads": 3554,
+    "views": 9938,
+    "favorites": 1920
   },
   {
     "id": 257720,
@@ -88,92 +100,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 4584,
-    "views": 13720,
-    "favorites": 2589
-  },
-  {
-    "id": 257455,
-    "title": "【转载】幻兽帕鲁 乌克兰语翻译 Ukrainian Translation (full)",
-    "description": "《幻兽帕鲁》乌克兰语翻译 Ukrainian Translation (full)，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202608/MOD6a830d165c04f@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-08-17T13:31:51.112Z",
-    "downloads": 3968,
-    "views": 10884,
-    "favorites": 2081
-  },
-  {
-    "id": 257447,
-    "title": "【转载】幻兽帕鲁 意大利语翻译 Palvolve - Evolve your Pals",
-    "description": "《幻兽帕鲁》意大利语翻译 Palvolve - Evolve your Pals，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202608/MOD6a82f852a72c9@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-08-17T12:03:09.026Z",
-    "downloads": 4012,
-    "views": 10983,
-    "favorites": 2111
-  },
-  {
-    "id": 257419,
-    "title": "把所有NPC的经验值改为1",
-    "description": "服务器可用\n据点的npc经验全部改为1\n服务器已开放，要塞内的NPC体验改为1",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a829b923c267.png",
-    "category": "游戏优化",
-    "original": 1,
-    "createdAt": "2026-08-17T05:27:13.537Z",
-    "downloads": 6677,
-    "views": 18330,
-    "favorites": 3628
-  },
-  {
-    "id": 257392,
-    "title": "所有商人都不可捕捉",
-    "description": "所有商人不可捕捉，包括勋章商人，旺旺商人，布朗博士，帕鲁商人，武器商人。\n\n安装目录为：\\PalServer\\Pal\\Content\\Paks文件夹下",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a820703e0a2d.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-08-16T18:53:36.021Z",
-    "downloads": 5573,
-    "views": 15435,
-    "favorites": 3067
-  },
-  {
-    "id": 257391,
-    "title": "三个聚集地的商人不可捕捉",
-    "description": "固定部落的流浪商人不可抓捕1. 小型聚落 2.沙漠之镇 3.边远渔村\n\n安装路径：\\PalServer\\Pal\\Content\\Paks",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a8206838f2cf.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-08-16T18:51:44.874Z",
-    "downloads": 5420,
-    "views": 15575,
-    "favorites": 2992
-  },
-  {
-    "id": 257390,
-    "title": "防暗巫猫的刷球bug",
-    "description": "封禁了暗巫猫的刷球BUG，使得不能在使用该BUG进行刷球。\n安装路径：\\PalServer\\Pal\\Content\\Paks\n",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a8205383e2c2.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-08-16T18:48:48.263Z",
-    "downloads": 5492,
-    "views": 15261,
-    "favorites": 3022
-  },
-  {
-    "id": 257361,
-    "title": "【独家原创】PalWarden 内置修改器 v1.0.1",
-    "description": "模组反馈群：514698416\n有任何建议欢迎评论区留言反馈！",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a80b46e45c4b.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-08-15T18:52:28.538Z",
-    "downloads": 6544,
-    "views": 20522,
-    "favorites": 3304
+    "downloads": 4626,
+    "views": 13878,
+    "favorites": 2613
   }
 ];
