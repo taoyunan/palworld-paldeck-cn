@@ -3,11 +3,35 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-15T00:43:12.076Z",
-  "count": 8
+  "updatedAt": "2026-09-15T05:32:41.833Z",
+  "count": 10
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 258871,
+    "title": "【转载】画面材质美化 Cotton Candy Lapure",
+    "description": "《幻兽帕鲁》画面材质美化 Cotton Candy Lapure，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6aa2800222a2f@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-09-10T10:02:21.482Z",
+    "downloads": 54,
+    "views": 153,
+    "favorites": 29
+  },
+  {
+    "id": 258868,
+    "title": "【转载】画面材质美化 Cotton Candy Dupin",
+    "description": "《幻兽帕鲁》画面材质美化 Cotton Candy Dupin，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6aa27f1286e36@webp",
+    "category": "功能插件",
+    "original": 4,
+    "createdAt": "2026-09-10T09:58:22.146Z",
+    "downloads": 56,
+    "views": 173,
+    "favorites": 37
+  },
   {
     "id": 258742,
     "title": "【转载】地图任务扩展 Less Restrictive Building (for 1.0)",
@@ -16,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-08T11:15:19.238Z",
-    "downloads": 1976,
-    "views": 5614,
-    "favorites": 1154
+    "downloads": 2069,
+    "views": 5826,
+    "favorites": 1198
   },
   {
     "id": 258648,
@@ -28,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-07T09:33:02.006Z",
-    "downloads": 3298,
-    "views": 9884,
-    "favorites": 1945
+    "downloads": 3342,
+    "views": 10022,
+    "favorites": 1968
   },
   {
     "id": 258512,
@@ -40,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:57:19.598Z",
-    "downloads": 3901,
-    "views": 11333,
-    "favorites": 2249
+    "downloads": 3955,
+    "views": 11490,
+    "favorites": 2272
   },
   {
     "id": 258498,
@@ -52,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:24:11.419Z",
-    "downloads": 3926,
-    "views": 11136,
-    "favorites": 2150
+    "downloads": 3973,
+    "views": 11263,
+    "favorites": 2179
   },
   {
     "id": 258376,
@@ -64,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 2950,
-    "views": 8685,
-    "favorites": 1657
+    "downloads": 3001,
+    "views": 8820,
+    "favorites": 1685
   },
   {
     "id": 257722,
@@ -76,9 +100,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 3997,
-    "views": 10969,
-    "favorites": 2081
+    "downloads": 4015,
+    "views": 11037,
+    "favorites": 2095
   },
   {
     "id": 257721,
@@ -88,9 +112,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 4003,
-    "views": 11126,
-    "favorites": 2158
+    "downloads": 4022,
+    "views": 11205,
+    "favorites": 2172
   },
   {
     "id": 257720,
@@ -100,8 +124,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 5167,
-    "views": 15416,
-    "favorites": 2901
+    "downloads": 5192,
+    "views": 15477,
+    "favorites": 2911
   }
 ];
