@@ -3,8 +3,8 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-17T01:54:19.111Z",
-  "count": 10
+  "updatedAt": "2026-09-17T06:50:32.345Z",
+  "count": 7
 };
 
 export const MOD_RECOMMENDATIONS = [
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-10T10:02:21.482Z",
-    "downloads": 634,
-    "views": 1735,
-    "favorites": 367
+    "downloads": 778,
+    "views": 2101,
+    "favorites": 448
   },
   {
     "id": 258868,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-10T09:58:22.146Z",
-    "downloads": 640,
-    "views": 1716,
-    "favorites": 380
+    "downloads": 780,
+    "views": 2077,
+    "favorites": 467
   },
   {
     "id": 258742,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-08T11:15:19.238Z",
-    "downloads": 2409,
-    "views": 6886,
-    "favorites": 1381
+    "downloads": 2487,
+    "views": 7144,
+    "favorites": 1419
   },
   {
     "id": 258648,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-07T09:33:02.006Z",
-    "downloads": 3667,
-    "views": 10944,
-    "favorites": 2130
+    "downloads": 3741,
+    "views": 11173,
+    "favorites": 2175
   },
   {
     "id": 258512,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:57:19.598Z",
-    "downloads": 4263,
-    "views": 12422,
-    "favorites": 2435
+    "downloads": 4343,
+    "views": 12650,
+    "favorites": 2475
   },
   {
     "id": 258498,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:24:11.419Z",
-    "downloads": 4263,
-    "views": 12154,
-    "favorites": 2341
+    "downloads": 4351,
+    "views": 12377,
+    "favorites": 2379
   },
   {
     "id": 258376,
@@ -88,44 +88,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 3329,
-    "views": 9695,
-    "favorites": 1852
-  },
-  {
-    "id": 257722,
-    "title": "更难的入侵系统",
-    "description": "暂无介绍",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a8cd3ae41d48.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-08-24T23:29:37.010Z",
-    "downloads": 4185,
-    "views": 11413,
-    "favorites": 2162
-  },
-  {
-    "id": 257721,
-    "title": "蛋糕禁止制作，依靠狂暴BOSS掉落",
-    "description": "服务器可用\n\n1.禁止制作蛋糕，改为狂暴boss欠款蛋糕，欠数量为每个欠款3-5个，\n2.所有记分经验改为1（原来无差刷记点升级）\n3.禁止暗巫猫的刷球路径bug（阻止使用该bug来进行刷球）\n这是一种比较麻烦的游戏玩法。\n1. 愤怒的boss会掉落蛋糕，而不是制作蛋糕，每滴掉落数量为3-5个蛋糕，\n2.所以，据点获得的经验改为1\n3.修复黑暗魔女猫被动投球的bug\n这是一个比较难的玩法。\n\n安装路径：\\PalServer\\Pal\\Content\\Paks\n安装路径：\\PalServer\\Pal\\Content\\Paks",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a8cd4296e97a.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-08-24T23:27:22.254Z",
-    "downloads": 4174,
-    "views": 11637,
-    "favorites": 2251
-  },
-  {
-    "id": 257720,
-    "title": "帕鲁的世界消费系统",
-    "description": "功能特点\n\n✅ 快速旅行：每次传送需要支付金币，可自定义费用\n✅ 高塔 Boss 战：进入不同 Boss 塔需要不同门票或金币，没钱直接拦截在外\n✅ 地下城：进入地下城需要金币，可设置成别的物品，当做地下城门票使用\n✅ 商人笼子：打开笼子需支付金币\n✅ 科技解锁：每个科技可单独设置费用\n✅ 宝箱：根据宝箱等级收费，低级便宜，高级贵\n✅ 完全可配置：所有费用、货币类型、都可在配置文件Config.lua中修改\n✅可自由切换成汪汪币或者金币或者是矿石之类的所有物品\n\n安装要求\n\nPalworld 服务端\n已适配当前游戏最新版本\nUE4SS：最新版（推荐 3.x），已正确安装\n安装步骤\n\n下载并解压 MOD 压缩包\n将 \nshenqingMimi\n 文件夹放入 \nPalworld/Pal/Binaries/Win64/ue4ss/Mods/\n 目录下\n重启服务器或游戏\nMOD 即可正常加载运行\n配置方法\n\n打开 \nshenqingMimi/Scripts/Config/Config.lua\n修改其中的费用数值。\n示例：\nFastTravel = {\n    Cost = 500,  -- 快速旅行费用\n    Currency = \"Money\",  -- 货币物品ID\n    CurrencyName = \"金币\"  \n},\n\nGymTower：高塔Boss 序号（1~7）分别设置\nTreasureBox.Grades：按宝箱等级（0~6）设置\nDungeon：地牢或者地牢BOSS固定费用\nCage：商人笼子费用\nTechnology：科技解锁费用\n兼容性\n\n与大多数服务器管理 MOD（如 BetterServer、PalSchema 等）兼容\n不修改游戏核心数据表，仅 Hook 网络请求函数\n不影响已有存档，可随时移除\n已知问题\n\n游戏内提示目前使用通用通知文本（\n你当前金币或门票不足！！！\n），消耗金币火物品的伤害可能显示不完美，但服务器日志会记录详细扣费信息。不影响正常使用\n\n致谢\n\n感谢旧作者提供的思路\n感谢 UE4SS 开发团队\n",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6a8cd44007d16.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-08-24T23:21:09.157Z",
-    "downloads": 5347,
-    "views": 15911,
-    "favorites": 2984
+    "downloads": 3405,
+    "views": 9925,
+    "favorites": 1898
   }
 ];
