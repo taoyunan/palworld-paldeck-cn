@@ -3,11 +3,23 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-22T11:53:45.492Z",
-  "count": 7
+  "updatedAt": "2026-09-22T15:48:59.367Z",
+  "count": 8
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 259126,
+    "title": "幻兽帕鲁 (豪华中文免安装纯净版)",
+    "description": "幻兽帕鲁 (豪华中文免安装纯净版)",
+    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6aaf9f794c924.png",
+    "category": "游戏优化",
+    "original": 4,
+    "createdAt": "2026-09-20T08:55:31.631Z",
+    "downloads": 95,
+    "views": 275,
+    "favorites": 61
+  },
   {
     "id": 258871,
     "title": "【转载】画面材质美化 Cotton Candy Lapure",
@@ -16,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-10T10:02:21.482Z",
-    "downloads": 1708,
-    "views": 4890,
-    "favorites": 939
+    "downloads": 1770,
+    "views": 5058,
+    "favorites": 965
   },
   {
     "id": 258868,
@@ -28,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-10T09:58:22.146Z",
-    "downloads": 1729,
-    "views": 4700,
-    "favorites": 977
+    "downloads": 1793,
+    "views": 4907,
+    "favorites": 1010
   },
   {
     "id": 258742,
@@ -40,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-08T11:15:19.238Z",
-    "downloads": 3423,
-    "views": 9885,
-    "favorites": 1892
+    "downloads": 3482,
+    "views": 10062,
+    "favorites": 1926
   },
   {
     "id": 258648,
@@ -52,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-07T09:33:02.006Z",
-    "downloads": 4697,
-    "views": 13936,
-    "favorites": 2648
+    "downloads": 4730,
+    "views": 14052,
+    "favorites": 2670
   },
   {
     "id": 258512,
@@ -64,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:57:19.598Z",
-    "downloads": 5000,
-    "views": 14575,
-    "favorites": 2821
+    "downloads": 5029,
+    "views": 14686,
+    "favorites": 2834
   },
   {
     "id": 258498,
@@ -76,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:24:11.419Z",
-    "downloads": 4994,
-    "views": 14243,
-    "favorites": 2725
+    "downloads": 5021,
+    "views": 14323,
+    "favorites": 2745
   },
   {
     "id": 258376,
@@ -88,8 +100,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 3881,
-    "views": 11186,
-    "favorites": 2122
+    "downloads": 3910,
+    "views": 11270,
+    "favorites": 2133
   }
 ];
