@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-09-30T09:03:43.965Z",
+  "updatedAt": "2026-09-30T15:59:44.887Z",
   "count": 8
 };
 
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-09-20T08:55:31.631Z",
-    "downloads": 2465,
-    "views": 6897,
-    "favorites": 1364
+    "downloads": 2515,
+    "views": 7070,
+    "favorites": 1379
   },
   {
     "id": 258871,
@@ -28,9 +28,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-10T10:02:21.482Z",
-    "downloads": 2791,
-    "views": 7931,
-    "favorites": 1512
+    "downloads": 2814,
+    "views": 8005,
+    "favorites": 1518
   },
   {
     "id": 258868,
@@ -40,9 +40,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-10T09:58:22.146Z",
-    "downloads": 2792,
-    "views": 7695,
-    "favorites": 1522
+    "downloads": 2815,
+    "views": 7771,
+    "favorites": 1533
   },
   {
     "id": 258742,
@@ -52,9 +52,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-08T11:15:19.238Z",
-    "downloads": 4297,
-    "views": 12163,
-    "favorites": 2343
+    "downloads": 4321,
+    "views": 12221,
+    "favorites": 2356
   },
   {
     "id": 258648,
@@ -64,9 +64,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-07T09:33:02.006Z",
-    "downloads": 5452,
-    "views": 15936,
-    "favorites": 3026
+    "downloads": 5473,
+    "views": 16013,
+    "favorites": 3043
   },
   {
     "id": 258512,
@@ -76,9 +76,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:57:19.598Z",
-    "downloads": 5798,
-    "views": 16750,
-    "favorites": 3211
+    "downloads": 5822,
+    "views": 16808,
+    "favorites": 3226
   },
   {
     "id": 258498,
@@ -88,9 +88,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-04T09:24:11.419Z",
-    "downloads": 5776,
-    "views": 16148,
-    "favorites": 3121
+    "downloads": 5798,
+    "views": 16214,
+    "favorites": 3133
   },
   {
     "id": 258376,
@@ -100,8 +100,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 4605,
-    "views": 13112,
-    "favorites": 2514
+    "downloads": 4624,
+    "views": 13181,
+    "favorites": 2524
   }
 ];
