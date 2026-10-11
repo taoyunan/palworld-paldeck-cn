@@ -3,7 +3,7 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-10-10T22:11:56.306Z",
+  "updatedAt": "2026-10-11T01:04:07.709Z",
   "count": 8
 };
 
