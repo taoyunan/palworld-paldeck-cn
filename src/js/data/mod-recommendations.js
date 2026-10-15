@@ -3,8 +3,8 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-10-15T19:15:56.782Z",
-  "count": 8
+  "updatedAt": "2026-10-15T22:30:14.739Z",
+  "count": 7
 };
 
 export const MOD_RECOMMENDATIONS = [
@@ -16,9 +16,9 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-09-20T08:55:31.631Z",
-    "downloads": 4500,
-    "views": 12747,
-    "favorites": 2339
+    "downloads": 4524,
+    "views": 12835,
+    "favorites": 2353
   },
   {
     "id": 258871,
@@ -29,7 +29,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-10T10:02:21.482Z",
     "downloads": 3766,
-    "views": 10665,
+    "views": 10668,
     "favorites": 2009
   },
   {
@@ -65,7 +65,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-07T09:33:02.006Z",
     "downloads": 6156,
-    "views": 18173,
+    "views": 18175,
     "favorites": 3393
   },
   {
@@ -89,19 +89,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-04T09:24:11.419Z",
     "downloads": 6207,
-    "views": 17380,
+    "views": 17391,
     "favorites": 3336
-  },
-  {
-    "id": 258376,
-    "title": "【转载】玩法扩展 (1.0.3) MH All Game Setting and Faster Hatch Press (in",
-    "description": "《幻兽帕鲁》玩法扩展 (1.0.3) MH All Game Setting and Faster Hatch Press (in，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a97f2c8aed7c@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-09-02T09:57:04.301Z",
-    "downloads": 4838,
-    "views": 13881,
-    "favorites": 2622
   }
 ];
