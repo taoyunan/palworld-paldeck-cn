@@ -3,8 +3,8 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-11-02T04:07:41.814Z",
-  "count": 6
+  "updatedAt": "2026-11-02T12:42:44.251Z",
+  "count": 5
 };
 
 export const MOD_RECOMMENDATIONS = [
@@ -16,8 +16,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-09-20T08:55:31.631Z",
-    "downloads": 5057,
-    "views": 14782,
+    "downloads": 5058,
+    "views": 14823,
     "favorites": 2591
   },
   {
@@ -28,8 +28,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 1,
     "createdAt": "2026-09-11T03:42:29.279Z",
-    "downloads": 13,
-    "views": 184,
+    "downloads": 14,
+    "views": 191,
     "favorites": 0
   },
   {
@@ -41,7 +41,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-10T10:02:21.482Z",
     "downloads": 3779,
-    "views": 10952,
+    "views": 10958,
     "favorites": 2009
   },
   {
@@ -53,7 +53,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-10T09:58:22.146Z",
     "downloads": 3760,
-    "views": 10465,
+    "views": 10469,
     "favorites": 2027
   },
   {
@@ -65,19 +65,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-08T11:15:19.238Z",
     "downloads": 5158,
-    "views": 14683,
+    "views": 14688,
     "favorites": 2736
-  },
-  {
-    "id": 258648,
-    "title": "【转载】工具插件 PalGrid",
-    "description": "《幻兽帕鲁》工具插件 PalGrid，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a9e849d7b3a1@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-09-07T09:33:02.006Z",
-    "downloads": 6159,
-    "views": 18544,
-    "favorites": 3393
   }
 ];
