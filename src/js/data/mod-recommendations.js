@@ -3,8 +3,8 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-11-03T03:14:55.826Z",
-  "count": 5
+  "updatedAt": "2026-11-03T11:07:16.842Z",
+  "count": 4
 };
 
 export const MOD_RECOMMENDATIONS = [
@@ -16,8 +16,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "游戏优化",
     "original": 4,
     "createdAt": "2026-09-20T08:55:31.631Z",
-    "downloads": 5060,
-    "views": 14829,
+    "downloads": 5064,
+    "views": 14843,
     "favorites": 2591
   },
   {
@@ -29,7 +29,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 1,
     "createdAt": "2026-09-11T03:42:29.279Z",
     "downloads": 14,
-    "views": 194,
+    "views": 205,
     "favorites": 0
   },
   {
@@ -41,7 +41,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-10T10:02:21.482Z",
     "downloads": 3779,
-    "views": 10965,
+    "views": 10970,
     "favorites": 2009
   },
   {
@@ -55,17 +55,5 @@ export const MOD_RECOMMENDATIONS = [
     "downloads": 3760,
     "views": 10469,
     "favorites": 2027
-  },
-  {
-    "id": 258742,
-    "title": "【转载】地图任务扩展 Less Restrictive Building (for 1.0)",
-    "description": "《幻兽帕鲁》地图任务扩展 Less Restrictive Building (for 1.0)，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6a9fee18eccb6@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-09-08T11:15:19.238Z",
-    "downloads": 5160,
-    "views": 14696,
-    "favorites": 2736
   }
 ];
