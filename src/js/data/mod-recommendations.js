@@ -3,8 +3,8 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-11-04T03:28:02.039Z",
-  "count": 4
+  "updatedAt": "2026-11-04T18:43:40.610Z",
+  "count": 1
 };
 
 export const MOD_RECOMMENDATIONS = [
@@ -17,43 +17,7 @@ export const MOD_RECOMMENDATIONS = [
     "original": 4,
     "createdAt": "2026-09-20T08:55:31.631Z",
     "downloads": 5069,
-    "views": 14861,
+    "views": 14880,
     "favorites": 2591
-  },
-  {
-    "id": 258905,
-    "title": "帕鲁伤害统计面板-PalDamageMeter",
-    "description": "PalDamageMeter — 幻兽帕鲁客户端伤害统计面板\n纯客户端 UE4SS Lua Mod，在游戏内显示伤害贡献面板。玩家本人与每只队伍帕鲁分行统计，风格接近原生经验条。\n主要功能：\n• 本人 / 队伍帕鲁分行显示伤害与占比条\n• 简体中文官方图鉴名（如唤冬兽）；自定义昵称优先\n• 可选显示等级（Lv·xx）、帕鲁头像\n• 一击秒杀按目标最大生命值封顶，避免溢出伤害虚高\n• 默认只统计我方伤害，可开关是否显示敌方帕鲁伤害\n• 进世界 / 传送后自动缓存队伍，无需先开终端\n• Shift+H 打开设置，F9 重置当前统计\n安装：需 UE4SS（建议 Okaetsu fork）。将 PalDamageMeter 放入\nPalworld/Pal/Binaries/Win64/ue4ss/Mods/\n服务器无需安装。不修改任何战斗数值。\n【English】\nPalDamageMeter — Client-side Damage Meter for Palworld\nA pure client UE4SS Lua mod that shows an in-game damage contribution HUD. Your character and each party Pal are listed on separate rows, styled like the native XP bars.\nFeatures:\n• Separate rows for yourself and each party Pal, with share bars\n• Official Simplified Chinese species names (e.g. Frostallion / 唤冬兽); custom nicknames take priority\n• Optional level prefix (Lv·xx) and Pal icons\n• One-shot overkill capped to the target’s max HP (no inflated numbers)\n• Ally-only damage by default; toggle to include enemy Pal damage\n• Auto party cache on world enter / teleport — no need to open the Pal Box first\n• Shift+H for settings, F9 to reset the current encounter\nRequires UE4SS (Okaetsu fork recommended). Copy PalDamageMeter into\nPalworld/Pal/Binaries/Win64/ue4ss/Mods/\nServer install not required. Does not modify combat values.PalDamageMeter — 幻兽帕鲁客户端伤害统计面板\n纯客户端 UE4SS Lua Mod，在游戏内显示伤害贡献面板。玩家本人与每只队伍帕鲁分行统计，风格接近原生经验条。\n主要功能：\n• 本人 / 队伍帕鲁分行显示伤害与占比条\n• 简体中文官方图鉴名（如唤冬兽）；自定义昵称优先\n• 可选显示等级（Lv·xx）、帕鲁头像\n• 一击秒杀按目标最大生命值封顶，避免溢出伤害虚高\n• 默认只统计我方伤害，可开关是否显示敌方帕鲁伤害\n• 进世界 / 传送后自动缓存队伍，无需先开终端\n• Shift+H 打开设置，F9 重置当前统计\n安装：需 UE4SS（建议 Okaetsu fork）。将 PalDamageMeter 放入\nPalworld/Pal/Binaries/Win64/ue4ss/Mods/\n服务器无需安装。不修改任何战斗数值。\n【English】\nPalDamageMeter — Client-side Damage Meter for Palworld\nA pure client UE4SS Lua mod that shows an in-game damage contribution HUD. Your character and each party Pal are listed on separate rows, styled like the native XP bars.\nFeatures:\n• Separate rows for yourself and each party Pal, with share bars\n• Official Simplified Chinese species names (e.g. Frostallion / 唤冬兽); custom nicknames take priority\n• Optional level prefix (Lv·xx) and Pal icons\n• One-shot overkill capped to the target’s max HP (no inflated numbers)\n• Ally-only damage by default; toggle to include enemy Pal damage\n• Auto party cache on world enter / teleport — no need to open the Pal Box first\n• Shift+H for settings, F9 to reset the current encounter\nRequires UE4SS (Okaetsu fork recommended). Copy PalDamageMeter into\nPalworld/Pal/Binaries/Win64/ue4ss/Mods/\nServer install not required. Does not modify combat values.",
-    "image": "https://mod.3dmgame.com/static/upload/logo/croppedImg_6aa37829196de.png",
-    "category": "功能插件",
-    "original": 1,
-    "createdAt": "2026-09-11T03:42:29.279Z",
-    "downloads": 15,
-    "views": 223,
-    "favorites": 0
-  },
-  {
-    "id": 258871,
-    "title": "【转载】画面材质美化 Cotton Candy Lapure",
-    "description": "《幻兽帕鲁》画面材质美化 Cotton Candy Lapure，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6aa2800222a2f@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-09-10T10:02:21.482Z",
-    "downloads": 3779,
-    "views": 10977,
-    "favorites": 2009
-  },
-  {
-    "id": 258868,
-    "title": "【转载】画面材质美化 Cotton Candy Dupin",
-    "description": "《幻兽帕鲁》画面材质美化 Cotton Candy Dupin，用于补充对应玩法、内容或兼容支持，适合需要该功能的玩家安装使用。",
-    "image": "https://mod.3dmgame.com/static/upload/mod/202609/MOD6aa27f1286e36@webp",
-    "category": "功能插件",
-    "original": 4,
-    "createdAt": "2026-09-10T09:58:22.146Z",
-    "downloads": 3760,
-    "views": 10469,
-    "favorites": 2027
   }
 ];
