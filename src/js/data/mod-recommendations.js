@@ -3,11 +3,23 @@ export const MOD_RECOMMENDATION_META = {
   "sourceUrl": "https://mod.3dmgame.com/Palworld",
   "sourceName": "3DM MOD站",
   "cutoff": "2026-07-10T16:00:00.000Z",
-  "updatedAt": "2026-11-27T08:50:53.868Z",
-  "count": 1
+  "updatedAt": "2026-11-27T18:31:39.082Z",
+  "count": 2
 };
 
 export const MOD_RECOMMENDATIONS = [
+  {
+    "id": 261833,
+    "title": "【转载】米砂角色替换",
+    "description": "将《幻兽帕鲁》中的玩家角色替换为《蓝色星原：旅谣》的米砂。作者建议不要与其制作的其他角色替换 MOD 混用，否则模组可能无法生效，一次只安装一个角色替换 MOD。",
+    "image": "https://mod.3dmgame.com/static/upload/mod/202611/MODc30c4da253b2e084ba712885d112f688.png@webp",
+    "category": "角色",
+    "original": 4,
+    "createdAt": "2026-11-27T12:30:23.490Z",
+    "downloads": 60,
+    "views": 198,
+    "favorites": 44
+  },
   {
     "id": 261085,
     "title": "幻兽帕鲁修改",
@@ -16,8 +28,8 @@ export const MOD_RECOMMENDATIONS = [
     "category": "功能插件",
     "original": 4,
     "createdAt": "2026-11-12T13:29:11.717Z",
-    "downloads": 4925,
-    "views": 14536,
-    "favorites": 2646
+    "downloads": 4998,
+    "views": 14730,
+    "favorites": 2666
   }
 ];
